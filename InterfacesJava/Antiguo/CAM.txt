@@ -1,0 +1,6 @@
+Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
+----------------------------------------------------------------------------------------------------------------
+Andre_Onana   20 cam 18  1  1  1 30   7 100 100 100   4   2  255   0  13   6   0   0   0   0   0   0   0   0 100
+Joel_Matip    25 cam  1 22  1  1 30 100 536 825 439  10   2  830   0   0   0   9   0   1   0   0   2   0   0  96
+Choupo-Moting 27 cam  1  1 20 19 30 100 405 542 960   7   2  486   0   0   0   0   6   6   0   1  14   0   0 100
+Clinton_N�Jie 23 cam  1  1 11 20 30 100 470 940  68   9   7  341   0   0   0   0   1   6   2   0   2   0   0 100

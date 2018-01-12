@@ -1,0 +1,35 @@
+RENDIMIENTO CLUBES ESO
+------------------------------------------------
+1. MIL: 958,9 puntos.
+2. ATM: 941,6 puntos.
+3. PSG: 919,9 puntos.
+4. BLE: 880,8 puntos.
+5. ROM: 873,6 puntos.
+6. CHE: 857,2 puntos.
+7. NAP: 844,6 puntos.
+8. LIV: 844,1 puntos.
+9. BMU: 834,4 puntos.
+10. MUN: 830,2 puntos.
+11. RMA: 825,3 puntos.
+12. VAL: 822,9 puntos.
+13. JUV: 803,9 puntos.
+14. LYO: 788,3 puntos.
+15. BDO: 761,5 puntos.
+16. TOT: 751,2 puntos.
+17. INT: 740,0 puntos.
+18. VIL: 738,0 puntos.
+19. AJX: 737,6 puntos.
+20. ARS: 729,5 puntos.
+21. BAR: 711,8 puntos.
+22. OMA: 683,7 puntos.
+23. MCI: 682,9 puntos.
+24. PSV: 682,5 puntos.
+25. SLB: 672,4 puntos.
+26. LEI: 658,5 puntos.
+27. OPO: 647,4 puntos.
+28. ASM: 581,7 puntos.
+29. SEV: 570,9 puntos.
+30. EVE: 520,1 puntos.
+31. S04: 518,9 puntos.
+32. NIC: 494,7 puntos.
+------------------------------------------------

@@ -1,0 +1,6 @@
+Jugador: Timo_Horn     23 ger 20  1  1  1 30  80 100 100 100
+Equipo que inicia la puja: (ars).
+Cantidad: 27,000,000 €
+Fecha: 18/07/17
+Hora: 21:00
+

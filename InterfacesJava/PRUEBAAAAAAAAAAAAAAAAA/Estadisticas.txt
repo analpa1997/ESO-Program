@@ -1,0 +1,168 @@
+PARTIDOS JUGADOS
+--------------------------------------------------------------------
+1. Lionel_Messi (BAR), 13 partidos jugados
+2. W_Szczesny (ROM), 13 partidos jugados
+3. Paulo_Dybala (BAR), 12 partidos jugados
+4. N'Golo_Kanté (CHE), 12 partidos jugados
+5. Arjen_Robben (BMU), 12 partidos jugados
+6. Neymar (BAR), 12 partidos jugados
+7. D_Subasic (ASM), 12 partidos jugados
+8. Claudio_Bravo (MCI), 12 partidos jugados
+9. Roman_Bürki (BDO), 12 partidos jugados
+10. Hugo_Lloris (TOT), 12 partidos jugados
+--------------------------------------------------------------------
+
+PARTIDOS COMO SUPLENTE
+--------------------------------------------------------------------
+1. R_Hilbert (BLE), 9 partidos como suplente
+2. Paulo_Dybala (BAR), 7 partidos como suplente
+3. F_Torres (ATM), 6 partidos como suplente
+4. Diogo_Jota (BMU), 5 partidos como suplente
+5. Éder (INT), 5 partidos como suplente
+6. Denis_Suárez (PSG), 5 partidos como suplente
+7. Leon_Bailey (BLE), 5 partidos como suplente
+8. Oscar (JUV), 5 partidos como suplente
+9. V_Yurchenko (BLE), 4 partidos como suplente
+10. M_Fellaini (MUN), 4 partidos como suplente
+--------------------------------------------------------------------
+
+MINUTOS
+--------------------------------------------------------------------
+1. W_Szczesny (ROM), 1236 minutos
+2. Hugo_Lloris (TOT), 1149 minutos
+3. Roman_Bürki (BDO), 1146 minutos
+4. Claudio_Bravo (MCI), 1139 minutos
+5. D_Subasic (ASM), 1135 minutos
+6. Ederson (SLB), 1109 minutos
+7. S_Handanovic (INT), 1052 minutos
+8. Diego_Alves (VAL), 1042 minutos
+9. Alban_Lafont (AJX), 1039 minutos
+10. Loris_Karius (LIV), 1036 minutos
+--------------------------------------------------------------------
+
+MOM
+--------------------------------------------------------------------
+1. A_Sánchez (ARS), 4 mom
+2. Rafa_Silva (SLB), 3 mom
+3. Z_Bakkali (VAL), 3 mom
+4. Memphis_Depay (LYO), 3 mom
+5. Dani_Parejo (VAL), 3 mom
+6. R_Firmino (LIV), 3 mom
+7. Mohamed_Salah (ROM), 3 mom
+8. A_Iniesta (BAR), 3 mom
+9. Neymar (BAR), 3 mom
+10. E_Giaccherini (NAP), 2 mom
+--------------------------------------------------------------------
+
+PARADAS
+--------------------------------------------------------------------
+1. Alban_Lafont (AJX), 76 paradas, 6,909 paradas por partido
+2. Bernd_Leno (BLE), 74 paradas, 8,222 paradas por partido
+3. Claudio_Bravo (MCI), 71 paradas, 5,917 paradas por partido
+4. Roman_Bürki (BDO), 64 paradas, 5,333 paradas por partido
+5. Hugo_Lloris (TOT), 64 paradas, 5,333 paradas por partido
+6. Diego_Alves (VAL), 63 paradas, 5,727 paradas por partido
+7. W_Szczesny (ROM), 57 paradas, 4,385 paradas por partido
+8. S_Handanovic (INT), 54 paradas, 4,909 paradas por partido
+9. Joel_Robles (EVE), 53 paradas, 5,889 paradas por partido
+10. Jeroen_Zoet (PSV), 51 paradas, 5,100 paradas por partido
+--------------------------------------------------------------------
+
+ENCAJADOS
+--------------------------------------------------------------------
+1. M_Ángel_Moyá (ATM), 0 encajados, 0,000 encajados por partido
+2. J_Doménech (VAL), 0 encajados, 0,000 encajados por partido
+3. Marco_Storari (MIL), 0 encajados, 0,000 encajados por partido
+4. Neto (JUV), 0 encajados, 0,000 encajados por partido
+5. M_Barbosa (VIL), 0 encajados, 0,000 encajados por partido
+6. W_Caballero (MCI), 0 encajados, 0,000 encajados por partido
+7. David_Soria (SEV), 0 encajados, 0,000 encajados por partido
+8. A_Aréola (RMA), 1 encajados, 0,500 encajados por partido
+9. Sven_Ulreich (BMU), 1 encajados, 0,500 encajados por partido
+10. G_Ochoa (LIB), 1 encajados, 0,500 encajados por partido
+--------------------------------------------------------------------
+
+TACKLES
+--------------------------------------------------------------------
+1. A_Romagnoli (MIL), 18 tackles, 2,250 tackles por partido
+2. V_Kompany (MCI), 18 tackles, 2,250 tackles por partido
+3. P_Zabaleta (MCI), 17 tackles, 1,889 tackles por partido
+4. Víctor_Ruiz (VIL), 15 tackles, 2,143 tackles por partido
+5. Jaume_Costa (VIL), 15 tackles, 1,875 tackles por partido
+6. L_Piszczek (BDO), 15 tackles, 1,875 tackles por partido
+7. S_Mustafi (ARS), 15 tackles, 1,500 tackles por partido
+8. C_Azpilicueta (CHE), 14 tackles, 2,000 tackles por partido
+9. V_van_Dijk (TOT), 14 tackles, 1,750 tackles por partido
+10. Gary_Cahill (CHE), 14 tackles, 2,000 tackles por partido
+--------------------------------------------------------------------
+
+PASES
+--------------------------------------------------------------------
+1. N'Golo_Kanté (CHE), 26 pases, 2,167 pases por partido
+2. Lucas_Biglia (ATM), 23 pases, 2,556 pases por partido
+3. Andrea_Pirlo (MIL), 23 pases, 2,875 pases por partido
+4. H_Mkhitaryan (MUN), 22 pases, 3,667 pases por partido
+5. B_Matuidi (PSG), 21 pases, 3,500 pases por partido
+6. Sami_Khedira (JUV), 21 pases, 2,100 pases por partido
+7. Mousa_Dembélé (TOT), 21 pases, 2,625 pases por partido
+8. C_Eriksen (TOT), 20 pases, 2,500 pases por partido
+9. Xabi_Alonso (OPO), 20 pases, 2,500 pases por partido
+10. M_Verratti (BMU), 20 pases, 1,818 pases por partido
+--------------------------------------------------------------------
+
+TIROS
+--------------------------------------------------------------------
+1. Neymar (BAR), 44 tiros, 3,667 tiros por partido
+2. A_Sánchez (ARS), 39 tiros, 4,333 tiros por partido
+3. Lionel_Messi (BAR), 38 tiros, 2,923 tiros por partido
+4. Kevin_Volland (BLE), 37 tiros, 4,111 tiros por partido
+5. Arjen_Robben (BMU), 36 tiros, 3,000 tiros por partido
+6. H_Calhanoglu (BLE), 34 tiros, 4,250 tiros por partido
+7. A_Griezmann (ATM), 33 tiros, 3,300 tiros por partido
+8. Diego_Costa (CHE), 30 tiros, 3,750 tiros por partido
+9. R_Lewandowski (RMA), 28 tiros, 4,000 tiros por partido
+10. K_Bellarabi (BLE), 27 tiros, 3,857 tiros por partido
+--------------------------------------------------------------------
+
+GOLES
+--------------------------------------------------------------------
+1. A_Sánchez (ARS), 11 goles, 1,222 goles por partido
+2. Lionel_Messi (BAR), 8 goles, 0,615 goles por partido
+3. Memphis_Depay (LYO), 7 goles, 1,000 goles por partido
+4. Paulo_Dybala (BAR), 7 goles, 0,583 goles por partido
+5. Diego_Costa (CHE), 7 goles, 0,875 goles por partido
+6. N_Castillo (PSG), 6 goles, 0,857 goles por partido
+7. G_dos_Santos (VIL), 6 goles, 0,857 goles por partido
+8. Y_Carrasco (ATM), 6 goles, 0,750 goles por partido
+9. G_Deulofeu (MIL), 6 goles, 0,750 goles por partido
+10. Neymar (BAR), 6 goles, 0,500 goles por partido
+--------------------------------------------------------------------
+
+ASISTENCIAS
+--------------------------------------------------------------------
+1. A_Iniesta (BAR), 8 asistencias, 0,800 asistencias por partido
+2. Isco (RMA), 5 asistencias, 0,714 asistencias por partido
+3. Julian_Weigl (BDO), 4 asistencias, 0,571 asistencias por partido
+4. Sami_Khedira (JUV), 4 asistencias, 0,400 asistencias por partido
+5. Aaron_Ramsey (ARS), 4 asistencias, 0,400 asistencias por partido
+6. Rémi_Walter (NIC), 3 asistencias, 0,750 asistencias por partido
+7. Jesse_Lingard (PSG), 3 asistencias, 0,500 asistencias por partido
+8. R_Mandragora (JUV), 3 asistencias, 0,375 asistencias por partido
+9. Kieran_Gibbs (ARS), 3 asistencias, 0,429 asistencias por partido
+10. M_Locatelli (AJX), 3 asistencias, 0,500 asistencias por partido
+--------------------------------------------------------------------
+
+DP
+--------------------------------------------------------------------
+1. Memphis_Depay (LYO), 11 dp
+2. Santos_Borré (VIL), 10 dp
+3. N_Pareja (SEV), 10 dp
+4. N'Golo_Kanté (CHE), 10 dp
+5. Rafael_P (LYO), 8 dp
+6. R_Pereira (NIC), 7 dp
+7. R_Lewandowski (RMA), 7 dp
+8. Nani (VAL), 7 dp
+9. Sami_Khedira (JUV), 7 dp
+10. G_Deulofeu (MIL), 7 dp
+--------------------------------------------------------------------
+

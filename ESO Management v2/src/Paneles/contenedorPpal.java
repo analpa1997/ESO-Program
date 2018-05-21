@@ -11,23 +11,32 @@ import VPrincipal.ESO_Management_v2;
  *
  * @author Antonio
  */
-public class contenedorPpal extends javax.swing.JPanel {
+public class contenedorPpal extends AbstractPanel {
 
         CuadriculaBotones deportiva, financiera;
 
         /**
          * Creates new form contenedorPpal
          */
-        public contenedorPpal(ESO_Management_v2 vPrincipal) {
+        public contenedorPpal() {
                 initComponents();
                 deportiva = new CuadriculaBotones("Parte deportiva");
                 financiera = new CuadriculaBotones("Parte financiera");
-                deportiva.addBoton("Mostrar Plantillas Equipos", "mPlantillas", vPrincipal);
-                deportiva.addBoton("Mostrar Selecciones Mundial", "mSeleccionesLiga", vPrincipal);
-                deportiva.addBoton("Mostrar Todas Las Selecciones", "mSelecciones", vPrincipal);
-                financiera.addBoton("Salarios", "salarios", vPrincipal);
-                financiera.addBoton("Salarios", "salarios", vPrincipal);
-                financiera.addBoton("Salarios", "salarios", vPrincipal);
+                deportiva.setPadre(this);
+                financiera.setPadre(this);
+
+        }
+
+        public void inicializarBotones() {
+                deportiva.addBoton("Mostrar Plantillas Equipos", "mPlantillas", (ESO_Management_v2) this.getPadre());
+                deportiva.addBoton("Mostrar Selecciones Mundial", "mSeleccionesLiga", (ESO_Management_v2) this.getPadre());
+                deportiva.addBoton("Mostrar Todas Las Selecciones", "mSelecciones", (ESO_Management_v2) this.getPadre());
+                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
+                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
+                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
+        }
+
+        public void añadirCuadriculas() {
                 deportivo.add(deportiva);
                 financiero.add(financiera);
         }

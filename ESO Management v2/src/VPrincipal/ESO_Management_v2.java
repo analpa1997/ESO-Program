@@ -5,6 +5,7 @@
  */
 package VPrincipal;
 
+import AccionesBotones.*;
 import Paneles.*;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -32,13 +33,20 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
         private int anchoPrograma = (int) (ANCHO_PANTALLA * 0.85);
         private int altoPrograma = (int) (ALTO_PANTALLA * 0.85);
 
-        contenedorPpal primeraPantalla = new contenedorPpal(this);
+        private HashMap<String, Acciones> listeners;
+
+        private contenedorPpal primeraPantalla;
 
         /**
          * Creates new form ESO_Management_v2
          */
         public ESO_Management_v2() {
                 initComponents();
+                añadirListeners();
+                primeraPantalla = new contenedorPpal();
+                primeraPantalla.setPadre(this);
+                primeraPantalla.inicializarBotones();
+                primeraPantalla.añadirCuadriculas();
                 try {
                         ESO_Liga.cargarPlantillas();
                         ESO_Liga.cargarSelecciones();
@@ -57,6 +65,10 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
 
         public Liga getLiga() {
                 return ESO_Liga;
+        }
+
+        public void añadirListeners() {
+                listeners.put("Primera Pantalla", new AccionVentanaMain(this));
         }
 
         /**

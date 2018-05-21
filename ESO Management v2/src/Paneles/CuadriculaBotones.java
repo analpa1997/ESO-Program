@@ -13,7 +13,7 @@ import javax.swing.JLabel;
  *
  * @author Antonio
  */
-public class CuadriculaBotones extends javax.swing.JPanel {
+public class CuadriculaBotones extends AbstractPanel {
 
         private HashMap<String, PanelConBoton> botones;
         private int nBotones;

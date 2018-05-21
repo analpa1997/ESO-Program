@@ -7,6 +7,7 @@ package Paneles;
 
 import AccionesBotones.*;
 import VPrincipal.ESO_Management_v2;
+import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
 /**
@@ -42,6 +43,10 @@ public class PanelConBoton extends javax.swing.JPanel {
 
         public JButton getBoton() {
                 return jButton1;
+        }
+
+        public void setActionListener(ActionListener listener) {
+                this.jButton1.addActionListener(listener);
         }
 
         /*jButton4.setText("jButton4");

@@ -14,7 +14,7 @@ import program.model.Liga.Liga;
  *
  * @author Antonio
  */
-public class ElegirRoster extends javax.swing.JPanel {
+public class ElegirRoster extends AbstractPanel {
 
         /**
          * Creates new form MostrarPlantillas

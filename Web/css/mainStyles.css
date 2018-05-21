@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #59B7CF!important;
+}
+
+.navbar-nav > .nav-item > a {
+    color: white!important;
+}
+
+.navbar-nav > .nav-item > a:hover {
+    color: grey!important;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #59B7CF;
+    height: 7vmax;
+    line-height: 7vmax;
+}
+
+.text {
+    font-size: 1.5vmax;
+}
+
+.itemCenter {
+    padding-left: 2vmax;
+}
+
+.imgInicio {
+    width: 100px;
+    border: 1px solid black;
+}
+
+#saludo {
+    font-size: 2vw;
+}
+
+.quickAccess > img {
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+}
+
+.quickAccess > button {
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+}
+
+#equiposImg {
+    padding-bottom: 15px;
+    width: 125px;
+}
+
+.nav-item > a {
+    color: #59B7CF!important;
+    background-color: white;
+}
+
+.nav-item > form > button {
+    color: #59B7CF!important;
+    background-color: white;
+}
+
+.nav-item > a:hover {
+    color: #59B7CF!important;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.nav-item > form > button:hover {
+    color: #59B7CF!important;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.btn {
+    color: white!important;
+    background-color: #59B7CF;
+}
+
+.btn:hover {
+    color: white!important;
+    background-color: #59B7CF;
+    opacity: 0.7;
+}
+
+.fa-power-off {
+    color: red;
+}

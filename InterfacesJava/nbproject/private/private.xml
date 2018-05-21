@@ -2,14 +2,25 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Programa MEL"/>
         <group>
-            <file>file:/D:/Users/ManuFG/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/nbproject/build-impl.xml</file>
-            <file>file:/D:/Users/ManuFG/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Jugador.java</file>
-            <file>file:/D:/Users/ManuFG/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Equipo.java</file>
-        </group>
-        <group name="Programa MEL">
-            <file>file:/C:/Users/Antonio/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Jugador.java</file>
-            <file>file:/C:/Users/Antonio/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Habilidad.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquiposNumJ.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Habilidad.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Resultado.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquipoClas.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareJugadoresTest.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquiposRend.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquiposAZ.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquiposELO.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Equipo.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareStats.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/Jugador.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareJugadoresSalario.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareJugadoresRend.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareJugadores.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/EquipoClas.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquipos.java</file>
+            <file>file:/D:/Users/Manuel/Dropbox/Programa%20MEL/Gestor%20de%20Manager%20En%20Linea/InterfacesJava/src/EquipoDep/CompareEquiposSalario.java</file>
         </group>
     </open-files>
 </project-private>

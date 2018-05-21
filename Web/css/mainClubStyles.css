@@ -1,0 +1,40 @@
+.miInfo {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.pestanasClub .active {
+    background-color: #59B7CF!important;
+    color: white!important;
+    border: 1px solid white;
+}
+
+.tab-content {
+    border: 1px solid #59B7CF;
+}
+
+
+.pestanasClub a {
+    background-color: #white;
+    color: #59B7CF!important;
+    border: 1px solid #59B7CF;
+}
+
+.pestanasClub a:hover {
+    background-color: #59B7CF!important;
+    color: white!important;
+    opacity: 0.9;
+    border: 1px solid white;
+}
+
+#calendario {
+    background-color: #59B7CF;
+    height: 100px;
+    margin-right: 4vmax;
+}
+
+#partidos {
+    background-color: #59B7CF;
+    height: 100px;
+    margin-left: 4vmax;
+}

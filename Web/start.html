@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font Awesome icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/mainStyles.css">
+</head>
+
+
+<body>
+    <div class="container-fluid header">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">ESO</a>
+            <!-- Links -->
+            <div class="nav-item ml-auto">
+                <form class="form-inline">
+                    <label class="sr-only" for="inlineFormInput">Name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Username">
+
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                    </div>
+
+                    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                        <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember me
+                            </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="nav-item ml-auto">
+                <a class="btn btn-primary" id="Registrarse" href="registro.html">Registrarse</a>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="saludo">Bienvenido, NombreManager</div>
+        </div>
+        <div class="mt-3 &nbsp"></div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <button class="btn btn-primary">Go to Admin Page</button>
+            </div>
+        </div>
+        <div class="mt-4 &nbsp"></div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="saludo">Mis equipos</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center quickAccess" id="quickAccess">
+                <img class="img-fluid rounded-circle imgInicio" src="https://www.plusesmas.com/pictures/escudos/53000/53341-escudo-bayer-04-leverkusen.jpg" alt="EquipoUsuario">
+                <button class="btn btn-primary" id="eManagerAcceso">Acceso a NOMBREEQUIPO</button>
+                <button class="btn btn-primary" id="eManagerAcceso">Acceso a NOMBRESELECCION</button>
+                <img class="img-fluid rounded-circle imgInicio" src="http://flags.fmcdn.net/data/flags/w580/es.png" alt="SeleccionUsuario">
+            </div>
+        </div>
+        <div class="mt-4 &nbsp"></div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Jugadores</div>
+                    <div class="card-body text-center">
+                        <div>
+                            <img class="img-fluid" id="equiposImg" src="https://image.freepik.com/iconos-gratis/grupo-de-usuarios-silueta_318-49953.jpg">
+                        </div>
+                        <div>¿Te gustaria ver todos los jugadores que juegan en ESO?</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver jugadores</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg 4 col-md 4 col-sm 12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Equipos</div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid" id="equiposImg" src="https://image.freepik.com/iconos-gratis/escudo-insignia-con-contorno_318-43712.jpg">
+                        <div>Aquí encontrarás la información de cada uno de los equipos existentes en ESO</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver Equipos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg 4 col-md 4 col-sm 12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Selecciones</div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid" id="equiposImg" src="https://image.freepik.com/iconos-gratis/bandera-silueta_318-33774.jpg">
+                        <div>Aquí podras ver la informacion de todos los paises que juegan en ESO</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver Selecciones</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 &nbsp"></div>
+        <div class="row">
+            <div class="col-lg 4 col-md 4 col-sm 12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Competiciones</div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid" id="equiposImg" src="https://image.freepik.com/iconos-gratis/forma-trofeo_318-63745.jpg">
+                        <div>En esta sección encontrarás la informacion de cada torneo que se disputa en ESO</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver Competiciones</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg 4 col-md 4 col-sm 12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Traspasos</div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid" id="equiposImg" src="https://n6-img-fp.akamaized.net/iconos-gratis/apreton-de-manos_318-82295.jpg?size=338&ext=jpg">
+                        <div>¿Quieres estar al tanto de los ultimos movimientos en el mercado?</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver Traspasos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg 4 col-md 4 col-sm 12 col-xs-12">
+                <div class="card">
+                    <div class="card-header text-center">Managers</div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid" id="equiposImg" src="http://www.mecomland.upct.es/images/6c10rrpsir.jpg">
+                        <div>Conoce a cada uno de los managers que se encuentran en ESO</div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Ver Managers</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footer text-center">
+        <div class="text">
+            <span class="copyRight">ESO MANAGEMENT</span>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

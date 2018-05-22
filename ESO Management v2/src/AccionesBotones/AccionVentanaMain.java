@@ -8,9 +8,6 @@ package AccionesBotones;
 import Paneles.*;
 import VPrincipal.*;
 import java.awt.event.ActionEvent;
-import java.util.*;
-import javax.swing.*;
-import program.model.Liga.*;
 
 /**
  *
@@ -18,20 +15,14 @@ import program.model.Liga.*;
  */
 public class AccionVentanaMain extends Acciones {
 
-        ESO_Management_v2 pantallaPrincipal;
-        Stack<JPanel> pantallas;
-        Liga liga;
-
         public AccionVentanaMain() {
                 super();
 
         }
 
         public AccionVentanaMain(ESO_Management_v2 ventana) {
-                super();
-                pantallaPrincipal = ventana;
-                pantallas = pantallaPrincipal.getPantallas();
-                liga = pantallaPrincipal.getLiga();
+                super(ventana);
+
         }
 
         @Override
@@ -74,12 +65,7 @@ public class AccionVentanaMain extends Acciones {
                                 System.out.println("Boton Salarios");
                                 break;
                         case "salir":
-                                pantallaPrincipal.remove(pantallas.lastElement());
-                                pantallas.pop();
-                                pantallaPrincipal.add(pantallas.lastElement());
-                                pantallas.lastElement().updateUI();
-                                pantallas.lastElement().repaint();
-                                pantallaPrincipal.repaint();
+                                salir();
                                 break;
                 }
         }

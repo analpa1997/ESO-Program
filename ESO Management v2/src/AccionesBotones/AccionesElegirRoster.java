@@ -9,11 +9,8 @@ import Paneles.*;
 import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
-import java.util.*;
 import javax.swing.JButton;
-import javax.swing.JPanel;
 import program.model.Equipo.Roster;
-import program.model.Liga.Liga;
 
 /**
  *
@@ -21,28 +18,18 @@ import program.model.Liga.Liga;
  */
 public class AccionesElegirRoster extends Acciones {
 
-        ESO_Management_v2 pantallaPrincipal;
-
         public AccionesElegirRoster() {
-
+                super();
         }
 
         public AccionesElegirRoster(ESO_Management_v2 contenedorPpal) {
-                this();
-                pantallaPrincipal = contenedorPpal;
+                super(contenedorPpal);
         }
 
         public void actionPerformed(ActionEvent e) {
-                Stack<JPanel> pantallas = pantallaPrincipal.getPantallas();
-                Liga liga = pantallaPrincipal.getLiga();
                 switch (e.getActionCommand()) {
                         case "salir":
-                                pantallaPrincipal.remove(pantallas.lastElement());
-                                pantallas.pop();
-                                pantallaPrincipal.add(pantallas.lastElement());
-                                pantallas.lastElement().updateUI();
-                                pantallas.lastElement().repaint();
-                                pantallaPrincipal.repaint();
+                                salir();
                                 break;
                         case "gEquipos":
                                 try {

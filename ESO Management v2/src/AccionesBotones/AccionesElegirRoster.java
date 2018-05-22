@@ -69,6 +69,7 @@ public class AccionesElegirRoster extends Acciones {
                                 mRoster.setPadre(pantallas.lastElement());
                                 ElegirRoster eRoster = (ElegirRoster) pantallas.lastElement();
                                 mRoster.setListeners(eRoster.getListeners());
+                                mRoster.inicializarBotones();
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 pantallas.push(mRoster);
                                 pantallaPrincipal.add(mRoster);

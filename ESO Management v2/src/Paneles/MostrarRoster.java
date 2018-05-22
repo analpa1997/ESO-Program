@@ -5,8 +5,6 @@
  */
 package Paneles;
 
-import static javax.swing.JTabbedPane.*;
-import static javax.swing.SwingConstants.LEFT;
 import program.model.Equipo.Roster;
 
 /**
@@ -25,38 +23,13 @@ public class MostrarRoster extends AbstractPanel {
         public MostrarRoster(Roster equipo) {
                 this();
 
-                pestanasRoster.setTabPlacement(LEFT);
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-                pestanasRoster.addTab("Prueba 1", null, null, "Esta es la prueba 1");
-
-                pestanasRoster.setTabLayoutPolicy(SCROLL_TAB_LAYOUT);
                 //plantillaLabel.setText("<html>" + equipo.escribirHTML() + "</html>");
+        }
+
+        public void inicializarBotones() {
+                botonSalir.setActionCommand("salir");
+                botonSalir.addActionListener(this.getListeners().get("Mostrar Roster"));
+
         }
 
         /**
@@ -70,19 +43,101 @@ public class MostrarRoster extends AbstractPanel {
         private void initComponents() {
                 java.awt.GridBagConstraints gridBagConstraints;
 
-                pestanasRoster = new javax.swing.JTabbedPane();
+                jScrollPane1 = new javax.swing.JScrollPane();
+                verPlantilla = new javax.swing.JButton();
+                jButton4 = new javax.swing.JButton();
+                jButton5 = new javax.swing.JButton();
+                jButton6 = new javax.swing.JButton();
+                botonSalir = new javax.swing.JButton();
+                jButton2 = new javax.swing.JButton();
+                jSeparator1 = new javax.swing.JSeparator();
+                jSeparator2 = new javax.swing.JSeparator();
 
                 setLayout(new java.awt.GridBagLayout());
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 1;
+                gridBagConstraints.gridy = 0;
+                gridBagConstraints.gridwidth = 11;
+                gridBagConstraints.gridheight = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.4;
+                gridBagConstraints.weighty = 0.1;
+                add(jScrollPane1, gridBagConstraints);
+
+                verPlantilla.setText("Ver Plantilla");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 0;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                gridBagConstraints.weightx = 1.0;
-                gridBagConstraints.weighty = 1.0;
-                add(pestanasRoster, gridBagConstraints);
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                add(verPlantilla, gridBagConstraints);
+
+                jButton4.setText("Ordenar Por Nombre");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 1;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                add(jButton4, gridBagConstraints);
+
+                jButton5.setText("Ordenar por Posicion");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                add(jButton5, gridBagConstraints);
+
+                jButton6.setText("Ordenar por Edad");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 2;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                add(jButton6, gridBagConstraints);
+
+                botonSalir.setText("Salir");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 11;
+                gridBagConstraints.gridy = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                add(botonSalir, gridBagConstraints);
+
+                jButton2.setText("jButton2");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 9;
+                gridBagConstraints.gridy = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                add(jButton2, gridBagConstraints);
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 8;
+                gridBagConstraints.gridy = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                add(jSeparator1, gridBagConstraints);
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 10;
+                gridBagConstraints.gridy = 3;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                add(jSeparator2, gridBagConstraints);
         }// </editor-fold>//GEN-END:initComponents
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
-        private javax.swing.JTabbedPane pestanasRoster;
+        private javax.swing.JButton botonSalir;
+        private javax.swing.JButton jButton2;
+        private javax.swing.JButton jButton4;
+        private javax.swing.JButton jButton5;
+        private javax.swing.JButton jButton6;
+        private javax.swing.JScrollPane jScrollPane1;
+        private javax.swing.JSeparator jSeparator1;
+        private javax.swing.JSeparator jSeparator2;
+        private javax.swing.JButton verPlantilla;
         // End of variables declaration//GEN-END:variables
 }

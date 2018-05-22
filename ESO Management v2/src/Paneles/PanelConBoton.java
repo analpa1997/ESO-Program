@@ -5,8 +5,6 @@
  */
 package Paneles;
 
-import AccionesBotones.*;
-import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
@@ -14,10 +12,7 @@ import javax.swing.JButton;
  *
  * @author Antonio
  */
-public class PanelConBoton extends javax.swing.JPanel {
-
-        ESO_Management_v2 vPrincipal;
-        AccionesBotones metodos;
+public class PanelConBoton extends AbstractPanel {
 
         /**
          * Creates new form PanelConBoton
@@ -26,19 +21,16 @@ public class PanelConBoton extends javax.swing.JPanel {
                 initComponents();
         }
 
-        public PanelConBoton(String nombreBoton, String comando, ESO_Management_v2 contenedorPrincipal) {
+        public PanelConBoton(String nombreBoton, String comando) {
                 this();
-                vPrincipal = contenedorPrincipal;
-                metodos = new AccionesBotones(vPrincipal);
                 jButton1.setText(nombreBoton);
                 jButton1.setActionCommand(comando);
-                jButton1.addActionListener(metodos);
 
         }
 
         // Para crear el botón de salir
-        public PanelConBoton(String nombreBoton, ESO_Management_v2 contenedorPrincipal) {
-                this(nombreBoton, "salir", contenedorPrincipal);
+        public PanelConBoton(String nombreBoton) {
+                this(nombreBoton, "salir");
         }
 
         public JButton getBoton() {

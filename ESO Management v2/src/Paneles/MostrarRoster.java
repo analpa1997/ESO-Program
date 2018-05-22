@@ -13,7 +13,7 @@ import program.model.Equipo.Roster;
  *
  * @author Antonio
  */
-public class MostrarRoster extends javax.swing.JPanel {
+public class MostrarRoster extends AbstractPanel {
 
         /**
          * Creates new form MostrarRoster

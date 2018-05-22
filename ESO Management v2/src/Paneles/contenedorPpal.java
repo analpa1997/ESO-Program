@@ -5,7 +5,7 @@
  */
 package Paneles;
 
-import VPrincipal.ESO_Management_v2;
+import AccionesBotones.Acciones;
 
 /**
  *
@@ -24,16 +24,18 @@ public class contenedorPpal extends AbstractPanel {
                 financiera = new CuadriculaBotones("Parte financiera");
                 deportiva.setPadre(this);
                 financiera.setPadre(this);
-
+                deportiva.setListeners(this.getListeners());
+                financiera.setListeners(this.getListeners());
         }
 
         public void inicializarBotones() {
-                deportiva.addBoton("Mostrar Plantillas Equipos", "mPlantillas", (ESO_Management_v2) this.getPadre());
-                deportiva.addBoton("Mostrar Selecciones Mundial", "mSeleccionesLiga", (ESO_Management_v2) this.getPadre());
-                deportiva.addBoton("Mostrar Todas Las Selecciones", "mSelecciones", (ESO_Management_v2) this.getPadre());
-                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
-                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
-                financiera.addBoton("Salarios", "salarios", (ESO_Management_v2) this.getPadre());
+                Acciones listener = this.getListeners().get("Primera Pantalla");
+                deportiva.addBoton("Mostrar Plantillas Equipos", "mPlantillas", listener);
+                deportiva.addBoton("Mostrar Selecciones Mundial", "mSeleccionesLiga", listener);
+                deportiva.addBoton("Mostrar Todas Las Selecciones", "mSelecciones", listener);
+                financiera.addBoton("Salarios", "salarios", listener);
+                financiera.addBoton("Salarios", "salarios", listener);
+                financiera.addBoton("Salarios", "salarios", listener);
         }
 
         public void añadirCuadriculas() {

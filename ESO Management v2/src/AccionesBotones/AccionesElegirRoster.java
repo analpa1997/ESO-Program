@@ -8,7 +8,6 @@ package AccionesBotones;
 import Paneles.*;
 import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.*;
 import javax.swing.JButton;
@@ -20,54 +19,23 @@ import program.model.Liga.Liga;
  *
  * @author Antonio
  */
-public class AccionesBotones implements ActionListener {
+public class AccionesElegirRoster extends Acciones {
 
         ESO_Management_v2 pantallaPrincipal;
 
-        public AccionesBotones() {
+        public AccionesElegirRoster() {
 
         }
 
-        public AccionesBotones(ESO_Management_v2 contenedorPpal) {
+        public AccionesElegirRoster(ESO_Management_v2 contenedorPpal) {
                 this();
                 pantallaPrincipal = contenedorPpal;
         }
 
-        @Override
         public void actionPerformed(ActionEvent e) {
                 Stack<JPanel> pantallas = pantallaPrincipal.getPantallas();
                 Liga liga = pantallaPrincipal.getLiga();
                 switch (e.getActionCommand()) {
-                        case "mPlantillas":
-                                pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mPlantillas = new ElegirRoster(liga.getEquipos(), pantallaPrincipal);
-                                pantallas.push(mPlantillas);
-                                pantallaPrincipal.add(pantallas.lastElement());
-                                mPlantillas.updateUI();
-                                mPlantillas.repaint();
-                                pantallaPrincipal.repaint();
-                                break;
-                        case "mSelecciones":
-                                pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mSelecciones = new ElegirRoster(liga.getTodasSelecciones(), pantallaPrincipal);
-                                pantallas.push(mSelecciones);
-                                pantallaPrincipal.add(mSelecciones);
-                                mSelecciones.updateUI();
-                                mSelecciones.repaint();
-                                pantallaPrincipal.repaint();
-                                break;
-                        case "mSeleccionesLiga":
-                                pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mSeleccionesLiga = new ElegirRoster(liga.getSeleccionesLiga(), pantallaPrincipal);
-                                pantallas.push(mSeleccionesLiga);
-                                pantallaPrincipal.add(mSeleccionesLiga);
-                                mSeleccionesLiga.updateUI();
-                                mSeleccionesLiga.repaint();
-                                pantallaPrincipal.repaint();
-                                break;
-                        case "salarios":
-                                System.out.println("Boton Salarios");
-                                break;
                         case "salir":
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 pantallas.pop();
@@ -111,6 +79,9 @@ public class AccionesBotones implements ActionListener {
                                         equipo = liga.buscarEquipo(abrev, liga.getTodasSelecciones());
                                 }
                                 MostrarRoster mRoster = new MostrarRoster(equipo);
+                                mRoster.setPadre(pantallas.lastElement());
+                                ElegirRoster eRoster = (ElegirRoster) pantallas.lastElement();
+                                mRoster.setListeners(eRoster.getListeners());
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 pantallas.push(mRoster);
                                 pantallaPrincipal.add(mRoster);

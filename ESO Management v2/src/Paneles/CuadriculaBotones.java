@@ -5,7 +5,7 @@
  */
 package Paneles;
 
-import VPrincipal.ESO_Management_v2;
+import AccionesBotones.*;
 import java.util.*;
 import javax.swing.JLabel;
 
@@ -44,9 +44,11 @@ public class CuadriculaBotones extends AbstractPanel {
                 return jLabel2;
         }
 
-        public void addBoton(String nombreBoton, String comando, ESO_Management_v2 vPrincipal) {
+        public void addBoton(String nombreBoton, String comando, Acciones manejador) {
                 java.awt.GridBagConstraints gridBagConstraints;
-                PanelConBoton boton = new PanelConBoton(nombreBoton, comando, vPrincipal);
+                PanelConBoton boton = new PanelConBoton(nombreBoton, comando);
+                boton.setPadre(this);
+                boton.setActionListener(manejador);
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridy = 1 + nBotones / 2;
                 if (nBotones % 2 == 0) {

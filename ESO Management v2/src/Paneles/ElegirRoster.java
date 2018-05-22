@@ -16,33 +16,46 @@ import program.model.Liga.Liga;
  */
 public class ElegirRoster extends AbstractPanel {
 
+        SortedSet<Roster> equipos;
+        Liga liga;
+
         /**
          * Creates new form MostrarPlantillas
          */
         public ElegirRoster() {
+                super();
                 initComponents();
         }
 
-        public ElegirRoster(SortedSet<Roster> equipos, ESO_Management_v2 vPrincipal) {
+        public ElegirRoster(SortedSet<Roster> teams) {
                 this();
-                Liga liga = vPrincipal.getLiga();
+                equipos = teams;
+
+        }
+
+        public void inicializarBotones() {
                 int i = 0;
+                ESO_Management_v2 padre = (ESO_Management_v2) this.getPadre();
+                this.setListeners(padre.getListeners());
+                liga = padre.getLiga();
                 for (Roster r : equipos) {
-                        addBoton(r.getAbreviatura(), i, vPrincipal);
+                        addBoton(r.getAbreviatura(), i);
                         i++;
                 }
-                addBotonSalir("Salir", i, vPrincipal);
+                addBotonSalir("Salir", i);
                 if (equipos.equals(liga.getEquipos())) {
-                        addBotonGPlantillas("gEquipos", i, vPrincipal);
+                        addBotonGPlantillas("gEquipos", i);
                 } else if (equipos.equals(liga.getSeleccionesLiga())) {
-                        addBotonGPlantillas("gSelecciones", i, vPrincipal);
+                        addBotonGPlantillas("gSelecciones", i);
                 } else {
-                        addBotonGPlantillas("gTodasSelecciones", i, vPrincipal);
+                        addBotonGPlantillas("gTodasSelecciones", i);
                 }
         }
 
-        public void addBoton(String nombreBoton, int posicion, ESO_Management_v2 vPrincipal) {
-                PanelConBoton boton = new PanelConBoton(nombreBoton, "mPlantilla", vPrincipal);
+        public void addBoton(String nombreBoton, int posicion) {
+                PanelConBoton boton = new PanelConBoton(nombreBoton, "mPlantilla");
+                boton.setPadre(this);
+                boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridy = 1 + posicion / 8;
@@ -53,8 +66,10 @@ public class ElegirRoster extends AbstractPanel {
                 add(boton, gridBagConstraints);
         }
 
-        public void addBotonSalir(String nombreBoton, int posicion, ESO_Management_v2 vPrincipal) {
-                PanelConBoton boton = new PanelConBoton(nombreBoton, "salir", vPrincipal);
+        public void addBotonSalir(String nombreBoton, int posicion) {
+                PanelConBoton boton = new PanelConBoton(nombreBoton, "salir");
+                boton.setPadre(this);
+                boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridy = 2 + posicion / 8;
@@ -65,8 +80,10 @@ public class ElegirRoster extends AbstractPanel {
                 add(boton, gridBagConstraints);
         }
 
-        public void addBotonGPlantillas(String comandoBoton, int posicion, ESO_Management_v2 vPrincipal) {
-                PanelConBoton boton = new PanelConBoton("Guardar rosters", comandoBoton, vPrincipal);
+        public void addBotonGPlantillas(String comandoBoton, int posicion) {
+                PanelConBoton boton = new PanelConBoton("Guardar rosters", comandoBoton);
+                boton.setPadre(this);
+                boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridy = 2 + posicion / 8;

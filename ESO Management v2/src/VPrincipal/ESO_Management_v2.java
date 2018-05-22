@@ -11,6 +11,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.io.IOException;
 import java.util.*;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import program.model.Liga.*;
 
@@ -18,7 +19,7 @@ import program.model.Liga.*;
  *
  * @author Antonio
  */
-public class ESO_Management_v2 extends javax.swing.JFrame {
+public class ESO_Management_v2 extends JFrame {
 
         private Liga ESO_Liga = new Liga();
 
@@ -33,7 +34,7 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
         private int anchoPrograma = (int) (ANCHO_PANTALLA * 0.85);
         private int altoPrograma = (int) (ALTO_PANTALLA * 0.85);
 
-        private HashMap<String, Acciones> listeners;
+        private HashMap<String, Acciones> listeners = new HashMap<>();
 
         private contenedorPpal primeraPantalla;
 
@@ -45,6 +46,7 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
                 añadirListeners();
                 primeraPantalla = new contenedorPpal();
                 primeraPantalla.setPadre(this);
+                primeraPantalla.setListeners(listeners);
                 primeraPantalla.inicializarBotones();
                 primeraPantalla.añadirCuadriculas();
                 try {
@@ -57,6 +59,7 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
                 this.setLocationRelativeTo(null);
                 this.add(primeraPantalla);
                 pantallas.push(primeraPantalla);
+
         }
 
         public Stack<JPanel> getPantallas() {
@@ -69,6 +72,15 @@ public class ESO_Management_v2 extends javax.swing.JFrame {
 
         public void añadirListeners() {
                 listeners.put("Primera Pantalla", new AccionVentanaMain(this));
+                listeners.put("Elegir Roster", new AccionesElegirRoster(this));
+        }
+
+        public HashMap<String, Acciones> getListeners() {
+                return listeners;
+        }
+
+        public void setListeners(HashMap<String, Acciones> listeners) {
+                this.listeners = listeners;
         }
 
         /**

@@ -7,6 +7,8 @@ package Paneles;
 
 import VPrincipal.*;
 import java.util.*;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
 import program.model.Equipo.*;
 import program.model.Liga.Liga;
 
@@ -55,6 +57,10 @@ public class ElegirRoster extends AbstractPanel {
         public void addBoton(String nombreBoton, int posicion) {
                 PanelConBoton boton = new PanelConBoton(nombreBoton, "mPlantilla");
                 boton.setPadre(this);
+                String path = "escudos/" + nombreBoton.toUpperCase() + ".png";
+                boton.getBoton().setIcon(new ImageIcon("escudos/" + nombreBoton.toUpperCase() + ".png"));
+                boton.getBoton().setHorizontalTextPosition(SwingConstants.CENTER);
+                boton.getBoton().setVerticalTextPosition(SwingConstants.BOTTOM);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();

@@ -45,7 +45,7 @@ public class ElegirRoster extends AbstractPanel {
                         i++;
                 }
                 addBotonSalir("Salir", i);
-                if (equipos.equals(liga.getEquipos())) {
+                if (equipos.equals(liga.getEquiposLiga().getEquipos())) {
                         addBotonGPlantillas("gEquipos", i);
                 } else if (equipos.equals(liga.getSeleccionesLiga())) {
                         addBotonGPlantillas("gSelecciones", i);

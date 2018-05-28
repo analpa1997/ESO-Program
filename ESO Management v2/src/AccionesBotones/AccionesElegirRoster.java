@@ -58,12 +58,12 @@ public class AccionesElegirRoster extends Acciones {
                                 JButton source = (JButton) e.getSource();
                                 String abrev = source.getText().toLowerCase();
                                 Roster equipo = null;
-                                equipo = liga.buscarEquipo(abrev, liga.getEquipos());
+                                equipo = liga.getEquiposLiga().buscarEquipo(abrev);
                                 if (equipo == null) {
-                                        equipo = liga.buscarEquipo(abrev, liga.getSeleccionesLiga());
+                                        equipo = liga.getSeleccionesLiga().buscarEquipo(abrev);
                                 }
                                 if (equipo == null) {
-                                        equipo = liga.buscarEquipo(abrev, liga.getTodasSelecciones());
+                                        equipo = liga.getTodasSelecciones().buscarEquipo(abrev);
                                 }
                                 MostrarRoster mRoster = new MostrarRoster(equipo);
                                 mRoster.setPadre(pantallas.lastElement());

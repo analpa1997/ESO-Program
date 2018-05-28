@@ -30,7 +30,7 @@ public class AccionVentanaMain extends Acciones {
                 switch (e.getActionCommand()) {
                         case "mPlantillas":
                                 pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mPlantillas = new ElegirRoster(liga.getEquipos());
+                                ElegirRoster mPlantillas = new ElegirRoster(liga.getEquiposLiga().getEquipos());
                                 mPlantillas.setPadre(pantallaPrincipal);
                                 mPlantillas.inicializarBotones();
                                 pantallas.push(mPlantillas);
@@ -41,7 +41,7 @@ public class AccionVentanaMain extends Acciones {
                                 break;
                         case "mSelecciones":
                                 pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mSelecciones = new ElegirRoster(liga.getTodasSelecciones());
+                                ElegirRoster mSelecciones = new ElegirRoster(liga.getTodasSelecciones().getEquipos());
                                 mSelecciones.setPadre(pantallaPrincipal);
                                 mSelecciones.inicializarBotones();
                                 pantallas.push(mSelecciones);
@@ -52,7 +52,7 @@ public class AccionVentanaMain extends Acciones {
                                 break;
                         case "mSeleccionesLiga":
                                 pantallaPrincipal.remove(pantallas.lastElement());
-                                ElegirRoster mSeleccionesLiga = new ElegirRoster(liga.getSeleccionesLiga());
+                                ElegirRoster mSeleccionesLiga = new ElegirRoster(liga.getSeleccionesLiga().getEquipos());
                                 mSeleccionesLiga.setPadre(pantallaPrincipal);
                                 mSeleccionesLiga.inicializarBotones();
                                 pantallas.push(mSeleccionesLiga);

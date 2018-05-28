@@ -5,6 +5,7 @@
  */
 package Paneles;
 
+import javax.swing.SwingConstants;
 import program.model.Equipo.Roster;
 
 /**
@@ -23,7 +24,8 @@ public class MostrarRoster extends AbstractPanel {
         public MostrarRoster(Roster equipo) {
                 this();
 
-                //plantillaLabel.setText("<html>" + equipo.escribirHTML() + "</html>");
+                plantillaLabel.setText("<html>" + equipo.escribirHTML() + "</html>");
+                plantillaLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         }
 
         public void inicializarBotones() {
@@ -43,7 +45,9 @@ public class MostrarRoster extends AbstractPanel {
         private void initComponents() {
                 java.awt.GridBagConstraints gridBagConstraints;
 
-                jScrollPane1 = new javax.swing.JScrollPane();
+                contenedorPlantilla = new javax.swing.JScrollPane();
+                jPanel1 = new javax.swing.JPanel();
+                plantillaLabel = new javax.swing.JLabel();
                 verPlantilla = new javax.swing.JButton();
                 jButton4 = new javax.swing.JButton();
                 jButton5 = new javax.swing.JButton();
@@ -54,6 +58,14 @@ public class MostrarRoster extends AbstractPanel {
                 jSeparator2 = new javax.swing.JSeparator();
 
                 setLayout(new java.awt.GridBagLayout());
+
+                jPanel1.setLayout(new java.awt.GridBagLayout());
+
+                plantillaLabel.setText("jLabel1");
+                jPanel1.add(plantillaLabel, new java.awt.GridBagConstraints());
+
+                contenedorPlantilla.setViewportView(jPanel1);
+
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 1;
                 gridBagConstraints.gridy = 0;
@@ -62,7 +74,7 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.4;
                 gridBagConstraints.weighty = 0.1;
-                add(jScrollPane1, gridBagConstraints);
+                add(contenedorPlantilla, gridBagConstraints);
 
                 verPlantilla.setText("Ver Plantilla");
                 gridBagConstraints = new java.awt.GridBagConstraints();
@@ -131,13 +143,15 @@ public class MostrarRoster extends AbstractPanel {
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JButton botonSalir;
+        private javax.swing.JScrollPane contenedorPlantilla;
         private javax.swing.JButton jButton2;
         private javax.swing.JButton jButton4;
         private javax.swing.JButton jButton5;
         private javax.swing.JButton jButton6;
-        private javax.swing.JScrollPane jScrollPane1;
+        private javax.swing.JPanel jPanel1;
         private javax.swing.JSeparator jSeparator1;
         private javax.swing.JSeparator jSeparator2;
+        private javax.swing.JLabel plantillaLabel;
         private javax.swing.JButton verPlantilla;
         // End of variables declaration//GEN-END:variables
 }

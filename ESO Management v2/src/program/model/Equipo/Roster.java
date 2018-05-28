@@ -186,22 +186,20 @@ public class Roster implements Comparable<Roster> {
         public String toString() {
                 String equipo = new String();
                 equipo = "Nombre: " + this.getNombre() + "\nAbreviatura: " + this.getAbreviatura() + "\n\n";
+                equipo += "Número de jugadores: " + this.getJugadores().size()
+                        + " (" + this.getnGk() + " GK, " + this.getnDf() + " DF, " + this.getnDm() + " DM, " + this.getnMf() + " MF, " + this.getnAm() + " AM, "
+                        + this.getnFw() + " FW)\n\n";
                 equipo = equipo + this.obtenerCabecera();
                 for (Jugador j : this.jugadores) {
                         equipo = equipo + j.toString() + "\n";
                 }
-                equipo = equipo + "";
                 return equipo;
         }
 
         public String escribirHTML() {
-                String equipo = new String();
-                equipo = "Nombre: " + this.getNombre() + "<br>Abreviatura: " + this.getAbreviatura() + "<br><br>";
-                equipo = equipo + this.obtenerCabeceraHTML();
-                for (Jugador j : this.jugadores) {
-                        equipo = equipo + j.toString() + "<br>";
-                }
-                equipo = equipo + "</pre>";
+                String equipo = this.toString();
+                equipo.replaceAll("\n", "<br>");
+                equipo = "<pre>" + equipo + "</pre>";
                 return equipo;
         }
 
@@ -268,22 +266,22 @@ public class Roster implements Comparable<Roster> {
         public void anadirJugador(Jugador j) {
                 switch (j.getPos()) {
                         case gk:
-                                setnGk(getnGk() + 1);
+                                nGk++;
                                 break;
                         case df:
-                                setnGk(getnDf() + 1);
+                                nDf++;
                                 break;
                         case dm:
-                                setnGk(getnDm() + 1);
+                                nDm++;
                                 break;
                         case mf:
-                                setnGk(getnMf() + 1);
+                                nMf++;
                                 break;
                         case am:
-                                setnGk(getnAm() + 1);
+                                nAm++;
                                 break;
                         case fw:
-                                setnGk(getnFw() + 1);
+                                nFw++;
                                 break;
                 }
                 this.jugadores.add(j);

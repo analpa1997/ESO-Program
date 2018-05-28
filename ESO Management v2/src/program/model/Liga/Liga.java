@@ -129,6 +129,7 @@ public class Liga {
                 BufferedReader bR = new BufferedReader(teamsDir);
                 String nombrePlantilla = new String();
                 while ((nombrePlantilla = bR.readLine()) != null) {
+                        System.out.println(nombrePlantilla);
                         Roster nuevoEquipo = new Roster();
                         nuevoEquipo.setAbreviatura(nombrePlantilla.substring(0, 3));
                         nuevoEquipo.setNombre(nuevoEquipo.getAbreviatura());

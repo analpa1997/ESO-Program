@@ -42,6 +42,11 @@ public class Liga {
 //</editor-fold>
 
 //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
+        /**
+         * Método para obtener todos los jugadores de la liga
+         *
+         * @return Un objeto Roster con todos los jugadores de la liga
+         */
         public Roster getJugadores() {
                 return this.todosJugadores;
         }

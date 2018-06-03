@@ -10,6 +10,7 @@ import Paneles.*;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.io.IOException;
+import java.net.URL;
 import java.util.*;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -28,8 +29,11 @@ public class ESO_Management_v2 extends JFrame {
         Toolkit t = Toolkit.getDefaultToolkit();
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-        private final int ANCHO_PANTALLA = screenSize.width;
-        private final int ALTO_PANTALLA = screenSize.height;
+        public final int ANCHO_PANTALLA = screenSize.width;
+        public final int ALTO_PANTALLA = screenSize.height;
+
+        public final URL PATH_IMAGEN_SALIR = this.getClass().getClassLoader().getResource("imagenes/salir.png");
+        public final URL PATH_IMAGEN_VACIA = this.getClass().getClassLoader().getResource("imagenes/vacia.png");
 
         private int anchoPrograma = (int) (ANCHO_PANTALLA * 0.85);
         private int altoPrograma = (int) (ALTO_PANTALLA * 0.85);

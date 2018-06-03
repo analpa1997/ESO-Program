@@ -6,6 +6,7 @@
 package Paneles;
 
 import VPrincipal.*;
+import java.net.URL;
 import java.util.*;
 import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
@@ -41,7 +42,8 @@ public class ElegirRoster extends AbstractPanel {
                 this.setListeners(padre.getListeners());
                 liga = padre.getLiga();
                 for (Roster r : equipos) {
-                        addBoton(r.getAbreviatura(), i);
+                        PanelConBoton b = addBoton(r.getAbreviatura(), i);
+                        System.out.println(b.getBoton().getBounds());
                         i++;
                 }
                 addBotonSalir("Salir", i);
@@ -54,50 +56,67 @@ public class ElegirRoster extends AbstractPanel {
                 }
         }
 
-        public void addBoton(String nombreBoton, int posicion) {
+        public PanelConBoton addBoton(String nombreBoton, int posicion) {
                 PanelConBoton boton = new PanelConBoton(nombreBoton, "mPlantilla");
                 boton.setPadre(this);
-                String path = "escudos/" + nombreBoton.toUpperCase() + ".png";
-                boton.getBoton().setIcon(new ImageIcon("escudos/" + nombreBoton.toUpperCase() + ".png"));
-                boton.getBoton().setHorizontalTextPosition(SwingConstants.CENTER);
-                boton.getBoton().setVerticalTextPosition(SwingConstants.BOTTOM);
+                URL path = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nombreBoton + ".png");
+                centrarTextoBoton(boton);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = 1 + posicion / 8;
+                gridBagConstraints.gridy = posicion / 8;
                 gridBagConstraints.gridx = posicion % 8;
-                gridBagConstraints.weightx = 1;
                 gridBagConstraints.weighty = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                add(boton, gridBagConstraints);
+
+                panelBotones.add(boton, gridBagConstraints);
+                addImagenBoton(boton, path);
+                return boton;
         }
 
         public void addBotonSalir(String nombreBoton, int posicion) {
                 PanelConBoton boton = new PanelConBoton(nombreBoton, "salir");
+                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
                 boton.setPadre(this);
+                centrarTextoBoton(boton);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = 2 + posicion / 8;
+                gridBagConstraints.gridy = 1 + posicion / 8;
                 gridBagConstraints.gridx = 7;
-                gridBagConstraints.weightx = 1;
                 gridBagConstraints.weighty = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                add(boton, gridBagConstraints);
+                panelBotones.add(boton, gridBagConstraints);
+                addImagenBoton(boton, padre.PATH_IMAGEN_SALIR);
         }
 
         public void addBotonGPlantillas(String comandoBoton, int posicion) {
                 PanelConBoton boton = new PanelConBoton("Guardar rosters", comandoBoton);
                 boton.setPadre(this);
+                centrarTextoBoton(boton);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = 2 + posicion / 8;
+                gridBagConstraints.gridy = 1 + posicion / 8;
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.weightx = 1;
                 gridBagConstraints.weighty = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                add(boton, gridBagConstraints);
+                panelBotones.add(boton, gridBagConstraints);
+                addImagenBoton(boton, null);
+        }
+
+        public void addImagenBoton(PanelConBoton boton, URL path) {
+                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
+                ImageIcon escudo = new ImageIcon(padre.PATH_IMAGEN_VACIA);
+                if (path != null) {
+                        escudo = new ImageIcon(path);
+                }
+                boton.getBoton().setIcon(escudo);
+        }
+
+        public void centrarTextoBoton(PanelConBoton boton) {
+                boton.getBoton().setHorizontalTextPosition(SwingConstants.CENTER);
+                boton.getBoton().setVerticalTextPosition(SwingConstants.BOTTOM);
         }
 
         /**
@@ -112,6 +131,8 @@ public class ElegirRoster extends AbstractPanel {
                 java.awt.GridBagConstraints gridBagConstraints;
 
                 jLabel1 = new javax.swing.JLabel();
+                jScrollPane1 = new javax.swing.JScrollPane();
+                panelBotones = new javax.swing.JPanel();
 
                 setLayout(new java.awt.GridBagLayout());
 
@@ -122,9 +143,24 @@ public class ElegirRoster extends AbstractPanel {
                 gridBagConstraints.gridwidth = 8;
                 gridBagConstraints.ipady = 16;
                 add(jLabel1, gridBagConstraints);
+
+                panelBotones.setLayout(new java.awt.GridBagLayout());
+                jScrollPane1.setViewportView(panelBotones);
+
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 1;
+                gridBagConstraints.gridwidth = 8;
+                gridBagConstraints.gridheight = 4;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                add(jScrollPane1, gridBagConstraints);
         }// </editor-fold>//GEN-END:initComponents
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JLabel jLabel1;
+        private javax.swing.JScrollPane jScrollPane1;
+        private javax.swing.JPanel panelBotones;
         // End of variables declaration//GEN-END:variables
 }

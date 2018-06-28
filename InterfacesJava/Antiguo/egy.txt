@@ -1,4 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Mohamed_Salah 24 egy  1  1 21 19 30 100 539 513 837  13   0  768   0   0   0   1   9  10   1   1   2   0   0 100
-Moha_Elneny   24 egy  1 17 19  9 30 100 900 232 500   1   1   36   0   0   0   0   0   0   0   0   0   0   0 100

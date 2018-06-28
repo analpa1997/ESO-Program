@@ -1,5 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-D_Yelldell    34 usa 16  1  1  1 30 100 100 100 100   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100
-Matt_Miazga   21 usa  1 19  1  1 30 100 189 900 500   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100
-C_Pulisic     18 usa  1  1 16 13 30 100 340 371 638   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

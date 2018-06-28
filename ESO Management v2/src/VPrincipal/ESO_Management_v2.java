@@ -34,6 +34,7 @@ public class ESO_Management_v2 extends JFrame {
 
         public final URL PATH_IMAGEN_SALIR = this.getClass().getClassLoader().getResource("imagenes/salir.png");
         public final URL PATH_IMAGEN_VACIA = this.getClass().getClassLoader().getResource("imagenes/vacia.png");
+        public final URL PATH_IMAGEN_GUARDAR = this.getClass().getClassLoader().getResource("imagenes/guardar.png");
 
         private int anchoPrograma = (int) (ANCHO_PANTALLA * 0.85);
         private int altoPrograma = (int) (ALTO_PANTALLA * 0.85);

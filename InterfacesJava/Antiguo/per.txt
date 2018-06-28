@@ -1,3 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Carlos_Ascues 24 per  1 15 18 10 30 100 935 436 503   2   0  133   0   0   0   1   3   0   0   0   0   0   0 100

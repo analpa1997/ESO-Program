@@ -1,4 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Joo-Ho_Park   30 csu  1 17  9  5 30 100 500 100 100   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100
-Heung-Min_Son 24 csu  1  1 21 19 30 100 553 138 277   9   4  524   0   0   0   0   5   8   2   0   2   0   0  89

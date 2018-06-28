@@ -1,4 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Mathew_Ryan   24 aus 22  1  1  1 30 114 100 100 100  12   1 1002   0  48  18   0   0   0   0   0   0   0   0 100
-Luke_Brattan  26 aus  1 15 16  8 30 100 100 100 100   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

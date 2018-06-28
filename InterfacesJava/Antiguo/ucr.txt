@@ -1,4 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Konoplyanka   27 ucr  1  1 21 19 30 100 465 538 531   7   0  667   0   0   0   0   7  12   1   0   4   0   0  90
-V_Yurchenko   22 ucr  1  1 16 15 30 100 100 300 100   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

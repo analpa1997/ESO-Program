@@ -1,3 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-O_Alonso      30 cba  1 20 21  9 30 100 285 373 754   9   1  706   0   0   0   9  23   4   0   2   2   0   0  90

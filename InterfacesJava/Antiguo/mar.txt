@@ -1,6 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Medhi_Benatia 29 mar  1 22  1  1 30 100 735 915 573   8   1  627   0   0   0   4   0   4   1   0   4   1   0 100
-Elseid_Hysaj  22 mar  1 22 10  6 30 100 475 385 694   9   1  704   0   0   0   8   3   4   0   0   0   0   0  90
-Y_Belhanda    26 mar  1  7 21 18 30 100 700  82 342   6   1  531   0   0   0   1   7   7   0   0   4   0   0 100
-O_El_Kaddouri 26 mar  1  9 19 16 30 100 538  26 795   3   2  131   0   0   0   1   2   1   0   0   0   0   0 100

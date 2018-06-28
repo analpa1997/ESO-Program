@@ -1,3 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Seydou_Keita  37 mal  1 17 18  9 30 100 580 251 340   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

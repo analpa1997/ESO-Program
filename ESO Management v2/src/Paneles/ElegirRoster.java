@@ -6,6 +6,7 @@
 package Paneles;
 
 import VPrincipal.*;
+import java.awt.Image;
 import java.net.URL;
 import java.util.*;
 import javax.swing.ImageIcon;
@@ -92,6 +93,7 @@ public class ElegirRoster extends AbstractPanel {
 
         public void addBotonGPlantillas(String comandoBoton, int posicion) {
                 PanelConBoton boton = new PanelConBoton("Guardar rosters", comandoBoton);
+                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
                 boton.setPadre(this);
                 centrarTextoBoton(boton);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
@@ -102,7 +104,7 @@ public class ElegirRoster extends AbstractPanel {
                 gridBagConstraints.weighty = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 panelBotones.add(boton, gridBagConstraints);
-                addImagenBoton(boton, null);
+                addImagenBoton(boton, padre.PATH_IMAGEN_GUARDAR);
         }
 
         public void addImagenBoton(PanelConBoton boton, URL path) {
@@ -111,6 +113,7 @@ public class ElegirRoster extends AbstractPanel {
                 if (path != null) {
                         escudo = new ImageIcon(path);
                 }
+                escudo.setImage(escudo.getImage().getScaledInstance(80, 80, Image.SCALE_DEFAULT));
                 boton.getBoton().setIcon(escudo);
         }
 

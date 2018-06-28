@@ -1,3 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Pat_McNair    21 irl  1 16  8  6 30 100 500 100 100   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

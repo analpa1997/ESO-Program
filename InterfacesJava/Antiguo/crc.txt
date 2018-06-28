@@ -1,4 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-Keylor_Navas  30 crc 22  1  1  1 30 686 100 100 100   6   0  557   0  31   4   0   0   0   0   0   0   1   0 100
-Joel_Campbell 24 crc  1  1 19 18 30 100 495 162  12   0   0    0   0   0   0   0   0   0   0   0   0   0   0 100

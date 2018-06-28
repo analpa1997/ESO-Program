@@ -1,5 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-K_Manolas     25 gre  1 23  1  1 30 100 822 999 550   9   2  763   0   0   0   1   0   2   0   0   0   0   0  88
-Sokratis      28 gre  1 22 11  7 30 100  86  56 664  11   2  819   0   0   0  10   7   4   0   0   4   0   0  90
-V_Torosidis   31 gre  1 20 11  7 30 100 123 164 519   7   1  597   0   0   0   7   2   4   0   1  12   0   0 100

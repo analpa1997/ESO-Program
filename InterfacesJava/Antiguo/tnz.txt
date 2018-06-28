@@ -1,3 +1,0 @@
-Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
-----------------------------------------------------------------------------------------------------------------
-A_Abdennour   27 tnz  1 22  1  1 30 100 106 890 476   8   0  724   0   0   0   5   0   1   0   0   2   2   0 100

@@ -1,0 +1,26 @@
+val
+E
+
+GK Diego_Alves
+DF E_Garay
+DF E_Mangala
+DF João_Cancelo
+DF J_L_Gayà
+MF S_M-Savic
+MF Enzo_Pérez
+AM Dani_Parejo
+AM F_Orellana
+FW Nani
+FW Santi_Mina
+
+GK J_Doménech
+DF M_Montoya
+DF A_Abdennour
+MF Carlos_Soler
+FW Simone_Zaza
+
+PK: Nani
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 6 14 MF IF MIN = 65

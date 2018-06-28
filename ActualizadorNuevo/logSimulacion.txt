@@ -1,0 +1,80 @@
+val - che
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+atm - nic
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+tot - sev
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+ble - eve
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+psv - int
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+asm - mun
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+nap - lei
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.
+bmu - bar
+
+ESMS Plus version: 3.08
+
+Enter the home teamsheet name(without the sht.txt part): 
+Enter the away teamsheet name(without the sht.txt part): 
+
+Game finished successfully
+
+Press Enter.

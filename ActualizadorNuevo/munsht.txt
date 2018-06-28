@@ -1,0 +1,26 @@
+mun
+A
+
+GK Mattia_Perin
+DF Eric_Bailly
+DF Alex_Sandro
+DF Marcos_Rojo
+DF A_Valencia
+DF Niklas_Süle
+DM Nemanja_Matic
+MF R_Pereyra
+AM J_Rodríguez
+AM Oscar
+FW Neymar
+
+GK David_Ospina
+DF J_Murillo
+DM Jorginho
+AM Juan_Cuadrado
+FW Falcao
+
+PK: Neymar
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 8 14 MF IF MIN = 65

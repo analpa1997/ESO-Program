@@ -1,0 +1,26 @@
+int
+N
+
+GK J_P_Carrizo
+DF Miranda
+DF L_Tonelli
+DF L_Antonelli
+MF Éver_Banega
+MF M_Brozovic
+MF João_Mário
+AM A_Candreva
+FW Gabriel_B
+FW G_Lapadula
+FW J_Biabiany
+
+GK Tommaso_Berni
+DF M_Andreolli
+DF T_Sainsbury
+MF R_Gagliardini
+FW G_Simeone
+
+PK: Gabriel_B
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 5 14 MF IF MIN = 65

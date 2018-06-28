@@ -1,0 +1,26 @@
+nic
+C
+
+GK Y_Cardinale
+DF K_Koulibaly
+DF Dante
+DF Loïc_Perrin
+DM V_Wanyama
+MF Thiago
+MF Jack_Wilshere
+AM Y_Belhanda
+FW A_Martial
+FW Jonas
+FW A_Milik
+
+GK W_Benítez
+DF Phil_Jones
+DM G_Kondogbia
+AM D_Caligiuri
+FW M_Oyarzabal
+
+PK: A_Martial
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 6 14 MF IF MIN = 65

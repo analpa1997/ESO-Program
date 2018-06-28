@@ -1,0 +1,26 @@
+bar
+N
+
+GK J_Cillessen
+DF Gerard_Piqué
+DF Jordi_Alba
+DF M_Musacchio
+DM D_Pereira
+MF A_Iniesta
+MF Ivan_Rakitic
+MF André_Gomes
+FW Lionel_Messi
+FW Paulo_Dybala
+FW Mauro_Icardi
+
+GK Jordi_Masip
+DF Nélson_Semedo
+DF Lucas_Digne
+MF Sergi_Roberto
+FW Ahmed_Musa
+
+PK: Lionel_Messi
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 6 14 MF IF MIN = 65

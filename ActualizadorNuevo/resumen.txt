@@ -1,0 +1,1008 @@
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+Daley_Blind (che) sube su media de DF de 19 a 20
+Claudio_Bravo (sev) sube su media de GK de 22 a 23
+Mattia_Perin (mun) sube su media de GK de 21 a 22
+Alex_Sandro (mun) sube su media de FW de 7 a 8
+G_Higuaín (bmu) sube su media de FW de 22 a 23
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 3 semanas debido a una fractura de la tibia.
+A_Laporte (nap) se ha lesionado durante 1 semana debido a una luxación de muñeca.
+
+[b]SANCIONES[/b]
+
+E_Mangala (val) vuelve de su sanción esta jornada.
+A_Dragovic (ble) vuelve de su sanción esta jornada.
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+Filipe_Luís (atm) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+José_Callejón (nap) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler = "ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+Diego_Alves sube su media de GK de 21 a 22
+João_Cancelo sube su media de DF de 19 a 20
+A_Kolarov baja su media de MF de 11 a 10
+M_Llorente sube su media de DF de 16 a 17
+Walace baja su media de DF de 17 a 16
+
+[b]LESIONES[/b]
+
+Stefan_Savic vuelve de su lesión esta jornada.
+Hugo_Lloris vuelve de su lesión esta jornada.
+Bernd_Leno se ha lesionado durante 4 semanas debido a una fractura de la mano.
+A_Laporte se ha lesionado durante 2 semanas debido a una fractura de costillas.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà ha sido sancionado para el siguiente partido.
+Eden_Hazard ha sido sancionado para el siguiente partido.
+Filipe_Luís vuelve de su sanción esta jornada.
+Jack_Wilshere ha sido sancionado para el siguiente partido.
+S_N'Zonzi ha sido sancionado para el siguiente partido.
+Baumgartinger ha sido sancionado para el siguiente partido.
+Luuk_de_Jong ha sido sancionado para el siguiente partido.
+A_Candreva ha sido sancionado para el siguiente partido.
+José_Callejón vuelve de su sanción esta jornada.
+</pre>[/spoiler]
+
+[spoiler = "ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+Kurt_Zouma sube su media de DF de 19 a 20
+Koke sube su media de MF de 21 a 22
+Menno_Koch sube su media de DF de 17 a 18
+
+[b]LESIONES[/b]
+
+Bernd_Leno se ha lesionado durante 4 semanas debido a una rotura de los ligamentos del tobillo.
+A_Laporte se ha lesionado durante 2 semanas debido a una fractura de costillas.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà ha sido sancionado para el siguiente partido.
+Eden_Hazard vuelve de su sanción esta jornada.
+Samuel_Umtiti ha sido sancionado para el siguiente partido.
+F_Torres ha sido sancionado para el siguiente partido.
+Jack_Wilshere vuelve de su sanción esta jornada.
+S_N'Zonzi ha sido sancionado para el siguiente partido.
+Baumgartinger vuelve de su sanción esta jornada.
+Luuk_de_Jong vuelve de su sanción esta jornada.
+A_Candreva vuelve de su sanción esta jornada.
+David_Alaba ha sido sancionado para el siguiente partido.
+P_Mertesacker ha sido sancionado para el siguiente partido.
+Walace ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+J_Vertonghen (tot) sube su media de MF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+David_Alaba (bmu) sube su media de MF de 19 a 20
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 2 semanas debido a una inflamación en los ligamentos de la rodilla.
+Gabriel_Jesus (nap) se ha lesionado durante 1 semana debido a una contusión en el codo.
+
+[b]SANCIONES[/b]
+
+W_Carvalho (nap) vuelve de su sanción esta jornada.
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+C_Eriksen (tot) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 2 semanas debido a una sobrecarga del abductor.
+A_Milik (nap) ha sufrido una contractura en el cuello, pero estará disponible para el próximo partido.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+J_Vertonghen (tot) sube su media de MF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+David_Alaba (bmu) sube su media de MF de 19 a 20
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 5 semanas debido a una lesión lumbar.
+Gabriel_Jesus (nap) se ha lesionado durante 5 semanas debido a una fractura de la muñeca.
+
+[b]SANCIONES[/b]
+
+W_Carvalho (nap) vuelve de su sanción esta jornada.
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+C_Eriksen (tot) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+
+[b]LESIONES[/b]
+
+Gabriel_Jesus (nap) vuelve de su lesión esta jornada.
+Bernd_Leno (ble) se ha lesionado durante 2 semanas debido a una fractura del dedo.
+A_Milik (nap) ha sufrido un golpe en la cabeza, pero estará disponible para el próximo partido.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+J_Vertonghen (tot) sube su media de MF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+Gabriel_Jesus (nap) sube su media de DF de 1 a 2
+David_Alaba (bmu) sube su media de MF de 19 a 20
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 1 semana debido a una contusión en el cuello.
+Gabriel_Jesus (nap) se ha lesionado durante 4 semanas debido a una rotura del brazo.
+
+[b]SANCIONES[/b]
+
+W_Carvalho (nap) vuelve de su sanción esta jornada.
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+C_Eriksen (tot) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+M_Oyarzabal (bmu) sube su media de FW de 20 a 21
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 1 semana debido a una contusión en el cuello.
+A_Milik (nap) ha sufrido un corte en la mano, pero estará disponible para el próximo partido.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+M_Montoya (val) sube su media de DF de 19 a 20
+F_Torres (atm) sube su media de FW de 20 a 21
+M_Andreolli (int) sube su media de DF de 19 a 20
+A_Milik (nap) sube su media de MF de 1 a 2
+A_Milik (nap) sube su media de MF de 1 a 2
+A_Milik (nap) sube su media de MF de 1 a 2
+Luis_Suárez (nap) sube su media de FW de 24 a 25
+A_Milik (nap) sube su media de MF de 1 a 2
+
+[b]LESIONES[/b]
+
+Serge_Aurier (mun) vuelve de su lesión esta jornada.
+Ederson (bmu) vuelve de su lesión esta jornada.
+Bernd_Leno (ble) se ha lesionado durante 3 semanas debido a una inflamación en el tendón.
+Gabriel_Jesus (nap) se ha lesionado durante 1 semana debido a una contusión en el cuello.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+Z_Bakkali (val) sube su media de MF de 16 a 17
+Z_Bakkali (val) sube su media de MF de 16 a 17
+Z_Bakkali (val) sube su media de MF de 16 a 17
+Z_Bakkali (val) sube su media de MF de 16 a 17
+Z_Bakkali (val) sube su media de MF de 16 a 17
+Z_Bakkali (val) sube su media de MF de 16 a 17
+D_Drinkwater (che) sube su media de MF de 19 a 20
+L_Baines (eve) sube su media de DF de 20 a 21
+Isimat-Mirin (psv) sube su media de MF de 1 a 2
+K_Strootman (psv) sube su media de DF de 12 a 13
+A_Pinamonti (int) sube su media de MF de 1 a 2
+K_Schmeichel (lei) sube su media de GK de 21 a 22
+
+[b]LESIONES[/b]
+
+Davide_Santon (int) vuelve de su lesión esta jornada.
+A_Milik (nap) vuelve de su lesión esta jornada.
+Bernd_Leno (ble) ha sufrido una contractura en el cuello, pero estará disponible para el próximo partido.
+A_Milik (nap) ha sufrido una fractura de la nariz, pero estará disponible para el próximo partido.
+
+[b]SANCIONES[/b]
+
+E_Mangala (val) ha sido sancionado para el siguiente partido.
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+J_Vertonghen (tot) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+
+[spoiler="ESTADISTICAS"]<pre>
+[b]RESULTADOS DE LA JORNADA[/b]
+
+--------------------------------------------------------------------------------------------
+Valencia CF 0 - 0 Chelsea FC
+J_L_Gayà (val) 42' (expulsado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 OGC Nice
+A_Martial (nic) 45'
+Juanfran (nic) 53' (own goal)
+V_Wanyama (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Tottenham Hotspur 1 - 0 Sevilla FC
+Sergio_Agüero (tot) 16'
+S_N'Zonzi (sev) 44' (expulsado)
+Kyle_Walker (tot) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Bayer 04 Leverkusen 0 - 0 FC Everton
+Bernd_Leno (ble) 41' (lesionado)
+S_Coleman (eve) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+PSV Eindhoven 1 - 3 Inter de Milán
+J_Biabiany (int) 10'
+J_Biabiany (int) 15'
+G_Pereiro (psv) 55'
+G_Lapadula (int) 55'
+J_Biabiany (int) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+AS Monaco 0 - 2 Manchester United
+Neymar (mun) 10'
+Alex_Sandro (mun) 15'
+Alex_Sandro (mun) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 3 - 0 Leicester City
+E_Forsberg (nap) 1'
+H_Mkhitaryan (nap) 71'
+Luis_Suárez (nap) 80'
+A_Laporte (nap) 90' (lesionado)
+Marek_Hamsik (nap) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 4 - 1 FC Barcelona
+Yaya_Touré (bmu) 8'
+Paul_Pogba (bmu) 34'
+Gareth_Bale (bmu) 51'
+Lionel_Messi (bar) 77' (pen)
+G_Higuaín (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+
+
+[b]MEDIAS[/b]
+
+M_El_Haddadi (che) sube su media de MF de 17 a 18
+Kevin_Wimmer (tot) sube su media de DF de 20 a 21
+A_Pinamonti (int) sube su media de FW de 17 a 18
+
+[b]LESIONES[/b]
+
+Bernd_Leno (ble) se ha lesionado durante 4 semanas debido a una artritis.
+Gabriel_Jesus (nap) se ha lesionado durante 1 semana debido a un esguince leve de rodilla.
+
+[b]SANCIONES[/b]
+
+J_L_Gayà (val) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+M_El_Haddadi (che) ha sido sancionado para el siguiente partido.
+Filipe_Luís (atm) ha sido sancionado para el siguiente partido.
+Samuel_Umtiti (atm) ha sido sancionado para el siguiente partido.
+F_Torres (atm) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+Alexy_Bosetti (nic) ha sido sancionado para el siguiente partido.
+S_N'Zonzi (sev) ha sido sancionado para el siguiente partido.
+A_Dragovic (ble) ha sido sancionado para el siguiente partido.
+Baumgartinger (ble) ha sido sancionado para el siguiente partido.
+Luuk_de_Jong (psv) ha sido sancionado para el siguiente partido.
+A_Candreva (int) ha sido sancionado para el siguiente partido.
+Alex_Sandro (mun) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+David_Alaba (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+P_Mertesacker (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+M_Oyarzabal (bmu) ha sido sancionado para el siguiente partido.
+</pre>[/spoiler]
+

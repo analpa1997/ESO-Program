@@ -1,0 +1,1589 @@
+|GENERAL INFO
+|These are available for all lines of commentary
+| <m1>   - Name of manager of the team making the event
+| <m2>   - Name of manager of the team not making the event
+| <t1>   - Name of the team making the event
+| <t2>   - Name of the team not making the event
+| <g1>   - Name of the keeper in the team making the event
+| <g2>   - Name of the keeper in the team not making the event
+| <ref>  - Referee's name
+| <venue>- Venue of the match
+
+|DEFAULT LINES FOR THE MANAGERS NAME AND REFEREES NAME
+|%s - used to say what team the manager is in charge of
+[COMM_MANAGER] {El entrenador de %s}
+[COMM_MANAGER] {El técnico de %s}
+[COMM_REFEREE] {Colegiado}
+[COMM_REFEREE] {Árbitro}
+[COMM_STAD] {Estadio}
+[COMM_HTSCORE] {Resultado al descanso: %s %d-%d %s}
+
+| A scoring chance
+| 1st %s - game minute
+| 2nd %s - team abbreviation
+| 3rd %s - player name
+
+[CHANCE] {\nMin. %s :(%s) %s se lleva a su rival con una bicicleta\n          ...  Se queda solo!}
+[CHANCE] {\nMin. %s :(%s) %s se para ante su rival, ¿que ira a hacer?\n          ...  Le tira un sublime caño ¡Bienvenidos a ESO!}
+[CHANCE] {\nMin. %s :(%s) %s se la esta sacando, se va de uno\n          ...  Se va de otro, pero ¿que es esto? nadie lo para!}
+[CHANCE] {\nMin. %s :(%s) %s se saca una sublime ruleta ante su rival\n          ...  Madre mia de dios, si parecia "Zinedine Zidane"!}
+[CHANCE] {\nMin. %s :(%s) %s se para de golpe, le persiguen dos jugadores\n          ...  ¿Qué estara tratando de hacer?\n          ...  Se va entre los dos jugadores con un cambio de ritmo! Es un genio!}
+[CHANCE] {\nMin. %s :(%s) %s se lleva a su rival con un control orientado\n          ...  A eso se le llama tener clase!}
+[CHANCE] {\nMin. %s :(%s) %s ve llegar el balón en altura rodeado de tres jugadores\n          ...  Se saca un sombrerito!\n          ...  Se queda solo ¡Qué clase dios de mi vida!}
+[CHANCE] {\nMin. %s :(%s) %s se va de su rival con un autopase\n          ...  Se queda solo}
+[CHANCE] {\nMin. %s :(%s) %s esta de espaldas al defensor\n          ...  Se lo lleva con una tremenda "cola de vaca" ¡Que clase!}
+[CHANCE] {\nMin. %s :(%s) %s hace una bicicleta ante su marcador\n          ...  El rival se queda mirando como pasa el jugador}
+[CHANCE] {\nMin. %s :(%s) %s pierde la posesión! \n          ...  Entra duro y recupera el balón!\n          ...  Se ha quedado en una posibilidad inmejorable!}
+[CHANCE] {\nMin. %s :(%s) %s tiene espacio para el disparo\n          ...  Un defensa le sale al paso\n          ...  Lo regatea con un autopase\n          ...  Se ha quedado en una posibilidad inmejorable}
+[CHANCE] {\nMin. %s :(%s) %s gana metros}
+[CHANCE] {\nMin. %s :(%s) %s hace una pared con un compañero\n          ...  Trata de devolverle el cuero pero está cubierto\n          ...  Decide jugársela individualmente}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Se saca una bicicleta\n          ...  Se queda solo!}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Frena un poco y arranca por el otro lado!\n          ...  Uau! Vaya cambio de ritmo!}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Oh!, lo ha dejado sentado con una sublime Marsellesa!}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Se va en velocidad del defensor\n          ...  Oh! Vaya momento más inoportuno para resbalar!}
+[CHANCE] {\nMin. %s :(%s) %s frena el contraataque y espera algún apoyo\n          ...  Le doblan por la derecha\n          ...  Y él aprovecha para colarse por el centro!}
+[CHANCE] {\nMin. %s :(%s) %s frena el contraataque y espera algún apoyo\n          ...  Cambia el juego al otro lado del campo\n          ...  Cambia el juego y corre hacia arriba!\n          ...  Le devuelve el balón, vaya combinación!}
+[CHANCE] {\nMin. %s :(%s) %s frena el contraataque y espera algún apoyo\n          ...  No recibe ninguno. Se desespera!\n          ...  Se decide por la jugada individual!}
+[CHANCE] {\nMin. %s :(%s) %s gambetea a lo Maradona\n          ...  ¿Hará 'la mano de Diós' también?}
+[CHANCE] {\nMin. %s :(%s) %s se va de su marcador con un regate a lo "Romario"\n          ...  Oh la la!\n          ...  Se queda solo. Puede marcar!}
+[CHANCE] {\nMin. %s :(%s) %s dejo su marcador atras con un cambio de ritmo\n          ...  Se va de cara a puerta\n          ...  Los aficionados se levantan!}
+[CHANCE] {\nMin. %s :(%s) %s se va de un defensor con un preciso regate\n          ...  Se va de cara a puerta}
+[CHANCE] {\nMin. %s :(%s) %s se va de su rival con una bicicleta\n          ...  Peligro!}
+[CHANCE] {\nMin. %s :(%s) %s dejo su rival atras con una bicicleta\n          ...  Oportunidad clarísima!}
+[CHANCE] {\nMin. %s :(%s) %s se lleva a su marcador con un cambio de ritmo\n          ...  Evita la entrada}
+[CHANCE] {\nMin. %s :(%s) El balón queda suelto!\n          ...  %s llega antes que nadie y se dispone a chutar de primeras}
+[CHANCE] {\nMin. %s :(%s) El balón queda suelto!\n          ...  %s gana la posesión}
+[CHANCE] {\nMin. %s :(%s) El balón queda muerto!\n          ...  %s lo recoge en la línea de medios\n          ...  Se cuela entre los dos centrales!}
+[CHANCE] {\nMin. %s :(%s) El balón queda muerto!\n          ...  %s lo controla y prepara el disparo}
+[CHANCE] {\nMin. %s :(%s) %s se anticipa a su marcador!\n          ...  Mi Madre, ¿este chico es la liebre? }
+[CHANCE] {\nMin. %s :(%s) %s la ha bajado de pechito}
+[CHANCE] {\nMin. %s :(%s) %s le gana la espalda a su marcador\n          ...  Ei, chico despierta!}
+[CHANCE] {\nMin. %s :(%s) %s va al choque con el defensa y lo tira al suelo... El Toro anda suelto}
+[CHANCE] {\nMin. %s :(%s) %s pierde la posesión!\n          ...  Entra duro y recupera el balón!\n          ...  Se ha jugado el tipo!}
+[CHANCE] {\nMin. %s :(%s) %s se encuentra una autopista en la defensa\n          ...  La defensa esta mas enpanada que un San Jacobo!}
+[CHANCE] {\nMin. %s :(%s) %s se ve obligado a retener el cuero\n          ...  No hay opciones de pase. Se desespera!\n          ...  Encara la porteria en solitario! El solo contra el mundo!}
+[CHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Frena un poco y arranca por el otro lado!\n          ...  Uau! Vaya cambio de ritmo! Ni Johann Cruyff!}
+[CHANCE] {\nMin. %s :(%s) %s recupera el balón suelto}
+[CHANCE] {\nMin. %s :(%s) %s recupera el cuero}
+[CHANCE] {\nMin. %s :(%s) %s llega primero al balón suelto}
+[CHANCE] {\nMin. %s :(%s) %s se ofrece, está sólo!}
+[CHANCE] {\nMin. %s :(%s) %s mete el pie\n          ...  Roba el balón\n          ...  Trata de entrar en el área}
+[CHANCE] {\nMin. %s :(%s) %s mete el pie y se lleva el balón. Ojo!}
+[CHANCE] {\nMin. %s :(%s) %s para y espera algún apoyo\n          ...  Corre hacia el marco}
+[CHANCE] {\nMin. %s :(%s) %s se hace con el balón suelto}
+[CHANCE] {\nMin. %s :(%s) <g2> se la saca de encima!\n          ...  El balón le cae a %s!\n          ...  <m2> esta gritando al arquero ¿qué le estara diciendo?}
+[CHANCE] {\nMin. %s :(%s) <g2> con un mal rechace!\n          ...  %s encara portería!\n          ...  <m2> esta enfadado ¿lo cambiara?}
+[CHANCE] {\nMin. %s :(%s) El balón queda suelto! \n          ...  %s llega antes que nadie y se dispone a chutar de primeras}
+[CHANCE] {\nMin. %s :(%s) El balón queda suelto! \n          ...  %s gana la posesión}
+[CHANCE] {\nMin. %s :(%s) El balón queda muerto! \n          ...  %s lo recoge en la línea de medios\n          ...  Se cuela entre los dos centrales!!}
+[CHANCE] {\nMin. %s :(%s) El balón queda muerto! \n          ...  %s lo controla y prepara el disparo}
+
+[GETS_PAST] {\nMin. %s :(%s) %s despista a %s con un cambio de ritmo.\n          ...  Ni Johann Cruyff! La afición del <t1> y del <t2> gritan "Olé" estan todos impresionados!}
+[GETS_PAST] {\nMin. %s :(%s) %s hace la croqueta ante %s\n          ...  El defensa mete la pierna, pero el rebote va a parar al delantero}
+[GETS_PAST] {\nMin. %s :(%s) %s busca el caño ante %s\n          ...  El defensa mete la pierna, pero el rebote favorece a su rival}
+[GETS_PAST] {\nMin. %s :(%s) %s pisa el balón ante %s\n          ...  Se lo enseña, se lo esconde, otra vez... lo va a marear!\n          ...  La aficion del <t1> corea "Olé" la afición rival <t2> esta pitando!}
+[GETS_PAST] {\nMin. %s :(%s) %s pisa el balón ante %s\n          ...  Le hace un caño, pero le agarra de la camiseta!\n          ...  El arbitro da la ley de la ventaja\n          ...  La grada grita: "Decime que se siente al coger un caño, Olé"}
+[GETS_PAST] {\nMin. %s :(%s) %s se deshace de %s\n          ...  Le amagó por un lado y salió por el otro\n          ...  Menudo cambio de dirección! Dios de mi vida!}
+[GETS_PAST] {\nMin. %s :(%s) %s se deshace de %s}
+[GETS_PAST] {\nMin. %s :(%s) %s se va de %s por dentro\n          ...  Le ha dado demasiado espacio!}
+[GETS_PAST] {\nMin. %s :(%s) %s avanza en carrera y gira súbitamente\n       ...  El cambio de dirección sorprendió a %s\n       ...  Que responde con una entrada por detras! Sigan dice <ref>}
+[GETS_PAST] {\nMin. %s :(%s) %s se para ante %s... y le hace la 'cola de vaca'!\n          ...  Oh! Increíble! Sólo se lo había visto hacer a Ronaldo y Romario!}
+[GETS_PAST] {\nMin. %s :(%s) %s quiebra a %s con un suave toque hacia el exterior\n          ...  le rompió la cintura! Que se lo digan a Boateng!}
+[GETS_PAST] {\nMin. %s :(%s) %s va en carrera junto a %s\n          ...  El atacante es más rápido!}
+[GETS_PAST] {\nMin. %s :(%s) %s encara portería, levanta la cabeza\n          ...  Ve a %s en su camino y le hace un sublime caño!\n          ...  Joder, este hombre es un mastreo! Los aficionados del <t1> gritan: "Olé, Olé y Olé"}
+[GETS_PAST] {\nMin. %s :(%s) %s sale lanzado por el carril\n          ...  %s intenta cortar su avance con una entrada a ras de suelo!\n          ...  El delantero salta por encima! Qué reflejos!}
+[GETS_PAST] {\nMin. %s :(%s) %s amaga el quiebro hacia un lado\n          ...  Pero sale por el otro. %s está sorprendido!\n          ...  Trata de zancallidearlo! Pero lo esquiva!}
+[GETS_PAST] {\nMin. %s :(%s) %s evita la entrada a ras de suelo de %s con un giro\n          ...  Pisa el balón y sigue adelante\n          ...  Estoy soñando? Han visto lo mismo que yo?}
+[GETS_PAST] {\nMin. %s :(%s) %s salta sobre la tremenda entrada de %s}
+[GETS_PAST] {\nMin. %s :(%s) %s salta sobre la tremenda entrada de %s\n          ...  Se lleva el balón y sigue con la pierna pegada al cuerpo}
+[GETS_PAST] {\nMin. %s :(%s) %s se tira el balón largo ante %s\n          ...  Se lleva al defensa por velocidad!\n          ...  Parecia Gareth Bale en aquella Final de la Copa del Rey!}
+[GETS_PAST] {\nMin. %s :(%s) %s envía el balón por el lado derecho de %s y lo ecoge por el otro}
+[GETS_PAST] {\nMin. %s :(%s) %s controla el balón y encara a %s. Qué regate!}
+[GETS_PAST] {\nMin. %s :(%s) %s hace un sombrero sobre %s}
+[GETS_PAST] {\nMin. %s :(%s) %s deja a %s en el camino\n          ...  Con un cambio de Ritmo! En el momento ideal!}
+[GETS_PAST] {\nMin. %s :(%s) %s gambetea ante %s, lo está desquiciando!}
+[GETS_PAST] {\nMin. %s :(%s) %s deja a %s sentado}
+[GETS_PAST] {\nMin. %s :(%s) %s encara a %s\n          ...  No le deja espacios! Pero se lo lleva con una finta!}
+[GETS_PAST] {\nMin. %s :(%s) %s encara a %s\n          ...  El defensa resbala! Los aficionados del <t1> gritan "tonto" y los aficionados del <t2> le pitan!}
+[GETS_PAST] {\nMin. %s :(%s) %s encara al defensa\n          ...  Se va de %s en velocidad\n          ...  Menudo cambio de ritmo! Nunca se ha visto en la historia!}
+[GETS_PAST] {\nMin. %s :(%s) %s encara al defensa\n          ...  %s mete la pierna, pero el rebote favorece al atacante!\n          ...  Fue un golpe de suerte, pero continúa hacia adelante!}
+[GETS_PAST] {\nMin. %s :(%s) %s supera a %s\n          ...  El defensa está viviendo una pesadilla! Los aficionados del <t2> le pitan, tremenda pitada!}
+[GETS_PAST] {\nMin. %s :(%s) %s supera a %s\n          ...  Es demasiado rápido para su marcador! Los aficionados del <t2> le pitan, tremenda pitada!}
+[GETS_PAST] {\nMin. %s :(%s) %s supera a %s los aficionados del <t1> gritan: "Olé"\n          ...  Lleva loco a su marcador!}
+[GETS_PAST] {\nMin. %s :(%s) %s supera a %s\n          ...  Este defensa es un tronco! No tiene cintura! Se le ha ido facilmente!\n          ...  La acción no es del gusto de los aficionados, menuda pitada!}
+[GETS_PAST] {\nMin. %s :(%s) %s supera a %s\n          ...  Qué facilidad de regate! La afición del <t2> pitan al defensor! Menuda pitada!}
+[GETS_PAST] {\nMin. %s :(%s) %s evita la entrada de %s}
+[GETS_PAST] {\nMin. %s :(%s) %s hace una bicicleta y descoloca a %s\n          ...  La aficion del <t1> esta loca! Empiezan a corear el nombre del jugador!}
+[GETS_PAST] {\nMin. %s :(%s) %s pisa el balón\n          ...  Sortea a %s con un taconazo\n          ...  Han visto eso! Es una pieza de arte!}
+[GETS_PAST] {\nMin. %s :(%s) %s aprovecha una mala cesión de %s\n          ...  Menuda pitada le ha ofrecido la afición del <t2>!}
+[GETS_PAST] {\nMin. %s :(%s) %s se aprovecha de un error de %s\n          ....  <m2> está furioso por ese despiste)
+[GETS_PAST] {\nMin. %s :(%s) %s se aprovecha de un error de %s\n          ...  Lo aprovechara?}
+[GETS_PAST] {\nMin. %s :(%s) %s se aprovecha de un error de %s\n          ...  Corre hacia el marco <m2> Pega una patada a una botella}
+[GETS_PAST] {\nMin. %s :(%s) %s se aprovecha de un error de %s\n          ...  Ha tenido suerte <m2> esta furioso!}
+[GETS_PAST] {\nMin. %s :(%s) %s se aprovecha de un error de %s\n          ...  Ese error puede costarle caro <m2> esta gritando!}
+[GETS_PAST] {\nMin. %s :(%s) %s se va de %s\n          ...  Lo ha dejado sentado! La afición del <t1> grita: "Olé"}
+[GETS_PAST] {\nMin. %s :(%s) %s en carrera\n          ...  Le hace un túnel a %s!! Ui, le ha soltado el pie! Pero no le ha tocado! Que clase!}
+[GETS_PAST] {\nMin. %s :(%s) %s cambia el ritmo\n          ...  Se va por velocidad de %s!}
+[GETS_PAST] {\nMin. %s :(%s) %s controla en carrera\n          ...  Le hace un sombrero a %s! La grada esta haciendo una ola! Si señor! Que clase!}
+[GETS_PAST] {\nMin. %s :(%s) %s cambia de dirección\n          ...  %s, que lo estaba persiguiendo, resbala! La afición del <t2> esta furiosa!}
+[GETS_PAST] {\nMin. %s :(%s) %s hace una croqueta\n          ...  Evita la dura entrada de %s. Qué clase!\n          ...  Un aficionado del <t1> entra al campo! Sigan jugando dice <ref>}
+[GETS_PAST] {\nMin. %s :(%s) %s hace una bicicleta\n          ...  %s cae al suelo! Lo ha ridiculizado! Es por cosas asín que el Futbol es el mejor deporte!}
+[GETS_PAST] {\nMin. %s :(%s) El defensa está presionado! Se saca el balón de encima!\n          ...  %s se va sólo! La afición del <t1> se levantan! ¿qué pasara?}
+
+| An assisted scoring chance
+| 1st %s - game minute
+| 2nd %s - team abbreviation
+| 3rd %s - player making the pass
+| 4th %s - player receiving the pass
+
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s de tacón hacia %s. Gran pase!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s retrocede ante la presión\n          ...  Golpea el balón hacia arriba sin sentido\n          ...  y le cae a %s! Ha sacado petróleo de esa jugada!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tiene que retroceder\n          ...  Está presionado, se saca el balón de encima\n          ...  %s gana el salto}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s regatea a un rival\n          ...  A otro! Esté en racha!\n          ...  Y mete un pase al hueco hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s golpea el balón hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete el balón en la zona de peligro\n          ...  %s se ofrece y recibe el cuero}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza con el balón controlado\n          ...  Ve a un compañero completamente sólo!\n          ...  Le pasa el balón\n          ...  %s controla el balón y se va}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza con el balón controlado\n          ...  Ve el desmarque de un compañero!\n          ...  Cruza el pase!\n          ...  %s controla el balón, pero con que facilidad lo hizo!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se mete en el área. Va a chutar! No, pasa para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se revuelve buscando espacio para el disparo\n          ...  Desliza un pase hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cambia de dirección\n          ...  Ve a un compañero desdoblándolo\n          ...  Le cede el cuero a %s, que va lanzado en carrera}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pica el balón por encima de la defensa hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s controla el cuero con calidad\n          ...  Mete un pase al centro!\n          ...  %s es el destinatario!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s controla el balón en una demostración de clase\n          ...  Abre el juego a la izquierda!\n          ...  %s es el destinatario!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s controla el balón en una demostración de clase\n          ...  Abre el juego a la derecha!\n          ...  %s recibe el cuero!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s centra desde la banda, encuentra a %s en el área}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete un balón interior para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cruza para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se mete en diagonal a través de los defensas\n          ...  Se va del central que le sale al paso!\n          ...  El extremo se cuela por la espalda del lateral\n          ...  Envía el pase a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace la diagonal\n          ...  Ve un desmarque por el rabillo del ojo\n          ...  Se la pasa a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s de tacón para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cruza para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pasa hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s conduce por la línea de medios\n          ...  Pasa hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s en carrera con su marcador. Mete el hombro\n          ...  Lo aparta del cuero!\n          ...  Continúa avanzando\n          ...  Balón para la entrada de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un balón a la espalda del lateral\n          ...  %s corre hacia el cuero\n          ...  Llega antes que el defensa, qué gran esfuerzo!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s asiste a %s con espacio por delante}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s asiste a %s dentro del área}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s combina con %s con espacio por delante}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s combina con %s. Le ha metido un buen balón picado}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s combina con %s. Juegan de memoria!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s conecta con %s. Qué entendimiento hay entre ambos!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s encuentra a %s. Con que facilidad lo encontro!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cambia el juego hacia %s }
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cambia el juego\n          ...  %s recibe con campo por delante!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s golpea el balón al hueco. %s aparece de la nada}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se abre a la banda. Recibe el balón\n          ...  Levanta la cabeza, no hay salida\n          ...  Pero encuentra a %s. Qué visión de juego!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se abre a la banda y cambie el juego hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se cuela hasta la línea de fondo\n          ... Amaga el centro\n          ...  Pasa raso atrás hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s dispara!\n          ...  Pega en la espalda de un compañero\n          ...  y va a parar a %s! Vaya suerte!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tiene espacio y tiempo\n          ...  A ver qué inventa!\n          ...  Amaga el disparo y mete un pase\n          ...  %s controla con el pecho\n          ...  Encara puerta!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s Con un pase demasiado fuerte. %s va a llegar!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase muy fuerte para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s dispara en carrera!\n          ...  El defensa mete la pierna\n          ...  sale rebotada hacia %s!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s dispara en carrera!\n          ...  Hay un rebote\n          ...  le cae a %s!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pone el balón a la espalda de los centrales\n          ...  %s se cuela desde atrás!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pone el balón a la espalda de los centrales\n          ...  %s llega con comodidad!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s aguanta el balón\n          ...  Cambia súbitamente hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s llega primero al balón que ha quedado muerto\n          ...  Ve a su compañero entrando desde atrás!\n          ... %s controla en carrera}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s lanza el contraataque\n          ...  Hace una pausa esperando apoyos!\n          ...  %s lo dobla recibe el pase}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete la pierna. Cortó el balón\n          ...  Se lo pone a %s en el pie!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s llega el primero al balón\n          ...  Abre a la banda sobre %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cuelga arriba sobre %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está cerrado por tres contrarios\n          ...  Abre a la banda para romper la presión\n          ...  %s recibe con campo por delante}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está cerrado por tres contrarios\n          ...  Se saca el balón de encima\n          ...  le cae a %s! Suerte o calidad?}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s llega primero al balón suelto\n          ...  Y lo mete en profundidad hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está cerrado por tres contrarios\n          ...  Pisa el balón dos veces y los deja sentados!\n          ...  OH! Qué clase! Ahora mete el pase a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está escorado en la banda izquierda\n          ...  Cambia el juego a la derecha hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está escorado en la banda derecha\n          ...  Cambia el juego a la izquierda hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se prepara para sacar de banca\n          ...  Limpia el balón en su camiseta\n          ...  Y saca fuerte hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se prepara para sacar de banca\n          ...  Coge carrerilla!\n          ...  Y saca larco hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se prepara para sacar de banca\n          ...  Ve a un compañero sólo!\n          ...  El balón vuela hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s saca de banda\n          ...  El defensa pide fuera de juego! Si no hay!\n          ...  %s se escapa!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s lanza la falta\n          ...  Ve el desmarque de su compañero\n          ...  El balón va directo hacia el pie de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se encargara de lanzar la falta\n          ...  Observa el desmarque de su compañero!\n          ...  Y le manda un pase milimétrico!\n          ...  %s se ha zafado de su marcador}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s lanza la falta\n          ...  Ojo que la defensa está mal colocada!\n          ...  Vuela directa hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s para el balón\n          ...  Levanta la vista y ve a un compañero completamente sólo!\n          ...  Le envía el pase con el exterior!\n          ...  %s controla el milimétrico pase. Hasta yo lo hubiera hecho!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s para el balón con la planta del pie\n          ...  Qué calidad, tiene un guante en el pie!\n          ...  Se revuelve! Engaña a su marcador\n          ...  y cruza al balón sobre la llegada de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s para el balón con el pecho\n          ...  Está copmpletamente sólo! Mala señal!\n          ...  Tiene tiempo de mirar y meter un pase largo!\n          ...  %s busca el cuero}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s para el balón con el pecho\n          ...  Lo pisa, levanta la cabeza y pasa!\n          ...  Madre mía, eso es de manual!\n          ...  %s recibe un pase medido\n          ...  Ojo que tiene espacio!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace una doble pared con %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s salta con mucha potencia\n          ...  Se adelanta a su marcador\n          ...  Cabecea hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pica el balón por encima de los centrales\n          ...  %s aparece de la nada. Los ha pillado despistados!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s levanta la cabeza\n          ...  Ve perfectamente a %s! Que pase le ha dado!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s inicia el contraataque\n          ...  Sale rápidamente!\n          ...  Y envía un gran pase con la defensa descolocada. %s recibe sólo}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s corre metros\n          ...  La defensa rival se ha despistado, hay hueco!!\n          ...  Pone un peligroso balón sobre la entrada de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tiene campo por delante\n          ...  Sigue avanzando. Nadie le sale al paso!\n          ...  Con todo el tiempo del mundo pone el balón para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tiene campo por delante\n          ...  Pasa a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza metros\n          ...  Mira el extremo derecho!\n          ...  Y le pone un pase de oro a %s en el otro lado! Qué clase!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s busca algún apoyo\n          ...  Ojo! Casi pierde el balón en una zona peligrosa!\n          ...  Pero consigue meter el pase para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s espera apoyos\n          ...  %s sale de la cueva. Para él va el balón}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s busca opciones\n          ...  Su compañero se deshace del marcador!\n          ... %s recibe un pase medido}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s le pega al balón con el exterior\n          ...  El efecto despista a la defensa, que no puede evitar que le llegue a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s espera a que alguien le acompañe en ataque\n          ...  Levanta los brazos, nadie se desmarca!\n          ...  Busca la individual! Prepara el disparo!\n          ...  Rebota en un defensa y cae a  los pies de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s le pega mal!\n          ...  Pero le llega a %s\n          ...  Eso ha sido de leche!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza pegado a la línea de banda\n          ...  Mete el balón al área, para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza pegado a la línea de banda\n          ...  Despista al defensa con un gran regate\n          ...  Y la pone en el área por bajo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza en diagonal\n          ...  Espléndido taconazo para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s suelta un cañonazo! Al larguero!\n          ...  %s se hace el rebote}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s ve especio entre el central y el lateral\n          ...  Qué pase en diagonal!\n          ...  %s pisa área. Peligro!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s ve especio entre el central y el lateral.\n          ...  Pone un peligroso pase diagonal para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pasa el balón a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s toca al primer toque para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s habilita a %s con un preciso toque}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase entre los centrales\n          ...  %s aparece con velocidad desde atrás!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tira la pared con su delantero\n          ...  %s con un preciso pase de primeras!\n          ...  Menuda jugada!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s tira la pared con su delantero\n          ...  %s se la queda!\n          ...  Encara a puerta!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s toca de primeras al área para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cede atrás para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s toca la pelota para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se acerca al área\n          ...  Ve a %s desmarcarse \n          ...  Le tira un pase medido}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s ve perfectamente el desmarque de %s ! Que pasé le ha mandado!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se gira, está tapado por dos rivales\n          ...  Pisa el balón y mira arriba\n          ...  pasa larga hacia la posición de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s está presionado, retrocede\n          ...  Está en peligro, se saca el balón de encima\n          ...  OH! Le ha salida una maravillosa asistencia hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pica el balón por encima de la defensa\n          ... %s ya había iniciado la diagonal\n          ...  Hacia él va el balón}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s encara a su marcador\n          ...  Lo sienta con una croqueta!\n          ...  Eso lo hacía Michael Laudrup!\n          ...  Y ahora suelta un pase impresionante hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se cuela por el extremo derecho\n          ...  Centro medido para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s controla un balón aéreo\n          ...  La pasa de primeras hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s inicia el ataque\n          ...  Manda un pase picado para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se interna por una banda\n          ...  Túnel al defensa! Oh! Lo han visto?\n          ...  Quiebra al lateral! Qué jugada!\n          ...  %s tira el desmarque en el centro\n          ...  Le pone una pase medido!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s avanza hacia el córner\n          ...  Busca el centro hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s evita una entrada a ras de suelo y manda el balón por bajo a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mira a %s... y le manda un pase milimétrico}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s ve a %s completamente sólo! Que pase le ha dado!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s acelera por la banda derecha\n          ...  Pone el balón en el área. Directo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s acelera por la banda izquierda\n          ...  Juega para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se cuela por la banda\n          ...  Centra hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s acelera por la banda derecha\n          ...  Hace la pared con el delantero!\n          ...  Quiebra al lateral!\n          ...  %s se la pide dentro del área\n          ...  Le pone el balón en el pie! Qué pase!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s en el centro del campo\n          ...  Cruza hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s controla el balón suelto\n          ...  Lo juega hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s encara al defensa\n          ...  Le tira una gambeta!\n          ...  Se coloca el cuerpo para disparar\n          ...  Pero suelta el pase hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s llega al área, prepara el disparo...\n          ...  Pero engaña a todos con un pase hacia %s. Qué calidad!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete el cuero en profundidad para la llegada de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s corta el balón con dureza\n          ...  Desde el suelo mete la puntera\n          ...  Y hace llegar el cuero a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s regatea a su marcador\n          ...  Va a disparar!\n          ...  No! Pasa hacia %s! Ha engañado a todos}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s regatea a su marcador y pasa rápidamente a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace una pared con un compañero y mete de primeras para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s volea el cuero. Va directo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s baja el balón con el pecho. Lo pisa... y asiste a %s!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se hace con el balón\n          ...  Y busca a %s con un pase con el exterior}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase de 50 metros, encuentra a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase largo, encuentra a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pone el balón al hueco\n          ...  %s corre hacia el cuero!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s sorprende a la defensa rival con un pase en diagonal hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s envía un pase desde su propio campo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un glorioso pase largo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s ve el desmarque de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s busca a %s en profundidad}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase impresionante hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se saca un pase al primer toque hacia %s de la chistera}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s envía el esférico en profundidad. %s lo controla}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un pase de tiralíneas, encuentra a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete un balón medido para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s con un preciso pase hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pisa campo contrario. Mete un pase entre los centrales para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace una bicicleta y cambia el juego hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace una bicicleta y mete el pase sobre la llegada de %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) A ver qué inventa %s ahora. Pase de interior hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s recibe de espalda. Se inventa un taconazo hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pasa de rabona hacia %s. Madre mía! Ha nacido en Brasil?}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s hace la pared con %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s sale a la contra. Mete un pase medido a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s corta de manera impresionante\n          ...  Arma el contraataque!\n          ...  Es un dos contra dos!\n          ...  %s se desmarca y recibe el pase}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se interna por la banda\n          ...  Pone un medido centro sobre %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s recupera el balón\n          ...  Levanta la cabeza!\n          ...  Ve el desmarque de su compañero\n          ...  %s recibe un pase increíble\n          ...  Se marcha!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s recupera el balón y pasa largo hacia %s. Ha pillado a la defensa desolocada!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s sale del regate y mete un pase hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cambia el juego hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se saca un pase en diagonal para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s cuelga de primeras para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s juega al primer toque para %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mira a la derecha\n          ...  Y cruza a la izquierda para %s. Eso lo hacía Laudrup!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s se va de uno, de dos, de tres!\n          ...  Mira a un lado... y pasa hacia %s al otro lado! OH!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s envía un taconazo hacia %s. Qué lujo de jugador!}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s pasa largo con el interior hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s envía un pase en profundidad hacia %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s mete el balón a la espalda de la defensa\n          ...  Su compañero ya había empezado la carrera\n          ... %s controla el balón}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s rompe la defensa con un preciso pase sobre %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) Peligroso centro de %s a %s}
+[ASSISTEDCHANCE] {\nMin. %s :(%s) %s levanta la cabeza, pasa hacia %s}
+
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s se interna\n          ...  Le hace dos bicicletas a %s\n          ...  Lo ha roto. Centra a %s! Los aficionados del <t1> aplauden la jugada!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s se cuela por la banda\n          ...  Quiebra a %s en velocidad\n          ...  Mete un pase raso hacia %s! <m1> esta alucinando!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s tiene el cuero\n          ...  Le hace un túnel a %s!!! Ohhh\n          ...  Esto es caviar del bueno!\n          ...  Y pasa a %s!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s avanza\n          ...  Cambia el ritmo ante %s. Wow eso me recordó a Cruyff!\n          ...  Lo deja atrás!\n          ...  Mete el pase hacia %s!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s con un control impresionante\n          ...  Hace la croqueta ante %s\n          ...  Y centra hacia %s. Qué clase!!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s coge el cuero en el flanco\n          ...  Se deshace de %s con una bicicleta\n          ...  Y pasa atrás hacia %s. Qué jugada!!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s con un pase milimétrico \n          ...  El balón pasa por encima de %s\n          ...  Y le llega a %s!}
+[GETS_PAST_ASS] {\nMin. %s :(%s) %s mete el pase\n          ...  %s resbala\n          ...  %s se apodera del balón!}
+[GETS_PAST_ASS] {\nMin. %s !(%s) %s para la pelota y espera apoyos!\n          ...  %s le intenta quitar la pelota\n          ...  Menudo caño se ha tragado! Que clase! Ve solo a %s y le manda el pase!}
+
+| A Free kick awarded
+
+[FAR_FREEKICK] {\n          ...  FALTA DIRECTA\n          ...  Imposible que llegue desde aquí!}
+[FAR_FREEKICK] {\n          ...  FALTA DIRECTA\n          ...  En su propio campo. Muy lejos!}
+[FAR_FREEKICK] {\n          ...  FALTA DIRECTA\n          ...  Un poco más adelante del medio campo!}
+[FAR_FREEKICK] {\n          ...  FALTA DIRECTA\n          ...  Muy lejana, no creo que llegue!}
+[FAR_FREEKICK] {\n          ...  FALTA DIRECTA}
+
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Este arbitro tiene que haber sido comprado por la mafia napolitana!)
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Peligro!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  El portero coloca a su barrera!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Está a una buena distancia!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Es una posición buenísima para el lanzador!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  A escasos centímetros del área!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Justo en el pico del área!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Esto tiene pinta de amarilla)
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  No fue penalti por centímetros!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  La barrera se coloca!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Es una oportunidad buenísima!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  Vaya tontería hacer falta aquí!}
+[FREEKICK] {\n          ...  FALTA DIRECTA!}
+
+[INDIRECT_FREEKICK] {\n          ...  FALTA DIRECTA!\n          ...  <ref> dice que es indirecta}
+[INDIRECT_FREEKICK] {\n          ...  FALTA INDIRECTA!}
+
+| A tackle resulting in a corner
+
+[TACKLE4CORNER] {\n          ...  %s choca con el delantero\n          ...  Y el balón sale fuera! Córner}
+[TACKLE4CORNER] {\n          ...  %s entra con todo\n          ...  El balón rueda y cruza la línea de fondo, será corner
+[TACKLE4CORNER] {\n          ...  %s se lanza al corte\n          ...  Despeja el cuero!\n          ...  Trata de evitar el córner!\n          ...  Ha salido!}
+[TACKLE4CORNER] {\n          ...  %s llega apurado al corte y mete la pierna hacia <g2> \n          ...  Ohhhh no!!\n          ...  Ha superado a <g2> ! \n          ...  Rueda lentamente! Fuera! Será corner}
+[TACKLE4CORNER] {\n          ...  %s recupera la pelota muy apurado. Creo que no va a salvar el córner...\n          ...  No, no lo consigue!}
+[TACKLE4CORNER] {\n          ...  %s se hace con el balón y lo cede al portero\n          ...  <g2> resbala! Ay!\n          ...  Fuera! Ha salido a córner!}
+[TACKLE4CORNER] {\n          ...  %s se hace con el balón y lo cede al portero\n          ...  <g2> ve con sorpresa como el pase va demasiado fuerte!!\n          ...  Se tira... no va a llegar!!\n          ...  Ui! Salió rozando el palo!}
+[TACKLE4CORNER] {\n          ...  %s se hace con el balón y lo cede al portero\n          ...  <g2> estaba descolocado!!\n          ...  Corre a la desesperada!!\n          ...  Fuera! Por poco!}
+[TACKLE4CORNER] {\n          ...  %s se anticipa a la acción y corta el balón\n          ...  Pero se le escapa! Córner!}
+[TACKLE4CORNER] {\n          ...  %s corta el balón\n          ...  Despeja a lo loco!!!\n          ...  La ha enviado a la grada!}
+[TACKLE4CORNER] {\n          ...  %s se desliza a ras de suelo con la pierna por delante\n          ...  Sale fuera. Tocó en el delantero... No! Córner!}
+[TACKLE4CORNER] {\n          ...  %s se desliza a ras de suelo con la pierna por delante\n          ...  Impacta el cuero y se va a córner}
+[TACKLE4CORNER] {\n          ...  %s entra con dureza cerca de la línea de fondo\n          ...  Envía al jugador y la pelota fuera del campo}
+[TACKLE4CORNER] {\n          ...  Perfecto corte de %s\n          ...  Lo hizo fácil\n          ...  Pero no puede evitar que salga a córner}
+[TACKLE4CORNER] {\n          ...  Gran entrada a ras de suelo de %s\n          ...  Se pierde por la línea de fondo}
+
+| A save resulting in a corner
+
+[SAVE4CORNER] {\n          ...  <g1> vuela hacia su escuadra derecha\n          ...  Logra meter la mano\n          ...  Impresionante! Ha evitado el gol!}
+[SAVE4CORNER] {\n          ...  <g1> mete el pie!!\n          ...  El rebote cae sobre la misma línea\n          ...  El delantero se lanza en plancha !!\n          ...  Pero el guardameta vuelve a meter la pierna !}
+[SAVE4CORNER] {\n          ...  <g1> llega al balón muy forzado\n          ...  Apenas pudo desviar el balón}
+[SAVE] {\n          ...  <g1> llega con la punta de los dedos\n          ...  La desvía hacia el palo, va a entrar!\n          ...  Pero un defensa mete la cabeza en el último suspiro}
+[SAVE4CORNER] {\n          ...  <g1> trata de blocar el cuero\n          ...  No ha podido. Córner!}
+[SAVE4CORNER] {\n          ...  <g1> pone la punta de los dedos\n          ...  Qué paradón! Será descendiente de Dino Zoff?}
+[SAVE4CORNER] {\n          ...  <g1> realiza una parada espectacular\n          ...  Pero no puede hacerse con el control!\n          ...  Será córner!}
+[SAVE4CORNER] {\n          ...  <g1> para el lanzamiento\n          ...  Pero el balón sale rebotado! Será córner!}
+[SAVE4CORNER] {\n          ...  <g1> la para con facilidad. Oh! Se le ha escapado! Es córner}
+[SAVE4CORNER] {\n          ...  <g1> pone la pierna\n          ...  Y para el disparo. Tiene estilo de portero de balonmano}
+[SAVE4CORNER] {\n          ...  <g1> la desvía a centímetros del palo\n          ...  Muy buena parada}
+[SAVE4CORNER] {\n          ...  <g1> se juega el físico y mete la mano \n          ...  UAU! Vaya parada! Ha chocado contra el palo de lo ajustado que iba el disparo}
+[SAVE4CORNER] {\n          ...  <g1> vuela sobre la línea de gol \n          ...  Y prolonga el balón por encima del larguero}
+[SAVE4CORNER] {\n          ...  <g1> con una impresionante parada a ras de palo izquierdo\n          ...  No tengo ni idea de cómo pudo llegar hasta allí!}
+[SAVE4CORNER] {\n          ...  <g1> mira horrorizado el terrible disparo\n          ...  Va a la escuadra!\n          ...  Pega en el palo!\n          ...  Rebota en la espalda del portero!!\n          ...  Y sale fuera ! %s besa su palo. No es para menos!}
+[SAVE4CORNER] {\n          ...  <g1> llega con dificultad al disparo!! \n          ...  El delantero controla el disparo. Es GOL! \n          ...  Wow! %s se ha levantado como un rayo y ha puesto el cuerpo!!}
+[SAVE4CORNER] {\n          ...  <g1> cierra el ángulo \n          ...  El balón va directo hacia él!\n          ...  %s mete los puños! Córner! Podría haberla blocado!}
+[SAVE4CORNER] {\n          ...  <g1> la ve venir con calma, va muy alta!\n          ...  Oh, ha medido mal!!\n          ...  %s reacciona a la desesperada y mete la mano!}
+[SAVE4CORNER] {\n          ...  Pero <g1> pone el muslo. Tuvo suerte de que se fue a córner y no a la red}
+[SAVE4CORNER] {\n          ...  Pero <g1> alarga la pierna e impacta el balón}
+[SAVE4CORNER] {\n          ...  Pero <g1> hinca la rodilla en el suelo y desvía el disparo raso}
+[SAVE4CORNER] {\n          ...  Pero <g1> pone los dos puños \n          ...  Ha salido por detrás. Córner}
+[SAVE4CORNER] {\n          ...  Pero <g1> responde con una parada impresionante}
+[SAVE4CORNER] {\n          ...  No le podría haber pegado mejor!! \n          ...  <g1> la envía por encima !!\n          ...  Está muy metido en el partido!}
+[SAVE4CORNER] {\n          ...  No le podría haber pegado mejor!! \n          ...  <g1> mete la mano !!\n          ...  No pudo evitar el córner!}
+[SAVE4CORNER] {\n          ...  La coloca lejos del alcance del portero!! \n          ...  <g1> da dos pasos atrás y se lanza !!\n          ...  Sí! Lo logró!}
+[SAVE4CORNER] {\n          ...  No le podría haber pegado mejor!! \n          ...  <g1> desvía el lanzamiento !!\n          ...  Qué gran parada!}
+[SAVE4CORNER] {\n          ...  Rebota en el larguero!! \n          ...  Se anticipa al defensa por el rechace \n          ...  OHHHHHHHH !! \n          ...  <g1> ha sido más rápido !}
+[SAVE4CORNER] {\n          ...  Se va fuera!\n          ...  No! El efecto ha despistado al portero!\n          ...  <g1> se lanza al otro lado y desvía el lanzamiento}
+[SAVE4CORNER] {\n          ...  Se va fuera!\n          ...  Pero un defensa mete la pierna!!\n          ...  Va a puerta! <g1> mete la pierna y la envía a córner. Uf!}
+[SAVE4CORNER] {\n          ...  El cuero va a puerta a gran velocidad!\n          ...  <g1> reacciona rápidamente!\n          ...  Llegará?\n          ...  <g1> mete el puño y envía el balón a córner!}
+[SAVE4CORNER] {\n          ...  Los aficionados se levantan! Parece gol!\n          ...  <g1> salta acrobáticamente !!\n          ...  y la para! Se llamará Supermán de apellido?}
+[SAVE4CORNER] {\n          ...  El disparo describe un efecto diabólico\n          ...  <g1> vuela apuradamente hacia el balón!!\n          ...  Y mete la punta de los dedos!\n          ...  Wow! Me ha recordado a Lev Yashine}
+
+| A deflection resulting in a corner
+
+[DEFLECTION4CORNER] {\n          ...  El balón sale rebotado!\n          ...  Fuera! Será córner...}
+[DEFLECTION4CORNER] {\n          ...  Pega en el pie de un defensa!\n          ...  Y se pierde por la lína de fondo!}
+[DEFLECTION4CORNER] {\n          ...  Pega en el muslo de un defensa!\n          ...  Y sale a centímetros de la escuadra!}
+[DEFLECTION4CORNER] {\n          ...  Bota mal sobre un césped demasiado mojado!\n          ...  Pero impacta en el lateral de la red!}
+[DEFLECTION4CORNER] {\n          ...  Bota mal sobre un césped demasiado mojado!\n          ...  <g2> trata de reaccionar!\n          ...  Se va a centímetros del palo!}
+[DEFLECTION4CORNER] {\n          ...  Pega en la espalda de un defensa!\n          ...  <g2> ha quedado descolocado!\n          ...  Sale rozando el palo! Uy!}
+[DEFLECTION4CORNER] {\n          ...  El disparo agarra un efecto endiablado\n          ...  Un defensa mete la cabeza !!\n          ...  Y envía a córner}
+[DEFLECTION4CORNER] {\n          ...  El disparo agarra un efecto endiablado\n          ...  <g2> reacciona con velocidad!!\n          ...  No va a llegar!\n          ...  Se cuela!!\n          ...  Pero un defensa se lanza en plancha y mete el cuerpo!}
+[OFFTARGET] {\n          ...  <g2> desvía ligeramente el balón\n          ...  Fuera!\n          ...  Lo ha logrado!\n          ...  Saque de puerta? Vi claramente como la tocaba el cancerbero}
+[DEFLECTION4CORNER] {\n          ...  Va directo hacia <g2> \n          ...  Pone mal la pierna! \n          ...  Sale rebotada hacia atrás!!! \n          ...  <g2> mira el balón alarmado!\n          ...  Y lo ve salir al lado del palo! Suspira de alivio, menudo fallo}
+[DEFLECTION4CORNER] {\n          ...  Terrorífico disparo \n          ...  Rebota en el pie del defensa \n          ...  Se aleja del marco \n          ...  Pero el portero no puede evitar el córner!}
+[DEFLECTION4CORNER] {\n          ...  Pero golpea en un defensa y se va córner}
+[DEFLECTION4CORNER] {\n          ...  El disparo rebota en el defensa y va directo hacía la grada!!}
+
+| A corner
+
+[CORNER] {\n          ...  CÓRNER! :corner:}
+[CORNER] {\n          ...  Están atacando con mucha insistencia. Corner. :corner:}
+
+| A defender clearing the corner
+
+[CORNER_CLEARED] {\n          ...  %s cabecea hacia su portero}
+[CORNER_CLEARED] {\n          ...  %s aleja el peligro}
+[CORNER_CLEARED] {\n          ...  %s cubre el segundo palo\n          ...  Y evita el remate del delantero!}
+[CORNER_CLEARED] {\n          ...  %s salta en el primer palo\n          ...  Y mete la cabeza. Ha cortado la jugada!}
+[CORNER_CLEARED] {\n          ...  %s sale al corte\n          ...  Y llega el primero al balón. Buenos reflejos}
+[CORNER_CLEARED] {\n          ...  %s se lanza en plancha y despeja el balón. Se ha jugado el físico!}
+[CORNER_CLEARED] {\n          ...  %s se anticipa a la jugada\n          ...  Y manda el balón a la grada}
+[CORNER_CLEARED] {\n          ...  %s se eleva sobre los demás\n          ...  Y despeja con la cabeza}
+[CORNER_CLEARED] {\n          ...  %s controla el balón\n          ...  Y lo manda al centro del campo! No se ha complicado!}
+[CORNER_CLEARED] {\n          ...  %s controla el balón tras varios rebotes\n          ...  Sale jugando por bajo}
+[CORNER_CLEARED] {\n          ...  El centro es despejado %s}
+[CORNER_CLEARED] {\n          ...  El balón va directo hacia %s, que despeja con contundencia}
+
+| A corner played in
+
+[CORNER_TAKEN] {\n          ...  %s centra con fuerza al área pequeña!}
+[CORNER_TAKEN] {\n          ...  %s con un cerrado lanzamiento al primer palo!}
+[CORNER_TAKEN] {\n          ...  %s con un peligroso lanzamiento al segundo palo!}
+[CORNER_TAKEN] {\n          ...  %s le de mucho efecto a su lanzamiento!}
+[CORNER_TAKEN] {\n          ...  %s acaricia el cuero!}
+[CORNER_TAKEN] {\n          ...  %s coloca el balón con mucha suavidad!}
+[CORNER_TAKEN] {\n          ...  %s impacta el cuero con el interior del pie!}
+[CORNER_TAKEN] {\n          ...  %s centra hacia el área!}
+[CORNER_TAKEN] {\n          ...  %s cuelga el centro al segundo palo!}
+[CORNER_TAKEN] {\n          ...  %s saca el balón a la frontal!}
+[CORNER_TAKEN] {\n          ...  %s saca a la zona de peligro!}
+[CORNER_TAKEN] {\n          ...  %s saca al primer palo!}
+[CORNER_TAKEN] {\n          ...  %s cuelga el balón!}
+[CORNER_TAKEN] {\n          ...  El lanzamiento va a cargo de %s!}
+
+| A keeper catching the corner
+
+[CORNER_CAUGHT] {\n          ...  %s lo atrapa!}
+[CORNER_CAUGHT] {\n          ...  %s se eleva! Y caza el centro!}
+[CORNER_CAUGHT] {\n          ...  %s sale con valentía y atrapa el balón!}
+[CORNER_CAUGHT] {\n          ...  %s coge con facilidad el defectuoso centro!}
+[CORNER_CAUGHT] {\n          ...  %s mete los puños con fuerza y aleja el peligro!}
+[CORNER_CAUGHT] {\n          ...  %s mete el puño derecho y despeja el balón!}
+[CORNER_CAUGHT] {\n          ...  %s se anticipa a la jugada y atrapa el balón!}
+[CORNER_CAUGHT] {\n          ...  El centro va directo a las manos de %s}
+[CORNER_CAUGHT] {\n          ...  Que mal sacado! Directo al lateral de la red!\n          ...  %s recoje el balón para sacar de puerta}
+
+| A passes corner/short corner
+
+[SHORT_CORNER] {\n          ...  %s toca en corto!\n          ...  %s controla\n          ...  Mete el centro al área}
+[SHORT_CORNER] {\n          ...  %s sorprende a la defensa rival con un saque en corto\n          ...  %s recibe sólo!\n          ...  Cuelga al segundo palo!}
+[SHORT_CORNER] {\n          ...  %s toca en corto hacia %s\n          ...  En diagonal! Mira al área!\n          ...  Y mete un balón peligroso al área}
+[SHORT_CORNER] {\n          ...  %s pasa hacia %s!\n          ...  Se revuelve y mete el centro!}
+[SHORT_CORNER] {\n          ...  %s en corto hacia %s!\n          ...  Cuelga el balón}
+
+| A shot coming after the ball in from the corner
+
+[CORNER_SHOT] {\n          ...  %s controla con el pecho y hace una volea}
+[CORNER_SHOT] {\n          ...  %s entra con todo}
+[CORNER_SHOT] {\n          ...  %s supera con el salto a su marcador y remata}
+[CORNER_SHOT] {\n          ...  %s remata de cabeza}
+[CORNER_SHOT] {\n          ...  %s entra desde atrás!}
+[CORNER_SHOT] {\n          ...  %s llega al centro!}
+[CORNER_SHOT] {\n          ...  %s se levanta sobre la defensa!}
+[CORNER_SHOT] {\n          ...  %s mete la pierna!}
+[CORNER_SHOT] {\n          ...  %s trata de colocar su disparo!}
+[CORNER_SHOT] {\n          ...  Vuela hacia %s\n          ...  se anticipa a su marcador}
+[CORNER_SHOT] {\n          ...  Vuela hacia %s\n          ...  Peina el balón hacia atrás}
+[CORNER_SHOT] {\n          ...  %s controla con el pecho dentro del área pequeña!\n          ... Prepara el cabezazo...  }
+[CORNER_SHOT] {\n          ...  El balón cruza un bosque de piernas y llega a %s\n          ...  Mete el pie}
+[CORNER_SHOT] {\n          ...  Directo hacia %s\n          ...  Empalma de primeras}
+[CORNER_SHOT] {\n          ...  Directo hacia %s\n          ...  Remata como puede}
+[CORNER_SHOT] {\n          ...  %s se deshace de su marcador\n          ...  y mete la cabeza!}
+
+| A player controlling the ball from the corner
+
+[CORNER_CHANCE] {\n          ...  %s recibe el centro de córner!}
+[CORNER_CHANCE] {\n          ...  %s para con el pecho el balón centrado!}
+[CORNER_CHANCE] {\n          ...  %s controla!}
+[CORNER_CHANCE] {\n          ...  %s se abre un hueco entre la defensa!}
+[CORNER_CHANCE] {\n          ...  %s se permite controlar dentro del área chica!!}
+
+| A passed free kick
+
+[PASSED_FK] {\n          ...  %s pasa para %s}
+[PASSED_FK] {\n          ...  %s juega en corto para %s}
+[PASSED_FK] {\n          ...  %s dispara a puerta\n          ...  %s trata de desviar la trayectoria}
+[PASSED_FK] {\n          ...  %s engaña al equipo rival\n          ...  mete el pase para %s}
+[PASSED_FK] {\n          ...  %s cuelga el balón al área\n          ...  %s se anticipa a su marcador}
+[PASSED_FK] {\n          ...  %s toca en corto\n          ...  %s llega como un obús desde atrás}
+[PASSED_FK] {\n          ...  %s con la jugada de estrategia\n          ...  %s recibe el pase!}
+
+| A direct shot from the free kick
+
+[SHOT_FK] {\n          ...  %s dispara a puerta}
+[SHOT_FK] {\n          ...  %s dispara por un lado de la barrera}
+[SHOT_FK] {\n          ...  %s supera a la barrera por arriba}
+[SHOT_FK] {\n          ...  %s chuta con dureza}
+[SHOT_FK] {\n          ...  %s coloca el balón con suavidad por encima de la barrera}
+[SHOT_FK] {\n          ...  %s busca un disparo raso por debajo de la barrera}
+[SHOT_FK] {\n          ...  %s dispara un verdadero obús}
+[SHOT_FK] {\n          ...  %s trata de superar la barrera}
+[SHOT_FK] {\n          ...  El disparo de %s toca en la barrera y se envenena!}
+
+| A key tackle (scoring chance prevented)
+| 1st %s - player name
+
+[TACKLE] {\n          ... Le intenta hacer el lio!\n          ... Pero los pies se le hacen un nudo y se cae!\n          ... %s se esta descojonando en su cara!}
+[TACKLE] {\n          ... %s intercepta el balón con una entrada limpia!}
+[TACKLE] {\n          ...  %s ve venir el pase y corta el balón!}
+[TACKLE] {\n          ...  %s entrada agresiva por detrás, el delantero cae!\n          ...  Será sancionado? No! <ref> no vio ni falta!}
+[TACKLE] {\n          ...  %s agarra a su rival en el área\n          ...  El delantero pide penalti desesperdamente!\n          ...  Pero <ref> hace que 'no' con la cabeza!!!}
+[TACKLE] {\n          ...  %s corta con claridad\n          ...  Midió a la perfección! <m2> aplaude}
+[TACKLE] {\n          ...  %s corta la jugada con un cabezazo en plancha}
+[TACKLE] {\n          ...  %s despeja el balón hacia la grada\n          ...  Ei! Un aficionado se lleva el balón! Al ladrón}
+[TACKLE] {\n          ...  %s chuta el cuero con fuerza hacia la grada donde están sentados los aficionados de <t2>!!\n          ...  Ui! Los ha cabreado! Le tiran de todo!}
+[TACKLE] {\n          ...  %s se interpone entre el delantero y el balón. Ha ganado la posición!}
+[TACKLE] {\n          ...  %s lo envía al césped\n          ...  Los aficionados del <t1> reclaman penalti!\n          ...  Pero el arbitro pasa de todo! Los aficionados del <t2> aplauden la decisión}
+[TACKLE] {\n          ...  %s entra con dureza y corta el balón. Está metido en el partido <m1> le aplaude!}
+[TACKLE] {\n          ...  %s va en carrera y mete el codo\n          ...  El delantero va al suelo\n          ...  Ha sido sutil, <ref> no lo ha visto!}
+[TACKLE] {\n          ...  %s se anticipa la acción\n          ...  Vaya pedazo de defensa!\n          ...  Los aficionados del <t1> corean su nombre!}
+[TACKLE] {\n          ...  %s se anticipa a la jugada <m1> le aplaude!\n          ...  Puede salir con el balón jugado!}
+[TACKLE] {\n          ...  %s se anticipa a la jugada y se apodera del balón}
+[TACKLE] {\n          ...  %s mete la puntera de la bota y aleja el cuero}
+[TACKLE] {\n          ...  %s va en carrera y agarra al delantero por la camiseta!!\n          ...  Falta!!\n          ...  <ref> no lo ha visto! <m2> esta eufórico!\n          ...  El defensa sonríe! El delantero pone cara de incredulidad}
+[TACKLE] {\n          ...  %s sega el césped con una entrada terrorífica!\n          ...  El delantero evita a su rival, pero pierde el cuero!}
+[TACKLE] {\n          ...  %s sega el césped con una entrada terrorífica!\n          ...  Je je je, el delantero saltó!}
+[TACKLE] {\n          ...  %s sega el césped con una entrada terrorífica!}
+[TACKLE] {\n          ...  %s le roba el cuero}
+[TACKLE] {\n          ...  %s corta con mucha tranquilidad!}
+[TACKLE] {\n          ...  %s empuja al delantero! Los aficionados del <t2> gritan: "Eso es falta"!\n          ...  Qué listo, engañó a <ref>}
+[TACKLE] {\n          ...  %s arriesga con una entrada a ras de suelo! Ay! Le ha dado!\n          ...  <ref> no lo ha visto así!!}
+[TACKLE] {\n          ...  %s arriesga con una entrada a ras de suelo\n          ...  OOOHHHH!!\n          ...  El balón le queda rebotado al delantero\n          ...  Pero mete el pie de nuevo!}
+[TACKLE] {\n          ...  %s se lleva por delante a su rival!\n          ...  PENALT!!!\n          ...  No! <ref> da saque de puerta!\n          ...  Se buscan gafas para el árbitro! Urgente!}
+[TACKLE] {\n          ...  %s zancadillea a su oponente!!\n          ...  <ref> se da la vuelta!! Hace como quien no vio nada!!}
+[TACKLE] {\n          ...  %s se lleva el balón con la mano!!\n          ...  <ref> no lo ha visto! Que suerte! Podría haber recibido amarilla!}
+[TACKLE] {\n          ...  %s se lanza hacia su oponente\n          ...  Y toca el balón! Que clase!}
+[TACKLE] {\n          ...  %s pone el pie en el momento oportuno y despeja el balón <m1> le aplaude!}
+[TACKLE] {\n          ...  %s sale al corte! \n          ...  Se lleva al oponente por delante!\n          ...  <ref> dice que... sigan!}
+[TACKLE] {\n          ...  %s sale al corte... lo logra!! Los aficionados del <t1> le aplauden!}
+[TACKLE] {\n          ...  %s va al choque\n          ...  Y desplaza al delantero! Pero <ref> dice que sigan!}
+[TACKLE] {\n          ...  %s va al choque\n          ...  Y se lleva el cuero. El delantero no sabe si ha sido un contrario o un tren de mercancías!}
+[TACKLE] {\n          ...  %s entra con todo... y se lleva el balón limpiamente!}
+[TACKLE] {\n          ...  Interceptada por %s ! <m1> le aplaude!}
+[TACKLE] {\n          ...  Impresionante entrada de %s !!\n          ...  Este tío está dando una lección de cómo se defiende!}
+[TACKLE] {\n          ...  Pero %s lo aparta del balón con el codo. El delantero se queja, el defensa, sonríe!}
+[TACKLE] {\n          ...  Pero %s cabecea el balón hacia el portero}
+[TACKLE] {\n          ...  Pero %s se hace con el balón\n          ...  Gran anticipación!}
+[TACKLE] {\n          ...  %s ve venir el pase y lo corta con facilidad}
+[TACKLE] {\n          ...  Pero %s mete el cuerpo\n          ...  Y aparta del balón al delantero, que reclama un codazo\n          ...  <ref> dice que sigan!}
+[TACKLE] {\n          ...  %s va al suelo con los dos pies por delante\n          ...  <ref> estaba encima, pero no ha visto falta!}
+[TACKLE] {\n          ...  %s aparece de la nada. El delantero aún está buscando el balón!}
+[TACKLE] {\n          ...  Pero %s está muy metido en el partido y le roba la cartera! <m1> esta enfadado!}
+[TACKLE] {\n          ...  Pero %s se anticipa a la jugada. Qué sobriedad! <m1> Aplaude al jugador!}
+[TACKLE] {\n          ...  Pero %s roba el cuero}
+[TACKLE] {\n          ...  Pierde el control del balón\n          ...  %s despeja sin miramientos!}
+[TACKLE] {\n          ...  Pierde el control del balón\n          ...  %s mete el pie y lo envía a la grada!}
+[TACKLE] {\n          ...  Falla en el control\n          ...  y %s no desaprovecha el regalo <m1> le esta gritando!}
+[TACKLE] {\n          ...  Hace un mal control!!\n          ...  %s está muy encima en su marcaje y le arrebata el cuero! <m1> le aplaude por su labor!}
+[TACKLE] {\n          ...  Se ha resbalado\n          ...  %s recoge el balón. Menudo marcaje le está haciendo!}
+[TACKLE] {\n          ...  Pero pisa un charco y cae al suelo! <m2> esta cabreado!\n          ...  %s se encuentra con el balón 'regalado' y arma el contraataque!}
+[TACKLE] {\n          ...  Corte finísimo y preciso de %s\n          ...  Ha medido muy bien}
+[TACKLE] {\n          ...  Corte finísimo y preciso de %s\n          ...  Podría haber cometido la falta perfectamente si no hubiera estado tan fino}
+[TACKLE] {\n          ...  Corte finísimo y preciso de %s}
+[TACKLE] {\n          ...  Corte finísimo de %s\n          ...  Pero no puede evitar el córner! Era pedir demasiado}
+[TACKLE] {\n          ...  Corte finísimo de %s\n          ...  Y evita el córner! Está en un momento dulce!}
+[TACKLE] {\n          ...  %s se juega el físico con una entrada durísima. Era su única opción}
+[TACKLE] {\n          ...  %s se juega el físico con una entrada durísima}
+[TACKLE] {\n          ...  %s corta}
+
+[RECOVERY_TACKLE] {\n          ...  %s reacciona rápidamente y corta el balón! <m1> le aplaude!!}
+[RECOVERY_TACKLE] {\n          ...  %s reacciona a tiempo y roba el cuero! Parecía que estaba batido!}
+[RECOVERY_TACKLE] {\n          ...  %s recupera la compostura y se apodera del balón}
+[RECOVERY_TACKLE] {\n          ...  %s reacciona a tiempo y gana el esférico}
+[RECOVERY_TACKLE] {\n          ...  %s entra con dureza y se lleva el cuero}
+[RECOVERY_TACKLE] {\n          ...  %s evita que el ataque prospere}
+[RECOVERY_TACKLE] {\n          ...  %s se anticipa perfectamente a la acción}
+[RECOVERY_TACKLE] {\n          ...  %s reacciona rápidamente y corta el balón}
+
+|The next block is for commentaries in a one on one shooting situation
+
+|One on one chance
+| 1st %s - the player clean through
+| 2nd %s - the opposition goalkeeper
+
+[ONE_ON_ONE] {\n          ...  %s se anticipa a su marcador\n          ...  Regatea al líbero! Se va!\n          ... Sólo le queda %s!}
+[ONE_ON_ONE] {\n          ...  %s rompe el intento de fuera de juego rival!\n          ...  Se va sólo\n          ... %s sale desesperadamente}
+[ONE_ON_ONE] {\n          ...  %s rompe el intento de fuera de juego rival!\n          ...  Se va sólo\n          ... Sólo tiene que superar a %s}
+[ONE_ON_ONE] {\n          ...  %s rompe el intento de fuera de juego rival!\n          ...  Creo que estaba más adelante que el último defensa\n          ... %s sale a la desesperada}
+[ONE_ON_ONE] {\n          ...  %s rompe el intento de fuera de juego rival!\n          ...  Corre hacia %s}
+[ONE_ON_ONE] {\n          ...  %s ha roto el fuera de juego!\n          ...  Se va sólo!\n          ...  %s inicia la salida}
+[ONE_ON_ONE] {\n          ...  %s aprovecha un despiste de la defensa. Se va!\n          ...  Se planta ante %s}
+[ONE_ON_ONE] {\n          ...  %s se va sólo hacia la portería!\n          ...  El asistente levante la bandera\n          ...  Pero el arbitro le desautoriza\n          ...  Encara a %s}
+[ONE_ON_ONE] {\n          ...  %s se anticipa a su marcador!\n          ... sólo %s puede detenerle}
+[ONE_ON_ONE] {\n          ...  %s se anticipa a la defensa!\n          ...  Me pareció fuera de juego\n          ...  %s trata de salvar una situación desesperada}
+[ONE_ON_ONE] {\n          ...  %s en claro fuera de juego!\n          ...  El asistente no levanta la bandera!\n          ...  %s trata de cerrarle el ángulo}
+[ONE_ON_ONE] {\n          ...  %s ha encontrado un hueco entre la defensa!\n          ...  Su marcador se ha despistado!\n          ...  Se va sólo hacia %s}
+[ONE_ON_ONE] {\n          ...  %s se va, se va, se va!\n          ...  No hay fuera de juego!\n          ...  Se va sólo hacia %s}
+[ONE_ON_ONE] {\n          ...  Balón bombeado\n          ...  %s se anticipa al defensa de cabeza!\n          ...  Se va sólo hacia %s}
+[ONE_ON_ONE] {\n          ...  La defensa está completamente despistada\n          ...  %s completamente sólo\n          ... %s sale desesperadamente}
+[ONE_ON_ONE] {\n          ...  El defensa resbala en el momento de controlar el balón\n          ...  %s es más rápido que nadie y controla el cuero\n          ...  Está cara a cara con %s}
+[ONE_ON_ONE] {\n          ...  El defensa estaba despistado\n          ...  %s aprovecha el error y se va sólo!\n          ... Sólo %s puede frenarlo}
+[ONE_ON_ONE] {\n          ...  El defensa retrasa el balón hacia <g2> \n          ...  %s lo intercepta!\n          ... Se va de frente hacia %s}
+
+|One on one shot off target
+
+[ONE_OFFTARGET] {\n          ...  <g2> sale a la desesperada\n      ... El atacante pica el balón!!\n         ...... Bota ante la portería!\n    ..... y sale fuera!! :tiro:)
+[ONE_OFFTARGET] {\n          ...  Encara a <g2> ! Es medio gol! \n          ...  Trata de regatear el portero! Falló! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Encara a <g2> ! Es medio gol! \n          ...  Ajusta su remate! Fuera! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Amaga el disparo y chuta de cuchara <g2> \n          ...  Se va fuera! Mira, mira, mira... Su técnico ha tirado la libreta al suelo. Menudo cabreo!! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Amaga el disparo y chuta de cuchara <g2> \n          ...  Poco preciso! Fuera! Creo que habían soluciones mejores :tiro:}
+[ONE_OFFTARGET] {\n          ...  Levanta el balón ante la salida desesperada de <g2> \n          ...  Pero el balón ha salido demasiado cruzado! Fuera! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Levanta el balón ante la salida desesperada de <g2> \n          ...  Da en la parte superior del larguero! Y a la gradas! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Sienta a <g2> con un regate seco :tiro:\n          ...  Fuera! Increíble!}
+[ONE_OFFTARGET] {\n          ...  Sienta a <g2> con un regate seco \n          ...  Dispara de primeras!!\n          ...  Al palo! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Sienta a <g2> con una bicicleta \n          ...  Oh! Qué hace! La defensa se le ha hechado encima\n          ...  Busca el disparo\n          ...  Imposible! Impacta en su marcador! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Sienta a <g2> con una bicicleta \n          ...  Menuda frivolidad, se ha quedado sin ángulo!\n          ...  Trata de disparar... fuera!\n          ...  Menuda bronca le está dando su capitán!!}
+[ONE_OFFTARGET] {\n          ...  Regatea a <g2> con mucha clase \n          ...  Es gol de Abreu, Abreu, Abreeeeu!\n          ...  AHHHHH! Ha fallado! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Regatea a <g2> con mucha clase \n          ...  Dispara a puerta vacía!\n          ...  Al palo! Y fuera! Su entrenador le está diciendo de todo :tiro:}
+[ONE_OFFTARGET] {\n          ...  Se planta sólo ante <g2> \n          ...  Tiene todo el tiempo del mundo!\n          ...  fuera! Qué mal! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Está mano a mano con <g2> \n          ...  OH! Ha resbalado!\n          ...  El agradecido portero coge el balón suavemente!! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Está mano a mano con <g2> \n          ... Se ha escorado\n          ...  Y su remate se pierde por la línea de fondo!! :tiro:}
+[ONE_OFFTARGET] {\n          ...  Está mano a mano con <g2> \n          ...  Coloca el balón a un palo! OH! Fuera! :tiro:}
+
+|One on one goal
+|1st %s - team name
+
+[ONE_GOAL] {\n          ...  <g2> sale a la desesperada\n          ...  El atacante pica el balón!!\n          ...  Bota ante la portería!\n          ...  Y entra suavemente en la portería!\n          ...  GOLAZO! :gol:)
+[ONE_GOAL] {\n          ...  Levanta el balón ante la salida desesperada de <g2> \n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Amaga el disparo y chuta de cuchara <g2> \n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Amaga el disparo y regatea a <g2> \n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Sienta a <g2> con una bicicleta\n          ...  Qué calidad! Va a marcar!\n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Está solo ante <g2> \n          ...  Amaga el disparo!\n          ...  Engaña al portero\n          ...  y ... GOOOOAL!! :gol:}
+[ONE_GOAL] {\n          ...  Sienta a <g2> con un regate seco \n          ...  Se ha escorado demasiado!\n          ...  Pero se saca el chut\n          ...  Al palo!!\n          ...  Y dentro! GOOOOOOL!! :gol:}
+[ONE_GOAL] {\n          ...  Regatea a <g2> con mucha clase \n          ...  Tiene la puerta vacía!\n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Está solo ante <g2> \n          ...  Le coloca el balón a un lado!\n          ...  :gol:}
+[ONE_GOAL] {\n          ...  Encara a <g2> ! Es medio gol! \n          ...  Le levanta el balón sobre la salida!\n          ...  :gol:}
+
+|One on one Save
+|1st %s - Goalkeeper
+
+[ONE_SAVE] {\n          ...  Sienta a <g2> con un regate seco\n          ...  %s mete la mano en el último momento y evita el gol !! :tiro:}
+[ONE_SAVE] {\n          ...  Regatea a <g2> \n          ...  %s mete el pie y aleja el balón! El delantero lo mira sorprendido! :tiro:}
+[ONE_SAVE] {\n          ...  Regatea a <g2> con mucha clase\n          ...  Está escorado, pero chuta!!\n          ...  Al palo! %s corre y atrapa el balón!! :tiro:}
+[ONE_SAVE] {\n          ...  Sienta a <g2> en el suelo con un gran regate\n          ...  Tiene la puerta vacía!\n          ...  pero %s se rehace y le roba la cartera !! :tiro:}
+[ONE_SAVE] {\n          ...  Sienta a <g2> en el suelo con un gran regate\n          ...  GOL!\n          ...  NO! %s ha metido la mano en el último momento !! :tiro:}
+[ONE_SAVE] {\n          ...  Intenta superar a <g2> \n          ...  %s con la parada de la noche !! :tiro:}
+[ONE_SAVE] {\n          ...  Se adelanta el balón ante <g2> \n          ...  %s se lanza a sus pies jugándose el físico y atrapa el cuero !! :tiro:}
+[ONE_SAVE] {\n          ...  Está solo ante <g2> \n          ...  %s se juega el físico y para el balón !! :tiro:}
+[ONE_SAVE] {\n          ...  Encara a <g2> ! Es medio gol! \n          ...  NO! Vaya parada de %s!! :tiro:}
+[ONE_SAVE] {\n          ...  Está mano a mano con <g2> \n          ...  %s le adivina la intención y bloca el balón !! :tiro:}
+
+|A defender coming back to clear the chance
+
+[CLEARANCE] {\n          ...  Supera a <g2> con una precisa vaselina\n          ...  %s saca milagrosamente el balón en la línea!! :tiro:}
+[CLEARANCE] {\n          ...  Regatea a <g2> !\n          ...  Lo logra, pero se ha escorado!\n          ... Prueba el disparo, igualmente\n          ...  Va a entrar!!\n          ...  pero %s se desliza sobre el césped y corta la jugada!! :tiro:}
+[CLEARANCE] {\n          ...  Impresionante vaselina sobre <g2>\n          ...  GOL!\n          ...  NO! %s aparece de la nada y mete la cabeza!! :tiro:}
+[CLEARANCE] {\n          ...  Supera a <g2>\n          ...  Tiene la puerta vacía! Es GOL!\n          ...  NO! %s se lanza a la desesperada y lo evita! :tiro:}
+[CLEARANCE] {\n          ...  Supera a <g2> con un sombrerito!\n          ...  Dispara, a puerta abierta! Es GOL!\n          ...  Los aficionados del <t1> se levantan! Y gritan: "GOOOOOOOOOOOL"\n          ...  No es GOL! NO! %s aparece de la nada y tira el balón}
+
+|If a player picked up a knock, but is ok to carry on
+
+[KNOCK] {\nMin. %s :(%s) %s se resiente de la rodilla!\n          ...  Pone cara de dolor ¿podrá seguir?\n          ...  Sí! El técnico respira aliviado!}
+[KNOCK] {\nMin. %s :(%s) %s se resiente del tobillo\n          ...  El fisio examina la zona dolorida\n          ...  Todo parece indicar que va a seguir!}
+[KNOCK] {\nMin. %s :(%s) %s se lleva la mano al muslo!\n          ...  Parece que no va a seguir!\n          ...  Sí, solo ha sido un susto!}
+[KNOCK] {\nMin. %s :(%s) %s se retuerce de dolor en el suelo!\n          ...  Se levanta rápidamente!\n          ...  ¿Juega a fútbol o hace teatro?}
+[KNOCK] {\nMin. %s :(%s) %s cojea visiblemente!\n          ...  Pero parece que es momentáneo}
+[KNOCK] {\nMin. %s :(%s) %s se prueba, esta cojeando!\n          ...  Hace que 'sí' con la cabeza hacia el banquillo. Va a seguir!}
+[KNOCK] {\nMin. %s :(%s) %s parece lesionado!\n          ...  Se lo lleva la camilla, esperemos que no sea serio\n          ...  Vuelve al campo... va a entrar!\n          ...  Ha sido mas susto que dolor!}
+[KNOCK] {\nMin. %s :(%s) %s cae entre muestras de dolor!\n          ...  Trata de levantarse\n          ...  Hace que 'sí' con la cabeza hacia el banquillo. Va a seguir!}
+[KNOCK] {\nMin. %s :(%s) %s cae en muy mala posición!\n          ...  Se levanta cojeando... pero puede seguir!}
+
+| A shot to goal
+| 1st %s - player name
+
+[SHOT] {\n          ...  %s remata forzado... con la cabeza !}
+[SHOT] {\n          ...  %s remata forzado... con la rodilla!}
+[SHOT] {\n          ...  %s le pega como puede... con la espinilla!}
+[SHOT] {\n          ...  %s se va de su defensor, mete el pie!}
+[SHOT] {\n          ...  %s regatea a uno, dos y... oh! Chuta!}
+[SHOT] {\n          ...  %s con la red entre ceja y ceja!}
+[SHOT] {\n          ...  %s con un sutil toque de puntera!}
+[SHOT] {\n          ...  %s busca la red!}
+[SHOT] {\n          ...  %s golpea con todas sus fuerzas!}
+[SHOT] {\n          ...  %s dispara!}
+[SHOT] {\n          ...  %s dispara!\n          ... Que disparo mas malo, dios mio!}
+[SHOT] {\n          ...  %s sonrie a <g2> y chuta!!!}
+[SHOT] {\n          ...  %s golpea el balón! Uau! Ha hecho la 'folha seca'! Mira cómo baja!}
+[SHOT] {\n          ...  %s le pega 'mordida'!\n          ...  El balón va haciendo extraños en el aire}
+[SHOT] {\n          ...  %s impacta el cuero con fuerza !}
+[SHOT] {\n          ...  %s se escapa! Cuidado!}
+[SHOT] {\n          ...  %s empalma con la derecha !}
+[SHOT] {\n          ...  %s empalma con la zurda. Colocó mal el cuerpo !}
+[SHOT] {\n          ...  %s suelta un disparo muy débil !}
+[SHOT] {\n          ...  %s se saca una terrible volea!}
+[SHOT] {\n          ...  %s prueba suerte con un disparo raso!}
+[SHOT] {\n          ...  %s prueba suerte desde la lejanía !}
+[SHOT] {\n          ...  %s desde fuera del área !}
+[SHOT] {\n          ...  %s mete la cabeza segundos antes que su marcador !}
+[SHOT] {\n          ...  %s mete el pie antes que su marcador !}
+[SHOT] {\n          ...  %s llega forzado al remate !}
+[SHOT] {\n          ...  %s trata de ajustar el cuero al palo !}
+[SHOT] {\n          ...  %s busca el gol!}
+[SHOT] {\n          ...  %s otea la posición de <g2> !\n          ...  Dispara!}
+[SHOT] {\n          ...  %s suelta un cañonazo. Problemas para <g2> !}
+[SHOT] {\n          ...  %s dispara un verdadero obús !}
+[SHOT] {\n          ...  %s coloca el balón al palo largo !}
+[SHOT] {\n          ...  %s se anticipa a su marcador !}
+[SHOT] {\n          ...  %s salta con potencia por encima de la defensa !}
+[SHOT] {\n          ...  %s hace una diagonal\n          ...  Y suelta un sorprendente disparo!}
+[SHOT] {\n          ...  %s ve a <g2> adelantado !}
+[SHOT] {\n          ...  %s busca el palo por bajo !}
+[SHOT] {\n          ...  %s busca la vaselina !}
+[SHOT] {\n          ...  %s busca la escuadra !}
+[SHOT] {\n          ...  %s impacta el balón de primeras !}
+[SHOT] {\n          ...  %s busca un disparo con efecto! Esto es fútbol!}
+[SHOT] {\n          ...  %s se saca una tijera! Qué bello!}
+[SHOT] {\n          ...  %s con un tremendo disparo !}
+[SHOT] {\n          ...  %s con un verdadero obús !}
+[SHOT] {\n          ...  %s busca la vaselina... desde MEDIO CAMPO!!}
+[SHOT] {\n          ...  %s con un disparo a ras de suelo!}
+[SHOT] {\n          ...  %s vuela con bravura para rematar en plancha!}
+[SHOT] {\n          ...  %s connecta el balón con la cabeza y lo peina hacia atrás!}
+[SHOT] {\n          ...  %s con un tremendo cabezazo !}
+[SHOT] {\n          ...  Potente chut de %s !}
+[SHOT] {\n          ...  Envenenado trallazo de %s !}
+[SHOT] {\n          ...  %s coloca un preciso disparo !}
+[SHOT] {\n          ...  %s mete el interior del pie con mucha intención!}
+[SHOT] {\n          ...  Espectacular remate de %s !}
+[SHOT] {\n          ...  Logra meter la plaanta del pie %s !}
+[SHOT] {\n          ...  %s cruza la línea de medios, avanza, mira al portero y chuta!}
+[SHOT] {\n          ...  %s busca la escuadra derecha !}
+[SHOT] {\n          ...  El lanzamiento rebota en el muslo de %s y se encamina a puerta !}
+
+| A save (by the goalkeeper)
+| 1st %s - goalkeeper name
+
+[SAVE] {\n          ...  <g1> despeja el balón... con el pecho! Vaya manera de vacilar al contrario!} 
+[SAVE] {\n          ...  <g1> hinca la rodilla en el suelo y despeja\n          ...  Ei! Eso es estilo argentino!}
+[SAVE] {\n          ...  <g1> bloquea el disparo con las piernas\n          ...  La pelota sale rebotada hacia el centro del campo!}
+[SAVE] {\n          ...  <g1> alcanza el cuero}
+[SAVE] {\n          ...  <g1> lo para cómodamente\n          ...  El disparo nunca llevó peligro real}
+[SAVE] {\n          ...  <g1> vuela cual Airbus y ataja el balon!!!}
+[SAVE] {\n          ...  <g1> coge el balon...\n          ... No! Se le escurre!!!\n          ... Pero reacciona rapidamente y lo atrapa!}
+[SAVE] {\n          ...  <g1> alcanza el cuero sin dificultad alguna}
+[SAVE] {\n          ...  <g1> recibe el balon como en voleibol... y lo atrapa!}
+[SAVE] {\n          ...  <g1> agranda su figura \n          ...  Cierra todo el espacio ! \n          ...  Y para el lanzamiento. La grada le aplaude}
+[SAVE] {\n          ...  <g1> agranda su figura y atrapa la pelota espectacularmente}
+[SAVE] {\n          ...  <g1> para el lanzamiento\n          ...  Y aleja el cuero!}
+[SAVE] {\n          ...  <g1> se las apaña para meter los guantes}
+[SAVE] {\n          ...  <g1> cierra el ángulo y atrapa la pelota con facilidad}
+[SAVE] {\n          ...  <g1> despeja con problemas\n          ...  El líbero mete la cabeza y aleja el cuero}
+[SAVE] {\n          ...  <g1> despeja con problemas}
+[SAVE] {\n          ...  <g1> deja el balón suelto!\n          ...  Su defensa cierra bien y envía el cuero a las gradas!}
+[SAVE] {\n          ...  <g1> para. Le vino directo a las manos}
+[SAVE] {\n          ...  <g1> se mueve menos que Oblak en una tanda de penaltis... Y LA ATRAPA!!!!}
+[SAVE] {\n          ...  <g1> se mueve menos que Oblak en una tanda de penaltis... Y LA ATRAPA!!!!\n          ... <g1> lo sabia, sonrie descaradamente}
+[SAVE] {\n          ...  <g1> para\n          ...  Colocación y reflejos, la clave en un portero}
+[SAVE] {\n          ...  <g1> para\n          ...  Puso el cuerpo atrás, como marcan los cánones}
+[SAVE] {\n          ...  <g1> vuela y atrapa el balon!}
+[SAVE] {\n          ...  <g1> vuela y atrapa el balon!\n          ...  Acaso Lev Yashin sigue en activo???}
+[SAVE] {\n          ...  <g1> ve venir el balón\n          ...  Y lo atrapa con facilidad}
+[SAVE] {\n          ...  <g1> ve venir el balón\n          ...  Que hace????\n          ... EL ESCORPIÓN!\n          ... <g1> se lleva la ovacion del publico!!!}
+[SAVE] {\n          ...  <g1> tapa perfectamente el ángulo largo \n          ...  Y detiene el balón con sobriedad}
+[SAVE] {\n          ...  <g1> está tapado. No verá el balón! \n          ...  Qué reflejos! Lo ha atrapado!}
+[SAVE] {\n          ...  <g1> está tapado. No ve venir el balón \n          ...  Pero lo despeja con los puños. Poco ortodoxo, pero efectivo}
+[SAVE] {\n          ...  <g1> está tapado. No ve venir el balón \n          ...  Reacciona rápidamente! Y desvía el cuero!}
+[SAVE] {\n          ...  <g1> se saca una espectacular parada \n          ...  Su capitán lo felicita por esa intervención}
+[SAVE] {\n          ...  <g1> vuela sobre la línea de gol\n          ...  Y realiza una espectacular parada! Está enchufado!}
+[SAVE] {\n          ...  <g1> vuela sobre la línea de gol\n          ...  Y atrapa el cuero! Uau, fue digno de la Araña Negra}
+[SAVE] {\n          ...  <g1> mete la pierna\n          ...  Hay que blocar el balón jefe!}
+[SAVE] {\n          ...  Pero <g1> bloca el cuero con mucha tranquilidad}
+[SAVE] {\n          ...  <g1> mete la mano y alcanza el balón con la punta de los dedos \n          ...  El arbitro dice que no la ha tocado \n          ...  Menudo desastre !}
+[SAVE] {\n          ...  <g1> mete la mano y alcanza el balón con la punta de los dedos \n          ...  córner, marca <ref>  \n          ...  Pero el asistente lo corrige! Eso es asistir?}
+[SAVE] {\n          ...  <g1> mete la mano y alcanza el balón con la punta de los dedos}
+[SAVE] {\n          ...  Pero <g1> detiene con suma facilidad \n          ...  Siempre estuvo encima de la jugada}
+[SAVE] {\n          ...  Pero <g1> hace una gran parada\n          ...  Uau! Estuvo cerca! \n          ...  Tuvo que emplearse a fondo para evitar el gol!}
+[SAVE] {\n          ...  Pero <g1> hace una gran parada}
+[SAVE] {\n          ...  <g1> alcanza el cuero. Buena parada\n          ...  El árbitro pita falta sobre <g1> , de todas maneras}
+[SAVE] {\n          ...  <g1> alcanza el cuero. Buena parada}
+[SAVE] {\n          ...  <g1> mete los puños y manda el cuero al centro del campo}
+[SAVE] {\n          ...  <g1> bloca el balón con sobriedad}
+[SAVE] {\n          ...  Qué agilidad!!! <g1> ha estado tremendo!}
+[SAVE] {\n          ...  <g1> hace una gran parada\n          ...  Y se las arregla para controlar el balón!}
+[SAVE] {\n          ...  <g1> hace una gran parada\n          ...  Pero no puede retener el balón!\n          ...  Lo atrapa en el segundo intento!}
+[SAVE] {\n          ...  <g1> hace una gran parada\n          ...  Pero no puede retener el balón!}
+[SAVE] {\n          ...  <g1> agranda su figura \n          ...  Cierra todo el espacio ! \n          ...  Y para el lanzamiento. La grada le aplaude}
+[SAVE] {\n          ...  <g1> agranda su figura y atrapa la pelota espectacularmente}
+[SAVE] {\n          ...  <g1> para el lanzamiento\n          ...  Y aleja el cuero!}
+[SAVE] {\n          ...  <g1> se las apaña para meter los guantes}
+[SAVE] {\n          ...  <g1> cierra el ángulo y atrapa la pelota con facilidad}
+[SAVE] {\n          ...  <g1> flota sobre la línea de meta\n          ...  Mete la mano\n          ...  Córner? No! Se equivocó!}
+[SAVE4CORNER] {\n          ...  <g1> vuela y despeja el balón al lado del palo \n          ...  Cuando está 'enchufado' es de los mejores de la Liga}
+[SAVE4CORNER] {\n          ...  <g1> salta y prolonga el balón por encima de larguero \n          ...  Estaba bien colocado. Ha sido clave}
+[SAVE4CORNER] {\n          ...  Pero <g1> rechaza con los puños \n          ...  Córner}
+[SAVE4CORNER] {\n          ...  <g1> despeja sin miramientos\n          ...  Córner}
+[SAVE4CORNER] {\n          ...  Envía un disparo colocadísimo!! \n          ...  <g1> llega con la punta de los dedos !!\n          ...  Gran parada! Estas acciones pueden ser claves en un partido}
+[SAVE4CORNER] {\n          ...  No podría haber disparado mejor!! \n          ...  <g1> mete una mano milagrosa !!\n          ...  Gran parada! El delantero le da la mano}
+[SAVE4CORNER] {\n          ...  Suelta un disparo impregnado de calidad y colocación!! \n          ...  <g1> mete el guante !!\n          ...  Gran parada! El público corea su nombre}
+[SAVE4CORNER] {\n          ...  Pega en el palo!! \n          ...  Pero se hace con el rebote \n          ...  OHHHHHHHH !! \n          ...  <g1> detiene el remate con el muslo. El balón se pierde por la línea de fondo !}
+[SAVE4CORNER] {\n          ...  Se va fuera!\n          ...  Pero rebota en un defensa! Ay!\n          ...  <g1> reacciona y cede el córner}
+[SAVE4CORNER] {\n          ...  <g1> coge el balon\n          ... No! Se le escapa, que error!\n          ... Va directo a porteria!!!\n          ... <g1> reacciona y envia el balon a corner!!! :corner:}
+[SAVE4CORNER] {\n          ...  <g1> pone lo puños. El balón sale hacia atrás...}
+[SAVE4CORNER] {\n          ...  <g1> mete la planta del pie y despeja el cuero}
+[SAVE4CORNER] {\n          ...  <g1> controla perfectamente la trayectoria del balón\n          ...  Y lo atrapa sin dificultades}
+[SAVE4CORNER] {\n          ...  <g1> controla perfectamente la trayectoria del balón\n          ...  Gran parada!}
+[SAVE4CORNER] {\n          ...  <g1> mete la manopla y fuerza el córner}
+
+| Shot going off target
+
+[OFFTARGET] {\n          ...  GOOOOOOOOOOOOOOOOOOOOOOOOOOOL!!!\n          ... No! Ha entrado por fuera de la porteria!!!}
+[OFFTARGET] {\n          ...  GOOOOOOOOOOOOOOOOOOOOOOOOOOOL!!!\n          ... No! Ha entrado por fuera de la porteria!!!\n          ... Que hace? Lo esta celebrando?????}
+[OFFTARGET] {\n          ...  <g2> ve como el balón se pierde lejos de su marco}
+[OFFTARGET] {\n          ...  <g2> no llegará a ese balón!  \n          ...  Impacta en la madera!\n          ...  Y se va fuera!}
+[OFFTARGET] {\n          ...  <g2> no llegará a ese balón! \n          ...  Oooh se pierde por arriba!!}
+[OFFTARGET] {\n          ...  <g2> está mas quieto que Oblak en una tanda de penales!! \n          ...  Oooh se pierde por arriba!! <g2> respira aliviado}
+[OFFTARGET] {\n          ...  <g2> está mas quieto que Oblak en una tanda de penales!! \n          ...  Fuera! Por centimetros!!!\n          ... <g2> sonrie}
+[OFFTARGET] {\n          ...  Pero le pegó rematadamente mal!}
+[OFFTARGET] {\n          ...  Al cielo del estadio <venue>!!!}
+[OFFTARGET] {\n          ...  Coloca el balón lejos del alcance del portero!! \n          ...  Pero da en el palo !!\n          ...  Bueno, los palos también juegan!!}
+[OFFTARGET] {\n          ...  Sitúa el balón suavemente lejos del alcance del portero!!\n          ...  Pero va a parar al larguero !!\n          ...  Y fuera!\n          ...  <g2> acaricia su portería. No me extraña!!!!}
+[OFFTARGET] {\n          ...  Coloca el balón suavemente lejos del alcance del portero!! \n          ...  Pero sale rozando el palo !!\n          ...  <g2> estaba vendido!}
+[OFFTARGET] {\n          ...  Es incapaz de chutar a puerta!\n          ...  Ha tardado una eternidad!\n          ...  Será el efecto Matrix????}
+[OFFTARGET] {\n          ...  Es incapaz de chutar a puerta!\n          ...  Un defensa le arrebató el balón en el último momento!\n          ...  Este tío juega a cámara lenta!}
+[OFFTARGET] {\n          ...  Dispara excesivamente alto!\n          ...  Está horrorizado por lo que falló!\n           ...  Su entrenador está hablando solo? Ui no, creo que era un insulto!}
+[OFFTARGET] {\n          ...  Dispara excesivamente alto!\n          ...  Está horrorizado por lo que falló!\n          ...  No es para menos!}
+[OFFTARGET] {\n          ...  Su disparo es rechazado por el portero\n          ...  Se hace con el rebote!\n          ...  Y dispara fuera!\n          ...  Se precipitó!}
+[OFFTARGET] {\n          ...  Al lateral de la red\n          ...  Parte del estadio cantó gol!!!!}
+[OFFTARGET] {\n          ...  Al lateral de la red}
+[OFFTARGET] {\n          ...  El balón hace un mal bote sobre el césped y su disparo se va fuera}
+[OFFTARGET] {\n          ...  El balón le bota antes de disparar \n          ...  Y se va a la grada. Hay risas en algunos sectores del campo}
+[OFFTARGET] {\n          ...  La manda fuera del estadio!\n          ...  Eso ha sido un disparo de fútbol o un kick de fútbol americano?!}
+[OFFTARGET] {\n          ...  Vuela por encima de <g2> \n          ...  Va a puerta!\n          ...  El portero mete la mano, será suficiente?\n          ...  Sí, ha desviado el disparo!}
+[OFFTARGET] {\n          ...  Vuela por encima de <g2> \n          ...  Va a puerta!\n          ...  Pero se pierde por encima del larguero\n          ...  Tenía mucha intención}
+[OFFTARGET] {\n          ...  La manda fuera del estadio!}
+[OFFTARGET] {\n          ...  Sale fuera y será saque de puerta}
+[OFFTARGET] {\n          ...  OOOOHHHHH!!!! \n          ...  Fuera!\n          ...  Tenía una posición clara!\n          ...  El entrenador le está abroncando!}
+[OFFTARGET] {\n          ...  OOOOHHHHH!!!! \n          ...  Increible!!! \n          ...  Se ha ido fuera :tiro:}
+[OFFTARGET] {\n          ...  OOOOOOHHHHHHHH \n          ...  A salido lamiendo el palo :tiro:}
+[OFFTARGET] {\n          ...  OOOOOOHHHHHHHH \n          ...  Iba bien, pero el viento la ha mandado fuera!!! :tiro:}
+[OFFTARGET] {\n          ...  Fuera!\n          ...  Menos fuerza y más puntería chico}
+[OFFTARGET] {\n          ...  Fuera!\n          ...  Chaval, estamos jugando al futbol, no al rugby!}
+[OFFTARGET] {\n          ...  La red se mueve!\n          ...  OH!! Pegó en el lateral\n          ...  Parte de la grada cantó GOL!}
+[OFFTARGET] {\n          ...  La red se mueve!\n          ...  OH!! Pegó en el lateral\n          ...  El delantero sale corriendo a celebrarlo con la grada... lamentable}
+[OFFTARGET] {\n          ...  El disparo se le escurre a <g2> de las manos\n          ... rueda lentamente hacia el marco!\n          ...  Pero sale a centímetros del palo!}
+[OFFTARGET] {\n          ...  El disparo coge un efecto envenenado\n          ...  <g2> reacciona rápidamente y corrige su posición!!\n          ...  No va a llegar!\n          ...  Pero sale rozando el palo!!\n          ...  <g2> estaba batido!}
+[OFFTARGET] {\n          ...  El disparo coge un efecto envenenado\n          ...  Fuera !!\n          ...  Si llega a ir a puerta...}
+[OFFTARGET] {\n          ...  Se va fuera}
+[OFFTARGET] {\n          ...  Fuera!\n          ...  De qué sirve tanta potencia si el disparo va fuera???}
+[OFFTARGET] {\n          ...  Rebota en el palo!! \n          ...  Se anticipa al defensa para el rebote \n          ...  Tiene la portería para él solo !! \n          ...  NOOOOOOOO! La ha tirado fuera! Imposible! No me lo creo!}
+[OFFTARGET] {\n          ...  Rebota en el palo!! \n          ...  El rebote le cae en los pies \n          ...  Trata de regatear al portero \n          ...  Se ha enredado con el balón! Vaya fallo! Su entrenador está dando puñetazos al banquillo!}
+[OFFTARGET] {\n          ...  Rebota en el palo!! \n          ...  Se anticipa al defensa para el rebote \n          ...  Es gol de Abreu, Abreu, Abreeeeeeeeeeu !! \n          ...  Ha tirado fuera! Como? Si no había portero!}
+[OFFTARGET] {\n          ...  Golpea en la madera\n          ...  Y fuera! Está desesperado}
+[OFFTARGET] {\n          ...  Rebota en el palo!! \n          ...  Se anticipa al defensa para el rebote \n          ...  Ha disparado como el mismisimo Higuain! \n          ...  Fuera! Obvio, ya pudo haber tirado como Messi}
+[OFFTARGET] {\n          ...  Golpea en el travesaño...\n          ...  Y a las nubes!!!}
+[OFFTARGET] {\n          ...  Al lateral de la red!\n          ...  Ha tirado a la basura una ocasión de oro}
+[OFFTARGET] {\n          ...  Al lateral de la red!\n          ...  Se queda parado mirando hacia el cielo\n          ...  Creo que ni Diós sabe como pudo fallar eso!}
+[OFFTARGET] {\n          ...  Golpea las vallas publicitarias}
+[OFFTARGET] {\n          ...  A la quinta gradería!\n          ...  Seguro que se puso la bota derecha en el pie derecho!!}
+[OFFTARGET] {\n          ...  Busca la escuadra!\n          ...  Ojo con el efecto. El portero no va a llegar!!\n          ...  Pero aterriza en la grada superior de la portería !!\n          ...  <g2> sonríe. Estaba batido!}
+[OFFTARGET] {\n          ...  Ha batido a <g2> \n          ...  Pero se va fuera !!}
+[OFFTARGET] {\n          ...  Busca la vaselina \n          ...  A las nubes! Se habrá cambiado hoy de botas?}
+[OFFTARGET] {\n          ...  Golpea en el larguero \n          ...  Bota hacia abajo \n          ...  <g2> la atrapa \n          ...  Evitó el gol! \n          ...  Parte de la grada reclama el tanto!!!}
+[OFFTARGET] {\n          ...  Chuta con el exterior!\n          ...  Uhhhhh! Ha salido a metros del marco}
+[OFFTARGET] {\n          ...  El diparo coge el efecto cambiado!\n          ...  Fuera! Impactó mal el cuero!}
+[OFFTARGET] {\n          ...  Lo envía al córner!!! Qué fallo!!! \n          ...  "QUÉ MALO ERES" cantan los aficionados del <t2>}
+[OFFTARGET] {\n          ...  Lo envía al córner!!! Qué fallo!!! \n          ...  "BIZCO, BIZCO..." cantan los aficionados del <t2>}
+[OFFTARGET] {\n          ...  Lo envía al córner!!! Qué fallo!!! \n          ...  <g2> no puede mantenerse en pie... se esta descojonando!!!}
+[OFFTARGET] {\n          ...  Fuera!!! \n          ...  Menudo balonazo le ha dado al arbitro del área, le ha noqueado!}
+[OFFTARGET] {\n          ...  Fuera!!! \n          ...  Ha golpeado... en los tres palos!!!! Increible! :tiro:}
+
+| The shot resulted in a goal
+
+[GOAL] {\n          ...  <g2> no va a llegar!\n          ...  GOOOOOOOOL !! \n          ...  Le ha ganado la partida!!}
+[GOAL] {\n          ...  <g2> está mas quieto que Oblak en una tanda de penales!!\n          ...  GOOOOOOOOL !! \n          ...  Era obvio que no lo iba a parar!!}
+[GOAL] {\n          ...  <g2> la saca sobre la misma línea\n          ...  <ref> consulta con su asistente\n          ...  :gol:}
+[GOAL] {\n          ...  <g2> la saca sobre la misma línea\n          ...  <ref> para e indica... \n          ...  :gol:}
+[GOAL] {\n          ...  <g2> resbala\n          ...  GOOOOOL  !!\n          ...  <g2> está avergonzado. No es para menos!}
+[GOAL] {\n          ...  <g2> está batido! \n          ...  :gol: \n          ...  No ha podido hacer nada!!}
+[GOAL] {\n          ...  <g2> está batido! \n          ...  :gol: \n          ...  Está desolado!!}
+[GOAL] {\n          ...  <g2> está batido! \n          ...  Golpea en el larguero!!\n          ...  :gol:\n          ...  El portero sólo ha podido mirárselo!}
+[GOAL] {\n          ...  <g2> mira como el balón sale demasiado alto!\n          ...  Ha medido mal!!\n          ...  :gol:\n          ...  <g2> mira el balón fijamente! Está desolado!}
+[GOAL] {\n          ...  <g2> está sorprendido!\n          ...  No va a tener tiempo de llegar!\n          ...  :gol: \n          ...  Se tapa la cara con los guantes!}
+[GOAL] {\n          ...  <g2> para! Pero el balón queda muerto!\n          ...  :gol:\n          ...  La defensa ha ido a por uvas!}
+[GOAL] {\n          ...  <g2> para! PEro el balón queda muerto!\n          ...  :gol:\n          ...  Error en cadena de la defensa!}
+[GOAL] {\n          ...  <g2> no va a llegar! \n          ...  :gol: \n          ...  Qué golazo!!}
+[GOAL] {\n          ...  <g2> no va a llegar! \n          ...  :gol: \n          ...  Gran remate!!!}
+[GOAL] {\n          ...  <g2> no va a llegar! \n          ...  Impacta en la madera!\n          ...  :gol:\n          ...  Imparable!!}
+[GOAL] {\n          ...  :gol: \n          ...  <g2> llegó a tocar el esférico, pero no pudo pararlo}
+[GOAL] {\n          ...  :gol: \n          ...  <g2> recoge el balón de la red con parsimonia}
+[GOAL] {\n          ...  :gol: \n          ...  <g2> se encara con el líbero}
+[GOAL] {\n          ...  :gol: \n          ...  <m1> invade el campo, esta pletorico!}
+[GOAL] {\n          ...  :gol: \n          ...  <g2> abronca estrepitosamente a sus defensas}
+[GOAL] {\n          ...  :gol: \n          ...  <g2> se derrumba, como ha podido encajar ese tiro?????}
+[GOAL] {\n          ...  :gol: \n          ...  Gran final}
+[GOAL] {\n          ...  :gol: \n          ...  Llevaba rato buscándolo!\n          ...  Se tira al césped de cuatro patas\n          ...  Y aparecen más compañeros! Están haciendo el trenecito!}
+[GOAL] {\n          ...  :gol: \n          ...  Una jugada así sólo podía acabar en gol)
+[GOAL] {\n          ...  :gol: \n          ...  Vaya golazo! Como los que metia Del Piero en sus tiempos!}
+[GOAL] {\n          ...  :gol: \n          ...  Los seguidores del <t1> lo celebran efusivamente!}
+[GOAL] {\n          ...  :gol: \n          ...  Los aficionados enloquecen!}
+[GOAL] {\n          ...  :gol: \n          ...  Corre a festejar el tanto con <m1>!!!}
+[GOAL] {\n          ...  :gol: \n          ...  Es una sonrisa eso que hay en la cara de <m1>?}
+[GOAL] {\n          ...  :gol: \n          ...  Qué bien lo ha buscado!}
+[GOAL] {\n          ...  :gol:\n          ...  <g2> no pudo hacer nada!}
+[GOAL] {\n          ...  :gol:\n          ...  <g2> estaba a por uvas!}
+[GOAL] {\n          ...  :gol:\n          ...  Regateó a <g2>}
+[GOAL] {\n          ...  :gol:\n          ...  Tocó madera y para dentro. Imparable!}
+[GOAL] {\n          ...  :gol:\n          ...  María pon el vídeo a grabar!!!!!}
+[GOAL] {\n          ...  :gol:\n          ...  Jamás vi un gol asi, ES PEC TA CU LAR!!!!!}
+[GOAL] {\n          ...  :gol:\n          ...  Bang! Bang! Bang! Salió el pistolero!\n          ...  Y sus fans enloquecen}
+[GOAL] {\n          ...  :gol:\n          ...  Bang! Bang! Bang! Salió el pistolero!\n          ...  Los aficionados de <t2> le increpan!!!}
+[GOAL] {\n          ...  :gol:\n          ...  Bang! Bang! Bang! Salió el pistolero!}
+[GOAL] {\n          ...  :gol:\n          ...  Limpió las telarañas de la escuadra!}
+[GOAL] {\n          ...  :gol:\n          ...  Increible!!!! Si ha entrado por fuera de la red!}
+[GOAL] {\n          ...  Precisa vaselina sobre <g2> \n          ...  Trata de retroceder!\n          ...  :gol:\n          ...  Qué calidad!}
+[GOAL] {\n          ...  UAU! Ha pegado en el larguero y ha botado sobre la misma línea\n          ...  <ref> consulta con el asistente. Difícil decisión\n          ...  GOL ???\n          ...  Esta ciego!!!!!! Para cuando la tecnologia???\n          ...  El balón no ha cruzado la línea de meta! :gol:}
+[GOAL] {\n          ...  UAU! Ha pegado en el larguero y ha botado sobre la misma línea\n          ...  <ref> consulta con el asistente. Difícil decisión\n          ...  :gol:\n          ...  Los aficonados del <t1> rugen}
+[GOAL] {\n          ...  UAU! Ha pegado en el larguero y ha botado sobre la misma línea\n          ...  <ref> consulta con el asistente. Difícil decisión\n          ...  :gol: Lo ha dado!}
+[GOAL] {\n          ...  UAU! Ha pegado en el larguero y ha botado sobre la misma línea\n          ...  <ref> consulta con el asistente. Difícil decisión\n          ...  :gol: Lo ha dado!\n          ... Y no hacia falta consultar nada, estaba clarisimo que era gol}
+[GOAL] {\n          ...  UAU! Ha pegado en el larguero y ha botado sobre la misma línea\n          ...  <ref> consulta con el asistente. Difícil decisión\n          ...  :gol: Lo ha dado!\n          ... <ref> da el gol, y a <ref> le dan maletines. Es CLARISIMO que no ha entrado!}
+[GOAL] {\n          ...  Impacta en la parte interior del palo!!! \n          ...  <g2> trata de evitar que entre!\n          ...  Pero el balón acaba en la red!\n          ...  :gol:\n          ...  Creo que <g2> pudo hacer algo más!}
+[GOAL] {\n          ...  Pega en la madera\n          ...  :gol:}
+[GOAL] {\n          ...  Pega en la madera\n          ...  Parece que va a entrar, <g2> se tira a la desesperada...\n          ... :gol:}
+[GOAL] {\n          ...  Se mueve la red!\n          ...  :gol:\n          ...  Besa su camiseta!!\n          ...  Eso es amor por los colores!!\n          ...  Los aficionados corean su nombre!!}
+[GOAL] {\n          ...  Se mueve la red!\n          ...  :gol:\n          ...  Besa su camiseta!!\n          ...  Eso es amor por los color€$!!\n          ...  Los aficionados le gritan... "PESETERO!"\n          ... Nunca antes un gol fue tan mal celebrado!}
+[GOAL] {\n          ...  Se mueve la red!\n          ...  :gol:\n          ...  Hace una voltereta, dos, tres!!!\n          ...  Parece un saltimbanqui!}
+[GOAL] {\n          ...  Se mueve la red!\n          ...  :gol:}
+[GOAL] {\n          ...  El disparo coge un efecto endiablado\n          ...  <g2> se lanza desesperadamente hacia el cuero!!\n          ...  No lo va a lograr!\n          ...  :gol:\n          ...  El efecto ha podido con <g2>! }
+[GOAL] {\n          ...  El disparo rebota en un defensa y se desvía\n          ...  :gol:\n          ...  Qué mala suerte para el portero!}
+[GOAL] {\n          ...  Se mueve la red!\n          ...  :gol:\n          ...  Corre enloquecido hacia las gradas!\n          ...  Y se tira hacia el público! Qué loco!}
+[GOAL] {\n          ...  El balón se le escurre a <g2> de las manos!!\n          ...  :gol:\n          ...  Menudo error\n          ...  <m2> está desesperado!}
+[GOAL] {\n          ...  El balón se le escurre a <g2> de las manos!!\n          ...  :gol:\n          ...  Menudo error}
+[GOAL] {\n          ...  El balón se le escurre a <g2> de las manos!!\n          ...  :gol:\n          ...  No comas tostadas con mantequilla mientras llevas los guantes puestos, pasan estas cosas}
+[GOAL] {\n          ...  El balón se le escurre a <g2> de las manos!!\n          ...  :gol:\n          ...  Cuando enjabone los guantes... aclarelos bien!}
+
+| Extra information about the goal
+
+[EQUALISED] {\n          ...  <t1> se mete en el partido!}
+[EQUALISED] {\n          ...  <t1> empata el partido!}
+[EQUALISED] {\n          ...  <t1> nivela el luminoso!}
+[EQUALISED] {\n          ...  Empate! Menudo final de partido nos espera!}
+[EQUALISED] {\n          ...  Todo está por decidir, todavía!}
+[EQUALISED] {\n          ...  Equilibrio de fuerzas!}
+[EQUALISED] {\n          ...  Ahora están igualados!}
+[EQUALISED] {\n          ...  Eso mete a <t1> de nuevo en el partido!}
+[EQUALISED] {\n          ...  <t1> ha empatado!}
+[EQUALISED] {\n          ...  Acaba de empatar!}
+[EQUALISED] {\n          ...  Otra vez como al principio!}
+[EQUALISED] {\n          ...  el <t1> y el <t2> estan empatados de nuevo}
+
+[LEAD] {\n          ...  El <t1> gana momentáneamente!}
+[LEAD] {\n          ...  El <t1> gana... por ahora!}
+[LEAD] {\n          ...  El <t1> se pone por delante!}
+[LEAD] {\n          ...  El <t1> manda en el luminoso!}
+[LEAD] {\n          ...  El <t1> golpea. Ahora manda en el marcador}
+[LEAD] {\n          ...  El <t1> se cobra ventaja! Podrá mantenerla hasta el final?}
+[LEAD] {\n          ...  Este gol pone al <t1> por delante!\n          ...  A ver cómo maneja el partido ahora!}
+[LEAD] {\n          ...  A ver como administra su ventaja el <t1>!}
+[LEAD] {\n          ...  El <t1> jugará con ventaja a partir de ahora!}
+[LEAD] {\n          ...  El <t1> toma la iniciativa en el luminoso!}
+[LEAD] {\n          ...  El <t1> esta enchufado ahora mismo}
+
+[HOPE] {\n          ...  <t1> estrechan el marcador. Esto todavía no está decidido!}
+[HOPE] {\n          ...  <t1> recortan la diferencia en un tanto. Hay partido!}
+[HOPE] {\n          ...  El <t1> no ha dicho la última palabra todavía!}
+[HOPE] {\n          ...  <t1> aún tiene opciones!}
+[HOPE] {\n          ...  <t1> cree en la remontada!}
+[HOPE] {\n          ...  <t1> cree en la remontada!\n          ... Tienen mas moral que el Alcoyano!}
+[HOPE] {\n          ...  Rayo de esperanza para el <t1>! Logrará el milagro?!}
+[HOPE] {\n          ...  Bocanada de aire fresco para el <t1>! Logrará remontar?}
+[HOPE] {\n          ...  <t1> se mete de nuevo en el partido!}
+
+[CONSOLATIONGOAL] {\n          ...  <t2> se ha relajado ante su cómoda ventaja!}
+[CONSOLATIONGOAL] {\n          ...  Claro, ahora marca <t1>. Demasiado tarde}
+[CONSOLATIONGOAL] {\n          ...  No lo celebra. Para qué?}
+[CONSOLATIONGOAL] {\n          ...  Gol del honor pero estéril para el <t1> !}
+[CONSOLATIONGOAL] {\n          ...  Creo que sólo va a servir para maquillar el resultado!}
+[CONSOLATIONGOAL] {\n          ...  <m1> ni siquiera lo celebra!}
+[CONSOLATIONGOAL] {\n          ...  Demsiado tarde para el <t1> !}
+[CONSOLATIONGOAL] {\n          ...  A cualquier portero le hubiese gustado irse de esta paliza sin ningun gol encajado. Aún así, no sirve de nada}
+
+[LATEEQUALISER] {\n          ...  <t1> lo ha logrado!!\n          ...  Creo que se va a llevar un punto}
+[LATEEQUALISER] {\n          ...  Impresionante remontada!!\n          ...  <t1> empata prácticamente sobre el silbato final}
+[LATEEQUALISER] {\n          ...  Todo apunta a que habrá reparto de puntos!}
+[LATEEQUALISER] {\n          ...  Y el <t1> que va a arañar un punto dramático!}
+[LATEEQUALISER] {\n          ...  El punto que se va a llevar <t1> lo puede celebrar a final de temporada!}
+[LATEEQUALISER] {\n          ...  Qué momento para empatar! Dramático!}
+
+[LATEWINNER] {\n          ...  Habrá el <t1> robado la victoria con este tadrío gol?}
+[LATEWINNER] {\n          ...  Este gol va a decidir el choque!}
+[LATEWINNER] {\n          ...  Esperemos que <t2> no eche en falta este punto perdido al final de la temporada!!!}
+[LATEWINNER] {\n          ...  Ha roto el partido!}
+[LATEWINNER] {\n          ...  Este tanto prácticamente asegura la victoria para <t1> !!}
+[LATEWINNER] {\n          ...  Qué momento para marcar!!\n          ...  Hadejado a su rival sin márgen de reacción!}
+[LATEWINNER] {\n          ...  Qué oportuno!!\n          ...  Ha dejado el partido visto para sentencia!}
+
+| There was an own goal
+| 1st %s - game minute
+| 2nd %s - team abbreviation
+| 3rd %s - player scoring the own goal
+
+[OWNGOAL] {\nMin. %s :(%s) %s salta a por el balón de cabeza\n          ...  Ay! ha medido mal el salto!\n          ...  :gol:\n          ...  Remató hacia su arco! Su entrenador no se lo puede creer!}
+[OWNGOAL] {\nMin. %s :(%s) %s llega forzado al corte y mete la punta de la bota\n          ...  Ojo! El balón va  puerta!\n          ...  :gol:\n          ...  En propia puerta! Golpe moral para su equipo}
+[OWNGOAL] {\nMin. %s :(%s) %s despeja el cuero de mala manera\n          ...  Cuidado!! Va hacia su portería!! <g2> vuela!!\n          ...  :gol:\n          ...  En propia puerta! La jugada tonta de la jornada!}
+[OWNGOAL] {\nMin. %s :(%s) %s envía el balón atrás\n          ...  Ei! Demasiado fuerte! Llegará <g2> ???\n          ...  :gol:\n          ...  Ha marcado en propia puerta!!\n          ...  Es la viva imagen de la desolación!!}
+[OWNGOAL] {\nMin. %s :(%s) %s juega el balón hacia su portero\n          ...  Ohhhhh! <g2> resbala!!\n          ...  :gol:\n          ...  Qué jugada más absurda!!\n          ... El entrenador se tira de los pelos en el banquillo!!}
+[OWNGOAL] {\nMin. %s :(%s) %s falla en el momento de alejar el balón\n          ...  <g2> reacciona rápidamente!!\n          ...  :gol:\n          ...  Qué error!! Gol en propia puerta!!}
+[OWNGOAL] {\nMin. %s :(%s) %s trata de despejar el centro\n          ...  Pero el balón le impacta en el cuerpo!!!\n          ...  :gol:\n          ...  Ha marcado en propia puerta!!}
+[OWNGOAL] {\nMin. %s :(%s) %s pasa a <g2>...\n          ...  Por que lo hace en direccion porteria, si <g2> se ha alejado de ella para el pase?\n          ...  :gol:\n          ...  El gol mas TONTO de todo ESO!!}
+
+| The goal was the player’s Hat trick
+
+[HATTRICK] {\n          ...  Celebra como loco su hat-trick!}
+[HATTRICK] {\n          ...  Ya lo dicen no? No hay dos sin tres!}
+[HATTRICK] {\n          ...  Hat trick!!\n          ...  Eso está al alcance de muy pocos. Qué grande!}
+[HATTRICK] {\n          ...  Acapara todos los flashes. Hat trick!}
+[HATTRICK] {\n          ...  Va a acaparar portadas mañana!\n          ...  Ha logrado un hat trick!}
+[HATTRICK] {\n          ...  Es su tercer tanto este partido!!}
+[HATTRICK] {\n          ...  Hat trick!! Vaya tarde!}
+[HATTRICK] {\n          ...  Se apunta un hat trick!\n          ...  Y corre hacia <m1>!}
+[HATTRICK] {\n          ...  Y es su hat trick!\n          ...  Los jugadores del <t1> lo felicitan!}
+[HATTRICK] {\n          ...  Lo ha logrado!!\n          ...  Hat trick! Qué tío!}
+
+| The goal was a landmark goal (10,20,30,40,50,60,70th strike of the season
+| %d- goals for the season
+
+[LANDMARK] {\n          ...  Ya ha celebrado %d esta Liga!!}
+[LANDMARK] {\n          ...  Y van %d esta temporada!!}
+[LANDMARK] {\n          ...  No se cansa de marcar goles!! Ya lleva %d este año!}
+[LANDMARK] {\n          ...  Esto lo lleva a celebrar su tanto número %d!!}
+[LANDMARK] {\n          ...  Se ha apuntado el gol número %d de la temporada!!}
+[LANDMARK] {\n          ...  Se levanta la camiseta!\n          ...  En la de debajo pone: %d goles este año y subiendo!!}
+[LANDMARK] {\n          ...  Está en racha. Ya suma %d tantos este año!!}
+[LANDMARK] {\n          ...  Y otro mas! Ya son %d goles esta temporada!!!}
+[LANDMARK] {\n          ...  Este ha sido su gol número %d de la temporada!!}
+[LANDMARK] {\n          ...  Esto lo lleva a celebrar su tanto número %d de la temporada! Qué jugadorazo! Se parece a Del Piero!}
+[LANDMARK] {\n          ...  Esto lo lleva a celebrar su tanto número %d de la temporada!!}
+[LANDMARK] {\n          ...  %d goles son ya palabras mayores, y este jugador los ha conseguido esta temporada}
+
+| The goal was cancelled
+
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  Qué marca? Falta sobre el portero? \n          ...  Bueno, tengo mis dudas}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  Estaba en fuera de juego por 2 metros, como mínimo}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  Estaba en fuera de juego. No hay espacio para la duda}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  Alguien me puede explicar la razón?? \n          ...  Los jugadores pierden los nervios \n          ...  Y los aficionados cantan "Qué malo eres, árbitro que malo eeeeeres"}
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  Fuera de juego \n          ...  Habría que verlo repetido}
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  Fuera de juego \n          ...  Acertó en su decisión}
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  Una decisión muy dudosa! \n          ...  El técnico pierde los nervios y se encara con el asistente!!\n          ...  AMARILLA!} 
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  <m1> pierde los nervios y grita al colegiado!!\n          ...  Y ve la AMARILLA!} 
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  <m1> pierde los nervios y grita al colegiado!!\n          ...  Y ve la ROJA!}
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  Por que?\n          ...  Cuanto le han debido pagar a <ref>??? Era gol CLARO!}
+[GOALCANCELLED] {\n          ...  Pero ha sido ANULADO! \n          ...  La razón no está clara! \n          ...  El técnico está como loco en la banda y el colegiado le indica que se calle!\n          ...  Ay! Estuvo a punto de pegarle! ROJA para el técnico!}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  La razón no está clara! \n          ...  El entrenador manda al árbitro a la mierda!\n          ...  Y el colegiado lo expulsa!! Qué desaguisado!}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  La razón no está clara! \n          ...  El técnico pierde los nervios y grita al colegiado!!\n          ...  Y ve la ROJA! Madre mía...}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  El árbitro ha visto manos antes del remate}
+[GOALCANCELLED] {\n          ...  ANULADO! No subirá al marcador! \n          ...  El árbitro no lo ha dudado ni un segundo}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. Estaba en fuera de juego claramente}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. Mi primo de 11 años pitaría mejor}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. El asistente tiene el banderín levantado!\n          ...  Gritos de "FUERA, FUERA, FUERA" en el estadio}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. El asistente ha levantado el banderín!\n          ...  Ay va! Pañolada contra los árbitros! Cómo están los ánimos!}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. El asistente tiene el banderín levantado!}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. El asistente vio una falta del delantero}
+[GOALCANCELLED] {\n          ...  Pero ha sido anulado. La razón no está clara\n          ...  OJO!!!! Un aficionado de <t1> indignado se ha colado en el campo!!\n          ...  Pero la policía lo detiene!!\n          ...  Señores, no perdamos los nervios!!}
+[GOALCANCELLED] {\n          ...  NO! ANULADO!. "FUERA, FUERA!" grita la aficion de <t1>}
+[GOALCANCELLED] {\n          ...  Pero ha sido anulado. Hubo falta previa sobre el defensa. Bien visto}
+[GOALCANCELLED] {\n          ...  Pero ha sido anulado. Hubo falta previa sobre el portero}
+[GOALCANCELLED] {\n          ...  Pero ha sido anulado. Hubo falta previa sobre el portero\n          ... No le toca!!! INCREIBLE, el robo mas grande en ESO!}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  Fuera de juego. El asistente lo vio clarísimo}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  Fuera de juego. El asistente estuvo fino aquí}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  Hubo falta previa sobre el defensa. Bien visto}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  El asistente tiene el banderín levantado!\n          ...  Creo que estaba en línea y él miró al balón!\n          ...  Eso no es fuera de juego!}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  El asistente tiene el banderín levantado!}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  El árbitro vio algo antirreglamentario}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  El árbitro vio la falta previa\n          ...  Los indignados jugadores rodean al colegiado! \n          ...  Pero no les hace ni caso!}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  El árbitro vio la falta previa}
+[GOALCANCELLED] {\n          ...  ANULADO!\n          ...  Pero... porqué???\n          ...  Creo que se ha equivocado de todas todas!}
+
+| An injury
+| 1st %s - minute
+| 2nd %s - team abbreviation
+| 3rd %s - the injured player
+
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s trata de levantarse tras la entrada\n          ...  Imposible! Se lastimó!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s cae en mala posición. Se ha lesionado!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se ha esguinzado gravemente la rodilla!\n          ...  Parece que va a seguir...\n          ...  No! Se dirige al banco y pide el cambio}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se ha esguinzado gravemente la rodilla!\n          ...  El medico de <t1> entra al campo apresuradamente\n          ...  Pero el spray no suerte efecto! Cambio! }
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s está cojeando. Se prepara el cambio}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se toca el tobillo\n          ...  Pide urgentemente que le atienda el médico\n          ...  Nada que hacer! Cambio}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se toca la rodilla\n          ...  Sale del campo para que lo atienda el fisio\n          ...  Es serio! Habrá cambio}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s está en el suelo\n          ...  El medico de <t1> entra rápidamente\n          ...  Llama a la camilla. Cambio!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s está en el suelo\n          ...  El medico de <t1> entra rápidamente\n          ...  Dice que no con la cabeza. Cambio!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se retuerce de dolor sobre el césped!\n          ...  <m1> no tendrá más remedio que cambiarlo!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s parece lesionado. Ha tenido un tirón\n          ...  Esperemos que sea eso y no un desgarro}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s parece lesionado. No va a seguir\n          ...  Esperemos que no sea nada serio}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se levanta\n          ...  Pero el dolor es insoportable\n           ...  Malas noticias! Pide el cambio!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se levanta\n          ...  Trata de pisar, pero está cojo!\n          ...  Malas noticias! Pide el cambio!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se lleva la mano al muslo!\n          ...  Hace que no con la cabeza! Se ha roto!}
+[INJURY] {\nMin. %s :(%s) :injury:\n          ...  %s se tuerce gravemente el tobillo!\n          ...  No continuará! Eso es un esguince como mínimo}
+
+| An injury
+| 1st %s - minute
+| 2nd %s - team abbreviation
+| 3rd %s - player name
+| 4th %s - new position
+
+[CHANGEPOSITION] {\nMin. %s :(%s) Ha <m1> no le gusta lo que esta viendo.\n          ...  Le dice a %s que se coloque de %s!}
+[CHANGEPOSITION] {\nMin. %s :(%s) %s cambia su posición en el dibujo táctico. Jugará de %s}
+[CHANGEPOSITION] {\nMin. %s :(%s) %s pasa a jugar de %s tras recibir las indicaciones de <m1>}
+[CHANGEPOSITION] {\nMin. %s :(%s) %s escucha las órdenes que le dicta <m1> y se mueve a la posición de %s}
+[CHANGEPOSITION] {\nMin. %s :(%s) <m1> hace señas!\n          ...  %s se reubica como %s}
+[CHANGEPOSITION] {\nMin. %s :(%s) <m1> gesticula...\n          ...  le indica a %s que pase a jugar de %s}
+[CHANGEPOSITION] {\nMin. %s :(%s) Parece que %s va a jugar ahora de %s}
+[CHANGEPOSITION] {\nMin. %s :(%s) Creo que %s ha pasado a jugar de %s}
+
+| A substitution
+| 1st %s - minute
+| 2nd %s - team abbreviation
+| 3rd %s - player-in name
+| 4th %s - player-out name
+| 5th %s - the position he'll play
+
+[SUB] {\nMin. %s :(%s) %s entra por %s, jugará de %s y sus aficionados reciben el cambio con alegría :cambio:}
+[SUB] {\nMin. %s :(%s) %s entra por %s y jugará de %s para regocizo de sus aficionados! :cambio:}
+[SUB] {\nMin. %s :(%s) %s va a tener su oportunidad en este partido\n          ...  %s  se va del campo\n          ...  Le niega el saludo a su mánager. Vaya cabreo! \n          ...  Su sustituto jugará de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s va a tener su oportunidad en este partido\n          ...  %s deja el terreno de juego con cara de pocos amigos\n          ...  Su sustituto jugará de %s :cambio:}
+[SUB] {\nMin. %s :(%s) El ayudante del entrenador llama a %s\n          ...  %s va a ser sustituído\n          ...  Aplaude al público\n          ...  Su sustituto se ubica en %s :cambio:}
+[SUB] {\nMin. %s :(%s) El ayudante del entrenador llama a %s\n          ...  %s va a ser sustituído\n          ...  Está decepcionado porque no puede seguir \n          ...  Su sustituto jugará de %s :cambio:}
+[SUB] {\nMin. %s :(%s) El ayudante del entrenador llama a %s\n          ...  %s va a ser sustituído\n          ...  El técnico le indica que juegue de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s va a entrar por %s\n          ...  Apostaría a que juega de %s.\n          ...  Sí! :cambio:}
+[SUB] {\nMin. %s :(%s) Cambio! %s es el elegido en lugar de %s.\n          ...  El técnico le ordena que juegue de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s entrará en el campo. Está impaciente por demostrar su clase!\n          ...  %s dejará el terreno de juego\n          ...  Aplaude a los aficionados\n          ...  El técnico le indica que juegue de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s entrará en el campo. Está impaciente por demostrar su clase!\n          ...  %s se marcha en su lugar\n          ...  No acaba de estar del todo satisfecho consigo mismo\n          ...  Su compañero jugará de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s reemplaza a %s para colocarse de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s sustituye a %s en la posición de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s sustituye a un descontento %s para jugar de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s se despoja del chándal. Entrará por %s y se ubicará de %s :cambio:}
+[SUB] {\nMin. %s :(%s) %s se despoja del chándal. Entrará por %s \n          ...  Jugará de %s \n          ...  El entrenador reza para que el cambio de sus frutos :cambio:}
+[SUB] {\nMin. %s :(%s) Los aficionados rugen cuando %s substituye a %s para jugar de %s :cambio:}
+[SUB] {\nMin. %s :(%s) La grada ruge cuando %s substituye a %s para jugar de %s :cambio:}
+[SUB] {\nMin. %s :(%s) La grada empieza a animar ya que %s substituye a %s para jugar de %s :cambio:}
+[SUB] {\nMin. %s :(%s) El entrenador aprovecha el parón en el juego para hacer un par de cambios \n          ...  %s entra en el campo en lugar de %s para jugar de %s :cambio:}
+[SUB] {\nMin. %s :(%s) Confirmado! Hay cambio \n          ...  %s entrará en lugar de %s. Se ubica como %s :cambio:}
+[SUB] {\nMin. %s :(%s) Aparece el cartel electrónico - %s entra por %s y jugará de %s :cambio:}
+
+[NOSUBSLEFT] {\n          ...  Esto te pasa por agotar tan pronto los cambios! A jugar con uno menos!}
+[NOSUBSLEFT] {\n          ...  Desde luego <m1> no es Ancelotti\n          ...  con que rapidez ha gastado los tres cambios!\n          ...  <t1> disputara lo que queda de partido con uno menos!}
+[NOSUBSLEFT] {\n          ...  <m1> Ha agotado las sustituciones!!\n          ...  Ahora toca jugar con uno menos! <m1> aprendera para la proxima vez!}
+[NOSUBSLEFT] {\n          ...  <m1> Ha realizado los tres cambios!\n          ...  Jugarán en inferioridad lo que queda de partido!}
+
+| Tactic change
+| 1st %s - minute
+| 2nd %s - team abbreviation
+| 3rd %s - team abbreviation
+| 4th %s - new tactic
+
+[CHANGETACTIC] {\nMin. %s :(%s) %s va a variar su planteamiento. Su elección es... %s !!!}
+[CHANGETACTIC] {\nMin. %s :(%s) Al técnico del %s no lo debe gustar lo que está viendo. Su equipo jugará ahora %s}
+[CHANGETACTIC] {\nMin. %s :(%s) El entrenador del %s decide que es el momento de pasar a %s}
+[CHANGETACTIC] {\nMin. %s :(%s) %s reestructura sus filas y ahora va a jugar %s}
+[CHANGETACTIC] {\nMin. %s :(%s) %s jugará ahora %s tras los cambios ordenados por su técnico}
+[CHANGETACTIC] {\nMin. %s :(%s) El entrenador del %s grita desesperadamente a sus jugadores que pasen a %s. Qué nervios!}
+[CHANGETACTIC] {\nMin. %s :(%s) El mánager del %s hace señas a su portero para que pasen a jugar %s}
+[CHANGETACTIC] {\nMin. %s :(%s) El entrenador del %s ordena a sus jugadores que pasen a jugar %s }
+[CHANGETACTIC] {\nMin. %s :(%s) El segundo entrenador se dirige al capitán desde la línea de banda \n          ...  Parece que %s va a cambiar a %s}
+[CHANGETACTIC] {\nMin. %s :(%s) El técnico grita a sus jugadores \n          ...  Creo que va a cambiar de formación\n          ...  %s jugará ahora %s}
+
+| A foul
+| 1st %s - minute
+| 2nd %s - team abbreviation
+| 3rd %s - fouling player
+
+[FOUL] {\n          ... %s entra con una dureza desmedida!!\n          ...  El atacante se retuerce de dolor!!}
+[FOUL] {\n          ... %s envía a su oponente al césped!!\n          ...  Menudo trompazo!!}
+[FOUL] {\n          ... %s 'placa' a su oponente \n          ...  <ref> le hace señas de que se acerque}
+[FOUL] {\n          ... %s 'placa' a su oponente \n          ...  Este tío tiene futuro... en la NFL!!!}
+[FOUL] {\n          ... %s 'placa' a su oponente \n          ...  El otro día vi una acción así en la NHL!}
+[FOUL] {\n          ... %s 'placa' a su oponente \n          ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[FOUL] {\n          ... %s 'placa' a su oponente \n          ...  Quien ha fichado a esa bestia?}
+[FOUL] {\n          ... %s levanta demasiado la pierna!!\n          ...  Lo dice en el reglamento: FALTA!!}
+[FOUL] {\n          ... %s debería levantar el pie del acelerador. Se está jugando la roja}
+[FOUL] {\n          ... %s salta de cabeza con su rival \n          ...  Falta! Lo estaba agarrando}
+[FOUL] {\n          ... %s salta de cabeza con su rival \n          ...  Falta, lo ha empujado antes del salto}
+[FOUL] {\n          ... %s salta de cabeza con su rival \n          ...  Falta, le ha impedido saltar}
+[FOUL] {\n          ... %s agarra a su rival de la camiseta!!\n          ...  Ambos se iban agarrando hace rato \n          ...  Creo que la decisión es injusta}
+[FOUL] {\n          ... %s agarra a su rival de la camiseta!!\n          ...  Bien visto por al árbitro}
+[FOUL] {\n          ... %s llega segundos tarde al corte \n          ...  Se levanta y se disculpa de su oponente}
+[FOUL] {\n          ... %s llega segundos tarde al corte \n          ...  Se ha pasado dos pueblos!!!}
+[FOUL] {\n          ... %s se coloca en el camino del atacante \n          ...  <ref> pita la falta. Se ha desentendido del cuero}
+[FOUL] {\n          ... %s entra y deja la pierna\n          ...  Ohhh! Le ha dejado un recadito}
+[FOUL] {\n          ... %s choca y envía a su oponente al suelo \n          ...  Falta? Este árbitro lo más redondo que ha visto es un melón. Si no fue falta!}
+[FOUL] {\n          ... %s agarra a su rival de la camiseta!!\n          ...  <ref> hace sonar el silbato\n          ...  <ref> está pitando bien hoy!}
+[FOUL] {\n          ... %s choca con su oponente y lo envía al césped!!\n          ...  Hubo obstrucción! Falta!}
+[FOUL] {\n          ... %s choca con su oponente y lo envía al césped!!\n          ...  Sólo puede ser falta!!}
+[FOUL] {\n          ... %s salta sobre su oponente y lo derriba!!\n          ...  Midió mal sus fuerzas!!}
+[FOUL] {\n          ... %s empuja a ru rival \n          ...  Qué animal!}
+[FOUL] {\n          ... %s salta sobre su oponente y lo derriba!!\n          ...  Reglamento en mano, esto es falta!!}
+[FOUL] {\n          ... %s corta con limpieza \n          ...  El asistente indica la falta! Increíble! Ha sido legal!}
+[FOUL] {\n          ... %s le pone la zancadilla!!\n          ...  Ohhh! Le ha dejado un recadito}
+[FOUL] {\n          ... %s agarra a su rival de la camiseta!!\n          ...  <ref> detiene el juego\n          ...  Bien visto <ref>!}
+[FOUL] {\n          ... %s se lleva bien el balón \n          ...  <ref> pita falta! Bufff, no vale ni para recogepelotas!}
+[FOUL] {\n          ... %s gana el balón fácilmente \n          ...  <ref> ha visto algo. La pregunta es qué????}
+[FOUL] {\n          ... %s corta el juego con una falta táctica  \n          ...  <ref> lo llama inmediatamente}
+[FOUL] {\n          ... %s corta el juego con una falta táctica \n          ...  Ohhh! Le ha dejado un recadito}
+[FOUL] {\n          ... %s corta el juego con una falta táctica \n          ...  Ha cortado el ataque rival, pero, a qué precio??}
+[FOUL] {\n          ... %s llega tarde al corte \n          ...  No hubo mala intención}
+[FOUL] {\n          ... %s llega tarde al corte \n          ...  Ha parecido peor de lo que realmente ha sido \n          ...  Los jugadores del <t2> le increpan. Ay, que se arma!}
+[FOUL] {\n          ... oooooh! Que entrada más dura de %s \n          ...  <ref> lo llama inmediatamente}
+[FOUL] {\n          ... oooooh! Que entrada más dura de %s \n          ...  Creo que buscaba el balón, pero debería calmarse un poquito}
+[FOUL] {\n          ... oooooh! Que entrada más dura de %s \n          ...  Le ha pegado con toda la mala leche del mundo!!!}
+[FOUL] {\n          ... oooooh! Que entrada más dura de %s \n          ...  Ha sido un acto frío y deliberado. Indignante!}
+[FOUL] {\n          ... oooooh! Que entrada más dura de %s \n          ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[FOUL] {\n          ... %s agarra de la camiseta a su rival}
+[FOUL] {\n          ... %s efectúa un espectacular tackle \n          ...  pero <ref> pita falta del delantero!}
+[FOUL] {\n          ... %s efectúa un espectacular tackle \n          ...  <ref> indica la falta... hacia el otro lado!}
+[FOUL] {\n          ... %s suelta una entrada muy bien medida \n          ...  pero <ref> está cortando demasiado fino hoy. Falta!}
+[FOUL] {\n          ... %s corta limpiamente el balón \n          ...  Suena el silbato! Se ha equivocado!}
+[FOUL] {\n          ... %s se desliza... y derriba a su adversario}
+[FOUL] {\n          ... %s con una entrada durísima \n           ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[FOUL] {\n          ... %s con una entrada durísima \n          ...  <ref> lo llama inmediatamente}
+[FOUL] {\n          ... %s con una entrada durísima \n          ...  Creo que buscaba el balón, pero debería calmarse un poquito}
+[FOUL] {\n          ... %s con una entrada asesina \n          ...  Le ha pegado con toda la mala leche del mundo!!!}
+[FOUL] {\n          ... %s con una entrada asesina \n          ...  Ha sido un acto frío y deliberado. Indignante!}
+[FOUL] {\n          ... %s con una entrada asesina \n          ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[FOUL] {\n          ... %s se deja caer \n          ...  No hay espacio en ESO para este tipo de acciones!!!}
+[FOUL] {\n          ... %s le mete el codo!!\n          ...  Suena el siblato... falta!!!}
+[FOUL] {\n          ... %s se lanza al corte \n          ...  <ref> lo llama inmediatamente}
+[FOUL] {\n          ... %s se lanza al corte \n          ...  Ohhh! Le ha dejado un recadito}
+[FOUL] {\n          ... %s se lanza al corte \n          ...  Ufff!! Esto tiene toda la pinta de una amarilla}
+[FOUL] {\n          ... %s se lanza al corte \n          ...  Falta! Ha jugado al límite del reglamento!}
+
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  <ref> lo llama inmediatamente}
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  Iba al balón, pero ni lo ha olido!!!!}
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  Le ha pegado con toda la mala leche del mundo!!!}
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  Ha sido un acto frío y deliberado. Indignante!}
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  "ASESINO, ASESINO, ASESINO" ruge el estadio}
+[SERIOUSFOUL] {\n          ... %s entra con los tacos por delante!!! \n          ...  Está jugando con fuego. Esto huele a expulsión!}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n           ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n          ...  Iba al balón, pero ni lo ha olido!!!!}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n          ...  Le ha pegado con toda la mala leche del mundo!!!}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n          ...  Ha sido un acto frío y deliberado. Indignante!}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n          ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[SERIOUSFOUL] {\n          ... %s se desliza e impacta violentamente en su oponente!!! \n          ...  Está jugando con fuego. Esto huele a expulsión!}
+[SERIOUSFOUL] {\n          ... %s se lanza el suelo. Vaya entrada, ha sido descabellada!!! \n          ...  <ref> lo llama inmediatamente}
+[SERIOUSFOUL] {\n          ... %s se lanza el suelo. Vaya entrada, ha sido descabellada!!! \n          ...  Iba al balón, pero ni lo ha olido!!!!}
+[SERIOUSFOUL] {\n          ... %s se lanza el suelo. Vaya entrada, ha sido descabellada!!! \n          ...  Le ha pegado con toda la mala leche del mundo!!!}
+[SERIOUSFOUL] {\n          ... %s se lanza el suelo. Vaya entrada, ha sido descabellada!!! \n          ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[SERIOUSFOUL] {\n          ... %s se lanza el suelo. Vaya entrada, ha sido descabellada!!! \n          ...  Está jugando con fuego. Esto huele a expulsión!}
+[SERIOUSFOUL] {\n          ... %s caza sin contemplaciones a su rival \n           ...  "FUERA, FUERA, FUERA" ruge el estadio}
+[SERIOUSFOUL] {\n          ... %s caza sin contemplaciones a su rival \n          ...  Se ha pasado dos pueblos!!!}
+[SERIOUSFOUL] {\n          ... %s caza sin contemplaciones a su rival \n          ...  Ha sido un acto frío y deliberado. Indignante!}
+[SERIOUSFOUL] {\n          ...  %s entra a la altura del muslo!! \n          ...  Estaría buscando la roja deliberadamente??}
+[SERIOUSFOUL] {\n          ...  %s entra a la altura del muslo!! \n          ...  Qué entrada más terrible!}
+[SERIOUSFOUL] {\n          ...  %s entra a la altura de la rodilla!! \n          ...  Se ha vuelto loco???}
+[SERIOUSFOUL] {\n          ...  %s entra a la altura de la rodilla!! \n          ...  Uffff, podría haberle hecho mucho daño!!}
+[SERIOUSFOUL] {\n          ...  %s suelta un codazo a su rival!! \n          ...  Ha sido feo, muy feo!}
+[SERIOUSFOUL] {\n          ...  %s caza a su oponente brutalmente por detrás \n          ...  <ref> lo llama a parte. Esto pinta mal}
+[SERIOUSFOUL] {\n          ...  %s caza a su oponente brutalmente por detrás \n          ...  Eso ha sido malintencionado!!}
+[SERIOUSFOUL] {\n          ...  %s caza a su oponente por detrás!!\n          ...  Está en problemas!}
+[SERIOUSFOUL] {\n          ...  %s mide mal su fuerza y caza a su rival \n          ...  Creo que buscaba el balón, pero ha sido escalofriante!}
+[SERIOUSFOUL] {\n          ...  %s mide mal su fuerza y caza a su rival \n          ...  Ha sido intencionado y se merece un castigo}
+[SERIOUSFOUL] {\n          ...  %s suelta una entrada brutal!!! \n          ...  Ha sido intencionado y se merece un castigo}
+[SERIOUSFOUL] {\n          ...  %s suelta una entrada brutal!!! \n          ...  Los aficionados gritan "FUERA, FUERA"!}
+[SERIOUSFOUL] {\n          ...  %s suelta una entrada brutal!!! \n          ...  No hay espacio en ESO para etse tipo de acciones!!!}
+[SERIOUSFOUL] {\n          ...  %s entra con los dos pies por delante!! \n          ...  <ref> detiene el juego}
+[SERIOUSFOUL] {\n          ...  %s realiza una entrada terrorífica!!! \n          ...  <ref> lo reclama para hablar con él}
+[SERIOUSFOUL] {\n          ...  %s realiza una entrada terrorífica!!! \n          ...  Ha sido intencionado y se merece un castigo}
+[SERIOUSFOUL] {\n          ...  %s realiza una entrada terrorífica!!! \n          ...  Los aficionados gritan "FUERA, FUERA"!}
+[SERIOUSFOUL] {\n          ...  %s realiza una entrada terrorífica!!! \n          ...  No hay espacio en ESO para etse tipo de acciones!!!}
+[SERIOUSFOUL] {\n          ...  %s entra con los dos pies por delante!! Qué bestia!\n          ...  <ref> detiene el juego}
+[SERIOUSFOUL] {\n          ...  %s llega tarde al corte y derriba a su rival!!\n          ...  Qué entrada más dura!}
+
+[VIOLENTFOUL] {\nMin. %s :(%s) %s agrede a %s con el balón parado!!!\n          ...  Ha perdido por completo el control! \n          ...  <ref> detiene el partido}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s agrede a %s con el balón parado!!!\n          ...  El asistente ya ha levantado la bandera}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s agrede a %s con el balón parado!!!\n          ...  Bien visto por <ref>}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s entra duramente a %s sin balón por medio!!!\n          ...  Ha perdido los nervios! Intolerable!\n          ...  <ref> detiene el juego}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s entra duramente a %s sin balón por medio!!!\n          ...  El asistente levante la bandera!! Ay, ay, ay...}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s entra duramente a %s sin balón por medio!!!\n          ...  Bien visto por <ref>}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s le da un cabezazo a %s en el estomago!\n          ...  Este acto le costo caro a "Zinedine Zidane", que le costara a el?}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s le suelta una patada a %s!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s le pega un puñetazo a %s!!!!\n          ...  <ref> lo ha visto! Eso le va a costar caro!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s le da un cabezazo a %s en la cara\n          ...  <ref> lo ha visto! No me gustaría estar en su piel!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s le pega un puñetazo a %s!!!!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s deja ir el codo!!!! \n          ...  Le ha dado a %s de pleno en la cara!!!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s suelta un puñetazo!!!! \n          ...  %s cae al suelo redondo! Pero qué ha hecho!}
+[VIOLENTFOUL] {\nMin. %s :(%s) %s agrede por la espalda a %s \n          ...  Wow! Eso por lo menos son cuatro partidos de sanción!}
+
+[SPITTING] {\nMin. %s :(%s) %s escupe a %s!!! Eso le puede costar muy caro!!!}
+[SPITTING] {\nMin. %s :(%s) %s escupe en la cara a %s!!! Que gesto mas feo!!!\n          ...  Gente asín no merece jugar al futbol...!!!}
+
+[PROFOUL] {\nMin. %s :(%s) %s ha roto por completo el fuera de juego!\n          ...  Encara a <g1> ! \n          ...  %s lo derriba muy cerca del área!}
+
+[GK_PROFOUL] {\nMin. %s :(%s) %s ha roto por completo el fuera de juego!\n          ...  Se va solo a puerta!\n          ...  Dribla a <g1> ! \n          ...  <g1> lo derriba!}
+
+[PROFOULPEN] {\nMin. %s :(%s) %s ha roto por completo el fuera de juego!\n          ...  Encara a <g1> ! \n          ...  %s lo derriba en el área!}
+
+[GK_PROFOULPEN] {\nMin. %s :(%s) %s rompe el fuera de juego y encara al portero!\n          ...  Está solo!\n          ...  Regatea a <g1> ! \n          ...  <g1> lo derriba en el área!}
+
+[DIVE] {\nMin. %s :(%s) %s irrumpe en el área!!\n          ...  Derribado!!\n          ...  Creo que se tiró!}
+[DIVE] {\nMin. %s :(%s) %s cae teatralmente al suelo!!\n          ...  Se inspiraría en Dani Alves o en Sergio Busquets?}
+[DIVE] {\nMin. %s :(%s) %s supera con estilo a su marcador!!\n          ...  Pero tropieza\n          ...  Qué dice <ref>? Que se tiró!}
+[DIVE] {\nMin. %s :(%s) %s regatea a <g2> !\n          ...  <g2> le mete el codo\n          ...  No hay falta según <ref>!!}
+[DIVE] {\nMin. %s :(%s) %s se quedó sin espacio!!\n          ...  Se va al suelo!\n          ...  Esto es fútbol o natación??}
+[DIVE] {\nMin. %s :(%s) %s se quedó sin espacio!!\n          ...  Se va al suelo!\n          ...  Debería aprender a tirarse!!}
+[DIVE] {\nMin. %s :(%s) %s se deja caer descaradamente!!\n          ...  Estas acciones habría que desterrarlas de ESO!!}
+[DIVE] {\nMin. %s :(%s) %s deja sentado al defensor!!\n          ...  Pero se va al suelo!\n          ...  Desde aquí dio la impresión de que se dejó caer}
+[DIVE] {\nMin. %s :(%s) %s le hace un túnel a <g2> !\n          ...  <g2> le mete el codo\n          ...  Sigan! Dice <ref>!!}
+[DIVE] {\nMin. %s :(%s) %s se está quedando sin espacio!!\n          ...  Cae al suelo!\n          ...  Habrá tropezado con la línea??!}
+[DIVE] {\nMin. %s :(%s) %s Totalmente sólo!!\n          ...  Cae al suelo. Vaya piscinazo!\n          ...  Gritos de "tonto, tonto" en las gradas!!}
+[DIVE] {\nMin. %s :(%s) %s está sólo, con todo el tiempo del mundo!!\n          ...  La defensa rival se le echa encima\n          ...  Cae fulminado!\n          ...  Jo jo jo, se le ha visto el plumero. Se tiró!!}
+[DIVE] {\nMin. %s :(%s) %s está sólo, con todo el tiempo del mundo!!\n          ...  La defensa rival se le echa encima\n          ...  Se va al suelo!!\n          ...  Vete por ahí!!\n          ...  Vaya piscinazo!!!\n          ...  Se merece la amarilla por eso!!}
+
+| A penalty was awarded
+| 1st %s - player taking the penalty
+
+[PENALTY] {\n          ...  <ref> habla con el asistente! Lo concederá?\n          ...  PENALTI !! \n          ...  %s coloca el balón en el punto fatídico!}
+[PENALTY] {\n          ...  <ref> concede el PENALTI !! \n          ...  %s se alza ante la pelota con confianza}
+[PENALTY] {\n          ...  <ref> concede el PENALTI !! \n          ...  %s lo va a disparar}
+[PENALTY] {\n          ...  <ref> concede el PENALTI !! \n          ...  El capitán del equipo contrario lo manda a tomar gárgaras!\n          ...  podrá %s aguantar la presión?}
+[PENALTY] {\n          ...  <ref> concede el PENALTI !! \n          ...  Pero... qué escándalo. No lo ha sido!\n          ...  aprovechará %s el regalo? }
+[PENALTY] {\n          ...  <ref> lanza una mirada a su asistente!\n          ...  PENALTI !! \n          ...  %s va a ser el encargado de dispararlo}
+[PENALTY] {\n          ...  <ref> se detiene\n          ...  PENALTI !! \n          ...  %s mira fugazmente al guardameta}
+[PENALTY] {\n          ...  <ref> señala al punto fatídico!!\n          ...  %s coloca el balón y mira al portero nerviosamente}
+[PENALTY] {\n          ...  <ref> habla con el asistente! Lo concederá?\n          ...  PENALTI !! \n          ...  %s debe aprovecharlo!}
+[PENALTY] {\n          ...  Reclama la pena máxima!\n          ...  Sí !!\n          ...  %s es el encargado de disparar}
+[PENALTY] {\n          ...  Reclama penalti!!!!\n          ...  Concedido !!\n   ... los jugadores del <t1> están indignados!Incluso su capitán ha perdido los nervios!\n          ...  %s se aísla del barullo y lo va a lanzar}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s no puede fallar. Vaya responsabilidad!}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s coloca el balón con parsimonia. Qué seguridad!}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s mira al portero con aire de confianza}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s mira fijamente al portero}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s lo va a chutar}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  %s respira hondo y se dispone a chutarlo}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  <ref> estaba encima de la jugada. Lo vio clarísimo!!\n          ...  %s coloca el cuero con mimo!}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  <ref> señala el punto fatídico sin ninguna duda!\n          ...  %s es el elegido por su técnico para dispararlo}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  Será %s quien asuma la responsabilidad. Le temblarán las piernas?}
+[PENALTY] {\n          ...  PENALTI !! \n          ...  <ref> no lo ha dudado ni un segundo!\n          ...  %s no puede desaprovechar una ocasión tan clara!}
+[PENALTY] {\n          ...  PENALTI !! <ref> huye de los jugadores que le piden explicaciones \n          ...  %s ya está en los 11 metros}
+[PENALTY] {\n          ...  PENALTI ?? Si se ha tirado!!! \n          ...  Pero <ref> lo ha pitado \n          ...  %s lo va a chutar}
+[PENALTY] {\n          ...  PENALTI ?? Pero qué dices hombre!! \n          ...  %s va a chutarlo}
+[PENALTY] {\n          ...  Seguramente será penalti!\n          ...  <ref> conversa con el asistente !!\n          ...  PENALTI !!\n          ...  %s es el designado para chutarlo}
+[PENALTY] {\n          ...  Seguramente será penalti!\n          ...  LO PITA !!\n          ...  %s es quien lo va a chutar}
+[PENALTY] {\n          ...  Seguramente será penalti!\n          ...  SÍ !!\n          ...  <t1> no puede quejarse demasiado. Era claro!\n          ...  %s es quien lo va a chutar}
+[PENALTY] {\n          ...  Seguramente será penalti!\n          ...  Consulta con su asistente !!\n          ...  PENALTI !!\n          ...  %s es el hombre que lo va chutar}
+[PENALTY] {\n          ...  No creo que pique...!\n          ...  PENALTI !! \n          ...  <ref> es malísimo. Deberían sancionarlo!!\n          ...  %s no quiere desaprovechar el regalo}
+[PENALTY] {\n          ...  No creo que...!\n          ...  PENALTI !! \n          ...  Es indignante. Vaya error!!!!!\n          ...  %s asume la responsabilidad}
+[PENALTY] {\n          ...  Parece un piscinazo!\n          ...  PENALTI !!\n          ...  <ref> se lo ha tragado!\n          ...  %s es quien disparará}
+[PENALTY] {\n          ...  El colegiado tiene clara su decisión!\n          ...  PENALTI !! \n          ...  %s coloca la pelota en el punto fatídico!}
+[PENALTY] {\n          ...  El colegiado ha pitado PENALTI !! \n          ...  %s es el encargado de chutar}
+[PENALTY] {\n          ...  El colegiado ha pitado PENALTI !! \n          ...  %s lo va a lanzar}
+[PENALTY] {\n          ...  El colegiado ha pitado PENALTI !! \n          ...  %s coloca la pelota en los 11 metros}
+[PENALTY] {\n          ...  El colegiado ha pitado PENALTI !! \n          ...  No me gustaría estar en su piel cuando vea la repetición\n          ...  %s es quien lo va a chutar...}
+[PENALTY] {\n          ...  El colegiado ha pitado PENALTI !! \n          ...  Madre mía, qué escándalo!\n          ...  %s se aisla de la polémica y se dispone a chutar}
+[PENALTY] {\n          ...  Para el juego a instancias de su asistente!\n          ...  PENALTI !! \n          ...  %s tiene todos los números para marcar!}
+[PENALTY] {\n          ...  Para el juego a instancias de su asistente!\n          ...  PENALTI !! \n          ...  %s lo va a tirar}
+[PENALTY] {\n          ...  El colegiado se dirige a su asistente!\n          ...  PENALTI !! \n          ...  %s quiere lanzarlo!}
+[PENALTY] {\n          ...  Sólo hay una posible salida!\n          ...  <ref> mira a su asistente !!\n          ...  PENALTY !!\n          ...  %s asume el reto}
+[PENALTY] {\n          ...  Sólo hay una posible salida!\n          ...  <ref> consulta con su asistente !!\n          ...  PENALTI !!\n          ...  %s será el encargado de lanzarlo}
+[PENALTY] {\n          ...  Sólo hay una posible salida!\n          ...  PENALTI !!\n          ...  %s es quien va a asumir la responsabilidad}
+[PENALTY] {\n          ...  Qué decidirá <ref> ????\n          ...  PENALTI !! \n          ...  Decisión correcta!! \n          ...  %s sera el encargado de lanzarlo}
+[PENALTY] {\n          ...  Qué pitará <ref> ????\n          ...  PENALTI !! \n          ...  Vaya piscinazo!! \n          ...  %s sitúa el cuero en el punto de penalti!}
+[PENALTY] {\n          ...  Qué señalará <ref> ????\n          ...  PENALTI !! \n          ...  Desde la cabina de prensa parece penalti!! \n          ...  A ver si %s consigue batir al portero}
+[PENALTY] {\n          ...  Qué señalará <ref> ????\n          ...  PENALTI !! \n          ...  Pero si ha sido fuera del área!! \n          ...  %s coloca la pelota con mimo!}
+[PENALTY] {\n          ...  <ref> corre hacia el área...\n          ...  PENALTI !! Se ha dejado las gafas en la caseta?? \n          ...  %s no quiere desaprovechar el regalo!}
+[PENALTY] {\n          ...  Qué señalará <ref> ????\n          ...  PENALTI !! El colegiado aleja a los jugadores que le rodean \n          ...  %s es el elegido}
+
+| A goal from a penalty
+
+[PEN_GOAL] {\n          ...  La ha clavado, ajustada al palo!\n          ...  :gol:\n          ...  GOOOOOOL!}
+[PEN_GOAL] {\n          ...  Ha engañado a <g2>\n          ...  <g2> se tira a la izquierda, y el balon entra por la derecha!!\n          ...  :gol:\n          ...  GOOOOOOL!}
+[PEN_GOAL] {\n          ...  Ha engañado a <g2>\n          ...  <g2> se tira a la derecha, y el balon entra por la izquierda!!\n          ...  :gol:\n          ...  GOOOOOOL!}
+[PEN_GOAL] {\n          ...  Esta preparado para lanzar, ahí va...\n          ...  GOOOOOOOL! a lo Panenca!!\n          ...  :gol:}
+[PEN_GOAL] {\n          ...  <g2> vuela\n ...  :gol:\n ... Poco podía hacer el portero ante un lanzamiento así!}
+[PEN_GOAL] {\n          ...  Palo y fuer... NO!! Ha entrado!! GOOOOL!! :gol:}
+
+| A save from a penalty
+| %s - Goalkeeper name
+
+[PEN_SAVE] {\n          ...  %s adivina el lanzamiento\n          ...  Y desvía el cuero dramáticamente! Sus compañeros lo felicitan}
+[PEN_SAVE] {\n          ...  %s detiene el balón! Levanta los puños en un gesto de rabia!}
+[PEN_SAVE] {\n          ...  %s paradón. Ha salvado a su equipo!!}
+[PEN_SAVE] {\n          ...  %s se anticipa al delantero. Lo paró!!!!}
+[PEN_SAVE] {\n          ...  %s lo para, lo para, lo para, lo paraaaaaa!!}
+[PEN_SAVE] {\n          ...  %s adivina el lanzamiento. Lo ha parado!!}
+[PEN_SAVE] {\n          ...  %s vuela\n ...  Y retiene el balón. Qué porterazo!}
+
+| A save from a penalty which goes out
+| %s - Goalkeeper name
+
+[PEN_SAVE4CORNER] {\n          ...  %s rechaza el lanzamiento!!! Qué intuición!}
+[PEN_SAVE] {\n          ...  %s vuela hacia el lado correcto\n ...  Y palmea el balón! Impresionante!!!}
+
+| A penalty ending off target
+
+[PEN_OFFTARGET] {\n          ...  Lo tira a las nubes!!\n          ...  Tremenda pitada se ha llevado!!\n          ...  Era mas facil, meterla que fallarla...}
+[PEN_OFFTARGET] {\n          ...  Sale rozando el palo...\n          ...  La ha querido ajustar tanto, que se le ha ido!}
+[PEN_OFFTARGET] {\n          ...  Lo lanza al palo!!...\n          ...  Si eso lo llega a meter, es el mejor penalti nunca visto!!\n          ...  Pero, no ha entrado y el jugador esta triste!}
+
+| A penalty shoot out penalty line
+| %s - penalty taker name
+
+[PS_OUT_PEN] {\n          ...  PENALTI !!\n          ...  %s asume la responsabilidad!}
+[PS_OUT_PEN] {\n          ...  PENALTI !!\n          ...  %s toma carrerilla!}
+
+| Man of the match
+| %d- minute
+| 1st %s player name
+| 2nd %s team name
+
+[MOM] {Jugador del partido     : %s\n}
+
+|Injury time (1 minute)
+| %d - minute
+
+[INJ_TIMEA] {\nMin. %-3d:(REF) El cuarto árbitro indica que se va a añadir 1 minuto al tiempo reglamentario}
+[INJ_TIMEA] {\nMin. %-3d:(REF) El cuarto árbitro indica que se va a añadir 1 minuto al tiempo reglamentario}
+[INJ_TIMEA] {\nMin. %-3d:(REF) Aparece el cartel indicando que va a haber 1 minuto de tiempo añadido}
+
+|Injury time (more than 1 minute)
+| 1st %d - minute
+| 2nd %d - time added on
+
+[INJ_TIMEB] {\nMin. %-3d:(REF) El cuarto árbitro indica que se van a añadir %d minutos al tiempo reglamentario}
+[INJ_TIMEB] {\nMin. %-3d:(REF) El cuarto árbitro indica que se van a añadir %d minutos al tiempo reglamentario}
+[INJ_TIMEB] {\nMin. %-3d:(REF) Aparece el cartel indicando que van a haber %d minutos de tiempo añadido.}
+
+| The referee has warned the fouling player
+
+[WARNED] {\n          ... <ref> va corriendo\n          ... Le grita que se calme\n          ... Para eso una tarjeta roja funciona muy bien}
+[WARNED] {\n          ... Parece que <ref> va a amonestarle\n          ... Se dirige en tono condescendiente}
+[WARNED] {\n          ... <ref> pide calma\n          ... Donde se ha dejado las tarjetas?}
+[WARNED] {\n          ...  <ref> se 'come' la cartulina. Eso era amarilla!}
+[WARNED] {\n          ...  <ref> se 'come' la cartulina\n          ... Eso era roja!}
+[WARNED] {\n          ...  <ref> se 'come' la cartulina\n          ... Eso era roja!\n          ... Cuanto habra pagado <t1> por esto?}
+[WARNED] {\n          ...  <ref> no lo amonesta! Vaya, yo creo que es de los peores árbitros de ESO}
+[WARNED] {\n          ...  <ref> lo reclama\n          ...  No hay tarjeta!}
+[WARNED] {\n          ...  <ref> le avisa: "Es la última vez"}
+[WARNED] {\n          ...  <ref> le avisa: "Una y no mas"}
+[WARNED] {\n          ...  <ref> sonrie y le increpa\n          ... Una mas, y amarilla!}
+[WARNED] {\n          ...  Tiene suerte de no ser amonestado}
+[WARNED] {\n          ...  El colegiado le pide que se calme\n          ...  Una más de estas y nadie le salvará de la amarilla}
+[WARNED] {\n          ...  El colegiado le pide que se calme\n          ...  Una más de estas y se juega la roja}
+
+[DIVEWARNED] {\n          ... <ref> le ha cazado!\n          ... Le advierte, una y no mas!}
+[DIVEWARNED] {\n          ... <ref> le ha cazado!\n          ... Hace caso omiso al reglamento y no saca amarilla!}
+[DIVEWARNED] {\n          ... <ref> le ha cazado!\n          ... Hace caso omiso al reglamento y no saca amarilla!\n          ... Le esta... sacando la lengua? Acaso <ref> es reptiliano????}
+[DIVEWARNED] {\n          ... <ref> le ha cazado!\n           ... Eso debe ser amarilla\n          ... <ref> amonesta verbalmente al jugador}
+[DIVEWARNED] {\n          ... <ref> le ha visto!\n          ... "Los chapuzones, a la piscina"}
+[DIVEWARNED] {\n          ... <ref> le ha visto!\n          ... Pero no le amonesta!\n          ... Cuando se retire del futbol, podra dedicarse exclusivamente a la natacion. Que TALENTO!}
+
+| The fouling player has been given a yellow card
+
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Por unos momentos lo vi expulsado!}  
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:}
+[YELLOWCARD] {\n          ...  <ref> le grita acaloradamente! Le va a amonestar \n          ...  AMARILLA!! :amarilla:}
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Creo que <ref> se ha pasado de riguroso} 
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Increible, no era ni falta!} 
+[YELLOWCARD] {\n          ...  <ref> le muestra la cartulina AMARILLA!!\n          ...  Chico, frena que te vas a la calle :amarilla:}
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Por unos momentos lo vi expulsado!\n          ...  <m2> parece asombrado de que no fuera roja!}   
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Por unos momentos lo vi expulsado!} 
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Si si, y que de gracias de que la tarjeta no era de otro color}  
+[YELLOWCARD] {\n          ...  AMARILLA!! :amarilla:\n          ...  Increíble! Una de las más rigurosas de la historia de ESO}
+[YELLOWCARD] {\n          ...  <ref> le hace señas. Esto no pinta bien!\n          ...  AMARILLA! :amarilla:} 
+
+[BADYELLOWCARD] {\n          ...  Toma! Eso ha sido muy feo!\n          ...  <ref> le indica que se gire\n          ...  Será tarjeta, pero tendrá valor para expulsarlo??\n          ...  NO! AMARILLA! :amarilla:}
+[BADYELLOWCARD] {\n          ...  Ojo que pede irse a la calle por eso!!\n          ...  <ref> le hace señas para que se acerque\n          ...  <ref> lo mira fijamente! ay!\n          ...  AMARILLA!! :amarilla:}
+[BADYELLOWCARD] {\n          ...  Está en problemas!!\n          ...  AMARILLA!:amarilla:\n          ...  Desde luego, se lo merecía!  Y tiene suerte de que no ha sido de otro color!}
+[BADYELLOWCARD] {\n          ...  <ref> le indica que se acerce!\n          ...  AMARILLA!:amarilla:\n          ...  Estuvo afortunado de no ver la roja!}
+[BADYELLOWCARD] {\n          ...  En mala situación!\n          ...  <ref> busca en su bolsillo!\n          ...  Comprueba su número!\n          ...  AMARILLA!!:amarilla:\n          ...  Creo que se la merecía con creces!}
+[BADYELLOWCARD] {\n          ...  Está en problemas!\n          ...  <ref> busca en su bolsillo!\n          ...  Comprueba su número!\n          ...  AMARILLA!!:amarilla:\n          ...  Debe sentirse afortunado que solo fuera eso!}
+[BADYELLOWCARD] {\n          ...  Uf, cuidado que se puede duchar antes de tiempo!\n          ...  AMARILLA!:amarilla:\n          ... El jugador se va sonriendo, mientras los rivales increpan a <ref> por esto}
+[DIVEYELLOWCARD] {\n          ...  Se ha tirado y <ref> no ha picado!\n          ...  El jugador lo ve venir\n          ...  AMARILLA!!:amarilla:}
+[DIVEYELLOWCARD] {\n          ...  Se ha tirado y <ref> no ha picado!\n          ...  El jugador lo ve venir\n          ...  AMARILLA!!:amarilla:\n          ... Cuando se retire del futbol, podra dedicarse exclusivamente a la natacion. Que TALENTO!}
+[DIVEYELLOWCARD] {\n          ...  Se ha tirado y <ref> le ha visto!!!\n          ...  <ref> le da una toalla despues de tan tremendo piscinazo. Que tarjeta sacara?\n          ...  AMARILLA!!:amarilla:}
+
+[PERSISTANTYELLOW] {\n          ...  <ref> lo llama a parte\n          ...  <ref> le dice que ya le ha advertido suficientes veces\n          ...  AMARILLA!:amarilla:\n}
+[PERSISTANTYELLOW] {\n          ...  <ref> lo llama a parte\n          ...  Debe estar cansado de repetirle lo mismo\n          ...  AMARILLA!:amarilla:\n}
+
+[PERSISTANT2NDYELLOW] {\n          ...  <ref> lo llama a parte\n          ...  <ref> le dice que ya le ha advertido suficientes veces\n          ...  Y ya tiene una AMARILLA!\n          ...  <ref> le muestra la segunda!!\n          ...  ROJA!! :roja:}
+[PERSISTANT2NDYELLOW] {\n          ...  <ref> corre a por el\n          ...  Es reincidente, le puede caer tarjeta\n          ...  YA TENIA UNA!!!\n          ...  <ref> le muestra la segunda!!\n          ...  ROJA!! :roja:\n          ... Ale, por si se te pierde la primera.}
+
+| The fouling player has been given a 2nd yellow card (and was sent off)
+
+[SECONDYELLOWCARD] {\n          ...  Ya había sido amonestado, sabe lo que se le viene encima... ROJA!!!:roja:}
+[SECONDYELLOWCARD] {\n          ...  :amarilla: + :amarilla: = ROJA! :roja:}
+[SECONDYELLOWCARD] {\n          ...  Segunda amarilla del partido ! Vaya tarde que lleva !:roja:}
+[SECONDYELLOWCARD] {\n          ...  Y se hace justicia. Ya debería haber sido expulsado antes!:roja:}
+[SECONDYELLOWCARD] {\n          ...  La segunda ! A la calle ! \n          ...  Se encara de mala manera con el colegiado!\n          ...  Sus compañeros lo reducen. Ojo que esto podría costarle caro! :roja:}
+[SECONDYELLOWCARD] {\n          ...  Ay, ay, ay... Segunda amarilla ! \n          ...  EXPULSADO! :roja:}
+[SECONDYELLOWCARD] {\n          ...  El colegiado echa mano de las tarjetas...\n         ...  A este no le tiembla el pulso\n         ...  El jugador lo tiene crudo\n         ...  ROJA!:roja:}
+[SECONDYELLOWCARD] {\n          ...  El colegiado lo ha 'cazado'\n          ...  Se atreverá a mostrarle la segunda amarilla?\n          ...  Sí!  Tiene narices, el tío, aunque era su obligación! :roja:}
+[SECONDYELLOWCARD] {\n          ...  Metió la pata hasta el fondo\n          ...  Segunda amarilla del partido!\n          ...  Se encamina cabizbajo hacia los vestuarios :roja:}
+[SECONDYELLOWCARD] {\n          ...  Se ve venir la :amarilla:\n          ... Ojo! Que ya tenia una!\n          ... :roja: ! Ale, a ducharse}
+[BADSECONDYELLOW] {\n          ...  Ahí va! Qué patadón!\n          ...  El colegiado se acerca a toda prisa\n          ...  AMARILLA, es la segunda!\n          ...  ROJA!:roja:}
+[BADSECONDYELLOW] {\n          ...  Ahí va! Qué patadón!\n          ...  El colegiado se acerca a toda prisa\n          ...  Ojo que ya tiene una\n          ...  ROJA DIRECTA!:roja:}
+[DIVESECONDYELLOW] {\n          ...  Menuda niñería cuando ya tiene una amarilla!\n          ...  Claro, al árbitro no le queda más remedio que amonestarlo!\n          :roja:!!!!!\n          ... Cuando se retire del futbol, podra dedicarse exclusivamente a la natacion. Que TALENTO!}
+[DIVESECONDYELLOW] {\n          ...  Menuda niñería cuando ya tiene una amarilla!\n          ...  Claro, al árbitro no le queda más remedio que amonestarlo!\n          ... Por si no sabes contar, Amarilla + amarilla = EXPULSIÓN! :roja:}
+
+| The fouling player has been given a red card
+
+[REDCARD] {\n          ...  <ref> lo llama a parte\n          ...  ROJA! :roja:\n          ...  En cualquier liga no hay sitio para estas acciones!}
+[REDCARD] {\n          ...  <ref> lo llama a parte\n          ...  Se toma su tiempo!\n          ...  ROJA!! :roja:\n          ...  No me hubiera gustado estar en medio de esa conversación!!}
+[REDCARD] {\n          ...  <ref> lo llama a parte\n          ...  Le da una charla!\n          ...  AMARILLA!! :amarilla:\n          ...  Pero sigue protestando!!\n          ...  ROJA!! :roja: Si le parecía poco esa amarilla la doble significa que se acaba el partido para él...}
+[REDCARD] {\n          ...  <ref> lo llama a parte\n          ...  Le da una charla!\n          ...  AMARILLA!! :amarilla:\n          ...  Pero sigue protestando!!\n          ...  ROJA!! :roja:}
+[REDCARD] {\n          ...  <ref> lo llama a parte\n          ...  Le da una charla!\n          ...  AMARILLA!! :amarilla:\n          ...  Pero sigue protestando!!\n          ...  ROJA!! :roja:\n          ... Hijo, te podias haber metido la lengua en el culo y callarte}
+[REDCARD] {\n          ...  Es una ROJA!! :roja:\n          ...  A la calle!!}
+[REDCARD] {\n          ...  Es una ROJA!! :roja: Ya puede ir buscando el jabón en la ducha}
+[REDCARD] {\n          ...  Eso tiene toda la pinta de tarjeta!!\n          ...  ROJA!! :roja:\n          ...  Lo ha expulsado!!\n          ...  Creo que se ha pasado de riguroso!}
+[REDCARD] {\n          ...  ROJA!! :roja:eso implica el final del partido para él}
+[REDCARD] {\n          ...  ROJA!! :roja:no hay sitio en un partido para entradas como esas!}
+[REDCARD] {\n          ...  ROJA!! :roja:.....su entrenador está desesperado!}
+[REDCARD] {\n          ...  ROJA!! :roja:}
+[REDCARD] {\n          ...  ROJA!! :roja:\n          ... Me parece excesiva, una amarilla habria bastado}
+[REDCARD] {\n          ...  ROJA!! :roja:\n          ... Pero si no era ni falta!!!!\n          ... Grave error de <ref>!!!}
+[REDCARD] {\n          ...  ROJA!! :roja:\n          ... Mas que justa, eso no se puede permitir}
+[BADREDCARD] {\n          ...  ROJA!! :roja:\n          ... Solo una? Dos, por si se te pierden!}
+[BADREDCARD] {\n          ...  ROJA!! :roja:\n          ... Y que de gracias que <ref> no es juez de verdad, le habria puesto pena de carcel}
+[BADREDCARD] {\n          ...  ROJA!!\n          ...  A la ducha!!:roja:} 
+[BADREDCARD] {\n          ...  Madre mía!!!\n          ...  ROJA!!:roja:} 
+[BADREDCARD] {\n          ...  Madre mía!!!\n          ...  ROJA!!:roja:\n          ... Un tiempecito a la sombra vas a pasar por eso, chaval}
+[BADREDCARD] {\n          ...  ROJA!!\n          ...  Se ha pasado dos pueblos!!:roja:} 
+[BADREDCARD] {\n          ...  ROJA!!\n          ...  <ref> lo ha expulsado :roja:!!\n          ...  Menudo cabreo ha pillado su entrenador!!}
+[BADREDCARD] {\n          ...  ROJA!!\n          ...  <ref> tenía pocas opciones más :roja:!!\n          ...  <m2> aplaude su decisión}
+[DIVEREDCARD] {\n          ...  <ref> ha visto el piscinazo!\n          ...  Lo llama aparte\n          ...  ROJA !! :roja:\n          ...  A la calle por intentar engañarle!!}
+[DIVEREDCARD] {\n          ...  <ref> ha visto el piscinazo!\n          ...  Lo llama aparte\n          ...  ROJA !! :roja:}
+[DIVEREDCARD] {\n          ...  <ref> ha visto el piscinazo!\n          ...  Lo llama aparte\n          ...  ROJA !! :roja:\n          ... Cuando se retire del futbol, podra dedicarse exclusivamente a la natacion. Que TALENTO!}
+[DIVEREDCARD] {\n          ...  <ref> ha visto el piscinazo!\n          ...  Lo llama aparte\n          ...  ROJA !! :roja:\n          ...  Pues se le habian llevado por delante, no era piscinazo!}
+[DIVEREDCARD] {\n          ...  <ref> ha visto el piscinazo!\n          ...  Lo llama aparte\n          ...  ROJA !! :roja:\n          ...  El árbitro le da una toalla para que se seque}
+[DIVEREDCARD] {\n          ...  <ref> se acerca a toda prisa!\n          ...  Y se saca la roja del bolsillo!!\n          ...  Expulsado por tirarse!! :roja:\n          ...  Eso ha sido muy muy riguroso!!}
+[DIVEREDCARD] {\n          ...  <ref> se acerca a toda prisa!\n          ...  Y se saca la roja del bolsillo!!\n          ...  Expulsado por tirarse!! :roja:\n          ...  Bueno, pero los jueces de porteria le han dado dos 10, se debe sentir orgulloso de semejante zambullida}
+
+| Various statistic and informational lines printed in the
+| commentary file
+
+[STARTINGFORMATION] {\n%37s  |  %s}
+
+[COMM_HALFTIME] {\n[center][b]*************  :primeraparte:  ****************[/center][/b]}
+[COMM_FULLTIME] {\n[center][b]*************  :segundaparte:  ****************[/center][/b]}
+[COMM_EXTRATIME] {\n[center][b]*************  PRÓRROGA  ****************[/center][/b]}
+[COMM_ATTEMPTS] {\nOcasiones de gol}
+[COMM_INFO] {[b]Información del partido[/b]}
+[COMM_SHOTSONTARGET] {\nDisparos a puerta}
+[COMM_SHOTSOFFTARGET] {\nDisparos desviados}
+[COMM_SCORE] {\n[b]Resultado final[/b]}
+[COMM_FOULS] {\nFaltas}
+[COMM_TACKLES] {\nEntradas}
+[COMM_POS] {\nPosesión}
+[COMM_CORNERS] {\nCórners}
+[COMM_DETAILS] {\n[b]Detalles del partido[/b]}
+[COMM_STATS] {\n[b]Estadísticas del partido[/b]}
+[COMM_RED] {\nRojas}
+[COMM_YELLOW] {\nAmarillas}
+[COMM_SENTOFF] {[b]Expulsado[/b]}
+[COMM_BOOKED] {\n[b]Amonestado[/b]}
+[COMM_INJURED] {\n[b]Lesionado[/b]}
+[COMM_SUBS] {\nCambios}
+[COMM_PASSES] {\nPases clave}
+[COMM_ATT] {\nEspectadores}
+[COMM_VENUE] {\n[b]Campo[/b]}
+[COMM_REF] {[b]Árbitro[/b]}
+[COMM_GOALS] {[b]Goleadores[/b]}
+[COMM_LINEUPS] {[b]%s Alineación[/b]}
+[COMM_PERFORMER] {[b]Mejor jugador[/b]}
+[COMM_MOM] {[b] (Jugador del partido)[/b]}
+[SILVER_GOAL] {\n[b]%s gana por la regla del Gol de Plata[/b]}
+
+[PENALTYSHOOTOUT] {\n[center][b]*************  TANDA DE PENALTIS  ****************[/center][/b]}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s es el ganador!!!!}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s gana en la ruleta de los penaltis!!!}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s se impone desde los 11 metros!!!!}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s gana la tanda de penaltis!!!!}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s gana la tanda de penaltis!!!!\n          ...  Y nadie puede evitar la invasión de campo de los aficionados.}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s gana la tanda de penaltis!!!!\n          ...  Los jugadores se funden en un abrazo para celebrarlo.}
+[WONPENALTYSHOOTOUT] {\n\n          ...  %s gana la tanda de penaltis!!!!\n          ...  Una pena por el equipo perdedor, que ha luchado hasta el final, pero así es la lotería de los penaltis...}

@@ -1,0 +1,26 @@
+tot
+C
+
+GK Michel_Vorm
+DF Alderweireld
+DF J_Vertonghen
+DF V_van_Dijk
+DF Kyle_Walker
+DF Kevin_Wimmer
+DM Eric_Dier
+MF Mousa_Dembélé
+AM C_Eriksen
+AM Dele_Alli
+FW Sergio_Agüero
+
+GK Pau_López
+DF K_Trippier
+MF M_Sissoko
+AM Érik_Lamela
+FW C_Immobile
+
+PK: Sergio_Agüero
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 8 14 MF IF MIN = 65

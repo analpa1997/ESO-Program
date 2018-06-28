@@ -1,0 +1,26 @@
+bmu
+P
+
+GK Manuel_Neuer
+DF J_Boateng
+DF David_Alaba
+DF Luke_Shaw
+DF P_Mertesacker
+DM Granit_Xhaka
+MF Paul_Pogba
+MF M_Pjanic
+MF Yaya_Touré
+AM Douglas_Costa
+FW Gareth_Bale
+
+GK Sven_Ulreich
+DF Paul_Baysse
+DM Walace
+AM Leroy_Sané
+FW G_Higuaín
+
+PK: Gareth_Bale
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 7 14 MF IF MIN = 65

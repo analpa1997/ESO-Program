@@ -1,0 +1,26 @@
+nap
+A
+
+GK M_ter_Stegen
+DF Lichtsteiner
+DF A_Laporte
+DF Raúl_Albiol
+DF Jonas_Hector
+DM J_Mascherano
+MF Marek_Hamsik
+AM H_Mkhitaryan
+AM E_Forsberg
+FW Luis_Suárez
+FW José_Callejón
+
+GK Pepe_Reina
+DF Elseid_Hysaj
+DM W_Carvalho
+AM E_Giaccherini
+FW D_Berardi
+
+PK: Luis_Suárez
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 7 14 MF IF MIN = 65

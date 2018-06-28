@@ -1,0 +1,26 @@
+che
+P
+
+GK T_Courtois
+DF Gary_Cahill
+DF C_Azpilicueta
+DF Kurt_Zouma
+DF Daley_Blind
+DF John_Terry
+MF Cesc_Fàbregas
+MF D_Drinkwater
+AM Eden_Hazard
+FW Diego_Costa
+FW Chicharito
+
+GK Keylor_Navas
+DF Nathan_Aké
+MF Loftus-Cheek
+AM Willian
+FW Pedro
+
+PK: Diego_Costa
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 7 14 MF IF MIN = 65

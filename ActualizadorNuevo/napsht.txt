@@ -1,23 +1,23 @@
 nap
-A
+P
 
-GK M_ter_Stegen
+GK Manuel_Neuer
 DF Lichtsteiner
-DF A_Laporte
-DF Raúl_Albiol
-DF Jonas_Hector
-DM J_Mascherano
-MF Marek_Hamsik
-AM H_Mkhitaryan
-AM E_Forsberg
+DF Luke_Shaw
+DF Marcos_Alonso
+DF M_Nastasic
+DF P_Kimpembe
+MF I_Gündogan
+MF Aaron_Ramsey
+MF N_Bentaleb
 FW Luis_Suárez
-FW José_Callejón
+FW A_Milik
 
-GK Pepe_Reina
-DF Elseid_Hysaj
+GK S_Scuffet
+DF Andrea_Raggi
+DF Rúben_Dias
 DM W_Carvalho
-AM E_Giaccherini
-FW D_Berardi
+FW Gabriel_Jesus
 
 PK: Luis_Suárez
 

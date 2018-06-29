@@ -1,26 +1,26 @@
 int
-N
+D
 
-GK J_P_Carrizo
+GK S_Handanovic
 DF Miranda
+DF C_Ansaldi
 DF L_Tonelli
-DF L_Antonelli
+DM Gary_Medel
+DM T_Bakayoko
 MF Éver_Banega
 MF M_Brozovic
-MF João_Mário
-AM A_Candreva
+AM Juan_Mata
+FW S_El_Shaarawy
 FW Gabriel_B
-FW G_Lapadula
-FW J_Biabiany
 
-GK Tommaso_Berni
-DF M_Andreolli
-DF T_Sainsbury
+GK J_P_Carrizo
+DF Davide_Santon
 MF R_Gagliardini
-FW G_Simeone
+AM A_Candreva
+FW G_Lapadula
 
-PK: Gabriel_B
+PK: S_El_Shaarawy
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 5 14 MF IF MIN = 65
+SUB 7 14 MF IF MIN = 65

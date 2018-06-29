@@ -5,22 +5,22 @@ GK Jan_Oblak
 DF Diego_Godín
 DF Filipe_Luís
 DF José_Giménez
-DF Samuel_Umtiti
-DF Juanfran
+DM Lucas_Biglia
 MF Koke
+MF Saúl_Ñíguez
 AM Y_Carrasco
 FW A_Griezmann
 FW Kévin_Gameiro
-FW F_Torres
+FW Ángel_Correa
 
 GK M_Ángel_Moyá
-DF T_Meunier
-MF Saúl_Ñíguez
+DF Samuel_Umtiti
+DM A_Fernández
 AM Nico_Gaitán
-FW Ángel_Correa
+FW F_Torres
 
 PK: A_Griezmann
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 7 14 MF IF MIN = 65
+SUB 6 14 MF IF MIN = 65

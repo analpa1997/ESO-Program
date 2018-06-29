@@ -1,26 +1,26 @@
 tot
-C
+N
 
-GK Michel_Vorm
+GK Hugo_Lloris
 DF Alderweireld
+DF V_Kompany
 DF J_Vertonghen
 DF V_van_Dijk
 DF Kyle_Walker
-DF Kevin_Wimmer
-DM Eric_Dier
 MF Mousa_Dembélé
 AM C_Eriksen
-AM Dele_Alli
 FW Sergio_Agüero
-
-GK Pau_López
-DF K_Trippier
-MF M_Sissoko
-AM Érik_Lamela
 FW C_Immobile
+FW Heung-Min_Son
+
+GK Michel_Vorm
+DF Ben_Davies
+MF M_Sissoko
+AM Dele_Alli
+FW V_Janssen
 
 PK: Sergio_Agüero
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 8 14 MF IF MIN = 65
+SUB 7 14 MF IF MIN = 65

@@ -1,4 +1,4 @@
-val - che
+juv - opo
 
 ESMS Plus version: 3.08
 
@@ -8,7 +8,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-atm - nic
+rom - sev
 
 ESMS Plus version: 3.08
 
@@ -18,7 +18,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-tot - sev
+asm - nap
 
 ESMS Plus version: 3.08
 
@@ -28,7 +28,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-ble - eve
+int - mun
 
 ESMS Plus version: 3.08
 
@@ -38,7 +38,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-psv - int
+bar - atm
 
 ESMS Plus version: 3.08
 
@@ -48,7 +48,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-asm - mun
+che - bdo
 
 ESMS Plus version: 3.08
 
@@ -58,7 +58,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-nap - lei
+nic - bmu
 
 ESMS Plus version: 3.08
 
@@ -68,7 +68,7 @@ Enter the away teamsheet name(without the sht.txt part):
 Game finished successfully
 
 Press Enter.
-bmu - bar
+rma - tot
 
 ESMS Plus version: 3.08
 

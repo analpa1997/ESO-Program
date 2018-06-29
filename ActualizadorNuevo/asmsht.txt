@@ -1,26 +1,26 @@
 asm
-L
+C
 
 GK D_Subasic
+DF K_Koulibaly
 DF Kamil_Glik
-DF D_Sidibé
-DF Jemerson
-DF Andrea_Raggi
-DM Fabinho
+DF L_Kurzawa
+DF Phil_Jones
+MF A_Iniesta
 MF João_Moutinho
-AM B_Silva
-AM Thomas_Lemar
+MF Y_Tielemans
 FW Thomas_Müller
-FW V_Germain
+FW Kylian_Mbappé
+FW Malcom
 
 GK L_Badiashile
+DF Jemerson
+DF B_Mendy
 DF Pol_Lirola
-DM T_Bakayoko
-AM G_Boschilia
-FW Kylian_Mbappé
+FW Thomas_Lemar
 
 PK: Thomas_Müller
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 7 14 MF IF MIN = 65
+SUB 6 14 MF IF MIN = 65

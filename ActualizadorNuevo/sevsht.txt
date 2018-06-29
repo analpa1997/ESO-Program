@@ -1,26 +1,26 @@
 sev
-L
+C
 
 GK Claudio_Bravo
 DF Miguel_Layún
 DF A_Kolarov
 DF J_Mathieu
-DF Adil_Rami
-DF B_Trémoulinas
-DM S_N'Zonzi
-MF M_Krohn-Dehli
-AM Arda_Turan
-FW Carlos_Vela
-FW Quaresma
-
-GK David_Soria
 DF D_Carriço
 DM V_Iborra
+MF Lewis_Cook
+AM Á_Di_María
 AM Samir_Nasri
-FW S_Jovetic
+FW Carlos_Bacca
+FW Carlos_Vela
 
-PK: Carlos_Vela
+GK David_Soria
+DF Adil_Rami
+DF B_Trémoulinas
+DF André_Almeida
+FW Quaresma
+
+PK: Carlos_Bacca
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 8 14 MF IF MIN = 65
+SUB 7 14 MF IF MIN = 65

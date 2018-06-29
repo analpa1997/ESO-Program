@@ -1,0 +1,26 @@
+bdo
+D
+
+GK Roman_Bürki
+DF Sokratis
+DF L_Piszczek
+DF Sven_Bender
+DF Marc_Bartra
+DM Julian_Weigl
+DM Dzenis_Burnic
+MF G_Castro
+AM P_Coutinho
+AM X_Shaqiri
+FW O_Dembélé
+
+GK Mile_Svilar
+DF M_Schmelzer
+MF A_Bertolacci
+AM Mario_Götze
+FW Romelu_Lukaku
+
+PK: O_Dembélé
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 8 14 MF IF MIN = 65

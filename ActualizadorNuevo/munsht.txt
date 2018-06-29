@@ -1,26 +1,26 @@
 mun
-A
+C
 
-GK Mattia_Perin
+GK Sergio_Rico
 DF Eric_Bailly
 DF Alex_Sandro
-DF Marcos_Rojo
-DF A_Valencia
-DF Niklas_Süle
+DF Serge_Aurier
 DM Nemanja_Matic
-MF R_Pereyra
+DM N'Golo_Kanté
+MF P_Zielinski
+MF Jack_Wilshere
+AM Eden_Hazard
 AM J_Rodríguez
-AM Oscar
 FW Neymar
 
 GK David_Ospina
-DF J_Murillo
-DM Jorginho
+DF Niklas_Süle
+DF M_De_Sciglio
 AM Juan_Cuadrado
-FW Falcao
+FW Dries_Mertens
 
 PK: Neymar
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 60
-SUB 8 14 MF IF MIN = 65
+SUB 7 14 MF IF MIN = 65

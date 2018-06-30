@@ -318,6 +318,17 @@ public class Actualizador extends javax.swing.JFrame {
                 FileWriter subidas = null;
                 FileReader reports = null;
                 try {
+                        String[] formacionElegidaStr = {jDf.getText(), jDm.getText(), jMf.getText(), jAm.getText(), jFw.getText()};
+                        int[] formacionElegida = new int[5];
+                        for (int i = 0; i < formacionElegida.length; i++) {
+                                formacionElegida[i] = Integer.parseInt(formacionElegidaStr[i]);
+                        }
+                        if (sumarElementosArray(formacionElegida) != 10) {
+                                throw new Exception("La suma de los jugadores elegidos tiene que ser 10");
+                        }
+                        FileReader ratings = new FileReader("ratings.txt");
+                        BufferedReader bR2 = new BufferedReader(ratings);
+                        equipoSemana = new SEquipo(liga, bR2, jNombreEquipo.getText());
                         reports = new FileReader("reports.txt");
                         BufferedReader bR = new BufferedReader(reports);
                         subidas = new FileWriter("resumen.txt", true);
@@ -395,19 +406,17 @@ public class Actualizador extends javax.swing.JFrame {
                         for (int i = 0; i < cadena.length; i++) {
                                 pW.println(cadena[i]);
                         }
+                        pW.println();
+                        String equipoSemanaStr = "";
+                        equipoSemana.elegirAlineacion(formacionElegida);
+                        equipoSemanaStr += aW.escribirFormacion(equipoSemana);
+                        String[] equipoPorLineas = equipoSemanaStr.split("\\n");
+                        for (String s2 : equipoPorLineas) {
+                                pW.println(s2);
+                        }
                         pW.println("</pre>[/spoiler]");
                         pW.println();
                         pW.close();
-                        FileReader ratings = new FileReader("ratings.txt");
-                        bR = new BufferedReader(ratings);
-                        equipoSemana = new SEquipo(liga, bR, jNombreEquipo.getText());
-                        String[] formacionElegidaStr = {jDf.getText(), jDm.getText(), jMf.getText(), jAm.getText(), jFw.getText()};
-                        int[] formacionElegida = new int[5];
-                        for (int i = 0; i < formacionElegida.length; i++) {
-                                formacionElegida[i] = Integer.parseInt(formacionElegidaStr[i]);
-                        }
-                        equipoSemana.elegirAlineacion(formacionElegida);
-                        aW.escribirFormacion(equipoSemana);
                         sLog += "Escogido equipo de la semana\n";
                         jLog.setText(sLog);
                         try {
@@ -420,6 +429,8 @@ public class Actualizador extends javax.swing.JFrame {
 
                 } catch (IOException ex) {
                         new JOptionPane(ex.getMessage()).setVisible(true);
+                } catch (Exception ex) {
+                        JOptionPane.showMessageDialog(null, ex.getMessage());
                 }
         }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -438,6 +449,14 @@ public class Actualizador extends javax.swing.JFrame {
                         jLog.setText("Error, no se pudieron actualizar las plantillas: " + ex.getMessage());
                 }
         }//GEN-LAST:event_fitPorterosActionPerformed
+
+        private int sumarElementosArray(int[] array) {
+                int suma = 0;
+                for (int i : array) {
+                        suma += i;
+                }
+                return suma;
+        }
 
         /**
          * @param args the command line arguments

@@ -37,21 +37,18 @@ public class AlineacionWriter {
                 return s;
         }
 
-        public static void escribirFormacion(SEquipo equipo) throws IOException {
+        public String escribirFormacion(SEquipo equipo) throws IOException {
                 final int espaciosCenter = 0;
                 final int maxEspacios = 84;
+                String result = "";
                 ArrayList<SJugador> titulares = equipo.getTitulares();
-                FileWriter alineacion = new FileWriter(equipo.getNombre() + ".txt");
-                BufferedWriter bW = new BufferedWriter(alineacion);
-                PrintWriter pW = new PrintWriter(bW);
                 ArrayList<SJugador> jugadoresXPosicion;
                 String lineaInf = "";
-                lineaInf = centrarString(lineaInf, equipo.getNombre(), (maxEspacios - equipo.getNombre().length()) / 2);
-                pW.println(lineaInf);
+                lineaInf = centrarString(result, equipo.getNombre(), (maxEspacios - equipo.getNombre().length()) / 2);
+                result = result + lineaInf + "\n \n";
                 String abrev = equipo.getTactica();
                 lineaInf = centrarString("", abrev, (maxEspacios - abrev.length()) / 2);
-                pW.println(lineaInf);
-                pW.println();
+                result = result + lineaInf + "\n \n";
                 int k = 0;
                 for (Jugador.Posicion p : Jugador.Posicion.values()) {
                         jugadoresXPosicion = new ArrayList();
@@ -72,9 +69,8 @@ public class AlineacionWriter {
                         }
                         jugadores = centrarString(jugadores, linea, (maxEspacios - linea.length()) / 2);
                         jugadores = escribirEspacios(jugadores, 85 - jugadores.length());
-                        pW.println(jugadores);
-                        pW.println();
+                        result = result + jugadores + "\n";
                 }
-                pW.close();
+                return result;
         }
 }

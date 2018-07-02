@@ -6,10 +6,8 @@
 package Paneles;
 
 import VPrincipal.*;
-import java.awt.Image;
 import java.net.URL;
 import java.util.*;
-import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
 import program.model.Equipo.*;
 import program.model.Liga.Liga;
@@ -22,6 +20,7 @@ public class ElegirRoster extends AbstractPanel {
 
         SortedSet<Roster> equipos;
         Liga liga;
+        private URL PATH_IMAGEN_VACIA;
 
         /**
          * Creates new form MostrarPlantillas
@@ -40,6 +39,7 @@ public class ElegirRoster extends AbstractPanel {
         public void inicializarBotones() {
                 int i = 0;
                 ESO_Management_v2 padre = (ESO_Management_v2) this.getPadre();
+                PATH_IMAGEN_VACIA = padre.PATH_IMAGEN_VACIA;
                 this.setListeners(padre.getListeners());
                 liga = padre.getLiga();
                 for (Roster r : equipos) {
@@ -108,13 +108,7 @@ public class ElegirRoster extends AbstractPanel {
         }
 
         public void addImagenBoton(PanelConBoton boton, URL path) {
-                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
-                ImageIcon escudo = new ImageIcon(padre.PATH_IMAGEN_VACIA);
-                if (path != null) {
-                        escudo = new ImageIcon(path);
-                }
-                escudo.setImage(escudo.getImage().getScaledInstance(80, 80, Image.SCALE_DEFAULT));
-                boton.getBoton().setIcon(escudo);
+                boton.anadirImagen(path, PATH_IMAGEN_VACIA);
         }
 
         public void centrarTextoBoton(PanelConBoton boton) {

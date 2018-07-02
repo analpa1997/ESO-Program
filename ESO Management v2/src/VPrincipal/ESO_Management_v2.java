@@ -79,6 +79,7 @@ public class ESO_Management_v2 extends JFrame {
                 listeners.put("Primera Pantalla", new AccionVentanaMain(this));
                 listeners.put("Elegir Roster", new AccionesElegirRoster(this));
                 listeners.put("Mostrar Roster", new AccionesMostrarRoster(this));
+                listeners.put("Traspasar Jugadores", new AccionesTraspasarJugadores(this));
         }
 
         public HashMap<String, Acciones> getListeners() {

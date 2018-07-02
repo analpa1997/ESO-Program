@@ -6,7 +6,9 @@
 package program.model.Equipo;
 
 import java.io.*;
+import java.net.URL;
 import java.util.*;
+import javax.swing.ImageIcon;
 import program.model.Jugador.*;
 
 /**
@@ -21,6 +23,8 @@ public class Roster implements Comparable<Roster> {
         private String nombre, abreviatura;
         private SortedSet<Jugador> jugadores;
         private List<Double> stats;
+        private URL imagenPath;
+        private ImageIcon imagen;
 
 // </editor-fold>
 // <editor-fold defaultstate="collapsed" desc=" Constructores ">
@@ -179,6 +183,22 @@ public class Roster implements Comparable<Roster> {
 
         public void setJugadores(SortedSet<Jugador> roster) {
                 this.jugadores = roster;
+        }
+
+        public URL getImagenPath() {
+                return imagenPath;
+        }
+
+        public void setImagenPath(URL imagenPath) {
+                this.imagenPath = imagenPath;
+        }
+
+        public ImageIcon getImagen() {
+                return imagen;
+        }
+
+        public void setImagen(ImageIcon imagen) {
+                this.imagen = imagen;
         }
 
 //</editor-fold>

@@ -61,6 +61,18 @@ public class AccionVentanaMain extends Acciones {
                                 mSeleccionesLiga.repaint();
                                 pantallaPrincipal.repaint();
                                 break;
+                        case "traspasos":
+                                pantallaPrincipal.remove(pantallas.lastElement());
+                                TraspasarJugadores traspasos = new TraspasarJugadores(liga.getEquiposLiga().getEquipos());
+                                traspasos.setPadre(pantallaPrincipal);
+                                traspasos.setEscuchadores();
+                                traspasos.inicializarPaneles();
+                                pantallas.push(traspasos);
+                                pantallaPrincipal.add(traspasos);
+                                traspasos.updateUI();
+                                traspasos.repaint();
+                                pantallaPrincipal.repaint();
+                                break;
                         case "salarios":
                                 System.out.println("Boton Salarios");
                                 break;

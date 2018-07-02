@@ -6,7 +6,9 @@
 package program.model.Liga;
 
 import java.io.*;
+import java.net.*;
 import java.util.*;
+import javax.swing.ImageIcon;
 import program.model.Equipo.*;
 import program.model.Jugador.*;
 
@@ -20,6 +22,8 @@ public class Liga {
         private Equipos equiposLiga, seleccionesLiga, todasSelecciones;
         private Roster todosJugadores;
         private Map<String, String> nombresEquipos;
+
+        private final URL PATH_IMAGEN_VACIA = this.getClass().getClassLoader().getResource("imagenes/vacia.png");
 
         /*private ArrayList <Calendario> calendariosLiga = new ArrayList();
     private ArrayList <Resultado> resultadosLiga = new ArrayList();
@@ -150,13 +154,26 @@ public class Liga {
                                 Roster s = existeSeleccion(player.getNacionalidad());
                                 if (s == null) {
                                         s = new Roster(player.getNacionalidad());
+                                        URL imagenS = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nuevoEquipo.getAbreviatura() + ".png");
+                                        if (imagenS != null) {
+                                                s.setImagenPath(imagenS);
+                                        } else {
+                                                s.setImagenPath(PATH_IMAGEN_VACIA);
+                                        }
+                                        s.setImagen(new ImageIcon(s.getImagenPath()));
                                         todasSelecciones.añadirEquipo(s);
                                 }
 
                                 s.anadirJugador(player);
                         }
+                        URL imagen = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nuevoEquipo.getAbreviatura() + ".png");
+                        if (imagen != null) {
+                                nuevoEquipo.setImagenPath(imagen);
+                        } else {
+                                nuevoEquipo.setImagenPath(PATH_IMAGEN_VACIA);
+                        }
+                        nuevoEquipo.setImagen(new ImageIcon(nuevoEquipo.getImagenPath()));
                         this.equiposLiga.añadirEquipo(nuevoEquipo);
-                        // this.guardarSelecciones();
                 }
         }
 

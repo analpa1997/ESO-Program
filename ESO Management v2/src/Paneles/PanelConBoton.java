@@ -5,7 +5,10 @@
  */
 package Paneles;
 
+import java.awt.Image;
 import java.awt.event.ActionListener;
+import java.net.URL;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 /**
@@ -39,6 +42,15 @@ public class PanelConBoton extends AbstractPanel {
 
         public void setActionListener(ActionListener listener) {
                 this.jButton1.addActionListener(listener);
+        }
+
+        public void anadirImagen(URL pathImagen, URL pathVacia) {
+                ImageIcon escudo = new ImageIcon(pathVacia);
+                if (pathImagen != null) {
+                        escudo = new ImageIcon(pathImagen);
+                }
+                escudo.setImage(escudo.getImage().getScaledInstance(80, 80, Image.SCALE_DEFAULT));
+                this.getBoton().setIcon(escudo);
         }
 
         /*jButton4.setText("jButton4");

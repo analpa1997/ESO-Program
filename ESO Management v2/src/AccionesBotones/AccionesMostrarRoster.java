@@ -16,7 +16,7 @@ import java.awt.event.ActionEvent;
 public class AccionesMostrarRoster extends Acciones {
 
         private MostrarRoster llamada;
-        private boolean mayorMenorEdad = false, mayorMenorNombre = false, mayorMenorRendimiento = false;
+        private boolean mayorMenorEdad = false, AZNombre = false, mayorMenorRendimiento = false, AZNacionalidad = false;
 
         public AccionesMostrarRoster() {
                 super();
@@ -34,6 +34,13 @@ public class AccionesMostrarRoster extends Acciones {
                 this.llamada = llamada;
         }
 
+        public void inicializarBooleans() {
+                mayorMenorEdad = false;
+                AZNombre = false;
+                mayorMenorRendimiento = false;
+                AZNacionalidad = false;
+        }
+
         @Override
         public void actionPerformed(ActionEvent e) {
                 int numero = 0;
@@ -47,14 +54,16 @@ public class AccionesMostrarRoster extends Acciones {
                         case "ordenarMedia":
                                 mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
-                                mayorMenorNombre = false;
+                                AZNombre = false;
+                                AZNacionalidad = false;
                                 numero = -1;
                                 llamada.getEquipo().ordenarRoster(-1, 0);
-                                llamada.refrescarPlantilla();
+                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarEdad":
                                 mayorMenorRendimiento = false;
-                                mayorMenorNombre = false;
+                                AZNombre = false;
+                                AZNacionalidad = false;
                                 if (mayorMenorEdad) {
                                         numero = 1;
                                 } else {
@@ -62,11 +71,12 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 mayorMenorEdad = !mayorMenorEdad;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla();
+                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarRendimiento":
                                 mayorMenorEdad = false;
-                                mayorMenorNombre = false;
+                                AZNombre = false;
+                                AZNacionalidad = false;
                                 if (mayorMenorRendimiento) {
                                         numero = 9;
                                 } else {
@@ -74,19 +84,33 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 mayorMenorRendimiento = !mayorMenorRendimiento;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla();
+                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarNombre":
                                 mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
-                                if (mayorMenorNombre) {
+                                AZNacionalidad = false;
+                                if (AZNombre) {
                                         numero = 3;
                                 } else {
                                         numero = 4;
                                 }
-                                mayorMenorNombre = !mayorMenorNombre;
+                                AZNombre = !AZNombre;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla();
+                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
+                                break;
+                        case "ordenarNacionalidad":
+                                mayorMenorEdad = false;
+                                mayorMenorRendimiento = false;
+                                AZNombre = false;
+                                if (AZNacionalidad) {
+                                        numero = 6;
+                                } else {
+                                        numero = 5;
+                                }
+                                AZNacionalidad = !AZNacionalidad;
+                                llamada.getEquipo().ordenarRoster(numero, 0);
+                                llamada.refrescarPlantilla(llamada.organizarPorNacionalidades());
                                 break;
                 }
         }

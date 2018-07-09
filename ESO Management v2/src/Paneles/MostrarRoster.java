@@ -10,6 +10,7 @@ import java.io.*;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import program.model.Equipo.Roster;
+import program.model.Jugador.Jugador;
 
 /**
  *
@@ -29,27 +30,70 @@ public class MostrarRoster extends AbstractPanel {
         public MostrarRoster(Roster equipo) {
                 this();
                 this.equipo = equipo;
-                refrescarPlantilla();
+                refrescarPlantilla(equipo.toString());
         }
 
-        public void refrescarPlantilla() {
-                plantillaLabel.setText("<html>" + equipo.escribirHTML() + "</html>");
+        public void refrescarPlantilla(String texto) {
+                plantillaLabel.setText("<html>" + equipo.escribirHTML(texto) + "</html>");
                 plantillaLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+        }
+
+        public String organizarPorNacionalidades() {
+                String texto = "";
+                String nacActual = "";
+                String grupoJugadores = "";
+                String cabecera = "";
+                String lineaSeparadora = "----------------------------------------------------\n\n";
+                for (Jugador j : equipo.getJugadores()) {
+                        if (nacActual.equals("")) {
+                                cabecera = "Jugadores de " + j.getNacionalidad() + ": ";
+                                nacActual = j.getNacionalidad();
+                        }
+                        if (!nacActual.equals(j.getNacionalidad())) {
+                                int jugadores = grupoJugadores.split("\n").length;
+                                if (jugadores == 1) {
+                                        cabecera += jugadores + " jugador\n";
+                                } else {
+                                        cabecera += jugadores + " jugadores\n";
+                                }
+                                cabecera += lineaSeparadora;
+                                texto += cabecera;
+                                texto = texto + grupoJugadores + "\n";
+                                grupoJugadores = "";
+                                cabecera = "Jugadores de " + j.getNacionalidad() + ": ";
+                                nacActual = j.getNacionalidad();
+                        }
+                        grupoJugadores = grupoJugadores + j.toString() + "\n";
+                }
+                int jugadores = grupoJugadores.split("\n").length;
+                if (jugadores == 1) {
+                        cabecera += jugadores + " jugador\n";
+                } else {
+                        cabecera += jugadores + " jugadores\n";
+                }
+                cabecera += lineaSeparadora;
+                texto += cabecera;
+                texto = texto + grupoJugadores + "\n";
+                texto = "<pre>" + texto + "</pre>";
+                return texto;
         }
 
         public void inicializarBotones() {
                 ((AccionesMostrarRoster) this.getListeners().get("Mostrar Roster")).setLlamada(this);
+                ((AccionesMostrarRoster) this.getListeners().get("Mostrar Roster")).inicializarBooleans();
                 botonSalir.setActionCommand("salir");
                 orderNombre.setActionCommand("ordenarNombre");
                 orderEdad.setActionCommand("ordenarEdad");
                 orderMedia.setActionCommand("ordenarMedia");
                 orderRendimiento.setActionCommand("ordenarRendimiento");
+                orderPais.setActionCommand("ordenarNacionalidad");
                 saveInformacion.setActionCommand("gInformacion");
                 botonSalir.addActionListener(this.getListeners().get("Mostrar Roster"));
                 orderNombre.addActionListener(this.getListeners().get("Mostrar Roster"));
                 orderEdad.addActionListener(this.getListeners().get("Mostrar Roster"));
                 orderMedia.addActionListener(this.getListeners().get("Mostrar Roster"));
                 orderRendimiento.addActionListener(this.getListeners().get("Mostrar Roster"));
+                orderPais.addActionListener(this.getListeners().get("Mostrar Roster"));
                 saveInformacion.addActionListener(this.getListeners().get("Mostrar Roster"));
         }
 
@@ -105,8 +149,7 @@ public class MostrarRoster extends AbstractPanel {
                 orderEdad = new javax.swing.JButton();
                 botonSalir = new javax.swing.JButton();
                 saveInformacion = new javax.swing.JButton();
-                jSeparator1 = new javax.swing.JSeparator();
-                jSeparator2 = new javax.swing.JSeparator();
+                orderPais = new javax.swing.JButton();
 
                 setLayout(new java.awt.GridBagLayout());
 
@@ -120,8 +163,8 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 1;
                 gridBagConstraints.gridy = 0;
-                gridBagConstraints.gridwidth = 11;
-                gridBagConstraints.gridheight = 3;
+                gridBagConstraints.gridwidth = 3;
+                gridBagConstraints.gridheight = 4;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.4;
                 gridBagConstraints.weighty = 0.1;
@@ -134,6 +177,7 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(orderMedia, gridBagConstraints);
 
                 orderNombre.setText("Ordenar Por Nombre");
@@ -143,15 +187,17 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(orderNombre, gridBagConstraints);
 
                 orderRendimiento.setText("Ordenar por Rendimiento");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 3;
+                gridBagConstraints.gridy = 4;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.weighty = 0.2;
+                gridBagConstraints.insets = new java.awt.Insets(6, 6, 5, 6);
                 add(orderRendimiento, gridBagConstraints);
 
                 orderEdad.setText("Ordenar por Edad");
@@ -161,46 +207,48 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(orderEdad, gridBagConstraints);
 
                 botonSalir.setText("Salir");
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 11;
-                gridBagConstraints.gridy = 3;
+                gridBagConstraints.gridx = 3;
+                gridBagConstraints.gridy = 4;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.2;
+                gridBagConstraints.insets = new java.awt.Insets(6, 5, 5, 5);
                 add(botonSalir, gridBagConstraints);
 
                 saveInformacion.setText("Guardar Información");
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 9;
-                gridBagConstraints.gridy = 3;
+                gridBagConstraints.gridx = 1;
+                gridBagConstraints.gridy = 4;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.2;
+                gridBagConstraints.insets = new java.awt.Insets(6, 5, 5, 5);
                 add(saveInformacion, gridBagConstraints);
+
+                orderPais.setText("Ordenar por Nacionalidad");
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 8;
+                gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 3;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                add(jSeparator1, gridBagConstraints);
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 10;
-                gridBagConstraints.gridy = 3;
-                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                gridBagConstraints.weightx = 0.1;
-                add(jSeparator2, gridBagConstraints);
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
+                add(orderPais, gridBagConstraints);
         }// </editor-fold>//GEN-END:initComponents
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JButton botonSalir;
         private javax.swing.JScrollPane contenedorPlantilla;
         private javax.swing.JPanel jPanel1;
-        private javax.swing.JSeparator jSeparator1;
-        private javax.swing.JSeparator jSeparator2;
         private javax.swing.JButton orderEdad;
         private javax.swing.JButton orderMedia;
         private javax.swing.JButton orderNombre;
+        private javax.swing.JButton orderPais;
         private javax.swing.JButton orderRendimiento;
         private javax.swing.JLabel plantillaLabel;
         private javax.swing.JButton saveInformacion;

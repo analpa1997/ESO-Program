@@ -216,8 +216,8 @@ public class Roster implements Comparable<Roster> {
                 return equipo;
         }
 
-        public String escribirHTML() {
-                String equipo = this.toString();
+        public String escribirHTML(String texto) {
+                String equipo = texto;
                 equipo = equipo.replaceAll("\n", "<br>");
                 equipo = "<pre>" + equipo + "</pre>";
                 return equipo;
@@ -381,12 +381,22 @@ public class Roster implements Comparable<Roster> {
 //</editor-fold>
 
                         case 5: //<editor-fold defaultstate="collapsed" desc="Comparador de orden alfabetico A-Z Nacionalidad">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o2.getNacionalidad().compareTo(o1.getNacionalidad()));
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o1.getNacionalidad().compareTo(o2.getNacionalidad()) == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o1.getNacionalidad().compareTo(o2.getNacionalidad());
+                                });
                                 break;
 //</editor-fold>
 
                         case 6: //<editor-fold defaultstate="collapsed" desc="Comparador de orden alfabetico Z-A Nacionalidad">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o1.getNacionalidad().compareTo(o2.getNacionalidad()));
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o2.getNacionalidad().compareTo(o1.getNacionalidad()) == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o2.getNacionalidad().compareTo(o1.getNacionalidad());
+                                });
                                 break;
 //</editor-fold>
 

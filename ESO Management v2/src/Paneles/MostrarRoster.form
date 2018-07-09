@@ -43,9 +43,9 @@
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="verPlantilla">
+    <Component class="javax.swing.JButton" name="orderMedia">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Ver Plantilla"/>
+        <Property name="text" type="java.lang.String" value="Ordenar por Media"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -53,7 +53,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="orderNombre">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ordenar Por Nombre"/>
       </Properties>
@@ -63,9 +63,9 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
+    <Component class="javax.swing.JButton" name="orderRendimiento">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Ordenar por Posicion"/>
+        <Property name="text" type="java.lang.String" value="Ordenar por Rendimiento"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -73,7 +73,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="orderEdad">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ordenar por Edad"/>
       </Properties>
@@ -93,9 +93,9 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="saveInformacion">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="Guardar Informaci&#xf3;n"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">

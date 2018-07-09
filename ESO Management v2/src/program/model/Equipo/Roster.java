@@ -218,7 +218,7 @@ public class Roster implements Comparable<Roster> {
 
         public String escribirHTML() {
                 String equipo = this.toString();
-                equipo.replaceAll("\n", "<br>");
+                equipo = equipo.replaceAll("\n", "<br>");
                 equipo = "<pre>" + equipo + "</pre>";
                 return equipo;
         }
@@ -351,12 +351,22 @@ public class Roster implements Comparable<Roster> {
                 switch (num) {
 
                         case 1: //<editor-fold defaultstate="collapsed" desc="Comparador de orden de mayor edad a menor edad">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o2.getEdad() - o1.getEdad());
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o2.getEdad() - o1.getEdad() == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o2.getEdad() - o1.getEdad();
+                                });
                                 break;
 //</editor-fold>
 
                         case 2: //<editor-fold defaultstate="collapsed" desc="Comparador de orden de menor edad a mayor edad">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o1.getEdad() - o2.getEdad());
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o1.getEdad() - o2.getEdad() == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o1.getEdad() - o2.getEdad();
+                                });
                                 break;
 //</editor-fold>
 
@@ -399,7 +409,7 @@ public class Roster implements Comparable<Roster> {
                                         } else {
                                                 if (o1.getStats().getMinutos() == 0) {
                                                         if (o2.getStats().getMinutos() == 0) {
-                                                                return 0;
+                                                                return o1.getNombre().compareTo(o2.getNombre());
                                                         } else {
                                                                 return 1;
                                                         }
@@ -412,7 +422,7 @@ public class Roster implements Comparable<Roster> {
                                                                 } else if (o1.getStats().getMinutos() > o2.getStats().getMinutos()) {
                                                                         return 1;
                                                                 } else {
-                                                                        return 0;
+                                                                        return o1.getNombre().compareTo(o2.getNombre());
                                                                 }
                                                         }
                                                 }
@@ -430,7 +440,7 @@ public class Roster implements Comparable<Roster> {
                                         } else {
                                                 if (o1.getStats().getMinutos() == 0) {
                                                         if (o2.getStats().getMinutos() == 0) {
-                                                                return 0;
+                                                                return o2.getNombre().compareTo(o1.getNombre());
                                                         } else {
                                                                 return 1;
                                                         }
@@ -443,7 +453,7 @@ public class Roster implements Comparable<Roster> {
                                                                 } else if (o1.getStats().getMinutos() > o2.getStats().getMinutos()) {
                                                                         return 1;
                                                                 } else {
-                                                                        return 0;
+                                                                        return o2.getNombre().compareTo(o1.getNombre());
                                                                 }
                                                         }
                                                 }
@@ -545,6 +555,7 @@ public class Roster implements Comparable<Roster> {
 //</editor-fold>
 
                 }
+
                 Iterator it = jugadores.iterator();
                 while (it.hasNext()) {
                         Jugador j = (Jugador) it.next();

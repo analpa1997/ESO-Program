@@ -5,6 +5,9 @@
  */
 package Paneles;
 
+import AccionesBotones.AccionesMostrarRoster;
+import java.io.*;
+import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import program.model.Equipo.Roster;
 
@@ -13,6 +16,8 @@ import program.model.Equipo.Roster;
  * @author Antonio
  */
 public class MostrarRoster extends AbstractPanel {
+
+        private Roster equipo;
 
         /**
          * Creates new form MostrarRoster
@@ -23,15 +28,61 @@ public class MostrarRoster extends AbstractPanel {
 
         public MostrarRoster(Roster equipo) {
                 this();
+                this.equipo = equipo;
+                refrescarPlantilla();
+        }
 
+        public void refrescarPlantilla() {
                 plantillaLabel.setText("<html>" + equipo.escribirHTML() + "</html>");
                 plantillaLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         }
 
         public void inicializarBotones() {
+                ((AccionesMostrarRoster) this.getListeners().get("Mostrar Roster")).setLlamada(this);
                 botonSalir.setActionCommand("salir");
+                orderNombre.setActionCommand("ordenarNombre");
+                orderEdad.setActionCommand("ordenarEdad");
+                orderMedia.setActionCommand("ordenarMedia");
+                orderRendimiento.setActionCommand("ordenarRendimiento");
+                saveInformacion.setActionCommand("gInformacion");
                 botonSalir.addActionListener(this.getListeners().get("Mostrar Roster"));
+                orderNombre.addActionListener(this.getListeners().get("Mostrar Roster"));
+                orderEdad.addActionListener(this.getListeners().get("Mostrar Roster"));
+                orderMedia.addActionListener(this.getListeners().get("Mostrar Roster"));
+                orderRendimiento.addActionListener(this.getListeners().get("Mostrar Roster"));
+                saveInformacion.addActionListener(this.getListeners().get("Mostrar Roster"));
+        }
 
+        public void guardarTexto() {
+                String texto = plantillaLabel.getText();
+                texto = texto.replaceAll("<pre>", "");
+                texto = texto.replaceAll("</pre>", "");
+                texto = texto.replaceAll("<html>", "");
+                texto = texto.replaceAll("</html>", "");
+                texto = texto.replaceAll("<br>", "\n");
+                String fileName = JOptionPane.showInputDialog("Introduce el nombre del archivo (sin extensión) donde quieres guardar la información (se guarda en .txt)", "");
+                FileWriter fichero;
+                try {
+                        fichero = new FileWriter(fileName + ".txt");
+                        PrintWriter pW = new PrintWriter(fichero);
+                        String[] aux = texto.split("\n");
+                        for (String s : aux) {
+                                pW.println(s);
+                        }
+                        pW.close();
+                        fichero.close();
+                } catch (IOException ex) {
+                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                }
+
+        }
+
+        public Roster getEquipo() {
+                return equipo;
+        }
+
+        public void setEquipo(Roster equipo) {
+                this.equipo = equipo;
         }
 
         /**
@@ -48,12 +99,12 @@ public class MostrarRoster extends AbstractPanel {
                 contenedorPlantilla = new javax.swing.JScrollPane();
                 jPanel1 = new javax.swing.JPanel();
                 plantillaLabel = new javax.swing.JLabel();
-                verPlantilla = new javax.swing.JButton();
-                jButton4 = new javax.swing.JButton();
-                jButton5 = new javax.swing.JButton();
-                jButton6 = new javax.swing.JButton();
+                orderMedia = new javax.swing.JButton();
+                orderNombre = new javax.swing.JButton();
+                orderRendimiento = new javax.swing.JButton();
+                orderEdad = new javax.swing.JButton();
                 botonSalir = new javax.swing.JButton();
-                jButton2 = new javax.swing.JButton();
+                saveInformacion = new javax.swing.JButton();
                 jSeparator1 = new javax.swing.JSeparator();
                 jSeparator2 = new javax.swing.JSeparator();
 
@@ -76,41 +127,41 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.weighty = 0.1;
                 add(contenedorPlantilla, gridBagConstraints);
 
-                verPlantilla.setText("Ver Plantilla");
+                orderMedia.setText("Ordenar por Media");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 0;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
-                add(verPlantilla, gridBagConstraints);
+                add(orderMedia, gridBagConstraints);
 
-                jButton4.setText("Ordenar Por Nombre");
+                orderNombre.setText("Ordenar Por Nombre");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
-                add(jButton4, gridBagConstraints);
+                add(orderNombre, gridBagConstraints);
 
-                jButton5.setText("Ordenar por Posicion");
+                orderRendimiento.setText("Ordenar por Rendimiento");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 3;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
-                add(jButton5, gridBagConstraints);
+                add(orderRendimiento, gridBagConstraints);
 
-                jButton6.setText("Ordenar por Edad");
+                orderEdad.setText("Ordenar por Edad");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
                 gridBagConstraints.gridy = 2;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
-                add(jButton6, gridBagConstraints);
+                add(orderEdad, gridBagConstraints);
 
                 botonSalir.setText("Salir");
                 gridBagConstraints = new java.awt.GridBagConstraints();
@@ -120,13 +171,13 @@ public class MostrarRoster extends AbstractPanel {
                 gridBagConstraints.weightx = 0.1;
                 add(botonSalir, gridBagConstraints);
 
-                jButton2.setText("jButton2");
+                saveInformacion.setText("Guardar Información");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 9;
                 gridBagConstraints.gridy = 3;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                add(jButton2, gridBagConstraints);
+                add(saveInformacion, gridBagConstraints);
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 8;
                 gridBagConstraints.gridy = 3;
@@ -144,14 +195,14 @@ public class MostrarRoster extends AbstractPanel {
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JButton botonSalir;
         private javax.swing.JScrollPane contenedorPlantilla;
-        private javax.swing.JButton jButton2;
-        private javax.swing.JButton jButton4;
-        private javax.swing.JButton jButton5;
-        private javax.swing.JButton jButton6;
         private javax.swing.JPanel jPanel1;
         private javax.swing.JSeparator jSeparator1;
         private javax.swing.JSeparator jSeparator2;
+        private javax.swing.JButton orderEdad;
+        private javax.swing.JButton orderMedia;
+        private javax.swing.JButton orderNombre;
+        private javax.swing.JButton orderRendimiento;
         private javax.swing.JLabel plantillaLabel;
-        private javax.swing.JButton verPlantilla;
+        private javax.swing.JButton saveInformacion;
         // End of variables declaration//GEN-END:variables
 }

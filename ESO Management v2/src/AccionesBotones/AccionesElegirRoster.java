@@ -65,6 +65,9 @@ public class AccionesElegirRoster extends Acciones {
                                 if (equipo == null) {
                                         equipo = liga.getTodasSelecciones().buscarEquipo(abrev);
                                 }
+                                if (equipo == null) {
+                                        equipo = liga.getJugadores();
+                                }
                                 MostrarRoster mRoster = new MostrarRoster(equipo);
                                 mRoster.setPadre(pantallas.lastElement());
                                 ElegirRoster eRoster = (ElegirRoster) pantallas.lastElement();

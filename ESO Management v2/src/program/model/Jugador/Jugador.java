@@ -44,6 +44,7 @@ public class Jugador implements Comparable<Jugador> {
                 this.definirPosInt();
                 this.definirMedias();
                 this.definirSalario();
+                this.calcularRendimiento();
         }
 
         public Jugador(String lineaFichero, String nombreFichero) {
@@ -69,6 +70,7 @@ public class Jugador implements Comparable<Jugador> {
                 this.definirPosInt();
                 this.definirMedias();
                 this.definirSalario();
+                this.calcularRendimiento();
         }
 
         public String getNombre() {

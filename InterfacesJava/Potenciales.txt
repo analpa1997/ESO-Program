@@ -1,0 +1,35 @@
+POTENCIALES CLUBES ESO
+------------------------------------------------
+1. BMU: 8632,000 puntos.
+2. RMA: 8214,000 puntos.
+3. BAR: 8156,000 puntos.
+4. MUN: 7334,000 puntos.
+5. ATM: 6312,000 puntos.
+6. PSG: 6262,000 puntos.
+7. BDO: 6233,000 puntos.
+8. JUV: 6212,000 puntos.
+9. ARS: 6172,000 puntos.
+10. LIV: 5876,000 puntos.
+11. TOT: 5822,000 puntos.
+12. MCI: 5812,000 puntos.
+13. MIL: 5571,000 puntos.
+14. BLE: 5559,000 puntos.
+15. CHE: 5117,000 puntos.
+16. NAP: 5096,000 puntos.
+17. VIL: 4820,000 puntos.
+18. INT: 4727,000 puntos.
+19. ROM: 4621,000 puntos.
+20. NIC: 4396,000 puntos.
+21. SLB: 4378,000 puntos.
+22. ASM: 4350,000 puntos.
+23. SEV: 4130,000 puntos.
+24. OPO: 4048,000 puntos.
+25. PSV: 3681,000 puntos.
+26. S04: 3630,000 puntos.
+27. LYO: 3429,000 puntos.
+28. VAL: 3380,000 puntos.
+29. LEI: 3274,000 puntos.
+30. EVE: 3190,000 puntos.
+31. OMA: 2612,000 puntos.
+32. AJX: 2470,000 puntos.
+------------------------------------------------

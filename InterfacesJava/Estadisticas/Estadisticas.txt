@@ -1,0 +1,952 @@
+GOLES
+--------------------------------------------------------------------
+1. Lionel_Messi (bar), 31 goles.
+2. A_Sánchez (ars), 29 goles.
+3. Sergio_Agüero (mci), 26 goles.
+4. Neymar (bar), 24 goles.
+5. Arjen_Robben (juv), 24 goles.
+6. Z_Ibrahimovic (mil), 24 goles.
+7. A_Griezmann (atm), 22 goles.
+8. Memphis_Depay (lyo), 22 goles.
+9. K_Mitroglou (slb), 22 goles.
+10. Diego_Costa (che), 21 goles.
+11. Dries_Mertens (nap), 20 goles.
+12. L_Insigne (nap), 19 goles.
+13. T_Hazard (vil), 19 goles.
+14. G_dos_Santos (vil), 19 goles.
+15. B_Gomis (oma), 18 goles.
+16. C_Ronaldo (rma), 18 goles.
+17. Thomas_Müller (asm), 17 goles.
+18. Kévin_Gameiro (atm), 17 goles.
+19. Santi_Mina (val), 17 goles.
+20. Paulo_Dybala (bar), 16 goles.
+21. G_Higuaín (bmu), 16 goles.
+22. A_Lacazette (lyo), 16 goles.
+23. José_Callejón (nap), 16 goles.
+24. O_Giroud (ars), 15 goles.
+25. Willian (che), 15 goles.
+26. Luis_Suárez (juv), 15 goles.
+27. R_Firmino (liv), 15 goles.
+28. Karim_Benzema (mun), 15 goles.
+29. Isco (rma), 15 goles.
+30. R_Lewandowski (rma), 15 goles.
+--------------------------------------------------------------------
+
+GOLES POR MINUTO
+--------------------------------------------------------------------
+1. Z_Ibrahimovic (mil), 0,008 goles por minuto.
+2. Diego_Costa (che), 0,008 goles por minuto.
+3. Memphis_Depay (lyo), 0,008 goles por minuto.
+4. Lionel_Messi (bar), 0,008 goles por minuto.
+5. A_Sánchez (ars), 0,008 goles por minuto.
+6. K_Mitroglou (slb), 0,008 goles por minuto.
+7. Willian (che), 0,007 goles por minuto.
+8. L_Insigne (nap), 0,007 goles por minuto.
+9. C_Ronaldo (rma), 0,007 goles por minuto.
+10. Arjen_Robben (juv), 0,007 goles por minuto.
+11. Sergio_Agüero (mci), 0,007 goles por minuto.
+12. Santi_Mina (val), 0,007 goles por minuto.
+13. Neymar (bar), 0,007 goles por minuto.
+14. B_Gomis (oma), 0,007 goles por minuto.
+15. A_Griezmann (atm), 0,007 goles por minuto.
+16. L_Martínez (ajx), 0,007 goles por minuto.
+17. Z_Bakkali (val), 0,007 goles por minuto.
+18. Leon_Bailey (mun), 0,007 goles por minuto.
+19. Paulo_Dybala (bar), 0,006 goles por minuto.
+20. Y_Brahimi (opo), 0,006 goles por minuto.
+21. Karim_Benzema (mun), 0,006 goles por minuto.
+22. A_Milik (nap), 0,006 goles por minuto.
+23. M_Oyarzabal (bmu), 0,006 goles por minuto.
+24. M_Rashford (mun), 0,006 goles por minuto.
+25. Dries_Mertens (nap), 0,006 goles por minuto.
+26. G_Higuaín (bmu), 0,006 goles por minuto.
+27. T_Hazard (vil), 0,006 goles por minuto.
+28. José_Callejón (nap), 0,006 goles por minuto.
+29. G_dos_Santos (vil), 0,006 goles por minuto.
+30. R_Lewandowski (rma), 0,006 goles por minuto.
+--------------------------------------------------------------------
+
+GOLES POR PARTIDO
+--------------------------------------------------------------------
+1. Diego_Costa (che), 0,750 goles por partido.
+2. Z_Ibrahimovic (mil), 0,667 goles por partido.
+3. C_Ronaldo (rma), 0,667 goles por partido.
+4. A_Sánchez (ars), 0,659 goles por partido.
+5. L_Insigne (nap), 0,655 goles por partido.
+6. K_Mitroglou (slb), 0,647 goles por partido.
+7. L_Martínez (ajx), 0,636 goles por partido.
+8. Lionel_Messi (bar), 0,574 goles por partido.
+9. Sergio_Agüero (mci), 0,565 goles por partido.
+10. A_Griezmann (atm), 0,564 goles por partido.
+11. Z_Bakkali (val), 0,556 goles por partido.
+12. Memphis_Depay (lyo), 0,550 goles por partido.
+13. Y_Konoplyanka (s04), 0,538 goles por partido.
+14. Willian (che), 0,536 goles por partido.
+15. T_Hazard (vil), 0,528 goles por partido.
+16. Dries_Mertens (nap), 0,526 goles por partido.
+17. A_Milik (nap), 0,520 goles por partido.
+18. Karim_Benzema (mun), 0,517 goles por partido.
+19. R_Lewandowski (rma), 0,517 goles por partido.
+20. Neymar (bar), 0,500 goles por partido.
+21. B_Gomis (oma), 0,500 goles por partido.
+22. G_dos_Santos (vil), 0,500 goles por partido.
+23. Chicharito (che), 0,500 goles por partido.
+24. Á_Di_María (rom), 0,500 goles por partido.
+25. José_Callejón (nap), 0,485 goles por partido.
+26. Santi_Mina (val), 0,472 goles por partido.
+27. Kévin_Gameiro (atm), 0,472 goles por partido.
+28. Dani_Parejo (val), 0,464 goles por partido.
+29. Y_Brahimi (opo), 0,462 goles por partido.
+30. M_Oyarzabal (bmu), 0,455 goles por partido.
+--------------------------------------------------------------------
+
+GOLES ENCAJADOS
+--------------------------------------------------------------------
+1. Alban_Lafont (ajx), 96 goles encajados.
+2. Jeroen_Zoet (psv), 93 goles encajados.
+3. G_Donnarumma (mil), 83 goles encajados.
+4. Claudio_Bravo (mci), 82 goles encajados.
+5. Hugo_Lloris (tot), 81 goles encajados.
+6. Joel_Robles (eve), 80 goles encajados.
+7. Sergio_Asenjo (vil), 79 goles encajados.
+8. G_Rulli (opo), 78 goles encajados.
+9. Manuel_Neuer (bmu), 75 goles encajados.
+10. Bernd_Leno (ble), 71 goles encajados.
+11. S_Handanovic (int), 70 goles encajados.
+12. Ralf_Fährmann (s04), 69 goles encajados.
+13. W_Szczesny (rom), 68 goles encajados.
+14. Sergio_Rico (sev), 68 goles encajados.
+15. Y_Cardinale (nic), 66 goles encajados.
+16. Jan_Oblak (atm), 65 goles encajados.
+17. David_de_Gea (mun), 65 goles encajados.
+18. Yohann_Pelé (oma), 65 goles encajados.
+19. Diego_Alves (val), 65 goles encajados.
+20. Roman_Bürki (bdo), 63 goles encajados.
+21. Petr_Cech (ars), 57 goles encajados.
+22. Loris_Karius (liv), 57 goles encajados.
+23. K_Schmeichel (lei), 56 goles encajados.
+24. Kevin_Trapp (psg), 56 goles encajados.
+25. D_Subasic (asm), 54 goles encajados.
+26. T_Courtois (che), 52 goles encajados.
+27. Ederson (slb), 50 goles encajados.
+28. Anthony_Lopes (lyo), 49 goles encajados.
+29. G_Buffon (juv), 48 goles encajados.
+30. Ramazan_Özcan (ble), 46 goles encajados.
+--------------------------------------------------------------------
+
+GOLES ENCAJADOS POR MNINUTO
+--------------------------------------------------------------------
+1. G_Buffon (juv), 0,011 goles encajados por mninuto.
+2. Ederson (slb), 0,012 goles encajados por mninuto.
+3. T_Courtois (che), 0,012 goles encajados por mninuto.
+4. D_Subasic (asm), 0,012 goles encajados por mninuto.
+5. M_ter_Stegen (bar), 0,013 goles encajados por mninuto.
+6. Anthony_Lopes (lyo), 0,014 goles encajados por mninuto.
+7. Rui_Patrício (rma), 0,014 goles encajados por mninuto.
+8. Loris_Karius (liv), 0,014 goles encajados por mninuto.
+9. Manuel_Neuer (bmu), 0,015 goles encajados por mninuto.
+10. G_Donnarumma (mil), 0,016 goles encajados por mninuto.
+11. Diego_Alves (val), 0,016 goles encajados por mninuto.
+12. Mattia_Perin (nap), 0,016 goles encajados por mninuto.
+13. S_Handanovic (int), 0,016 goles encajados por mninuto.
+14. Roman_Bürki (bdo), 0,017 goles encajados por mninuto.
+15. K_Schmeichel (lei), 0,017 goles encajados por mninuto.
+16. Pepe_Reina (nap), 0,017 goles encajados por mninuto.
+17. David_de_Gea (mun), 0,017 goles encajados por mninuto.
+18. Yohann_Pelé (oma), 0,018 goles encajados por mninuto.
+19. Jan_Oblak (atm), 0,018 goles encajados por mninuto.
+20. Hugo_Lloris (tot), 0,018 goles encajados por mninuto.
+21. Y_Cardinale (nic), 0,018 goles encajados por mninuto.
+22. Sergio_Rico (sev), 0,018 goles encajados por mninuto.
+23. Petr_Cech (ars), 0,019 goles encajados por mninuto.
+24. Kevin_Trapp (psg), 0,019 goles encajados por mninuto.
+25. G_Rulli (opo), 0,019 goles encajados por mninuto.
+26. Ralf_Fährmann (s04), 0,019 goles encajados por mninuto.
+27. Claudio_Bravo (mci), 0,019 goles encajados por mninuto.
+28. W_Szczesny (rom), 0,020 goles encajados por mninuto.
+29. Asmir_Begovic (psg), 0,020 goles encajados por mninuto.
+30. Sergio_Asenjo (vil), 0,021 goles encajados por mninuto.
+--------------------------------------------------------------------
+
+GOLES ENCAJADOS POR PARTIDO
+--------------------------------------------------------------------
+1. G_Buffon (juv), 1,021 goles encajados por partido.
+2. T_Courtois (che), 1,106 goles encajados por partido.
+3. Ederson (slb), 1,111 goles encajados por partido.
+4. D_Subasic (asm), 1,125 goles encajados por partido.
+5. M_ter_Stegen (bar), 1,158 goles encajados por partido.
+6. Rui_Patrício (rma), 1,242 goles encajados por partido.
+7. Anthony_Lopes (lyo), 1,256 goles encajados por partido.
+8. Loris_Karius (liv), 1,326 goles encajados por partido.
+9. Manuel_Neuer (bmu), 1,364 goles encajados por partido.
+10. Pepe_Reina (nap), 1,438 goles encajados por partido.
+11. G_Donnarumma (mil), 1,456 goles encajados por partido.
+12. Diego_Alves (val), 1,477 goles encajados por partido.
+13. Mattia_Perin (nap), 1,500 goles encajados por partido.
+14. Roman_Bürki (bdo), 1,500 goles encajados por partido.
+15. S_Handanovic (int), 1,522 goles encajados por partido.
+16. K_Schmeichel (lei), 1,600 goles encajados por partido.
+17. Hugo_Lloris (tot), 1,620 goles encajados por partido.
+18. David_de_Gea (mun), 1,625 goles encajados por partido.
+19. Yohann_Pelé (oma), 1,625 goles encajados por partido.
+20. Jan_Oblak (atm), 1,625 goles encajados por partido.
+21. Petr_Cech (ars), 1,676 goles encajados por partido.
+22. Y_Cardinale (nic), 1,692 goles encajados por partido.
+23. Sergio_Rico (sev), 1,744 goles encajados por partido.
+24. Ralf_Fährmann (s04), 1,769 goles encajados por partido.
+25. G_Rulli (opo), 1,773 goles encajados por partido.
+26. Claudio_Bravo (mci), 1,783 goles encajados por partido.
+27. W_Szczesny (rom), 1,789 goles encajados por partido.
+28. Asmir_Begovic (psg), 1,800 goles encajados por partido.
+29. Kevin_Trapp (psg), 1,806 goles encajados por partido.
+30. Sergio_Asenjo (vil), 1,975 goles encajados por partido.
+--------------------------------------------------------------------
+
+PARADAS
+--------------------------------------------------------------------
+1. Alban_Lafont (ajx), 275 paradas.
+2. Jeroen_Zoet (psv), 260 paradas.
+3. G_Donnarumma (mil), 250 paradas.
+4. Claudio_Bravo (mci), 231 paradas.
+5. T_Courtois (che), 218 paradas.
+6. Hugo_Lloris (tot), 214 paradas.
+7. W_Szczesny (rom), 211 paradas.
+8. Roman_Bürki (bdo), 208 paradas.
+9. Manuel_Neuer (bmu), 204 paradas.
+10. S_Handanovic (int), 201 paradas.
+11. G_Rulli (opo), 196 paradas.
+12. Bernd_Leno (ble), 196 paradas.
+13. Diego_Alves (val), 194 paradas.
+14. Loris_Karius (liv), 185 paradas.
+15. David_de_Gea (mun), 185 paradas.
+16. Joel_Robles (eve), 185 paradas.
+17. G_Buffon (juv), 178 paradas.
+18. Ralf_Fährmann (s04), 176 paradas.
+19. Y_Cardinale (nic), 170 paradas.
+20. Sergio_Rico (sev), 166 paradas.
+21. D_Subasic (asm), 165 paradas.
+22. Anthony_Lopes (lyo), 165 paradas.
+23. Jan_Oblak (atm), 164 paradas.
+24. Yohann_Pelé (oma), 157 paradas.
+25. Sergio_Asenjo (vil), 154 paradas.
+26. K_Schmeichel (lei), 153 paradas.
+27. Ramazan_Özcan (ble), 139 paradas.
+28. Kevin_Trapp (psg), 138 paradas.
+29. Ederson (slb), 131 paradas.
+30. Rui_Patrício (rma), 120 paradas.
+--------------------------------------------------------------------
+
+PARADAS POR MINUTO
+--------------------------------------------------------------------
+1. Alban_Lafont (ajx), 0,078 paradas por minuto.
+2. Bernd_Leno (ble), 0,069 paradas por minuto.
+3. Ramazan_Özcan (ble), 0,067 paradas por minuto.
+4. Jeroen_Zoet (psv), 0,061 paradas por minuto.
+5. W_Szczesny (rom), 0,061 paradas por minuto.
+6. David_Ospina (mun), 0,058 paradas por minuto.
+7. Roman_Bürki (bdo), 0,055 paradas por minuto.
+8. Claudio_Bravo (mci), 0,054 paradas por minuto.
+9. Asmir_Begovic (psg), 0,054 paradas por minuto.
+10. Joel_Robles (eve), 0,051 paradas por minuto.
+11. T_Courtois (che), 0,051 paradas por minuto.
+12. David_de_Gea (mun), 0,050 paradas por minuto.
+13. Ralf_Fährmann (s04), 0,049 paradas por minuto.
+14. G_Rulli (opo), 0,048 paradas por minuto.
+15. Y_Cardinale (nic), 0,047 paradas por minuto.
+16. Diego_Alves (val), 0,047 paradas por minuto.
+17. Pepe_Reina (nap), 0,047 paradas por minuto.
+18. Kevin_Trapp (psg), 0,047 paradas por minuto.
+19. Hugo_Lloris (tot), 0,047 paradas por minuto.
+20. G_Donnarumma (mil), 0,047 paradas por minuto.
+21. Loris_Karius (liv), 0,047 paradas por minuto.
+22. Anthony_Lopes (lyo), 0,047 paradas por minuto.
+23. S_Handanovic (int), 0,046 paradas por minuto.
+24. K_Schmeichel (lei), 0,046 paradas por minuto.
+25. Sergio_Rico (sev), 0,045 paradas por minuto.
+26. Jan_Oblak (atm), 0,044 paradas por minuto.
+27. Yohann_Pelé (oma), 0,042 paradas por minuto.
+28. Sergio_Asenjo (vil), 0,042 paradas por minuto.
+29. Rui_Patrício (rma), 0,042 paradas por minuto.
+30. G_Buffon (juv), 0,040 paradas por minuto.
+--------------------------------------------------------------------
+
+PARADAS POR PARTIDO
+--------------------------------------------------------------------
+1. Alban_Lafont (ajx), 7,051 paradas por partido.
+2. Bernd_Leno (ble), 6,533 paradas por partido.
+3. Ramazan_Özcan (ble), 6,318 paradas por partido.
+4. Jeroen_Zoet (psv), 5,778 paradas por partido.
+5. W_Szczesny (rom), 5,553 paradas por partido.
+6. David_Ospina (mun), 5,188 paradas por partido.
+7. Claudio_Bravo (mci), 5,022 paradas por partido.
+8. Roman_Bürki (bdo), 4,952 paradas por partido.
+9. Joel_Robles (eve), 4,868 paradas por partido.
+10. Asmir_Begovic (psg), 4,733 paradas por partido.
+11. T_Courtois (che), 4,638 paradas por partido.
+12. David_de_Gea (mun), 4,625 paradas por partido.
+13. Ralf_Fährmann (s04), 4,513 paradas por partido.
+14. G_Rulli (opo), 4,455 paradas por partido.
+15. Kevin_Trapp (psg), 4,452 paradas por partido.
+16. Diego_Alves (val), 4,409 paradas por partido.
+17. G_Donnarumma (mil), 4,386 paradas por partido.
+18. K_Schmeichel (lei), 4,371 paradas por partido.
+19. S_Handanovic (int), 4,370 paradas por partido.
+20. Y_Cardinale (nic), 4,359 paradas por partido.
+21. Loris_Karius (liv), 4,302 paradas por partido.
+22. Hugo_Lloris (tot), 4,280 paradas por partido.
+23. Sergio_Rico (sev), 4,256 paradas por partido.
+24. Anthony_Lopes (lyo), 4,231 paradas por partido.
+25. Jan_Oblak (atm), 4,100 paradas por partido.
+26. Pepe_Reina (nap), 4,000 paradas por partido.
+27. Yohann_Pelé (oma), 3,925 paradas por partido.
+28. Sergio_Asenjo (vil), 3,850 paradas por partido.
+29. G_Buffon (juv), 3,787 paradas por partido.
+30. Mattia_Perin (nap), 3,733 paradas por partido.
+--------------------------------------------------------------------
+
+TIROS
+--------------------------------------------------------------------
+1. Neymar (bar), 147 tiros.
+2. Lionel_Messi (bar), 143 tiros.
+3. Arjen_Robben (juv), 137 tiros.
+4. A_Griezmann (atm), 130 tiros.
+5. A_Sánchez (ars), 128 tiros.
+6. Kevin_Volland (ble), 124 tiros.
+7. Gareth_Bale (bmu), 119 tiros.
+8. L_Insigne (nap), 114 tiros.
+9. K_Mitroglou (slb), 106 tiros.
+10. Sergio_Agüero (mci), 104 tiros.
+11. José_Callejón (nap), 104 tiros.
+12. Diego_Costa (che), 98 tiros.
+13. Memphis_Depay (lyo), 98 tiros.
+14. Mesut_Özil (ars), 98 tiros.
+15. Dries_Mertens (nap), 97 tiros.
+16. Chicharito (che), 95 tiros.
+17. O_Giroud (ars), 94 tiros.
+18. Falcao (mun), 91 tiros.
+19. A_Milik (nap), 88 tiros.
+20. Douglas_Costa (bmu), 88 tiros.
+21. Z_Ibrahimovic (mil), 86 tiros.
+22. R_Lewandowski (rma), 86 tiros.
+23. Santi_Mina (val), 86 tiros.
+24. Isco (rma), 86 tiros.
+25. A_Lacazette (lyo), 86 tiros.
+26. T_Hazard (vil), 85 tiros.
+27. C_Ronaldo (rma), 84 tiros.
+28. R_Firmino (liv), 83 tiros.
+29. Y_Carrasco (atm), 83 tiros.
+30. Luis_Suárez (juv), 81 tiros.
+--------------------------------------------------------------------
+
+TIROS FALLADOS
+--------------------------------------------------------------------
+1. Neymar (bar), 123 tiros fallados.
+2. Arjen_Robben (juv), 113 tiros fallados.
+3. Lionel_Messi (bar), 112 tiros fallados.
+4. Kevin_Volland (ble), 111 tiros fallados.
+5. A_Griezmann (atm), 108 tiros fallados.
+6. Gareth_Bale (bmu), 105 tiros fallados.
+7. A_Sánchez (ars), 99 tiros fallados.
+8. L_Insigne (nap), 95 tiros fallados.
+9. José_Callejón (nap), 88 tiros fallados.
+10. Mesut_Özil (ars), 87 tiros fallados.
+11. K_Mitroglou (slb), 84 tiros fallados.
+12. Chicharito (che), 82 tiros fallados.
+13. O_Giroud (ars), 79 tiros fallados.
+14. Sergio_Agüero (mci), 78 tiros fallados.
+15. Falcao (mun), 78 tiros fallados.
+16. Diego_Costa (che), 77 tiros fallados.
+17. Dries_Mertens (nap), 77 tiros fallados.
+18. Memphis_Depay (lyo), 76 tiros fallados.
+19. A_Milik (nap), 75 tiros fallados.
+20. Douglas_Costa (bmu), 75 tiros fallados.
+21. R_Lewandowski (rma), 71 tiros fallados.
+22. Isco (rma), 71 tiros fallados.
+23. A_Lacazette (lyo), 70 tiros fallados.
+24. Y_Carrasco (atm), 70 tiros fallados.
+25. Luuk_de_Jong (psv), 70 tiros fallados.
+26. Santi_Mina (val), 69 tiros fallados.
+27. K_Coman (s04), 69 tiros fallados.
+28. Eden_Hazard (che), 69 tiros fallados.
+29. R_Firmino (liv), 68 tiros fallados.
+30. T_Hazard (vil), 66 tiros fallados.
+--------------------------------------------------------------------
+
+TIROS POR MINUTO
+--------------------------------------------------------------------
+1. A_Milik (nap), 0,044 tiros por minuto.
+2. L_Insigne (nap), 0,043 tiros por minuto.
+3. Neymar (bar), 0,042 tiros por minuto.
+4. Chicharito (che), 0,042 tiros por minuto.
+5. A_Griezmann (atm), 0,041 tiros por minuto.
+6. Arjen_Robben (juv), 0,040 tiros por minuto.
+7. José_Callejón (nap), 0,039 tiros por minuto.
+8. Diego_Costa (che), 0,039 tiros por minuto.
+9. Leo_Baptistão (liv), 0,039 tiros por minuto.
+10. Lionel_Messi (bar), 0,038 tiros por minuto.
+11. Kevin_Volland (ble), 0,038 tiros por minuto.
+12. Gabriel_Jesus (mci), 0,038 tiros por minuto.
+13. Leon_Bailey (mun), 0,038 tiros por minuto.
+14. Memphis_Depay (lyo), 0,037 tiros por minuto.
+15. K_Mitroglou (slb), 0,037 tiros por minuto.
+16. Éder (rom), 0,036 tiros por minuto.
+17. Santi_Mina (val), 0,035 tiros por minuto.
+18. O_Giroud (ars), 0,034 tiros por minuto.
+19. R_Lewandowski (rma), 0,034 tiros por minuto.
+20. A_Sánchez (ars), 0,034 tiros por minuto.
+21. M_Oyarzabal (bmu), 0,034 tiros por minuto.
+22. Ángel_Correa (atm), 0,034 tiros por minuto.
+23. Victor_Moses (che), 0,034 tiros por minuto.
+24. C_Ronaldo (rma), 0,034 tiros por minuto.
+25. F_Torres (atm), 0,033 tiros por minuto.
+26. A_Martial (mun), 0,033 tiros por minuto.
+27. Heung-Min_Son (tot), 0,033 tiros por minuto.
+28. H_Ben_Arfa (nic), 0,033 tiros por minuto.
+29. R_Ghezzal (lyo), 0,033 tiros por minuto.
+30. Nolito (mci), 0,033 tiros por minuto.
+--------------------------------------------------------------------
+
+TIROS POR PARTIDO
+--------------------------------------------------------------------
+1. L_Insigne (nap), 3,931 tiros por partido.
+2. Chicharito (che), 3,654 tiros por partido.
+3. A_Milik (nap), 3,520 tiros por partido.
+4. Diego_Costa (che), 3,500 tiros por partido.
+5. A_Griezmann (atm), 3,333 tiros por partido.
+6. Kevin_Volland (ble), 3,179 tiros por partido.
+7. José_Callejón (nap), 3,152 tiros por partido.
+8. K_Mitroglou (slb), 3,118 tiros por partido.
+9. C_Ronaldo (rma), 3,111 tiros por partido.
+10. Neymar (bar), 3,062 tiros por partido.
+11. R_Lewandowski (rma), 2,966 tiros por partido.
+12. J_Kluivert (ajx), 2,952 tiros por partido.
+13. A_Sánchez (ars), 2,909 tiros por partido.
+14. Jesse_Lingard (psg), 2,652 tiros por partido.
+15. Lionel_Messi (bar), 2,648 tiros por partido.
+16. O_Giroud (ars), 2,611 tiros por partido.
+17. H_Calhanoglu (ble), 2,600 tiros por partido.
+18. Carlos_Bacca (mil), 2,586 tiros por partido.
+19. Arjen_Robben (juv), 2,585 tiros por partido.
+20. Danny_Welbeck (ars), 2,565 tiros por partido.
+21. Dries_Mertens (nap), 2,553 tiros por partido.
+22. Gareth_Bale (bmu), 2,532 tiros por partido.
+23. Isco (rma), 2,529 tiros por partido.
+24. Leon_Bailey (mun), 2,517 tiros por partido.
+25. Alessio_Cerci (vil), 2,500 tiros por partido.
+26. Z_Bakkali (val), 2,481 tiros por partido.
+27. S_Castillejo (atm), 2,481 tiros por partido.
+28. Victor_Moses (che), 2,474 tiros por partido.
+29. Ángel_Correa (atm), 2,455 tiros por partido.
+30. Memphis_Depay (lyo), 2,450 tiros por partido.
+--------------------------------------------------------------------
+
+PASES
+--------------------------------------------------------------------
+1. Lucas_Biglia (atm), 94 pases.
+2. M_Verratti (bmu), 87 pases.
+3. Mesut_Özil (ars), 86 pases.
+4. Paul_Pogba (bmu), 81 pases.
+5. David_Silva (mci), 80 pases.
+6. G_Bonaventura (mil), 79 pases.
+7. N'Golo_Kanté (che), 78 pases.
+8. Koke (atm), 75 pases.
+9. Javi_Martínez (ars), 75 pases.
+10. Andrea_Pirlo (mil), 74 pases.
+11. Thiago (psg), 73 pases.
+12. B_Matuidi (nic), 73 pases.
+13. A_Iniesta (bar), 72 pases.
+14. J_Mascherano (nap), 72 pases.
+15. Lars_Bender (ble), 71 pases.
+16. Mousa_Dembélé (tot), 69 pases.
+17. Sami_Khedira (juv), 69 pases.
+18. Baumgartinger (ble), 67 pases.
+19. Y_Carrasco (atm), 65 pases.
+20. Toni_Kroos (rma), 65 pases.
+21. J_Henderson (liv), 64 pases.
+22. S_Busquets (bar), 64 pases.
+23. Nemanja_Matic (mun), 64 pases.
+24. C_Eriksen (tot), 63 pases.
+25. Luka_Modric (rma), 63 pases.
+26. Granit_Xhaka (bmu), 63 pases.
+27. Arturo_Vidal (psg), 62 pases.
+28. A_Fernández (atm), 62 pases.
+29. Casemiro (rma), 62 pases.
+30. Éver_Banega (int), 60 pases.
+--------------------------------------------------------------------
+
+PASES POR MINUTO
+--------------------------------------------------------------------
+1. Baumgartinger (ble), 0,032 pases por minuto.
+2. Lucas_Biglia (atm), 0,029 pases por minuto.
+3. Tiago (atm), 0,029 pases por minuto.
+4. Kevin_Kampl (ble), 0,029 pases por minuto.
+5. C_Kramer (rom), 0,028 pases por minuto.
+6. B_Matuidi (nic), 0,028 pases por minuto.
+7. Thiago (psg), 0,027 pases por minuto.
+8. Casemiro (rma), 0,026 pases por minuto.
+9. A_Diawara (ajx), 0,026 pases por minuto.
+10. Nemanja_Matic (mun), 0,026 pases por minuto.
+11. L_Paredes (rom), 0,026 pases por minuto.
+12. Gabi (atm), 0,026 pases por minuto.
+13. Johannes_Geis (juv), 0,026 pases por minuto.
+14. Thiago_Motta (che), 0,026 pases por minuto.
+15. N'Golo_Kanté (che), 0,026 pases por minuto.
+16. Allan (nap), 0,026 pases por minuto.
+17. Koke (atm), 0,026 pases por minuto.
+18. M_Dahoud (liv), 0,026 pases por minuto.
+19. M_Pjanic (bmu), 0,026 pases por minuto.
+20. Marco_Benassi (liv), 0,025 pases por minuto.
+21. J_Mascherano (nap), 0,025 pases por minuto.
+22. Leon_Goretzka (bmu), 0,025 pases por minuto.
+23. Denis_Suárez (rom), 0,025 pases por minuto.
+24. Julian_Weigl (bdo), 0,025 pases por minuto.
+25. M_Verratti (bmu), 0,024 pases por minuto.
+26. David_Silva (mci), 0,024 pases por minuto.
+27. Mesut_Özil (ars), 0,024 pases por minuto.
+28. R_Hernández (vil), 0,024 pases por minuto.
+29. R_Soriano (vil), 0,024 pases por minuto.
+30. Schwensteiger (s04), 0,024 pases por minuto.
+--------------------------------------------------------------------
+
+PASES POR PARTIDO
+--------------------------------------------------------------------
+1. Lucas_Biglia (atm), 2,541 pases por partido.
+2. B_Matuidi (nic), 2,517 pases por partido.
+3. Tiago (atm), 2,474 pases por partido.
+4. Nemanja_Matic (mun), 2,462 pases por partido.
+5. Baumgartinger (ble), 2,393 pases por partido.
+6. Koke (atm), 2,273 pases por partido.
+7. Gabi (atm), 2,263 pases por partido.
+8. C_Kramer (rom), 2,261 pases por partido.
+9. J_Mascherano (nap), 2,250 pases por partido.
+10. Julian_Weigl (bdo), 2,240 pases por partido.
+11. Casemiro (rma), 2,214 pases por partido.
+12. Thiago (psg), 2,212 pases por partido.
+13. Kevin_Kampl (ble), 2,185 pases por partido.
+14. M_Pjanic (bmu), 2,160 pases por partido.
+15. G_Bonaventura (mil), 2,135 pases por partido.
+16. L_Paredes (rom), 2,130 pases por partido.
+17. Leon_Goretzka (bmu), 2,130 pases por partido.
+18. R_Soriano (vil), 2,125 pases por partido.
+19. Pizzi (slb), 2,077 pases por partido.
+20. Ander_Herrera (nap), 2,074 pases por partido.
+21. Andrea_Pirlo (mil), 2,056 pases por partido.
+22. David_Silva (mci), 2,051 pases por partido.
+23. Schwensteiger (s04), 2,050 pases por partido.
+24. Mesut_Özil (ars), 2,048 pases por partido.
+25. Dani_Parejo (val), 2,036 pases por partido.
+26. Lars_Bender (ble), 2,029 pases por partido.
+27. Javi_Martínez (ars), 2,027 pases por partido.
+28. F_Coquelin (ars), 2,000 pases por partido.
+29. T_Fosu-Mensah (ajx), 2,000 pases por partido.
+30. K_Asamoah (juv), 2,000 pases por partido.
+--------------------------------------------------------------------
+
+TACKLES
+--------------------------------------------------------------------
+1. A_Romagnoli (mil), 58 tackles.
+2. Ömer_Toprak (ble), 55 tackles.
+3. V_Kompany (mci), 55 tackles.
+4. L_Piszczek (bdo), 53 tackles.
+5. Patrice_Evra (oma), 53 tackles.
+6. Víctor_Ruiz (vil), 53 tackles.
+7. D_Sánchez (mun), 53 tackles.
+8. S_Mustafi (bmu), 50 tackles.
+9. L_Baines (eve), 49 tackles.
+10. Thiago_Silva (mil), 49 tackles.
+11. N_Otamendi (mci), 49 tackles.
+12. H_Bellerín (ars), 48 tackles.
+13. Mario_Gaspar (vil), 48 tackles.
+14. Jaume_Costa (vil), 48 tackles.
+15. David_Alaba (bmu), 48 tackles.
+16. P_Zabaleta (mci), 48 tackles.
+17. Sergio_Ramos (rma), 48 tackles.
+18. V_van_Dijk (tot), 48 tackles.
+19. C_Ansaldi (int), 47 tackles.
+20. M_De_Sciglio (mil), 47 tackles.
+21. Philipp_Lahm (bmu), 45 tackles.
+22. Danny_Rose (tot), 45 tackles.
+23. L_Koscielny (ars), 45 tackles.
+24. J_Vertonghen (tot), 44 tackles.
+25. Alderweireld (tot), 44 tackles.
+26. Filipe_Luís (atm), 43 tackles.
+27. Marquinhos (psg), 43 tackles.
+28. Gary_Cahill (che), 43 tackles.
+29. M_Darmian (nap), 42 tackles.
+30. Mats_Hummels (ars), 42 tackles.
+--------------------------------------------------------------------
+
+TACKLES POR MINUTO
+--------------------------------------------------------------------
+1. Ömer_Toprak (ble), 0,023 tackles por minuto.
+2. Víctor_Ruiz (vil), 0,020 tackles por minuto.
+3. Patrice_Evra (oma), 0,020 tackles por minuto.
+4. D_Sánchez (mun), 0,020 tackles por minuto.
+5. L_Piszczek (bdo), 0,020 tackles por minuto.
+6. R_Hilbert (ble), 0,020 tackles por minuto.
+7. Joël_Veltman (ajx), 0,020 tackles por minuto.
+8. Sven_Bender (bdo), 0,019 tackles por minuto.
+9. V_Kompany (mci), 0,019 tackles por minuto.
+10. Marquinhos (psg), 0,018 tackles por minuto.
+11. N_Maksimovic (opo), 0,018 tackles por minuto.
+12. T_Hernández (ajx), 0,018 tackles por minuto.
+13. Jorge_Meré (ajx), 0,018 tackles por minuto.
+14. L_Baines (eve), 0,018 tackles por minuto.
+15. Thomas (vil), 0,018 tackles por minuto.
+16. José_Ángel (vil), 0,018 tackles por minuto.
+17. Sergio_Ramos (rma), 0,018 tackles por minuto.
+18. Mario_Gaspar (vil), 0,017 tackles por minuto.
+19. V_van_Dijk (tot), 0,017 tackles por minuto.
+20. E_Mangala (val), 0,017 tackles por minuto.
+21. A_Dragovic (ble), 0,017 tackles por minuto.
+22. Mário_Rui (rom), 0,017 tackles por minuto.
+23. S_de_Vrij (mil), 0,017 tackles por minuto.
+24. Thiago_Silva (mil), 0,017 tackles por minuto.
+25. Rafinha (opo), 0,017 tackles por minuto.
+26. Emerson (psg), 0,017 tackles por minuto.
+27. A_Romagnoli (mil), 0,017 tackles por minuto.
+28. C_C-Vickers (ajx), 0,017 tackles por minuto.
+29. Bruno_Peres (rom), 0,017 tackles por minuto.
+30. Gary_Cahill (che), 0,017 tackles por minuto.
+--------------------------------------------------------------------
+
+TACKLES POR PARTIDO
+--------------------------------------------------------------------
+1. Ömer_Toprak (ble), 2,037 tackles por partido.
+2. L_Piszczek (bdo), 1,828 tackles por partido.
+3. Sven_Bender (bdo), 1,810 tackles por partido.
+4. Joël_Veltman (ajx), 1,733 tackles por partido.
+5. T_Hernández (ajx), 1,714 tackles por partido.
+6. Víctor_Ruiz (vil), 1,656 tackles por partido.
+7. S_de_Vrij (mil), 1,600 tackles por partido.
+8. Marquinhos (psg), 1,593 tackles por partido.
+9. Jorge_Meré (ajx), 1,571 tackles por partido.
+10. C_C-Vickers (ajx), 1,571 tackles por partido.
+11. A_Romagnoli (mil), 1,568 tackles por partido.
+12. Sergio_Ramos (rma), 1,548 tackles por partido.
+13. Mario_Gaspar (vil), 1,548 tackles por partido.
+14. Malang_Sarr (ajx), 1,545 tackles por partido.
+15. Sokratis (bdo), 1,545 tackles por partido.
+16. Gary_Cahill (che), 1,536 tackles por partido.
+17. V_van_Dijk (tot), 1,500 tackles por partido.
+18. V_Kompany (mci), 1,486 tackles por partido.
+19. L_Baines (eve), 1,485 tackles por partido.
+20. Thiago_Silva (mil), 1,485 tackles por partido.
+21. D_Sánchez (mun), 1,472 tackles por partido.
+22. M_De_Sciglio (mil), 1,469 tackles por partido.
+23. E_Mangala (val), 1,448 tackles por partido.
+24. Naldo (s04), 1,444 tackles por partido.
+25. Bruno_Peres (rom), 1,435 tackles por partido.
+26. José_Ángel (vil), 1,429 tackles por partido.
+27. Molla_Wague (ars), 1,429 tackles por partido.
+28. Marc_Bartra (bdo), 1,412 tackles por partido.
+29. Patrice_Evra (oma), 1,395 tackles por partido.
+30. T_Meunier (atm), 1,385 tackles por partido.
+--------------------------------------------------------------------
+
+ASISTENCIAS
+--------------------------------------------------------------------
+1. A_Iniesta (bar), 16 asistencias.
+2. Andrea_Pirlo (mil), 15 asistencias.
+3. Lucas_Biglia (atm), 14 asistencias.
+4. Y_Carrasco (atm), 13 asistencias.
+5. Mesut_Özil (ars), 12 asistencias.
+6. Javi_Martínez (ars), 11 asistencias.
+7. B_Matuidi (nic), 10 asistencias.
+8. Paul_Pogba (bmu), 10 asistencias.
+9. Aaron_Ramsey (ars), 10 asistencias.
+10. Luka_Modric (rma), 10 asistencias.
+11. M_Brozovic (int), 9 asistencias.
+12. C_Marchisio (juv), 9 asistencias.
+13. J_Mascherano (nap), 9 asistencias.
+14. M_Verratti (bmu), 9 asistencias.
+15. David_Silva (mci), 9 asistencias.
+16. Nemanja_Matic (mun), 8 asistencias.
+17. M_Carrick (che), 8 asistencias.
+18. Rémi_Walter (psg), 8 asistencias.
+19. Jorginho (nap), 8 asistencias.
+20. M_Locatelli (mil), 8 asistencias.
+21. Toni_Kroos (rma), 8 asistencias.
+22. Leon_Goretzka (bmu), 8 asistencias.
+23. P_Zielinski (nap), 8 asistencias.
+24. Dani_Parejo (val), 8 asistencias.
+25. Kevin_Volland (ble), 8 asistencias.
+26. Dimitri_Payet (oma), 8 asistencias.
+27. Nani (val), 8 asistencias.
+28. C_Ansaldi (int), 7 asistencias.
+29. Sami_Khedira (juv), 7 asistencias.
+30. F_Augusto (slb), 7 asistencias.
+--------------------------------------------------------------------
+
+ASISTENCIAS POR MINUTO
+--------------------------------------------------------------------
+1. M_Fellaini (ble), 0,005 asistencias por minuto.
+2. A_Iniesta (bar), 0,005 asistencias por minuto.
+3. M_Dahoud (liv), 0,005 asistencias por minuto.
+4. R_Hernández (vil), 0,005 asistencias por minuto.
+5. Andrea_Pirlo (mil), 0,004 asistencias por minuto.
+6. Lucas_Biglia (atm), 0,004 asistencias por minuto.
+7. R_Mandragora (ajx), 0,004 asistencias por minuto.
+8. Leon_Goretzka (bmu), 0,004 asistencias por minuto.
+9. B_Matuidi (nic), 0,004 asistencias por minuto.
+10. Y_Carrasco (atm), 0,004 asistencias por minuto.
+11. André_André (opo), 0,004 asistencias por minuto.
+12. M_Carrick (che), 0,004 asistencias por minuto.
+13. P_Zielinski (nap), 0,004 asistencias por minuto.
+14. Rémi_Walter (psg), 0,004 asistencias por minuto.
+15. Nani (val), 0,003 asistencias por minuto.
+16. M_Brozovic (int), 0,003 asistencias por minuto.
+17. Luka_Modric (rma), 0,003 asistencias por minuto.
+18. G_Kondogbia (nic), 0,003 asistencias por minuto.
+19. Jorginho (nap), 0,003 asistencias por minuto.
+20. Mesut_Özil (ars), 0,003 asistencias por minuto.
+21. M_Locatelli (mil), 0,003 asistencias por minuto.
+22. V_Yurchenko (ble), 0,003 asistencias por minuto.
+23. Axel_Witsel (mil), 0,003 asistencias por minuto.
+24. Nemanja_Matic (mun), 0,003 asistencias por minuto.
+25. Javi_Martínez (ars), 0,003 asistencias por minuto.
+26. L_Paredes (rom), 0,003 asistencias por minuto.
+27. C_Marchisio (juv), 0,003 asistencias por minuto.
+28. Dani_Parejo (val), 0,003 asistencias por minuto.
+29. J_Mascherano (nap), 0,003 asistencias por minuto.
+30. Sergi_Darder (bmu), 0,003 asistencias por minuto.
+--------------------------------------------------------------------
+
+ASISTENCIAS POR PARTIDO
+--------------------------------------------------------------------
+1. Andrea_Pirlo (mil), 0,417 asistencias por partido.
+2. A_Iniesta (bar), 0,390 asistencias por partido.
+3. Lucas_Biglia (atm), 0,378 asistencias por partido.
+4. Leon_Goretzka (bmu), 0,348 asistencias por partido.
+5. B_Matuidi (nic), 0,345 asistencias por partido.
+6. R_Hernández (vil), 0,333 asistencias por partido.
+7. Y_Carrasco (atm), 0,333 asistencias por partido.
+8. Rémi_Walter (psg), 0,333 asistencias por partido.
+9. M_Brozovic (int), 0,310 asistencias por partido.
+10. M_Locatelli (mil), 0,308 asistencias por partido.
+11. Nemanja_Matic (mun), 0,308 asistencias por partido.
+12. Javi_Martínez (ars), 0,297 asistencias por partido.
+13. André_André (opo), 0,292 asistencias por partido.
+14. P_Zielinski (nap), 0,286 asistencias por partido.
+15. Luka_Modric (rma), 0,286 asistencias por partido.
+16. G_Kondogbia (nic), 0,286 asistencias por partido.
+17. Jorginho (nap), 0,286 asistencias por partido.
+18. Mesut_Özil (ars), 0,286 asistencias por partido.
+19. Dani_Parejo (val), 0,286 asistencias por partido.
+20. C_Marchisio (juv), 0,281 asistencias por partido.
+21. J_Mascherano (nap), 0,281 asistencias por partido.
+22. M_Fellaini (ble), 0,280 asistencias por partido.
+23. G_Castro (bdo), 0,273 asistencias por partido.
+24. Axel_Witsel (mil), 0,267 asistencias por partido.
+25. M_Dahoud (liv), 0,263 asistencias por partido.
+26. L_Paredes (rom), 0,261 asistencias por partido.
+27. M_Carrick (che), 0,258 asistencias por partido.
+28. Nani (val), 0,258 asistencias por partido.
+29. Carlos_Soler (val), 0,250 asistencias por partido.
+30. Aaron_Ramsey (ars), 0,244 asistencias por partido.
+--------------------------------------------------------------------
+
+PARTIDOS JUGADOS
+--------------------------------------------------------------------
+1. G_Donnarumma (mil), 57 partidos jugados.
+2. Manuel_Neuer (bmu), 55 partidos jugados.
+3. Lionel_Messi (bar), 54 partidos jugados.
+4. Arjen_Robben (juv), 53 partidos jugados.
+5. Paul_Pogba (bmu), 50 partidos jugados.
+6. Hugo_Lloris (tot), 50 partidos jugados.
+7. Neymar (bar), 48 partidos jugados.
+8. D_Subasic (asm), 48 partidos jugados.
+9. M_Verratti (bmu), 47 partidos jugados.
+10. David_Alaba (bmu), 47 partidos jugados.
+11. Gareth_Bale (bmu), 47 partidos jugados.
+12. Paulo_Dybala (bar), 47 partidos jugados.
+13. T_Courtois (che), 47 partidos jugados.
+14. G_Buffon (juv), 47 partidos jugados.
+15. Sergio_Agüero (mci), 46 partidos jugados.
+16. Claudio_Bravo (mci), 46 partidos jugados.
+17. S_Handanovic (int), 46 partidos jugados.
+18. Jeroen_Zoet (psv), 45 partidos jugados.
+19. Ederson (slb), 45 partidos jugados.
+20. J_Henderson (liv), 44 partidos jugados.
+21. A_Sánchez (ars), 44 partidos jugados.
+22. Mats_Hummels (ars), 44 partidos jugados.
+23. G_Rulli (opo), 44 partidos jugados.
+24. Diego_Alves (val), 44 partidos jugados.
+25. Sami_Khedira (juv), 43 partidos jugados.
+26. N'Golo_Kanté (che), 43 partidos jugados.
+27. Loris_Karius (liv), 43 partidos jugados.
+28. Mesut_Özil (ars), 42 partidos jugados.
+29. Nabil_Fekir (lyo), 42 partidos jugados.
+30. Luis_Suárez (juv), 42 partidos jugados.
+--------------------------------------------------------------------
+
+PARTIDOS COMO SUPLENTE
+--------------------------------------------------------------------
+1. Paulo_Dybala (bar), 28 partidos como suplente.
+2. R_Hilbert (ble), 25 partidos como suplente.
+3. A_Pinamonti (int), 23 partidos como suplente.
+4. V_Yurchenko (ble), 22 partidos como suplente.
+5. Tomás_Rincón (juv), 19 partidos como suplente.
+6. Phil_Jones (mun), 19 partidos como suplente.
+7. Nabil_Fekir (lyo), 18 partidos como suplente.
+8. Mau_Lemos (bmu), 17 partidos como suplente.
+9. André_Silva (juv), 17 partidos como suplente.
+10. G_Guedes (psg), 17 partidos como suplente.
+11. Simone_Zaza (val), 17 partidos como suplente.
+12. M_El_Haddadi (val), 17 partidos como suplente.
+13. Oscar (juv), 16 partidos como suplente.
+14. Houssem_Aouar (lyo), 16 partidos como suplente.
+15. Lucas_Tousart (lyo), 16 partidos como suplente.
+16. R_Ghezzal (lyo), 16 partidos como suplente.
+17. M_Fellaini (ble), 16 partidos como suplente.
+18. J-K_Augustin (psg), 16 partidos como suplente.
+19. M_Gonalons (lyo), 15 partidos como suplente.
+20. F_Torres (atm), 15 partidos como suplente.
+21. Loftus-Cheek (che), 15 partidos como suplente.
+22. K_Trippier (tot), 15 partidos como suplente.
+23. V_Janssen (tot), 15 partidos como suplente.
+24. A_Zivkovic (slb), 14 partidos como suplente.
+25. M_Rashford (mun), 14 partidos como suplente.
+26. Arjen_Robben (juv), 13 partidos como suplente.
+27. Juan_Mata (mun), 13 partidos como suplente.
+28. A_Martial (mun), 13 partidos como suplente.
+29. Álvaro_Medrán (val), 13 partidos como suplente.
+30. Leon_Bailey (mun), 13 partidos como suplente.
+--------------------------------------------------------------------
+
+MINUTOS
+--------------------------------------------------------------------
+1. G_Donnarumma (mil), 5349 minutos.
+2. Manuel_Neuer (bmu), 5134 minutos.
+3. Hugo_Lloris (tot), 4577 minutos.
+4. D_Subasic (asm), 4441 minutos.
+5. G_Buffon (juv), 4421 minutos.
+6. S_Handanovic (int), 4367 minutos.
+7. T_Courtois (che), 4296 minutos.
+8. Ederson (slb), 4292 minutos.
+9. Claudio_Bravo (mci), 4271 minutos.
+10. Jeroen_Zoet (psv), 4236 minutos.
+11. Diego_Alves (val), 4136 minutos.
+12. G_Rulli (opo), 4101 minutos.
+13. Loris_Karius (liv), 3970 minutos.
+14. Roman_Bürki (bdo), 3793 minutos.
+15. A_Sánchez (ars), 3745 minutos.
+16. Sergio_Agüero (mci), 3738 minutos.
+17. Lionel_Messi (bar), 3722 minutos.
+18. Sergio_Rico (sev), 3722 minutos.
+19. David_de_Gea (mun), 3717 minutos.
+20. Yohann_Pelé (oma), 3711 minutos.
+21. Jan_Oblak (atm), 3703 minutos.
+22. Gareth_Bale (bmu), 3698 minutos.
+23. Sergio_Asenjo (vil), 3680 minutos.
+24. Paul_Pogba (bmu), 3667 minutos.
+25. Ralf_Fährmann (s04), 3626 minutos.
+26. Y_Cardinale (nic), 3624 minutos.
+27. Joel_Robles (eve), 3602 minutos.
+28. Mesut_Özil (ars), 3576 minutos.
+29. R_Rodríguez (mil), 3565 minutos.
+30. David_Alaba (bmu), 3559 minutos.
+--------------------------------------------------------------------
+
+MINUTOS (SIN PORTEROS)
+--------------------------------------------------------------------
+1. A_Sánchez (ars), 3745 minutos.
+2. Sergio_Agüero (mci), 3738 minutos.
+3. Lionel_Messi (bar), 3722 minutos.
+4. Gareth_Bale (bmu), 3698 minutos.
+5. Paul_Pogba (bmu), 3667 minutos.
+6. Mesut_Özil (ars), 3576 minutos.
+7. R_Rodríguez (mil), 3565 minutos.
+8. David_Alaba (bmu), 3559 minutos.
+9. M_Verratti (bmu), 3554 minutos.
+10. A_Romagnoli (mil), 3496 minutos.
+11. Neymar (bar), 3467 minutos.
+12. G_Bonaventura (mil), 3460 minutos.
+13. Thomas_Müller (asm), 3443 minutos.
+14. S_Mustafi (bmu), 3431 minutos.
+15. Arjen_Robben (juv), 3410 minutos.
+16. Y_Carrasco (atm), 3398 minutos.
+17. Javi_Martínez (ars), 3383 minutos.
+18. Gerard_Piqué (bar), 3372 minutos.
+19. Andrea_Pirlo (mil), 3359 minutos.
+20. Dejan_Lovren (liv), 3353 minutos.
+21. Mats_Hummels (ars), 3332 minutos.
+22. Aaron_Ramsey (ars), 3327 minutos.
+23. Dimitri_Payet (oma), 3305 minutos.
+24. L_Koscielny (ars), 3304 minutos.
+25. David_Silva (mci), 3292 minutos.
+26. Kevin_Volland (ble), 3269 minutos.
+27. N_Otamendi (mci), 3252 minutos.
+28. A_Williams (eve), 3232 minutos.
+29. C_Ansaldi (int), 3224 minutos.
+30. Alderweireld (tot), 3224 minutos.
+--------------------------------------------------------------------
+
+MOM
+--------------------------------------------------------------------
+1. Lionel_Messi (bar), 9 mom.
+2. K_Mitroglou (slb), 9 mom.
+3. A_Sánchez (ars), 8 mom.
+4. Neymar (bar), 8 mom.
+5. Y_Carrasco (atm), 8 mom.
+6. Memphis_Depay (lyo), 8 mom.
+7. Mohamed_Salah (psg), 7 mom.
+8. A_Iniesta (bar), 6 mom.
+9. T_Hazard (vil), 6 mom.
+10. G_Deulofeu (mil), 6 mom.
+11. Isco (rma), 6 mom.
+12. Dani_Parejo (val), 6 mom.
+13. Diego_Costa (che), 6 mom.
+14. Paulo_Dybala (bar), 6 mom.
+15. Z_Bakkali (val), 6 mom.
+16. Sergio_Agüero (mci), 5 mom.
+17. Arjen_Robben (juv), 5 mom.
+18. A_Griezmann (atm), 5 mom.
+19. Dries_Mertens (nap), 5 mom.
+20. R_Firmino (liv), 5 mom.
+21. L_Insigne (nap), 5 mom.
+22. José_Callejón (nap), 5 mom.
+23. Thomas_Lemar (asm), 5 mom.
+24. J_Draxler (rma), 5 mom.
+25. David_Alaba (bmu), 4 mom.
+26. Thomas_Müller (asm), 4 mom.
+27. Kevin_Volland (ble), 4 mom.
+28. Lucas_Biglia (atm), 4 mom.
+29. Douglas_Costa (bmu), 4 mom.
+30. C_Eriksen (tot), 4 mom.
+--------------------------------------------------------------------
+
+DP
+--------------------------------------------------------------------
+1. D_Carriço (sev), 25 dp.
+2. Adil_Rami (sev), 19 dp.
+3. A_Laporte (nic), 19 dp.
+4. Víctor_Ruiz (vil), 18 dp.
+5. Ignazio_Abate (mil), 18 dp.
+6. Marquinhos (psg), 18 dp.
+7. Dani_Alves (psg), 18 dp.
+8. Ganso (sev), 18 dp.
+9. Ángel_Correa (atm), 17 dp.
+10. Santi_Cazorla (ars), 17 dp.
+11. Philipp_Lahm (bmu), 16 dp.
+12. Diego_Godín (atm), 16 dp.
+13. Granit_Xhaka (bmu), 15 dp.
+14. Falcao (mun), 15 dp.
+15. A_Samaris (slb), 15 dp.
+16. Kamil_Glik (asm), 15 dp.
+17. João_Moutinho (asm), 15 dp.
+18. Memphis_Depay (lyo), 14 dp.
+19. Andrea_Pirlo (mil), 14 dp.
+20. K_De_Bruyne (mci), 14 dp.
+21. C_Azpilicueta (che), 14 dp.
+22. Riyah_Mahrez (lei), 14 dp.
+23. Nacho_F (opo), 14 dp.
+24. Illarramendi (lei), 14 dp.
+25. Y_Belhanda (nic), 14 dp.
+26. Lars_Bender (ble), 14 dp.
+27. V_Kompany (mci), 14 dp.
+28. Thiago_Silva (mil), 14 dp.
+29. S_Arias (psv), 14 dp.
+30. Isimat-Mirin (psv), 14 dp.
+--------------------------------------------------------------------
+

@@ -1,0 +1,4 @@
+Name         Age Nat St Tk Ps Sh Ag KAb TAb PAb SAb Gam Sub  Min Mom Sav Con Ktk Kps Sht Gls Ass  DP Inj Sus Fit
+----------------------------------------------------------------------------------------------------------------
+Mario_Lemina  23 gab  1 17 19 10 30 100 900 562 632   1   0   95   0   0   0   1   1   1   1   0   0   0   0 100
+P_Aubameyang  27 gab  1  1 12 22 30 100 435  19 239  11   2  868   1   0   0   0   3  18   4   0   4   0   0 100

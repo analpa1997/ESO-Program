@@ -407,6 +407,8 @@ public class Actualizador extends javax.swing.JFrame {
                                 pW.println(cadena[i]);
                         }
                         pW.println();
+                        pW.println("[b]EQUIPO DE LA SEMANA:[/b]");
+                        pW.println();
                         String equipoSemanaStr = "";
                         equipoSemana.elegirAlineacion(formacionElegida);
                         equipoSemanaStr += aW.escribirFormacion(equipoSemana);

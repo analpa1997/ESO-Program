@@ -608,4 +608,8 @@ public class Jugador implements Comparable<Jugador> {
         public void sumarFit(int nFit) {
                 getStats().setFit(getStats().getFit() + nFit);
         }
+
+        public String toStringReducido() {
+                return this.nombre + " (" + this.equipo.toLowerCase() + ")";
+        }
 }

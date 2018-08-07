@@ -1,0 +1,26 @@
+VIL
+N
+
+GK Sergio_Asenjo
+DF Víctor_Ruiz
+DF Ó_de_Marcos
+DF Mario_Gaspar
+DF Jaume_Costa
+DM Bruno_Soriano
+DM Thomas
+MF M_Trigueros
+AM T_Hazard
+FW G_dos_Santos
+FW C_Bakambu
+
+GK Andrés_Fdez
+DF Á_González
+DM R_Hernández
+AM J_dos_Santos
+FW N_Sansone
+
+PK: G_dos_Santos
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 8 14 MF IF MIN = 65

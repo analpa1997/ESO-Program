@@ -64,7 +64,7 @@ public class AlineacionWriter {
                                 linea = " ";
                         } else {
                                 for (SJugador j : jugadoresXPosicion) {
-                                        linea += j.getjPlantilla().getNombre() + " (" + j.getjPlantilla().getEquipo() + ") ";
+                                        linea += j.getjPlantilla().getNombre() + " (" + j.getjPlantilla().getEquipo().toLowerCase() + ") ";
                                 }
                         }
                         jugadores = centrarString(jugadores, linea, (maxEspacios - linea.length()) / 2);

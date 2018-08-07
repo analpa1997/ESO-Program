@@ -16,7 +16,8 @@ import java.awt.event.ActionEvent;
 public class AccionesMostrarRoster extends Acciones {
 
         private MostrarRoster llamada;
-        private boolean mayorMenorEdad = false, AZNombre = false, mayorMenorRendimiento = false, AZNacionalidad = false;
+        private boolean mayorMenorEdad = false, AZNombre = false, mayorMenorRendimiento = false, AZNacionalidad = false, mayorMenorSalario = false;
+        private String ultimaAccion = "";
 
         public AccionesMostrarRoster() {
                 super();
@@ -39,6 +40,8 @@ public class AccionesMostrarRoster extends Acciones {
                 AZNombre = false;
                 mayorMenorRendimiento = false;
                 AZNacionalidad = false;
+                mayorMenorSalario = false;
+                ultimaAccion = "";
         }
 
         @Override
@@ -49,13 +52,16 @@ public class AccionesMostrarRoster extends Acciones {
                                 salir();
                                 break;
                         case "gInformacion":
-                                llamada.guardarTexto();
+                                ultimaAccion += llamada.getEquipo().getAbreviatura().toLowerCase();
+                                llamada.guardarTexto(ultimaAccion);
                                 break;
                         case "ordenarMedia":
                                 mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
                                 AZNombre = false;
                                 AZNacionalidad = false;
+                                mayorMenorSalario = false;
+                                ultimaAccion = "";
                                 numero = -1;
                                 llamada.getEquipo().ordenarRoster(-1, 0);
                                 llamada.refrescarPlantilla(llamada.getEquipo().toString());
@@ -64,10 +70,13 @@ public class AccionesMostrarRoster extends Acciones {
                                 mayorMenorRendimiento = false;
                                 AZNombre = false;
                                 AZNacionalidad = false;
+                                mayorMenorSalario = false;
                                 if (mayorMenorEdad) {
                                         numero = 1;
+                                        ultimaAccion = "Plantilla por edades (mayor a menor) ";
                                 } else {
                                         numero = 2;
+                                        ultimaAccion = "Plantilla por edades (menor a mayor) ";
                                 }
                                 mayorMenorEdad = !mayorMenorEdad;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
@@ -77,23 +86,29 @@ public class AccionesMostrarRoster extends Acciones {
                                 mayorMenorEdad = false;
                                 AZNombre = false;
                                 AZNacionalidad = false;
+                                mayorMenorSalario = false;
                                 if (mayorMenorRendimiento) {
-                                        numero = 9;
-                                } else {
                                         numero = 10;
+                                        ultimaAccion = "Rendimiento (mayor a menor) ";
+                                } else {
+                                        numero = 9;
+                                        ultimaAccion = "Rendimiento (menor a mayor) ";
                                 }
                                 mayorMenorRendimiento = !mayorMenorRendimiento;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
+                                llamada.refrescarPlantilla(llamada.escribirRendimiento());
                                 break;
                         case "ordenarNombre":
                                 mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
                                 AZNacionalidad = false;
+                                mayorMenorSalario = false;
                                 if (AZNombre) {
                                         numero = 3;
+                                        ultimaAccion = "Plantilla por nombre (A - Z) ";
                                 } else {
                                         numero = 4;
+                                        ultimaAccion = "Plantilla por nombre (Z - A) ";
                                 }
                                 AZNombre = !AZNombre;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
@@ -103,14 +118,33 @@ public class AccionesMostrarRoster extends Acciones {
                                 mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
                                 AZNombre = false;
+                                mayorMenorSalario = false;
                                 if (AZNacionalidad) {
                                         numero = 6;
+                                        ultimaAccion = "Nacionalidades (Z - A) ";
                                 } else {
                                         numero = 5;
+                                        ultimaAccion = "Nacionalidades (A - Z) ";
                                 }
                                 AZNacionalidad = !AZNacionalidad;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
                                 llamada.refrescarPlantilla(llamada.organizarPorNacionalidades());
+                                break;
+                        case "ordenarSalario":
+                                mayorMenorEdad = false;
+                                mayorMenorRendimiento = false;
+                                AZNombre = false;
+                                AZNacionalidad = false;
+                                if (mayorMenorSalario) {
+                                        numero = 8;
+                                        ultimaAccion = "Salarios (menor a mayor) ";
+                                } else {
+                                        numero = 7;
+                                        ultimaAccion = "Salarios (mayor a menor) ";
+                                }
+                                mayorMenorSalario = !mayorMenorSalario;
+                                llamada.getEquipo().ordenarRoster(numero, 0);
+                                llamada.refrescarPlantilla(llamada.escribirSalarios());
                                 break;
                 }
         }

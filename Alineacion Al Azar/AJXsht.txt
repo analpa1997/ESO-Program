@@ -1,0 +1,26 @@
+AJX
+D
+
+GK Alban_Lafont
+DF Joël_Veltman
+DF Jorge_Meré
+DF Malang_Sarr
+DF N_Viergever
+DF O_Boscagli
+DM M_Locatelli
+MF A_Nouri
+AM Davy_Klaassen
+FW Amin_Younes
+FW K_Dolberg
+
+GK André_Onana
+DF M_de_Ligt
+DM T_Fosu-Mensah
+AM Hakim_Ziyech
+FW David_Neres
+
+PK: Amin_Younes
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 8 14 MF IF MIN = 65

@@ -216,10 +216,22 @@ public class Roster implements Comparable<Roster> {
                 return equipo;
         }
 
-        public String escribirHTML(String texto) {
+        public String escribirHTML(String texto, boolean preFormateado) {
                 String equipo = texto;
                 equipo = equipo.replaceAll("\n", "<br>");
-                equipo = "<pre>" + equipo + "</pre>";
+                if (preFormateado) {
+                        equipo = "<pre>" + equipo + "</pre>";
+                }
+                return equipo;
+        }
+
+        public String anyadirCabeceraHTML(String texto) {
+                return "<html>" + texto + "</html>";
+        }
+
+        public String escribirPosiciones() {
+                String equipo = "";
+                equipo = this.nGk + " GK\n" + this.nDf + " DF\n" + this.nDm + " DM\n" + this.nMf + " MF\n" + this.nAm + " AM\n" + this.nFw + " FW";
                 return equipo;
         }
 
@@ -401,12 +413,22 @@ public class Roster implements Comparable<Roster> {
 //</editor-fold>
 
                         case 7: //<editor-fold defaultstate="collapsed" desc="Comparador de orden de mayor salario a menor salario">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o2.getSalario() - o1.getSalario());
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o2.getSalario() - o1.getSalario() == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o2.getSalario() - o1.getSalario();
+                                });
                                 break;
 //</editor-fold>
 
                         case 8: //<editor-fold defaultstate="collapsed" desc="Comparador de orden de menor salario a mayor salario">
-                                aux = new TreeSet<Jugador>((o1, o2) -> o1.getSalario() - o2.getSalario());
+                                aux = new TreeSet<Jugador>((o1, o2) -> {
+                                        if (o1.getSalario() - o2.getSalario() == 0) {
+                                                return o1.getNombre().compareTo(o2.getNombre());
+                                        }
+                                        return o1.getSalario() - o2.getSalario();
+                                });
                                 break;
 //</editor-fold>
 

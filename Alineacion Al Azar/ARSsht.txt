@@ -1,0 +1,26 @@
+ARS
+D
+
+GK Petr_Cech
+DF Mats_Hummels
+DF L_Koscielny
+DF Javi_Martínez
+DF P_Mertesacker
+MF Santi_Cazorla
+MF Aaron_Ramsey
+AM Mesut_Özil
+FW A_Sánchez
+FW O_Giroud
+FW Danny_Welbeck
+
+GK Timo_Horn
+DF H_Bellerín
+MF M_Ritzmaier
+AM O-Chamberlain
+FW Alex_Iwobi
+
+PK: A_Sánchez
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 60
+SUB 6 14 MF IF MIN = 65

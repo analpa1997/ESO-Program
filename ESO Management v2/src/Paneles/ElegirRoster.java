@@ -47,7 +47,7 @@ public class ElegirRoster extends AbstractPanel {
                         i++;
                 }
                 if (equipos.equals(liga.getEquiposLiga().getEquipos())) {
-                        PanelConBoton b = addBoton(liga.getJugadores().getNombre(), i);
+                        PanelConBoton b = addBoton("<html><p>Todos los</p><p>Jugadores</p></html>", i);
                         i++;
                 }
                 addBotonSalir("Salir", i);

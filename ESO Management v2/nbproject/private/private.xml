@@ -19,11 +19,11 @@
         <group name="Programa MEL">
             <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/Paneles/ElegirRoster.java</file>
             <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/AccionesBotones/AccionesMostrarRoster.java</file>
-            <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/AccionesBotones/AccionesElegirRoster.java</file>
             <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/program/model/Jugador/Jugador.java</file>
+            <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/Paneles/contenedorPpal.java</file>
+            <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/Paneles/TraspasarJugadores.java</file>
             <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/Paneles/MostrarRoster.java</file>
             <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/program/model/Equipo/Roster.java</file>
-            <file>file:/E:/ESMS%20Simulador/ESO-Program/ESO%20Management%20v2/src/program/model/Liga/Liga.java</file>
         </group>
     </open-files>
 </project-private>

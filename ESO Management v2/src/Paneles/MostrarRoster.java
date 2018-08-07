@@ -6,7 +6,10 @@
 package Paneles;
 
 import AccionesBotones.AccionesMostrarRoster;
+import TiposDeDatos.Cadena;
 import java.io.*;
+import java.text.DecimalFormat;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import program.model.Equipo.Roster;
@@ -19,6 +22,7 @@ import program.model.Jugador.Jugador;
 public class MostrarRoster extends AbstractPanel {
 
         private Roster equipo;
+        private final String EURO = "\u20ac";
 
         /**
          * Creates new form MostrarRoster
@@ -34,7 +38,7 @@ public class MostrarRoster extends AbstractPanel {
         }
 
         public void refrescarPlantilla(String texto) {
-                plantillaLabel.setText("<html>" + equipo.escribirHTML(texto) + "</html>");
+                plantillaLabel.setText(equipo.anyadirCabeceraHTML(equipo.escribirHTML(texto, true)));
                 plantillaLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         }
 
@@ -78,38 +82,149 @@ public class MostrarRoster extends AbstractPanel {
                 return texto;
         }
 
+        public String escribirRendimiento() {
+                String texto = "";
+                String lineaSeparadora = "----------------------------------------------------\n\n";
+                DecimalFormat df = new DecimalFormat("0.000");
+                equipo.calcularRendimiento();
+                for (int i = 1; i < 7; i++) {
+                        String grupoJugadores = "";
+                        String cabecera = "";
+                        double rendTotal = 0;
+                        double rendMedio = 0;
+                        cabecera = "Rendimiento de los " + devolverPosicion(i);
+                        int j = 1;
+                        for (Jugador jugador : equipo.getJugadores()) {
+                                String infoJugador = "";
+                                if (jugador.getPosInt() == i) {
+                                        infoJugador = j + ". " + escribirEspaciosCifras(j) + jugador.toStringReducido();
+                                        infoJugador += escribirEspacios(39 - infoJugador.length());
+                                        if (jugador.getRendimiento() >= 0) {
+                                                infoJugador += escribirEspacios(1);
+                                        }
+                                        infoJugador += df.format(jugador.getRendimiento()) + " pts";
+                                        rendTotal += jugador.getRendimiento();
+                                        grupoJugadores += infoJugador + "\n";
+                                        j++;
+                                }
+                        }
+                        int numJugadores = grupoJugadores.split("\n").length;
+                        rendMedio = rendTotal / numJugadores;
+                        cabecera += " (" + numJugadores + " jugador";
+                        if (numJugadores > 1) {
+                                cabecera += "es";
+                        }
+                        cabecera += ")\n" + lineaSeparadora;
+                        texto += cabecera;
+                        texto += grupoJugadores;
+                        texto += "\nRendimiento medio de los " + devolverPosicion(i) + ": " + df.format(rendMedio) + " pts\n\n";
+                }
+                texto += "Rendimiento total de (" + equipo.getAbreviatura().toLowerCase() + "): " + df.format(equipo.getRendimiento()) + " pts\n";
+                texto += "Rendimiento medio de (" + equipo.getAbreviatura().toLowerCase() + "): " + df.format(equipo.getRendimiento() / equipo.getJugadores().size()) + " pts";
+                return texto;
+        }
+
+        private String devolverPosicion(int posInt) {
+                switch (posInt) {
+                        case 1:
+                                return "GK";
+                        case 2:
+                                return "DF";
+                        case 3:
+                                return "DM";
+                        case 4:
+                                return "MF";
+                        case 5:
+                                return "AM";
+                        default:
+                                return "FW";
+                }
+        }
+
+        private int obtenerNumCifras(int numero) {
+                int contador = 0;
+                while (numero != 0) {
+                        contador++;
+                        numero = numero / 10;
+                }
+                return contador;
+        }
+
+        private String escribirEspaciosCifras(int num) {
+                String espacio = " ";
+                String result = "";
+                for (int i = 0; i < (5 - (obtenerNumCifras(num))); i++) {
+                        result += espacio;
+                }
+                return result;
+        }
+
+        private String escribirEspacios(int numero) {
+                String espacio = " ";
+                String result = "";
+                for (int i = 0; i < numero; i++) {
+                        result += espacio;
+                }
+                return result;
+        }
+
+        public String escribirSalarios() {
+                String texto = "";
+                DecimalFormat df = new DecimalFormat("###,###.##");
+                equipo.calcularSalario();
+                String cabecera = "SALARIOS (" + equipo.getAbreviatura().toLowerCase() + ")\n\nNUM    NOMBRE (CLUB)                    SALARIO\n----------------------------------------------------\n\n";
+                texto = texto + cabecera;
+                int i = 1;
+                for (Jugador j : equipo.getJugadores()) {
+                        String jugador = i + ". " + escribirEspaciosCifras(i) + j.toStringReducido();
+                        jugador = jugador + escribirEspacios(40 - jugador.length());
+                        jugador = jugador + df.format(j.getSalario()) + EURO + "\n";
+                        texto = texto + jugador;
+                        i++;
+                }
+                texto = texto + "\nSalario total del equipo: " + df.format(equipo.getSalario()) + EURO + "\nSalario medio del equipo: " + df.format(equipo.getSalario() / equipo.getJugadores().size()) + EURO;
+                return texto;
+        }
+
         public void inicializarBotones() {
-                ((AccionesMostrarRoster) this.getListeners().get("Mostrar Roster")).setLlamada(this);
-                ((AccionesMostrarRoster) this.getListeners().get("Mostrar Roster")).inicializarBooleans();
+                AccionesMostrarRoster listener = (AccionesMostrarRoster) this.getListeners().get("Mostrar Roster");
+                listener.setLlamada(this);
+                listener.inicializarBooleans();
+                tituloRoster.setHorizontalAlignment(JLabel.LEFT);
+                tituloRoster.setText("Roster de " + equipo.getAbreviatura());
+                tituloRoster.setIcon(equipo.getImagen());
+                tituloRoster.setVerticalTextPosition(JLabel.BOTTOM);
+                tituloRoster.setHorizontalTextPosition(JLabel.CENTER);
+                posicionesRoster.setHorizontalAlignment(JLabel.RIGHT);
+                posicionesRoster.setHorizontalTextPosition(JLabel.CENTER);
+                posicionesRoster.setText(equipo.anyadirCabeceraHTML(equipo.escribirHTML("Posiciones\n" + equipo.escribirPosiciones(), false)));
                 botonSalir.setActionCommand("salir");
                 orderNombre.setActionCommand("ordenarNombre");
                 orderEdad.setActionCommand("ordenarEdad");
                 orderMedia.setActionCommand("ordenarMedia");
                 orderRendimiento.setActionCommand("ordenarRendimiento");
                 orderPais.setActionCommand("ordenarNacionalidad");
+                orderSalario.setActionCommand("ordenarSalario");
                 saveInformacion.setActionCommand("gInformacion");
-                botonSalir.addActionListener(this.getListeners().get("Mostrar Roster"));
-                orderNombre.addActionListener(this.getListeners().get("Mostrar Roster"));
-                orderEdad.addActionListener(this.getListeners().get("Mostrar Roster"));
-                orderMedia.addActionListener(this.getListeners().get("Mostrar Roster"));
-                orderRendimiento.addActionListener(this.getListeners().get("Mostrar Roster"));
-                orderPais.addActionListener(this.getListeners().get("Mostrar Roster"));
-                saveInformacion.addActionListener(this.getListeners().get("Mostrar Roster"));
+                botonSalir.addActionListener(listener);
+                orderNombre.addActionListener(listener);
+                orderEdad.addActionListener(listener);
+                orderMedia.addActionListener(listener);
+                orderRendimiento.addActionListener(listener);
+                orderPais.addActionListener(listener);
+                orderSalario.addActionListener(listener);
+                saveInformacion.addActionListener(listener);
         }
 
-        public void guardarTexto() {
-                String texto = plantillaLabel.getText();
-                texto = texto.replaceAll("<pre>", "");
-                texto = texto.replaceAll("</pre>", "");
-                texto = texto.replaceAll("<html>", "");
-                texto = texto.replaceAll("</html>", "");
-                texto = texto.replaceAll("<br>", "\n");
-                String fileName = JOptionPane.showInputDialog("Introduce el nombre del archivo (sin extensión) donde quieres guardar la información (se guarda en .txt)", "");
+        public void guardarTexto(String titulo) {
+                Cadena texto = new Cadena(plantillaLabel.getText());
+                texto.aString();
+                String fileName = JOptionPane.showInputDialog("Introduce el nombre del archivo (sin extensión) donde quieres guardar la información (se guarda en .txt)", titulo);
                 FileWriter fichero;
                 try {
                         fichero = new FileWriter(fileName + ".txt");
                         PrintWriter pW = new PrintWriter(fichero);
-                        String[] aux = texto.split("\n");
+                        String[] aux = texto.toString().split("\n");
                         for (String s : aux) {
                                 pW.println(s);
                         }
@@ -150,6 +265,10 @@ public class MostrarRoster extends AbstractPanel {
                 botonSalir = new javax.swing.JButton();
                 saveInformacion = new javax.swing.JButton();
                 orderPais = new javax.swing.JButton();
+                orderSalario = new javax.swing.JButton();
+                orderStats = new javax.swing.JButton();
+                tituloRoster = new javax.swing.JLabel();
+                posicionesRoster = new javax.swing.JLabel();
 
                 setLayout(new java.awt.GridBagLayout());
 
@@ -162,18 +281,18 @@ public class MostrarRoster extends AbstractPanel {
 
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 1;
-                gridBagConstraints.gridy = 0;
-                gridBagConstraints.gridwidth = 3;
-                gridBagConstraints.gridheight = 4;
+                gridBagConstraints.gridy = 1;
+                gridBagConstraints.gridheight = 17;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.4;
                 gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 6);
                 add(contenedorPlantilla, gridBagConstraints);
 
                 orderMedia.setText("Ordenar por Media");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 0;
+                gridBagConstraints.gridy = 1;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
@@ -183,7 +302,7 @@ public class MostrarRoster extends AbstractPanel {
                 orderNombre.setText("Ordenar Por Nombre");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 1;
+                gridBagConstraints.gridy = 2;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
@@ -193,17 +312,17 @@ public class MostrarRoster extends AbstractPanel {
                 orderRendimiento.setText("Ordenar por Rendimiento");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 4;
+                gridBagConstraints.gridy = 5;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                gridBagConstraints.weighty = 0.2;
-                gridBagConstraints.insets = new java.awt.Insets(6, 6, 5, 6);
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(orderRendimiento, gridBagConstraints);
 
                 orderEdad.setText("Ordenar por Edad");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 2;
+                gridBagConstraints.gridy = 3;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
@@ -212,33 +331,66 @@ public class MostrarRoster extends AbstractPanel {
 
                 botonSalir.setText("Salir");
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 3;
-                gridBagConstraints.gridy = 4;
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 17;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                gridBagConstraints.weighty = 0.2;
-                gridBagConstraints.insets = new java.awt.Insets(6, 5, 5, 5);
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 6, 6);
                 add(botonSalir, gridBagConstraints);
 
                 saveInformacion.setText("Guardar Información");
                 gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 1;
-                gridBagConstraints.gridy = 4;
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 16;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
-                gridBagConstraints.weighty = 0.2;
-                gridBagConstraints.insets = new java.awt.Insets(6, 5, 5, 5);
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(saveInformacion, gridBagConstraints);
 
                 orderPais.setText("Ordenar por Nacionalidad");
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 3;
+                gridBagConstraints.gridy = 4;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
                 gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
                 add(orderPais, gridBagConstraints);
+
+                orderSalario.setText("Ordenar por Salario");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 6;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
+                add(orderSalario, gridBagConstraints);
+
+                orderStats.setText("Ordenar por Estadisticas");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 7;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 6, 2, 6);
+                add(orderStats, gridBagConstraints);
+
+                tituloRoster.setText("jLabel1");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 0;
+                gridBagConstraints.insets = new java.awt.Insets(5, 13, 2, 8);
+                add(tituloRoster, gridBagConstraints);
+
+                posicionesRoster.setText("jLabel1");
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 1;
+                gridBagConstraints.gridy = 0;
+                gridBagConstraints.insets = new java.awt.Insets(5, 5, 2, 6);
+                add(posicionesRoster, gridBagConstraints);
         }// </editor-fold>//GEN-END:initComponents
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -250,7 +402,11 @@ public class MostrarRoster extends AbstractPanel {
         private javax.swing.JButton orderNombre;
         private javax.swing.JButton orderPais;
         private javax.swing.JButton orderRendimiento;
+        private javax.swing.JButton orderSalario;
+        private javax.swing.JButton orderStats;
         private javax.swing.JLabel plantillaLabel;
+        private javax.swing.JLabel posicionesRoster;
         private javax.swing.JButton saveInformacion;
+        private javax.swing.JLabel tituloRoster;
         // End of variables declaration//GEN-END:variables
 }

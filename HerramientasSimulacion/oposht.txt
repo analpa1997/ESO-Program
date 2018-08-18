@@ -1,0 +1,26 @@
+opo
+E
+
+GK G_Rulli
+DF Sebas_Coates
+DF N_Maksimovic
+DF Felipe
+DF D_Zappacosta
+DF Alex_Telles
+DM N_Radoja
+DM Miguel_Veloso
+MF H_Herrera
+FW E_Cavani
+FW M_Mandzukic
+
+GK Iker_Casillas
+DF Maxi_Pereira
+DM Xabi_Alonso
+MF André_André
+FW Wayne_Rooney
+
+PK: M_Mandzukic
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

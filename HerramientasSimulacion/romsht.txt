@@ -1,0 +1,26 @@
+rom
+N
+
+GK W_Szczesny
+DF Héctor_Moreno
+DF Sime_Vrsaljko
+DF Bruno_Peres
+DF Emerson
+DM J_Campuzano
+DM Aleix_Vidal
+MF R_Nainggolan
+MF A_Guardado
+FW A_Sánchez
+FW Mohamed_Salah
+
+GK Alisson
+DF A_Nura
+DM Wilfried_Zaha
+DM Marko_Rog
+FW M_Balotelli
+
+PK: Mohamed_Salah
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

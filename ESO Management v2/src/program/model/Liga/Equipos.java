@@ -6,6 +6,7 @@
 package program.model.Liga;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.*;
 import program.model.Equipo.*;
 
@@ -16,9 +17,20 @@ import program.model.Equipo.*;
 public class Equipos {
 
         private TreeSet<Roster> equipos;
+        private String defEquiposContenidos;
+        private final String EURO = "\u20ac";
 
         public Equipos() {
                 equipos = new TreeSet<>((o1, o2) -> o1.getAbreviatura().compareTo(o2.getAbreviatura()));
+                defEquiposContenidos = "";
+        }
+
+        public String getDefEquiposContenidos() {
+                return defEquiposContenidos;
+        }
+
+        public void setDefEquiposContenidos(String defEquiposContenidos) {
+                this.defEquiposContenidos = defEquiposContenidos;
         }
 
         public TreeSet<Roster> getEquipos() {
@@ -217,5 +229,72 @@ public class Equipos {
                                 System.err.println(ex.getMessage());
                         }
                 }
+        }
+
+        public String escribirSalariosMayMenor() {
+                for (Roster r : equipos) {
+                        r.calcularSalario();
+                }
+                this.ordenarRosters(18, -1);
+                String resultado = "";
+                DecimalFormat df = new DecimalFormat("###,###.##");
+                String cabecera = "SALARIOS TOTALES (" + defEquiposContenidos.toLowerCase() + ")\n\nNUM    NOMBRE (CLUB)                    SALARIO\n----------------------------------------------------\n\n";
+                resultado = resultado + cabecera;
+                int i = 1;
+                for (Roster r : equipos) {
+                        String equipo = i + ". " + escribirEspaciosCifras(i) + "(" + r.getAbreviatura().toLowerCase() + ")";
+                        equipo = equipo + escribirEspacios(40 - equipo.length());
+                        equipo = equipo + df.format(r.getSalario()) + EURO + "\n";
+                        resultado = resultado + equipo;
+                        i++;
+                }
+                return resultado;
+        }
+
+        public String escribirSalariosAbrev() {
+                for (Roster r : equipos) {
+                        r.calcularSalario();
+                }
+                this.ordenarRosters(2, -1);
+                String resultado = "";
+                DecimalFormat df = new DecimalFormat("###,###.##");
+                String cabecera = "SALARIOS TOTALES (" + defEquiposContenidos.toLowerCase() + ")\n\nNUM    NOMBRE (CLUB)                    SALARIO\n----------------------------------------------------\n\n";
+                resultado = resultado + cabecera;
+                int i = 1;
+                for (Roster r : equipos) {
+                        String equipo = i + ". " + escribirEspaciosCifras(i) + "(" + r.getAbreviatura().toLowerCase() + ")";
+                        equipo = equipo + escribirEspacios(40 - equipo.length());
+                        equipo = equipo + df.format(r.getSalario()) + EURO + "\n";
+                        resultado = resultado + equipo;
+                        i++;
+                }
+                return resultado;
+        }
+
+        private String escribirEspaciosCifras(int num) {
+                String espacio = " ";
+                String result = "";
+                for (int i = 0; i < (5 - (obtenerNumCifras(num))); i++) {
+                        result += espacio;
+                }
+                return result;
+        }
+
+        private String escribirEspacios(int numero) {
+                String espacio = " ";
+                String result = "";
+                for (int i = 0; i < numero; i++) {
+                        result += espacio;
+                }
+                return result;
+        }
+
+        private int obtenerNumCifras(int numero) {
+                int contador = 0;
+                while (numero != 0) {
+                        contador++;
+                        numero = numero / 10;
+                }
+                return contador;
         }
 }

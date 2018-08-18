@@ -1,0 +1,26 @@
+nap
+L
+
+GK Manuel_Neuer
+DF Lichtsteiner
+DF Luke_Shaw
+DF Iñigo_Mtnez
+DF Marcos_Alonso
+DF P_Kimpembe
+MF I_Gündogan
+AM H_Mkhitaryan
+AM E_Reynoso
+FW Luis_Suárez
+FW A_Milik
+
+GK S_Scuffet
+DF Andrea_Raggi
+DF Rúben_Dias
+DM W_Carvalho
+FW Gabriel_Jesus
+
+PK: A_Milik
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

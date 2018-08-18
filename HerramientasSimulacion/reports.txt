@@ -1,0 +1,680 @@
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 0 - 1 FC Porto
+Wayne_Rooney (opo) 85'
+G_Rulli (opo) 90' (lesionado)
+Paulinho (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 4 - 2 Tottenham Hotspur
+O_Dembélé (bdo) 5'
+Sergio_Agüero (tot) 13'
+O_Dembélé (bdo) 27'
+J_Vertonghen (tot) 46' (expulsado)
+C_Pulisic (bdo) 60'
+Sergio_Agüero (tot) 83' (pen)
+Romelu_Lukaku (bdo) 85'
+G_Castro (bdo) (jugador del partido)
+HT: 2-1
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 5 - 2 Real Madrid CF
+Gabi (atm) 5'
+Filipe_Luís (atm) 21'
+C_Ronaldo (rma) 32'
+A_Griezmann (atm) 34'
+Ángel_Correa (atm) 68' (pen)
+A_Griezmann (atm) 78'
+Luka_Modric (rma) 79'
+Luka_Modric (rma) (jugador del partido)
+HT: 3-1
+--------------------------------------------------------------------------------------------
+Manchester United 1 - 4 OGC Nice
+H_Onyekuru (nic) 7'
+H_Onyekuru (nic) 17'
+P_Zielinski (mun) 23'
+Lucas_Digne (nic) 47'
+H_Lozano (nic) 80' (pen)
+H_Onyekuru (nic) (jugador del partido)
+HT: 1-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+I_Gündogan (nap) 54' (expulsado)
+Ander_Herrera (che) 54' (expulsado)
+Iñigo_Mtnez (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 2 FC Barcelona
+A_Kolarov (sev) 30'
+Bernardeschi (bar) 31'
+Lionel_Messi (bar) 48'
+André_Gomes (bar) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 3 - 1 Inter de Milán
+Arjen_Robben (juv) 35'
+David_Silva (juv) 36'
+G_Lapadula (int) 39'
+C_Marchisio (juv) 48' (expulsado)
+Éver_Banega (int) 48' (expulsado)
+David_Silva (juv) 52'
+David_Silva (juv) (jugador del partido)
+HT: 2-1
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 0 AS Monaco
+Mohamed_Salah (rom) 41'
+B_Mendy (asm) 53' (expulsado)
+Bruno_Peres (rom) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 2 - 0 FC Porto
+Paul_Pogba (bmu) 31'
+Gareth_Bale (bmu) 46'
+S_Mustafi (bmu) 67' (lesionado)
+Gareth_Bale (bmu) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 1 - 1 Tottenham Hotspur
+J_Vertonghen (bdo) 59' (own goal)
+Sergio_Agüero (tot) 72'
+M_Sissoko (tot) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 3 - 5 Real Madrid CF
+Ángel_Correa (atm) 2'
+D_Carvajal (rma) 6'
+Kévin_Gameiro (atm) 11'
+C_Ronaldo (rma) 20'
+Toni_Kroos (rma) 25'
+D_Carvajal (rma) 37' (expulsado)
+Luka_Modric (rma) 52'
+C_Ronaldo (rma) 53'
+A_Griezmann (atm) 61'
+Gabi (atm) 88' (expulsado)
+Luka_Modric (rma) (jugador del partido)
+HT: 2-3
+--------------------------------------------------------------------------------------------
+Manchester United 0 - 4 OGC Nice
+H_Lozano (nic) 22'
+R_Firmino (mun) 25' (expulsado)
+H_Onyekuru (nic) 28'
+V_Koziello (nic) 36'
+G_Kondogbia (nic) 85'
+G_Kondogbia (nic) (jugador del partido)
+HT: 0-3
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 2 Chelsea FC
+Timo_Werner (che) 32'
+Iñigo_Mtnez (nap) 36' (expulsado)
+Pedro (che) 76'
+Timo_Werner (che) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Sevilla FC 0 - 2 FC Barcelona
+Paulo_Dybala (bar) 47'
+Ahmed_Musa (bar) 82'
+Paulo_Dybala (bar) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Juventus de Turín 1 - 0 Inter de Milán
+Sami_Khedira (juv) 41' (expulsado)
+Arjen_Robben (juv) 66'
+Arjen_Robben (juv) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 3 AS Monaco
+Emerson (rom) 2'
+Thomas_Müller (asm) 30'
+Bruno_Peres (rom) 34' (expulsado)
+Thomas_Müller (asm) 37'
+J_Campuzano (rom) 40' (expulsado)
+A_Iniesta (asm) 49'
+Thomas_Müller (asm) (jugador del partido)
+HT: 1-2
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 0 - 0 FC Porto
+N_Maksimovic (opo) 42' (expulsado)
+David_Alaba (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 2 - 0 Tottenham Hotspur
+V_Kompany (tot) 42' (expulsado)
+J_Vertonghen (bdo) 61' (own goal)
+O_Dembélé (bdo) 71'
+O_Dembélé (bdo) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 1 Real Madrid CF
+C_Ronaldo (rma) 6'
+C_Ronaldo (rma) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Manchester United 0 - 4 OGC Nice
+H_Onyekuru (nic) 9'
+G_Guedes (nic) 46'
+F_Chiesa (nic) 72'
+H_Lozano (nic) 90'
+H_Lozano (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+D_Sidibé (che) 65' (expulsado)
+H_Mkhitaryan (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 2 - 1 FC Barcelona
+Lionel_Messi (bar) 31'
+Carlos_Bacca (sev) 49'
+Quaresma (sev) 83'
+Lewis_Cook (sev) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 0 - 0 Inter de Milán
+C_Ansaldi (int) 42' (expulsado)
+Davide_Santon (int) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+AS Roma 0 - 0 AS Monaco
+Jemerson (asm) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 1 FC Porto
+Felipe (opo) 19' (lesionado)
+Wayne_Rooney (opo) 89'
+Dani_Parejo (bmu) 90'
+M_Pjanic (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 2 - 2 Tottenham Hotspur
+J_Vertonghen (tot) 16' (lesionado)
+C_Immobile (tot) 65'
+C_Pulisic (bdo) 66' (pen)
+Romelu_Lukaku (bdo) 76'
+M_Sissoko (tot) 84'
+Romelu_Lukaku (bdo) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 1 - 3 Real Madrid CF
+R_Lewandowski (rma) 3'
+R_Lewandowski (rma) 45'
+R_Lewandowski (rma) 69' (pen)
+A_Fernández (atm) 90'
+R_Lewandowski (rma) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+Manchester United 2 - 5 OGC Nice
+Onyinye_Ndidi (nic) 3'
+R_Firmino (mun) 13'
+G_Guedes (nic) 32'
+H_Onyekuru (nic) 54' (pen)
+F_Chiesa (nic) 74'
+F_Chiesa (nic) 87'
+Neymar (mun) 89'
+H_Onyekuru (nic) (jugador del partido)
+HT: 1-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Kurt_Zouma (che) 19' (lesionado)
+Daley_Blind (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 3 FC Barcelona
+Paulo_Dybala (bar) 3'
+Carlos_Bacca (sev) 37'
+Paulo_Dybala (bar) 43'
+Lionel_Messi (bar) 81'
+Paulo_Dybala (bar) (jugador del partido)
+HT: 1-2
+--------------------------------------------------------------------------------------------
+Juventus de Turín 0 - 0 Inter de Milán
+L_Tonelli (int) 16' (lesionado)
+Luiz_Gustavo (juv) 52' (expulsado)
+Miranda (int) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+AS Roma 0 - 0 AS Monaco
+Emerson (rom) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 3 - 0 FC Porto
+Philipp_Lahm (bmu) 45' (lesionado)
+José_Callejón (bmu) 76'
+Dani_Parejo (bmu) 82'
+Dani_Parejo (bmu) 85'
+Dani_Parejo (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 1 - 1 Tottenham Hotspur
+Romelu_Lukaku (bdo) 75'
+M_Ginter (bdo) 90' (expulsado)
+C_Eriksen (tot) 90'
+Romelu_Lukaku (bdo) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 2 - 2 Real Madrid CF
+Kévin_Gameiro (atm) 6'
+C_Ronaldo (rma) 70'
+C_Ronaldo (rma) 80'
+A_Griezmann (atm) 88'
+C_Ronaldo (rma) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Manchester United 3 - 4 OGC Nice
+Eden_Hazard (mun) 6'
+H_Lozano (nic) 18'
+G_Guedes (nic) 36'
+J_Rodríguez (mun) 38'
+V_Koziello (nic) 54'
+F_Chiesa (nic) 74'
+Neymar (mun) 80'
+V_Koziello (nic) (jugador del partido)
+HT: 2-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 1 Chelsea FC
+H_Mkhitaryan (nap) 18' (expulsado)
+Timo_Werner (che) 20'
+Kurt_Zouma (che) 90' (lesionado)
+D_Sidibé (che) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 1 FC Barcelona
+André_Gomes (bar) 3'
+Bernardeschi (bar) 13' (expulsado)
+V_Iborra (sev) 79'
+André_Gomes (bar) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 1 - 0 Inter de Milán
+David_Silva (juv) 82'
+David_Silva (juv) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+AS Roma 0 - 0 AS Monaco
+Emerson (rom) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 1 FC Porto
+Dani_Parejo (bmu) 45'
+Sebas_Coates (opo) 48'
+Sebas_Coates (opo) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 4 - 2 Tottenham Hotspur
+Romelu_Lukaku (bdo) 10'
+Romelu_Lukaku (bdo) 24'
+Romelu_Lukaku (bdo) 44'
+C_Immobile (tot) 47'
+Mousa_Dembélé (tot) 73'
+O_Dembélé (bdo) 84'
+Romelu_Lukaku (bdo) (jugador del partido)
+HT: 3-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 2 - 2 Real Madrid CF
+Marcelo (rma) 3'
+R_Lewandowski (rma) 4'
+Koke (atm) 52'
+Kévin_Gameiro (atm) 81'
+Lucas_Biglia (atm) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+Manchester United 1 - 8 OGC Nice
+H_Onyekuru (nic) 11'
+H_Onyekuru (nic) 22'
+H_Lozano (nic) 28'
+H_Onyekuru (nic) 38'
+H_Lozano (nic) 44'
+J_Rodríguez (mun) 53'
+G_Kondogbia (nic) 54'
+H_Lozano (nic) 59'
+G_Guedes (nic) 62'
+H_Lozano (nic) (jugador del partido)
+HT: 0-5
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Luke_Shaw (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 3 FC Barcelona
+Gerard_Piqué (bar) 14' (lesionado)
+Mauro_Icardi (bar) 39'
+S_Busquets (bar) 39' (lesionado)
+Bernardeschi (bar) 63'
+Á_Di_María (sev) 72'
+Bernardeschi (bar) 76'
+Bernardeschi (bar) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 2 - 1 Inter de Milán
+Álvaro_Morata (juv) 10'
+Miranda (int) 16' (lesionado)
+Arjen_Robben (juv) 30'
+S_El_Shaarawy (int) 88'
+Cesc_Fàbregas (juv) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+AS Roma 0 - 1 AS Monaco
+Kylian_Mbappé (asm) 77'
+Jemerson (asm) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 0 FC Porto
+Philipp_Lahm (bmu) 33' (lesionado)
+Gareth_Bale (bmu) 43'
+Dani_Parejo (bmu) 83' (expulsado)
+Paulinho (bmu) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 0 - 1 Tottenham Hotspur
+Alderweireld (tot) 31' (lesionado)
+C_Immobile (tot) 40'
+M_Sissoko (tot) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 1 - 2 Real Madrid CF
+C_Ronaldo (rma) 33'
+R_Lewandowski (rma) 51'
+A_Griezmann (atm) 86'
+Toni_Kroos (rma) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Manchester United 1 - 3 OGC Nice
+G_Guedes (nic) 45'
+G_Guedes (nic) 82'
+G_Guedes (nic) 85'
+J_Rodríguez (mun) 89'
+G_Guedes (nic) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Lichtsteiner (nap) 2' (lesionado)
+Luke_Shaw (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 0 FC Barcelona
+Claudio_Bravo (sev) 8' (lesionado)
+A_Kolarov (sev) 23'
+A_Kolarov (sev) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Juventus de Turín 2 - 0 Inter de Milán
+Mats_Hummels (juv) 2' (lesionado)
+David_Silva (juv) 42'
+David_Silva (juv) 74'
+David_Silva (juv) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 1 AS Monaco
+Héctor_Moreno (rom) 2' (lesionado)
+Sime_Vrsaljko (rom) 70' (expulsado)
+A_Iniesta (asm) 70'
+A_Sánchez (rom) 86'
+A_Iniesta (asm) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 0 FC Porto
+Gareth_Bale (bmu) 22' (pen)
+A_Laporte (bmu) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 4 - 1 Tottenham Hotspur
+O_Dembélé (bdo) 8'
+C_Pulisic (bdo) 39'
+Sergio_Agüero (tot) 39'
+Romelu_Lukaku (bdo) 74'
+O_Dembélé (bdo) 90'
+O_Dembélé (bdo) (jugador del partido)
+HT: 2-1
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 0 Real Madrid CF
+G_Krychowiak (rma) 85' (expulsado)
+Samuel_Umtiti (atm) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Manchester United 0 - 2 OGC Nice
+H_Onyekuru (nic) 13'
+Eric_Bailly (mun) 14' (lesionado)
+H_Lozano (nic) 38'
+H_Onyekuru (nic) 61' (penalti fallado)
+Paul_Baysse (nic) 76' (expulsado)
+H_Lozano (nic) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Luke_Shaw (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 1 FC Barcelona
+Gerard_Piqué (bar) 18' (lesionado)
+S_Busquets (sev) 22' (own goal)
+Lionel_Messi (bar) 31'
+Lionel_Messi (bar) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 2 - 0 Inter de Milán
+Arjen_Robben (juv) 8'
+A_Barzagli (juv) 39'
+Sami_Khedira (juv) (jugador del partido)
+HT: 2-0
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 1 AS Monaco
+Mohamed_Salah (rom) 10'
+K_Koulibaly (asm) 22' (lesionado)
+A_Iniesta (asm) 60'
+A_Iniesta (asm) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 0 FC Porto
+Gareth_Bale (bmu) 64'
+Dani_Parejo (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 1 - 1 Tottenham Hotspur
+Mousa_Dembélé (tot) 6'
+Romelu_Lukaku (bdo) 23'
+Mousa_Dembélé (tot) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 2 Real Madrid CF
+José_Giménez (rma) 33' (own goal)
+C_Ronaldo (rma) 89'
+C_Ronaldo (rma) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Manchester United 0 - 3 OGC Nice
+H_Lozano (nic) 9'
+H_Lozano (nic) 38'
+H_Onyekuru (nic) 45'
+G_Kondogbia (nic) (jugador del partido)
+HT: 0-3
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Jorginho (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 0 - 2 FC Barcelona
+Paulo_Dybala (bar) 6'
+Thiago (bar) 14'
+Thiago (bar) (jugador del partido)
+HT: 0-2
+--------------------------------------------------------------------------------------------
+Juventus de Turín 1 - 1 Inter de Milán
+G_Lapadula (int) 6'
+C_Ansaldi (juv) 38' (own goal)
+G_Lapadula (int) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+AS Roma 2 - 2 AS Monaco
+Thomas_Müller (asm) 6'
+Mohamed_Salah (rom) 25'
+D_Subasic (asm) 36' (expulsado)
+Mohamed_Salah (rom) 36' (pen)
+A_Iniesta (asm) 63'
+Mohamed_Salah (rom) (jugador del partido)
+HT: 2-1
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 0 - 0 FC Porto
+David_Alaba (bmu) 67' (lesionado)
+Paulinho (bmu) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 2 - 1 Tottenham Hotspur
+C_Pulisic (bdo) 29'
+C_Pulisic (bdo) 54'
+Mousa_Dembélé (tot) 76'
+C_Pulisic (bdo) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 0 - 1 Real Madrid CF
+Lucas_Biglia (rma) 7' (own goal)
+Toni_Kroos (rma) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Manchester United 0 - 4 OGC Nice
+Alex_Sandro (nic) 7' (own goal)
+Alex_Sandro (nic) 25' (own goal)
+H_Lozano (nic) 45'
+Nélson_Semedo (nic) 47' (lesionado)
+V_Koziello (nic) 52'
+R_Pereira (nic) (jugador del partido)
+HT: 0-3
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Lichtsteiner (nap) 21' (lesionado)
+T_Courtois (che) 27' (lesionado)
+Kurt_Zouma (che) 65' (lesionado)
+D_Sidibé (che) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 1 FC Barcelona
+V_Iborra (sev) 32'
+Paulo_Dybala (bar) 83'
+V_Iborra (sev) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Juventus de Turín 1 - 0 Inter de Milán
+Cesc_Fàbregas (juv) 52'
+Cesc_Fàbregas (juv) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 0 AS Monaco
+A_Sánchez (rom) 65'
+A_Sánchez (rom) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 0 - 0 FC Porto
+P_Mertesacker (bmu) 67' (expulsado)
+Felipe (opo) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 1 - 0 Tottenham Hotspur
+C_Pulisic (bdo) 11' (pen)
+Roman_Bürki (bdo) 17' (lesionado)
+L_Piszczek (bdo) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 1 - 3 Real Madrid CF
+Jan_Oblak (atm) 14' (lesionado)
+C_Ronaldo (rma) 18'
+Toni_Kroos (rma) 55' (expulsado)
+Samuel_Umtiti (atm) 66' (lesionado)
+Iago_Aspas (rma) 73'
+A_Griezmann (atm) 74'
+Iago_Aspas (rma) 75'
+Iago_Aspas (rma) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Manchester United 4 - 1 OGC Nice
+R_Firmino (mun) 7' (pen)
+Neymar (mun) 15'
+Neymar (mun) 32' (expulsado)
+Dries_Mertens (mun) 36'
+J_Rodríguez (mun) 63' (expulsado)
+Eden_Hazard (mun) 65'
+F_Chiesa (nic) 82'
+Dries_Mertens (mun) (jugador del partido)
+HT: 3-0
+--------------------------------------------------------------------------------------------
+SSC Napoli 0 - 0 Chelsea FC
+Manuel_Neuer (nap) 18' (lesionado)
+D_Sidibé (che) 74' (lesionado)
+I_Gündogan (nap) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Sevilla FC 1 - 1 FC Barcelona
+Claudio_Bravo (sev) 13' (lesionado)
+Paulo_Dybala (bar) 17'
+J_Mathieu (sev) 45'
+Gerard_Piqué (bar) 52' (lesionado)
+André_Gomes (bar) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+Juventus de Turín 1 - 2 Inter de Milán
+Éver_Banega (int) 8'
+G_Buffon (juv) 17' (lesionado)
+M_Brozovic (int) 45' (expulsado)
+Cesc_Fàbregas (juv) 78' (expulsado)
+Arjen_Robben (juv) 80'
+S_El_Shaarawy (int) 80'
+C_Ansaldi (int) 90' (lesionado)
+Arjen_Robben (juv) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+AS Roma 1 - 0 AS Monaco
+W_Szczesny (rom) 16' (lesionado)
+Kamil_Glik (asm) 43' (lesionado)
+Mohamed_Salah (rom) 45'
+R_Nainggolan (rom) 77' (expulsado)
+Bruno_Peres (rom) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+FC Bayern de Múnich 1 - 2 FC Porto
+E_Cavani (opo) 17'
+M_Pjanic (bmu) 29'
+E_Cavani (opo) 67'
+E_Cavani (opo) 89' (expulsado)
+D_Zappacosta (opo) (jugador del partido)
+HT: 1-1
+--------------------------------------------------------------------------------------------
+Borussia Dortmund 0 - 1 Tottenham Hotspur
+Sergio_Agüero (tot) 17'
+Sergio_Agüero (tot) 86' (expulsado)
+Hugo_Lloris (tot) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+Atlético de Madrid 2 - 3 Real Madrid CF
+Gabi (atm) 45'
+C_Ronaldo (rma) 61'
+C_Ronaldo (rma) 84'
+Toni_Kroos (rma) 85'
+Kévin_Gameiro (atm) 87'
+C_Ronaldo (rma) (jugador del partido)
+HT: 1-0
+--------------------------------------------------------------------------------------------
+Manchester United 1 - 3 OGC Nice
+H_Onyekuru (nic) 7'
+H_Lozano (nic) 19'
+V_Koziello (nic) 23' (expulsado)
+R_Firmino (mun) 23' (pen)
+Lucas_Digne (nic) 53'
+Lucas_Digne (nic) 90' (expulsado)
+H_Onyekuru (nic) (jugador del partido)
+HT: 1-2
+--------------------------------------------------------------------------------------------
+Sevilla FC 2 - 1 FC Barcelona
+Mauro_Icardi (bar) 67'
+Lewis_Cook (sev) 72'
+M_Krohn-Dehli (sev) 73'
+M_Krohn-Dehli (sev) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------
+Juventus de Turín 2 - 1 Inter de Milán
+G_Lapadula (int) 30' (pen)
+Arjen_Robben (juv) 65'
+Álvaro_Morata (juv) 66' (pen)
+Cesc_Fàbregas (juv) (jugador del partido)
+HT: 0-1
+--------------------------------------------------------------------------------------------
+AS Roma 2 - 0 AS Monaco
+A_Sánchez (rom) 65'
+Mohamed_Salah (rom) 66' (pen)
+Emerson (rom) (jugador del partido)
+HT: 0-0
+--------------------------------------------------------------------------------------------

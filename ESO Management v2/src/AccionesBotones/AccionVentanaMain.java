@@ -31,6 +31,7 @@ public class AccionVentanaMain extends Acciones {
                         case "mPlantillas":
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 ElegirRoster mPlantillas = new ElegirRoster(liga.getEquiposLiga().getEquipos());
+                                pantallaPrincipal.getListeners().put("Elegir Roster", new AccionesElegirRoster(pantallaPrincipal, mPlantillas.getEquipos()));
                                 mPlantillas.setPadre(pantallaPrincipal);
                                 mPlantillas.inicializarBotones();
                                 pantallas.push(mPlantillas);
@@ -42,6 +43,7 @@ public class AccionVentanaMain extends Acciones {
                         case "mSelecciones":
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 ElegirRoster mSelecciones = new ElegirRoster(liga.getTodasSelecciones().getEquipos());
+                                pantallaPrincipal.getListeners().put("Elegir Roster", new AccionesElegirRoster(pantallaPrincipal, mSelecciones.getEquipos()));
                                 mSelecciones.setPadre(pantallaPrincipal);
                                 mSelecciones.inicializarBotones();
                                 pantallas.push(mSelecciones);
@@ -53,6 +55,7 @@ public class AccionVentanaMain extends Acciones {
                         case "mSeleccionesLiga":
                                 pantallaPrincipal.remove(pantallas.lastElement());
                                 ElegirRoster mSeleccionesLiga = new ElegirRoster(liga.getSeleccionesLiga().getEquipos());
+                                pantallaPrincipal.getListeners().put("Elegir Roster", new AccionesElegirRoster(pantallaPrincipal, mSeleccionesLiga.getEquipos()));
                                 mSeleccionesLiga.setPadre(pantallaPrincipal);
                                 mSeleccionesLiga.inicializarBotones();
                                 pantallas.push(mSeleccionesLiga);

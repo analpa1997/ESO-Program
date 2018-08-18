@@ -8,6 +8,7 @@ package Paneles;
 import AccionesBotones.AccionesMostrarRoster;
 import TiposDeDatos.Cadena;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -191,7 +192,8 @@ public class MostrarRoster extends AbstractPanel {
                 listener.setLlamada(this);
                 listener.inicializarBooleans();
                 tituloRoster.setHorizontalAlignment(JLabel.LEFT);
-                tituloRoster.setText("Roster de " + equipo.getAbreviatura());
+                tituloRoster.setText("Plantilla de " + equipo.getAbreviatura());
+                System.err.println(equipo.getImagenPath());
                 tituloRoster.setIcon(equipo.getImagen());
                 tituloRoster.setVerticalTextPosition(JLabel.BOTTOM);
                 tituloRoster.setHorizontalTextPosition(JLabel.CENTER);
@@ -220,16 +222,13 @@ public class MostrarRoster extends AbstractPanel {
                 Cadena texto = new Cadena(plantillaLabel.getText());
                 texto.aString();
                 String fileName = JOptionPane.showInputDialog("Introduce el nombre del archivo (sin extensión) donde quieres guardar la información (se guarda en .txt)", titulo);
-                FileWriter fichero;
                 try {
-                        fichero = new FileWriter(fileName + ".txt");
-                        PrintWriter pW = new PrintWriter(fichero);
+                        PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(fileName + ".txt"), StandardCharsets.UTF_8));
                         String[] aux = texto.toString().split("\n");
                         for (String s : aux) {
                                 pW.println(s);
                         }
                         pW.close();
-                        fichero.close();
                 } catch (IOException ex) {
                         JOptionPane.showMessageDialog(null, ex.getMessage());
                 }

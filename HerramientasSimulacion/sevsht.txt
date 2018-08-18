@@ -1,0 +1,26 @@
+sev
+P
+
+GK Claudio_Bravo
+DF Miguel_Layún
+DF A_Kolarov
+DF J_Mathieu
+DF D_Carriço
+DM S_N'Zonzi
+DM V_Iborra
+MF M_Krohn-Dehli
+MF Lewis_Cook
+MF Á_Di_María
+FW Carlos_Bacca
+
+GK David_Soria
+DF Adil_Rami
+DF B_Trémoulinas
+DF André_Almeida
+FW Quaresma
+
+PK: Carlos_Bacca
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

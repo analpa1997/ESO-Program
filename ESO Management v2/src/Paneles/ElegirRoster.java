@@ -10,6 +10,7 @@ import java.net.URL;
 import java.util.*;
 import javax.swing.SwingConstants;
 import program.model.Equipo.*;
+import program.model.Liga.Equipos;
 import program.model.Liga.Liga;
 
 /**
@@ -18,7 +19,7 @@ import program.model.Liga.Liga;
  */
 public class ElegirRoster extends AbstractPanel {
 
-        SortedSet<Roster> equipos;
+        Equipos equipos;
         Liga liga;
         private URL PATH_IMAGEN_VACIA;
 
@@ -27,13 +28,22 @@ public class ElegirRoster extends AbstractPanel {
          */
         public ElegirRoster() {
                 super();
+                equipos = new Equipos();
                 initComponents();
         }
 
-        public ElegirRoster(SortedSet<Roster> teams) {
+        public ElegirRoster(TreeSet<Roster> teams) {
                 this();
-                equipos = teams;
+                equipos.setEquipos(teams);
 
+        }
+
+        public Equipos getEquipos() {
+                return equipos;
+        }
+
+        public void setEquipos(Equipos equipos) {
+                this.equipos = equipos;
         }
 
         public void inicializarBotones() {
@@ -42,22 +52,42 @@ public class ElegirRoster extends AbstractPanel {
                 PATH_IMAGEN_VACIA = padre.PATH_IMAGEN_VACIA;
                 this.setListeners(padre.getListeners());
                 liga = padre.getLiga();
-                for (Roster r : equipos) {
+                for (Roster r : equipos.getEquipos()) {
                         PanelConBoton b = addBoton(r.getAbreviatura(), i);
                         i++;
                 }
-                if (equipos.equals(liga.getEquiposLiga().getEquipos())) {
+                if (equipos.getEquipos().equals(liga.getEquiposLiga().getEquipos())) {
                         PanelConBoton b = addBoton("<html><p>Todos los</p><p>Jugadores</p></html>", i);
                         i++;
                 }
+                PanelConBoton guardarSalariosMayMenor = addBoton("<html><p>Guardar Salarios</p><p>(mayor a menor)</p></html>", 1 + i / 8, 5, "gSalariosMayMenor");
+                PanelConBoton guardarSalariosAZ = addBoton("<html><p>Guardar Salarios</p><p>(orden alfabetico)</p></html>", 1 + i / 8, 6, "gSalariosAZ");
                 addBotonSalir("Salir", i);
-                if (equipos.equals(liga.getEquiposLiga().getEquipos())) {
+                if (equipos.getEquipos().equals(liga.getEquiposLiga().getEquipos())) {
                         addBotonGPlantillas("gEquipos", i);
-                } else if (equipos.equals(liga.getSeleccionesLiga())) {
+                } else if (equipos.getEquipos().equals(liga.getSeleccionesLiga())) {
                         addBotonGPlantillas("gSelecciones", i);
                 } else {
                         addBotonGPlantillas("gTodasSelecciones", i);
                 }
+        }
+
+        public PanelConBoton addBoton(String nombreBoton, int posicionX, int posicionY, String comando) {
+                PanelConBoton boton = new PanelConBoton(nombreBoton, comando);
+                boton.setPadre(this);
+                URL path = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nombreBoton + ".png");
+                centrarTextoBoton(boton);
+                boton.setActionListener(this.getListeners().get("Elegir Roster"));
+                java.awt.GridBagConstraints gridBagConstraints;
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridy = posicionX;
+                gridBagConstraints.gridx = posicionY;
+                gridBagConstraints.weighty = 1;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+
+                panelBotones.add(boton, gridBagConstraints);
+                addImagenBoton(boton, path);
+                return boton;
         }
 
         public PanelConBoton addBoton(String nombreBoton, int posicion) {

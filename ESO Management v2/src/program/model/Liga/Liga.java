@@ -37,6 +37,9 @@ public class Liga {
                 todasSelecciones = new Equipos();
                 todosJugadores = new Roster("Todos los jugadores", "ALL");
                 nombresEquipos = new HashMap();
+                equiposLiga.setDefEquiposContenidos("Equipos existentes en ESO");
+                seleccionesLiga.setDefEquiposContenidos("Selecciones que disputan competiciones en ESO");
+                todasSelecciones.setDefEquiposContenidos("Selecciones de todas las nacionalidades de ESO");
                 initNombres();
                 /*calendariosLiga = new ArrayList();
         resultadosLiga = new ArrayList();
@@ -154,7 +157,7 @@ public class Liga {
                                 Roster s = existeSeleccion(player.getNacionalidad());
                                 if (s == null) {
                                         s = new Roster(player.getNacionalidad());
-                                        URL imagenS = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nuevoEquipo.getAbreviatura() + ".png");
+                                        URL imagenS = this.getClass().getClassLoader().getResource("imagenes/escudos/" + player.getNacionalidad() + ".png");
                                         if (imagenS != null) {
                                                 s.setImagenPath(imagenS);
                                         } else {

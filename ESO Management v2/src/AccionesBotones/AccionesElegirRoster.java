@@ -8,9 +8,15 @@ package AccionesBotones;
 import Paneles.*;
 import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionEvent;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 import program.model.Equipo.Roster;
+import program.model.Liga.Equipos;
 
 /**
  *
@@ -18,12 +24,27 @@ import program.model.Equipo.Roster;
  */
 public class AccionesElegirRoster extends Acciones {
 
+        private Equipos equipos;
+
         public AccionesElegirRoster() {
                 super();
         }
 
         public AccionesElegirRoster(ESO_Management_v2 contenedorPpal) {
                 super(contenedorPpal);
+        }
+
+        public AccionesElegirRoster(ESO_Management_v2 contenedorPpal, Equipos teams) {
+                super(contenedorPpal);
+                setEquipos(teams);
+        }
+
+        public Equipos getEquipos() {
+                return equipos;
+        }
+
+        public void setEquipos(Equipos equipos) {
+                this.equipos = equipos;
         }
 
         public void actionPerformed(ActionEvent e) {
@@ -53,7 +74,32 @@ public class AccionesElegirRoster extends Acciones {
                                         System.err.println("Las plantillas no se pudieron guardar");
                                 }
                                 break;
-
+                        case "gSalariosAZ":
+                                try {
+                                        PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(JOptionPane.showInputDialog("Escribe el nombre del fichero en el que quieres guardar los salarios por abreviatura (sin .txt)") + ".txt"), StandardCharsets.UTF_8));
+                                        String[] contenido = equipos.escribirSalariosAbrev().split("\n");
+                                        for (String s : contenido) {
+                                                pW.println(s);
+                                                ;
+                                        }
+                                        pW.close();
+                                } catch (IOException ex) {
+                                        JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
+                                }
+                                break;
+                        case "gSalariosMayMenor":
+                                try {
+                                        PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(JOptionPane.showInputDialog("Escribe el nombre del fichero en el que quieres guardar los salarios de mayor a menor (sin .txt)") + ".txt"), StandardCharsets.UTF_8));
+                                        String[] contenido = equipos.escribirSalariosMayMenor().split("\n");
+                                        for (String s : contenido) {
+                                                pW.println(s);
+                                                ;
+                                        }
+                                        pW.close();
+                                } catch (IOException ex) {
+                                        JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
+                                }
+                                break;
                         case "mPlantilla":
                                 JButton source = (JButton) e.getSource();
                                 String abrev = source.getText().toLowerCase();

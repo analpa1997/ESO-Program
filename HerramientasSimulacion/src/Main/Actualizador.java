@@ -886,7 +886,7 @@ public class Actualizador extends javax.swing.JFrame {
                 for (int i = 0; i < nombresArchivos.size() / 2; i++) {
                         FileWriter salida = new FileWriter("POST " + (i + 1) + ".txt");
                         PrintWriter pW = new PrintWriter(new BufferedWriter(salida));
-                        pW.print("[SPOILER=(" + nombresArchivos.get(2 * i).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i).substring(4, 7) + ")]");
+                        pW.print("[spoiler=\"(" + nombresArchivos.get(2 * i).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i).substring(4, 7) + ")\"]");
                         FileReader entrada = new FileReader(nombresArchivos.get(2 * i));
                         BufferedReader bR = new BufferedReader(entrada);
                         String s;
@@ -898,7 +898,7 @@ public class Actualizador extends javax.swing.JFrame {
                         bR.close();
                         entrada.close();
                         if (i == ((nombresArchivos.size() / 2) - 1) && nombresArchivos.size() % 2 == 0) {
-                                pW.print("[SPOILER=(" + nombresArchivos.get(2 * i + 1).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i + 1).substring(4, 7) + ")]");
+                                pW.print("[spoiler=\"(" + nombresArchivos.get(2 * i + 1).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i + 1).substring(4, 7) + ")\"]");
                                 entrada = new FileReader(nombresArchivos.get(2 * i + 1));
                                 bR = new BufferedReader(entrada);
                                 while ((s = bR.readLine()) != null) {

@@ -29,6 +29,7 @@ public class Actualizador extends javax.swing.JFrame {
         AlineacionWriter aW = new AlineacionWriter();
         File miDir = new File(".");
         Calendario calendario;
+        ArrayList<String> nombresArchivos = new ArrayList();
 
         /**
          * Creates new form Actualizador
@@ -38,8 +39,9 @@ public class Actualizador extends javax.swing.JFrame {
                 FileReader stats = new FileReader("stats.dir");
                 BufferedReader bR = new BufferedReader(stats);
                 String s;
-
+                nombresArchivos = new ArrayList();
                 while ((s = bR.readLine()) != null) {
+                        nombresArchivos.add(s.replace(".stt", ".txt"));
                         FileReader archivo = new FileReader(s);
                         BufferedReader bArchivo = new BufferedReader(archivo);
                         estadisticas.add(new ArchivosStt(bArchivo, liga));
@@ -865,6 +867,7 @@ public class Actualizador extends javax.swing.JFrame {
                 try {
                         simular.simular(jornada);
                         cargarDatosActualizador();
+                        crearPosts();
                 } catch (Exception ex) {
                         JOptionPane.showMessageDialog(this, ex.getMessage());
                 }
@@ -877,6 +880,37 @@ public class Actualizador extends javax.swing.JFrame {
                         suma += i;
                 }
                 return suma;
+        }
+
+        private void crearPosts() throws Exception {
+                for (int i = 0; i < nombresArchivos.size() / 2; i++) {
+                        FileWriter salida = new FileWriter("POST " + (i + 1) + ".txt");
+                        PrintWriter pW = new PrintWriter(new BufferedWriter(salida));
+                        pW.print("[SPOILER=(" + nombresArchivos.get(2 * i).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i).substring(4, 7) + ")]");
+                        FileReader entrada = new FileReader(nombresArchivos.get(2 * i));
+                        BufferedReader bR = new BufferedReader(entrada);
+                        String s;
+                        while ((s = bR.readLine()) != null) {
+                                pW.println(s);
+                        }
+                        pW.print("</pre>[/spoiler]");
+                        pW.println();
+                        bR.close();
+                        entrada.close();
+                        if (i == ((nombresArchivos.size() / 2) - 1) && nombresArchivos.size() % 2 == 0) {
+                                pW.print("[SPOILER=(" + nombresArchivos.get(2 * i + 1).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i + 1).substring(4, 7) + ")]");
+                                entrada = new FileReader(nombresArchivos.get(2 * i + 1));
+                                bR = new BufferedReader(entrada);
+                                while ((s = bR.readLine()) != null) {
+                                        pW.println(s);
+                                }
+                                pW.print("</pre>[/spoiler]");
+                                bR.close();
+                                entrada.close();
+                        }
+                        pW.close();
+                        salida.close();
+                }
         }
 
         /**

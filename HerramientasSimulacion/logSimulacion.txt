@@ -30,3 +30,99 @@ rom - asm
 
 Game finished successfully
 
+bmu - opo
+
+Game finished successfully
+
+bdo - tot
+
+Game finished successfully
+
+atm - rma
+
+Game finished successfully
+
+mun - nic
+
+Game finished successfully
+
+nap - che
+
+Game finished successfully
+
+sev - bar
+
+Game finished successfully
+
+juv - int
+
+Game finished successfully
+
+rom - asm
+
+Game finished successfully
+
+bmu - opo
+
+Game finished successfully
+
+bdo - tot
+
+Game finished successfully
+
+atm - rma
+
+Game finished successfully
+
+mun - nic
+
+Game finished successfully
+
+nap - che
+
+Game finished successfully
+
+sev - bar
+
+Game finished successfully
+
+juv - int
+
+Game finished successfully
+
+rom - asm
+
+Game finished successfully
+
+bmu - opo
+
+Game finished successfully
+
+bdo - tot
+
+Game finished successfully
+
+atm - rma
+
+Game finished successfully
+
+mun - nic
+
+Game finished successfully
+
+nap - che
+
+Game finished successfully
+
+sev - bar
+
+Game finished successfully
+
+juv - int
+
+Game finished successfully
+
+rom - asm
+
+Game finished successfully
+

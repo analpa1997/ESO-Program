@@ -1,0 +1,29 @@
+PUM
+E
+
+GK A_Saldívar
+DF Alan_Mozo
+DF Rodrigo_Glez
+DF Luis_Quintana
+DF J_van_Rankin
+DM Marcelo_Díaz
+DM David_Cabrera
+AM B_Figueroa
+FW M_Alustiza
+AM Pablo_Barrera
+FW N_Castillo
+
+
+GK B_Magaña
+DF L_Advíncula
+DM Y_Yotún
+AM Raphinha
+FW Fid_Martínez
+
+PK: N_Castillo
+
+AGG 13
+
+SUB 9 15 AM IF MIN = 63
+SUB 11 16 FW IF MIN = 63
+SUB 6 14 DM IF MIN = 63

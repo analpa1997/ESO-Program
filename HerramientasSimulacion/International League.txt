@@ -1,79 +1,23 @@
 1
-opo - tot
-rma - bmu
-nic - bdo
-che - atm
-bar - mun
-int - nap
-asm - sev
-rom - juv
+pum - lag
+uch - san
 
 2
-bmu - opo
-bdo - tot
-atm - rma
-mun - nic
-nap - che
-sev - bar
-juv - int
-rom - asm
+san - pum
+uch - lag
 
 3
-opo - bdo
-bmu - atm
-tot - mun
-rma - nap
-nic - sev
-che - juv
-bar - rom
-int - asm
+pum - uch
+san - lag
 
 4
-atm - opo
-mun - bdo
-nap - bmu
-sev - tot
-juv - rma
-rom - nic
-asm - che
-int - bar
+lag - pum
+san - uch
 
 5
-opo - mun
-atm - nap
-bdo - sev
-bmu - juv
-tot - rom
-rma - asm
-nic - int
-che - bar
+pum - san
+lag - uch
 
 6
-nap - opo
-sev - mun
-juv - atm
-rom - bdo
-asm - bmu
-int - tot
-bar - rma
-che - nic
-
-7
-opo - sev
-nap - juv
-mun - rom
-atm - asm
-bdo - int
-bmu - bar
-tot - che
-rma - nic
-
-8
-juv - opo
-rom - sev
-asm - nap
-int - mun
-bar - atm
-che - bdo
-nic - bmu
-rma - tot
+uch - pum
+lag - san

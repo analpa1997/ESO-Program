@@ -1,0 +1,26 @@
+CRU
+N
+
+GK Fábio
+DF Manoel
+DF Ezequiel
+DF Digão
+DF Egídio
+DF Léo
+MF Lucas_Silva
+MF F_Mancuello
+MF Ariel_Cabral
+AM Thiago_Neves
+FW Willian_José
+
+GK Rafael
+DF Dedé
+MF Bruno_Silva
+AM Rafinha
+FW Fred
+
+PK: Willian_José
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

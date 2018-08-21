@@ -1,0 +1,33 @@
+SPO
+E
+
+GK A_Sidão
+DF Jorge_Fucile 
+DF Rodrigo_Caio
+DF A_Martins
+DF Reinaldo 
+DM Jucilei 
+MF Andrés_Tello 
+AM Diego_Souza 
+AM Lucas_Lima 
+FW Luiz_Adriano 
+FW G_Carneiro 
+
+DF A_Santos 
+GK Lucas_Perri
+DM Húdson 
+AM Valdívia 
+FW C_Stuani 
+
+PK: Luiz_Adriano 
+
+AGG 7
+TACTIC E IF SCORE = 0
+TACTIC A IF SCORE <= -1
+TACTIC C IF SCORE >= 2
+SUB 7 13 GK IF RED GK
+SUB 11 12 DF IF RED DF
+SUB 7 14 DM IF MIN >= 70 SCORE >= 1
+SUB 10 12 DF IF MIN >= 75 SCORE >= 1
+SUB 6 16 FW IF MIN >= 60 SCORE <= -1
+SUB 7 15 AM IF MIN >= 70 SCORE <= -1

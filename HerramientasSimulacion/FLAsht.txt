@@ -1,0 +1,27 @@
+fla
+C
+
+GK Weverton
+DF Naldo 
+DF Renê 
+DF Pará 
+DF G_Siqueira 
+DM Willian_Arão 
+MF Diego 
+MF Jajá 
+AM R_Augusto 
+FW A_Pato 
+FW Vinícius_Jr 
+
+GK Júlio_César
+DF Miguel_Trauco 
+MF É_Ribeiro 
+MF G_Cuéllar 
+FW H_Dourado 
+
+PK: Vinícius_Jr 
+
+AGG 16
+SUB 4 13 DF IF MIN >= 75
+SUB 7 14 MF IF MIN >= 60
+SUB 10 16 FW IF MIN >= 75

@@ -1,0 +1,26 @@
+TIG
+D
+
+GK Nahuel_Guzmán
+DF Juninho
+DF Kolodziejczak
+DF D_Bocanegra
+DF Jorge_Torres
+DF I_Jiménez
+DM Rafa_Carioca
+DM Jesús_Dueñas
+MF J_F_Torres
+MF Larry_Vásquez
+FW A-P_Gignac
+
+GK Edu_Fernández
+DF Hugo_Ayala
+DM Luis_Martínez
+MF Raúl_Torres
+FW José_Angulo
+
+PK: A-P_Gignac
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

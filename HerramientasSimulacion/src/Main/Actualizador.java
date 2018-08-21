@@ -36,6 +36,7 @@ public class Actualizador extends javax.swing.JFrame {
          */
         private void cargarDatosActualizador() throws IOException, IOException {
                 liga.cargarDatos();
+                System.err.println("Llego aqui");
                 FileReader stats = new FileReader("stats.dir");
                 BufferedReader bR = new BufferedReader(stats);
                 String s;
@@ -81,7 +82,7 @@ public class Actualizador extends javax.swing.JFrame {
                         cargarDatosActualizador();
 
                 } catch (Exception ex) {
-                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                        JOptionPane.showMessageDialog(null, ex);
                 }
 
                 this.setSize(new Dimension(900, 700));

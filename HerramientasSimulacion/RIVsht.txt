@@ -1,0 +1,28 @@
+riv
+P
+
+GK Franco_Armani
+DF Mtnez_Quarta
+DF J_Maidana
+DF R_Funes_Mori
+DF M_Saracchi
+DM L_Ponzio
+MF J_Mascherano
+MF Enzo_Pérez
+AM G_Ramirez
+FW Lucas_Ocampos
+FW Lucas_Alario
+
+GK E_Martínez
+DF Camilo_Mayada
+MF E_Palacios
+AM Pity_Martinez
+FW Seba_Driussi
+
+
+PK: Lucas_Ocampos
+AGG 12
+SUB 11 16 FW IF MIN = 46
+SUB 2 13 DF IF MIN = 47
+SUB 11 12 GK IF RED 1 MIN <= 45
+SUB 16 12 GK IF RED 1 MIN >= 46

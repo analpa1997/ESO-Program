@@ -1,0 +1,26 @@
+san
+P
+
+GK N_Navarro     
+DF Paulo_Díaz         
+DF Gabriel_Rojas 
+DF Gonzalo_Rguez 
+DF F_Coloccini   
+AM F_Belluschi   
+DM Juan_Mercier  
+MF Franco_Mussis 
+MF G_Gudiño      
+FW N_Blandi      
+FW Rubén_Botta   
+
+GK José_Devecchi 
+DF M_Caruzzo
+MF F_Quignón     
+MF Marcos_Senesi 
+FW B_Merlini     
+
+PK: N_Blandi      
+
+AGG 12
+TACTIC C IF MIN >= 60
+TACTIC A IF MIN >= 80

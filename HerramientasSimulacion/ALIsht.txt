@@ -1,0 +1,31 @@
+ali
+N
+
+GK Leao_Butrón
+DF Luis_Garro
+DF C_Ramos
+DF Carlos_Ascues
+DF F_Duclós
+DM A_Fuentes
+MF R_Cruzado
+MF Óscar_Vílchez
+MF Luis_Ramírez
+AM A_Hohberg
+FW Yordy_Reyna
+
+GK Daniel_Prieto
+DF H_Riojas
+DM Tomás_Costa
+MF Mario_Velarde
+FW Janio_Pósito
+
+PK: Yordy_Reyna
+
+AGG 17
+
+SUB 10 12 GK IF RED GK
+SUB 10 13 DF IF RED DF
+SUB 10 14 DM IF RED DM
+SUB 10 15 MF IF RED MF
+TACTIC A IF MIN = 70 SCORE <= 0
+TACTIC C IF SCORE >= 2

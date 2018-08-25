@@ -1,0 +1,26 @@
+CAI
+L
+
+GK Damián_Albil
+DF F_Bustos
+DF F_Amorebieta
+DF Gastón_Silva
+DM Diego_Rguez
+MF F_Gaibor
+MF C_Ortiz
+AM Maxi_Meza
+FW E_Gigliotti
+FW Silvio_Romero
+FW Leandro_Fdez
+
+GK Franco_Vélez
+DF Juan_S_Miño
+DM N_Domingo
+AM Gastón_Togni
+FW J_Menéndez
+
+PK: Leandro_Fdez
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

@@ -1,36 +1,26 @@
-grm
-E
+GRM
+A
 
 GK Marcelo_Grohe
+DF W_Kannemann
 DF Pedro_Geromel
-DF W_Kannemann 
-DF Léo_Moura 
-DF Bressan 
-DM Michel 
+DF Paulo_Miranda
+DM Michel
 MF Maicon
-MF Ramiro 
-AM V_Vázquez 
+AM Pablo_Fornals
+AM V_Vázquez
 FW André_Silva
-FW Luan 
+FW Luan
+FW Alisson
 
 GK Paulo_Victor
 DF M_Oliveira
-MF C_Carbonero 
-AM Pablo_Fornals
-FW Alisson 
+DM Ramiro
+AM Vinícius_Lima
+FW Everton
 
-PK: André_Silva
+PK: Alisson
 
-AGG 14
-
-SUB 10 16 FW IF MIN = 60
-SUB 2 13 DF IF MIN = 60
-SUB 7 14 MF IF MIN = 60
-TACTIC E IF MIN <= 75 SCORE = -2
-SUB 6 12 GK IF RED GK
-CHANGEPOS 6 DF IF RED DF
-TACTIC A IF RED ODM
-TACTIC A IF SCORE <= -1
-TACTIC A IF SCORE = -1 MIN >= 60
-TACTIC A IF MIN <= 75 SCORE = -1
-TACTIC D IF SCORE = 4
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

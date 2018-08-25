@@ -1,23 +1,35 @@
 1
-pum - lag
-uch - san
-
-2
-san - pum
-uch - lag
-
-3
-pum - uch
-san - lag
-
-4
-lag - pum
-san - uch
-
-5
-pum - san
-lag - uch
-
-6
-uch - pum
-lag - san
+rac - cru
+pnl - tig
+grm - nac
+cor - fla
+riv - spo
+cai - boc
+1
+rac - cru
+pnl - tig
+grm - nac
+cor - fla
+riv - spo
+cai - boc
+1
+rac - cru
+pnl - tig
+grm - nac
+cor - fla
+riv - spo
+cai - boc
+1
+rac - cru
+pnl - tig
+grm - nac
+cor - fla
+riv - spo
+cai - boc
+1
+rac - cru
+pnl - tig
+grm - nac
+cor - fla
+riv - spo
+cai - boc

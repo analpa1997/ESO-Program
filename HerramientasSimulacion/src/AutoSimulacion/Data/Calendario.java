@@ -70,19 +70,22 @@ public class Calendario {
                 String s1;
                 ArrayList<String[]> semana = new ArrayList();
                 while ((s1 = bR.readLine()) != null) {
-                        if (!s1.matches("[0-9]+") && !s1.equals("")) {
-                                String[] cadena = s1.split("\\s+");
-                                String[] partido = new String[2];
-                                partido[0] = cadena[0];
-                                partido[1] = cadena[2];
-                                semana.add(partido);
-                        } else {
-                                if (!semana.isEmpty()) {
-                                        this.getCalendario().add(semana);
-                                        semana = new ArrayList();
+                        if (!s1.matches("\\s+")) {
+                                if (!s1.matches("[0-9]+") && !s1.equals("")) {
+                                        String[] cadena = s1.split("\\s+");
+                                        String[] partido = new String[2];
+                                        partido[0] = cadena[0];
+                                        partido[1] = cadena[2];
+                                        semana.add(partido);
+                                } else {
+                                        if (!semana.isEmpty()) {
+                                                this.getCalendario().add(semana);
+                                                semana = new ArrayList();
+                                        }
                                 }
                         }
                 }
+                this.getCalendario().add(semana);
         }
 
 }

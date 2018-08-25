@@ -1,32 +1,26 @@
-nac
-P
+NAC
+L
 
-GK M_Andújar     
-DF M_Caceres     
-DF Gonzalo_Jara  
-DF R_Erramuspe   
-DF Gino_Peruzzi  
-DM Seba_Prediger 
-MF Seb_Rodríguez 
-MF Alex_Müller   
-AM Tabaré_Viúdez 
+GK M_Andújar
+DF M_Caceres
+DF Gonzalo_Jara
+DF J_C_Paredes
+DF R_Erramuspe
+DM D_Arismendi
+MF Seba_Prediger
+MF Tata_González
+MF Seb_Rodríguez
 FW Viruta_Vera
-FW Mudo_Vázquez  
+FW Mudo_Vázquez
 
-GK Esteban_Conde 
-DF J_C_Paredes   
-AM Lea_Barcia    
-FW Seb_Fernández 
-FW G_Bergessio
+GK Esteban_Conde
+DF A_Espino
+DM C_Oliva
+MF Sant_Romero
+FW Seb_Fernández
 
-PK: Gino_Peruzzi  
-AGG 12
+PK: Mudo_Vázquez
 
-SUB 11 15 FW IF MIN = 50
-SUB 10 16 FW IF MIN = 50
-SUB 9 14 AM IF MIN = 50
-SUB 1 12 GK IF INJURED GK
-SUB 10 12 GK IF RED GK
-TACTIC C IF SCORE = -2
-TACTIC A IF SCORE = -1
-TACTIC E IF MIN >= 45 SCORE <= 0
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

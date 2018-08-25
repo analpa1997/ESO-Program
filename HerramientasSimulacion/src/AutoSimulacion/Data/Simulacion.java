@@ -40,7 +40,7 @@ public class Simulacion {
         }
 
         public void simular(int jornada) throws Exception {
-                for (String[] encuentro : calendario.getJornada(jornada)) {
+                for (String[] encuentro : calendario.getJornada(jornada - 1)) {
                         File dir = new File("Simulador.exe");
                         if (dir.exists()) {
                                 ProcessBuilder pB = new ProcessBuilder("Reiniciar árbitros.exe");
@@ -84,7 +84,13 @@ public class Simulacion {
                                         salida = salida + aux + "\n";
                                 }
                                 String[] salidaCortada = salida.split("\n");
-                                pW.println(salidaCortada[5]);
+                                System.err.println(salidaCortada.length);
+                                for (String s : salidaCortada) {
+                                        if (s.contains("Error") || s.contains("Game finished successfully")) {
+                                                s = s.replace("Enter the away teamsheet name(without the sht.txt part): ", "");
+                                                pW.println(s);
+                                        }
+                                }
                                 pW.println();
                                 pW.close();
                                 br.close();

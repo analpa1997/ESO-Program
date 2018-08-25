@@ -1,27 +1,26 @@
-fla
-C
+FLA
+P
 
 GK Weverton
-DF Naldo 
-DF Renê 
-DF Pará 
-DF G_Siqueira 
-DM Willian_Arão 
-MF Diego 
-MF Jajá 
-AM R_Augusto 
-FW A_Pato 
-FW Vinícius_Jr 
+DF Naldo
+DF Réver
+DF G_Siqueira
+DF Rhodolfo
+DM Willian_Arão
+DM G_Cuéllar
+MF R_Augusto
+FW A_Pato
+FW H_Dourado
+FW Vinícius_Jr
 
 GK Júlio_César
-DF Miguel_Trauco 
-MF É_Ribeiro 
-MF G_Cuéllar 
-FW H_Dourado 
+DF Renê
+DM Rômulo
+MF Jajá
+FW Marlos_Moreno
 
-PK: Vinícius_Jr 
+PK: Vinícius_Jr
 
-AGG 16
-SUB 4 13 DF IF MIN >= 75
-SUB 7 14 MF IF MIN >= 60
-SUB 10 16 FW IF MIN >= 75
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

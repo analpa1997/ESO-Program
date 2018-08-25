@@ -36,7 +36,6 @@ public class Actualizador extends javax.swing.JFrame {
          */
         private void cargarDatosActualizador() throws IOException, IOException {
                 liga.cargarDatos();
-                System.err.println("Llego aqui");
                 FileReader stats = new FileReader("stats.dir");
                 BufferedReader bR = new BufferedReader(stats);
                 String s;
@@ -81,7 +80,9 @@ public class Actualizador extends javax.swing.JFrame {
                         // CARGA DE DATOS DE LA PARTE DEL ACTUALIZADOR
                         cargarDatosActualizador();
 
-                } catch (Exception ex) {
+                } catch (FileNotFoundException ex) {
+                        estadoBotonActualizar(false);
+                } catch (IOException ex) {
                         JOptionPane.showMessageDialog(null, ex);
                 }
 
@@ -749,10 +750,11 @@ public class Actualizador extends javax.swing.JFrame {
                         jLog.setText(sLog);
                         try {
                                 liga.guardarEquipos();
-                                sLog += "\n\n\n\n\n\nTODO ACTUALIZADO CORRECTAMENTE";
+                                crearPosts();
+                                sLog += "\nCreados post de los partidos\n\n\n\n\nTODO ACTUALIZADO CORRECTAMENTE";
                                 jLog.setText(sLog);
                         } catch (IOException ex) {
-                                jLog.setText("Error, no se pudieron actualizar las plantillas: " + ex.getMessage());
+                                jLog.setText("Error, no se pudieron actualizar las plantillas: " + ex);
                         }
 
                 } catch (Exception ex) {
@@ -772,7 +774,7 @@ public class Actualizador extends javax.swing.JFrame {
                         liga.guardarEquipos();
                         jLog.setText("Fit de los porteros puesto a 100");
                 } catch (IOException ex) {
-                        jLog.setText("Error, no se pudieron actualizar las plantillas: " + ex.getMessage());
+                        jLog.setText("Error, no se pudieron actualizar las plantillas: " + ex);
                 }
         }//GEN-LAST:event_fitPorterosActionPerformed
 
@@ -783,7 +785,7 @@ public class Actualizador extends javax.swing.JFrame {
                         alineacion.crearAlineacionRandom();
                         alineacion.escribirAlineacionEnFichero(false);
                 } catch (IOException ex) {
-                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                        JOptionPane.showMessageDialog(null, ex);
                 }
         }//GEN-LAST:event_randomAliActionPerformed
 
@@ -802,7 +804,7 @@ public class Actualizador extends javax.swing.JFrame {
                         }
                         bR.close();
                 } catch (Exception ex) {
-                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                        JOptionPane.showMessageDialog(null, ex);
                 }
         }//GEN-LAST:event_selectorEquipoActionPerformed
 
@@ -826,7 +828,7 @@ public class Actualizador extends javax.swing.JFrame {
                         alineacion.crearAlineacionFormElegida();
                         alineacion.escribirAlineacionEnFichero(false);
                 } catch (Exception ex) {
-                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                        JOptionPane.showMessageDialog(null, ex);
                 }
 
         }//GEN-LAST:event_formacionAliActionPerformed
@@ -837,7 +839,7 @@ public class Actualizador extends javax.swing.JFrame {
                         alineacion.crearAlineacionFormElegida();
                         alineacion.escribirAlineacionEnFichero(true);
                 } catch (Exception ex) {
-                        JOptionPane.showMessageDialog(null, ex.getMessage());
+                        JOptionPane.showMessageDialog(null, ex);
                 }
         }//GEN-LAST:event_ali442LActionPerformed
 
@@ -853,8 +855,8 @@ public class Actualizador extends javax.swing.JFrame {
                         ficheroSeleccionado.setText(fichero.getName());
                         try {
                                 calendario.cargarCalendario(fichero);
-                                for (int i = 1; i <= calendario.getCalendario().size(); i++) {
-                                        elegirJornada.addItem(i + "");
+                                for (int i = 0; i < calendario.getCalendario().size(); i++) {
+                                        elegirJornada.addItem((i + 1) + "");
                                 }
                         } catch (Exception ex) {
                                 JOptionPane.showMessageDialog(this, ex);
@@ -868,9 +870,9 @@ public class Actualizador extends javax.swing.JFrame {
                 try {
                         simular.simular(jornada);
                         cargarDatosActualizador();
-                        crearPosts();
+                        estadoBotonActualizar(true);
                 } catch (Exception ex) {
-                        JOptionPane.showMessageDialog(this, ex.getMessage());
+                        JOptionPane.showMessageDialog(this, ex);
                 }
 
         }//GEN-LAST:event_simularAutomaticamenteActionPerformed
@@ -883,12 +885,24 @@ public class Actualizador extends javax.swing.JFrame {
                 return suma;
         }
 
-        private void crearPosts() throws Exception {
-                for (int i = 0; i < nombresArchivos.size() / 2; i++) {
+        private void crearPosts() throws IOException {
+                ArrayList<String[]> partidos = new ArrayList();
+                for (int i = 0; i < nombresArchivos.size(); i = i + 2) {
+                        String[] partido = new String[2];
+                        partido[0] = null;
+                        partido[1] = null;
+                        partido[0] = nombresArchivos.get(i);
+                        if ((i + 1) < nombresArchivos.size()) {
+                                partido[1] = nombresArchivos.get(i + 1);
+                        }
+                        partidos.add(partido);
+                }
+
+                for (int i = 0; i < partidos.size(); i++) {
                         FileWriter salida = new FileWriter("POST " + (i + 1) + ".txt");
                         PrintWriter pW = new PrintWriter(new BufferedWriter(salida));
-                        pW.print("[spoiler=\"(" + nombresArchivos.get(2 * i).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i).substring(4, 7) + ")\"]");
-                        FileReader entrada = new FileReader(nombresArchivos.get(2 * i));
+                        pW.print("[spoiler=\"(" + partidos.get(i)[0].substring(0, 3) + ") - (" + partidos.get(i)[0].substring(4, 7) + ")\"]");
+                        FileReader entrada = new FileReader(partidos.get(i)[0]);
                         BufferedReader bR = new BufferedReader(entrada);
                         String s;
                         while ((s = bR.readLine()) != null) {
@@ -898,9 +912,9 @@ public class Actualizador extends javax.swing.JFrame {
                         pW.println();
                         bR.close();
                         entrada.close();
-                        if (i == ((nombresArchivos.size() / 2) - 1) && nombresArchivos.size() % 2 == 0) {
-                                pW.print("[spoiler=\"(" + nombresArchivos.get(2 * i + 1).substring(0, 3) + ")-(" + nombresArchivos.get(2 * i + 1).substring(4, 7) + ")\"]");
-                                entrada = new FileReader(nombresArchivos.get(2 * i + 1));
+                        if (partidos.get(i)[1] != null) {
+                                pW.print("[spoiler=\"(" + partidos.get(i)[1].substring(0, 3) + ") - (" + partidos.get(i)[1].substring(4, 7) + ")\"]");
+                                entrada = new FileReader(partidos.get(i)[1]);
                                 bR = new BufferedReader(entrada);
                                 while ((s = bR.readLine()) != null) {
                                         pW.println(s);
@@ -908,9 +922,20 @@ public class Actualizador extends javax.swing.JFrame {
                                 pW.print("</pre>[/spoiler]");
                                 bR.close();
                                 entrada.close();
+
                         }
                         pW.close();
                         salida.close();
+                }
+        }
+
+        private void estadoBotonActualizar(boolean hayStats) {
+                if (hayStats) {
+                        actualizarLiga.setEnabled(true);
+                        actualizarLiga.setText("Actualizar Liga");
+                } else {
+                        actualizarLiga.setEnabled(false);
+                        actualizarLiga.setText("No hay stats.dir");
                 }
         }
 
@@ -1007,4 +1032,5 @@ public class Actualizador extends javax.swing.JFrame {
         private javax.swing.JComboBox<String> selectorTactica;
         private javax.swing.JButton simularAutomaticamente;
         // End of variables declaration//GEN-END:variables
+
 }

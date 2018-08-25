@@ -1,5 +1,5 @@
 Home_Bonus = 200
-Games = <pre>American_League:_Octavos_de_Final:
+Games = <pre>Diamond_League:
 Attendances_Pack = 0
 Cup = 0
 Extra_Time = 0
@@ -96,7 +96,7 @@ ISF = Independiente_Santa_Fe
 LAG = LA_Galaxy
 NAC = Nacional
 NYC = New_York_City_FC
-PEN = Peñarol
+PNL = Peñarol
 PUM = UNAM_Pumas
 RAC = Racing_Club
 RIV = River_Plate

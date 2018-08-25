@@ -1,0 +1,26 @@
+COR
+L
+
+GK Cássio
+DF Éder_Balanta
+DF Fágner
+DF F_Balbuena
+DF Vilson
+MF Diego_Laxalt
+AM Rodriguinho
+AM Marq_Gabriel
+FW Raúl_Ruidíaz
+FW M_Gómez
+FW Ángel_Romero
+
+GK Walter
+DF P_Henrique
+MF Maycon
+AM Mateus_Vital
+FW Lucca
+
+PK: Ángel_Romero
+
+SUB 2 13 DF IF MIN = 55
+SUB 11 16 FW IF MIN = 70
+SUB 6 14 MF IF MIN = 60

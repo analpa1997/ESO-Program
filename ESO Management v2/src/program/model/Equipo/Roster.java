@@ -7,6 +7,7 @@ package program.model.Equipo;
 
 import java.io.*;
 import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.*;
 import javax.swing.ImageIcon;
 import program.model.Jugador.*;
@@ -295,7 +296,7 @@ public class Roster implements Comparable<Roster> {
                 }
         }
 
-        public void anadirJugador(Jugador j) {
+        public boolean anadirJugador(Jugador j) {
                 switch (j.getPos()) {
                         case gk:
                                 nGk++;
@@ -316,7 +317,9 @@ public class Roster implements Comparable<Roster> {
                                 nFw++;
                                 break;
                 }
-                this.jugadores.add(j);
+
+                return this.jugadores.add(j);
+
         }
 
         public void quitarJugador(Jugador j) {
@@ -356,6 +359,32 @@ public class Roster implements Comparable<Roster> {
                         }
                 }
                 return buscado;
+        }
+
+        public Jugador buscarJugadorLike(String nombre) {
+                Iterator it = jugadores.iterator();
+                boolean encontrado = false;
+                Jugador buscado = null;
+                while (it.hasNext() && !encontrado) {
+                        buscado = (Jugador) it.next();
+                        if (buscado.getNombre().toLowerCase().contains(nombre.toLowerCase())) {
+                                encontrado = true;
+                        }
+                }
+                return buscado;
+        }
+
+        public SortedSet<Jugador> buscarJugadoresLike(String nombre) {
+                SortedSet<Jugador> resultadoQuery = new TreeSet<Jugador>();
+                Iterator it = jugadores.iterator();
+                Jugador buscado = null;
+                while (it.hasNext()) {
+                        buscado = (Jugador) it.next();
+                        if (buscado.getNombre().toLowerCase().contains(nombre.toLowerCase())) {
+                                resultadoQuery.add(buscado);
+                        }
+                }
+                return resultadoQuery;
         }
 
         public void ordenarRoster(int num, int stat) {
@@ -715,6 +744,39 @@ public class Roster implements Comparable<Roster> {
 
         public int compareStats(Roster r2, int stat) {
                 return Double.compare(this.stats.get(stat), r2.stats.get(stat));
+        }
+
+        public Object[][] rosterEnteroTabulado() {
+                Object[][] array = new Object[this.getJugadores().size()][];
+                Iterator it = jugadores.iterator();
+                int i = 0;
+                while (it.hasNext()) {
+                        array[i] = ((Jugador) it.next()).jugadorEnteroTabulado();
+                        i++;
+                }
+                return array;
+        }
+
+        public Object[][] rosterSalariosTabulado() {
+                DecimalFormat df = new DecimalFormat("###,###.##");
+                Object[][] array = new Object[this.getJugadores().size() + 1][];
+                Iterator it = jugadores.iterator();
+                int i = 0;
+                while (it.hasNext()) {
+                        array[i] = ((Jugador) it.next()).jugadorSalarioTabulado();
+                        i++;
+                }
+                array[i] = new Object[]{"TOTAL", null, null, df.format(this.salario) + "\u20ac"};
+                return array;
+        }
+
+        public String[] getCabeceraTablaRosterEnteroTabulado() {
+                return new String[]{"Nombre", "Nacionalidad", "Edad", "St", "Tk", "Ps", "Sh", "Ag", "expSt", "expTk", "expPs", "expSh", "Minutos", "pJugados", "pSuplente", "Paradas", "Encajados",
+                        "Tackles", "Pases", "Tiros", "Goles", "Asistencias", "DP", "Lesion", "Sancion", "Fit"};
+        }
+
+        public String[] getCabeceraTablaRosterSalarioTabulado() {
+                return new String[]{"Nombre", "Nacionalidad", "Edad", "Salario"};
         }
 
         @Override

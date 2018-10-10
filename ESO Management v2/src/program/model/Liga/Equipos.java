@@ -213,12 +213,23 @@ public class Equipos {
                 Roster buscado = null;
                 while (it.hasNext() && !encontrado) {
                         Roster aux = (Roster) it.next();
-                        if (aux.getAbreviatura().equalsIgnoreCase(abrev)) {
+                        if (aux.getAbreviatura().toLowerCase().equals(abrev.toLowerCase())) {
                                 encontrado = true;
                                 buscado = aux;
                         }
                 }
                 return buscado;
+        }
+
+        public Roster borrarEquipo(String abrev) {
+                Roster equipoBorrado = buscarEquipo(abrev);
+                equipos.remove(equipoBorrado);
+                return equipoBorrado;
+        }
+
+        public void actualizarEquipo(Roster equipo) {
+                Roster antiguoRoster = borrarEquipo(equipo.getAbreviatura());
+                añadirEquipo(equipo);
         }
 
         public void guardarEquipos() {

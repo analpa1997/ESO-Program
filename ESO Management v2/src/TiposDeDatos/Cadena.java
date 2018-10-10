@@ -27,7 +27,7 @@ public class Cadena {
                 return longitud;
         }
 
-        public void actLongitud() {
+        private void actLongitud() {
                 longitud = cadena.length();
         }
 
@@ -46,6 +46,19 @@ public class Cadena {
                         cadena = "<pre>" + cadena + "</pre>";
                 }
                 cadena = "<html>" + cadena + "</html>";
+                actLongitud();
+        }
+
+        public void ponerCabeceraHTML(boolean preformateado) {
+                if (preformateado) {
+                        cadena = "<pre>" + cadena + "</pre>";
+                }
+                cadena = "<html>" + cadena + "</html>";
+                actLongitud();
+        }
+
+        public void setCadena(String cadena) {
+                this.cadena = cadena;
                 actLongitud();
         }
 

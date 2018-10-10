@@ -1,25 +1,25 @@
 BOC
-P
+A
 
 GK G_Sara
 DF Paolo_Goltz
 DF F_Roncaglia
 DF Frank_Fabra
-DM W_Barrios
-DM Sebastian_Prz
-MF Fernando_Gago
-MF Pablo_Pérez
-MF L_Paredes
-AM Edwin_Cardona
-FW C_Pavón
-
-GK Agustín_Rossi
 DF L_Magallán
-DM Julián_Chicco
-AM G_Maroni
+DF S_Vergini
+DM W_Barrios
+MF Fernando_Gago
+FW C_Pavón
+FW D_Benedetto
 FW Carlos_Tévez
 
-PK: C_Pavón
+GK Agustín_Rossi
+DF Emmanuel_Más
+DM Sebastian_Prz
+MF Pablo_Pérez
+FW Ramón_Ábila
+
+PK: Carlos_Tévez
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

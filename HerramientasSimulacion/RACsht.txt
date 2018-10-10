@@ -6,20 +6,20 @@ DF A_Donatti
 DF Lucas_Orbán
 DF L_Sigali
 DF Leandro_Grimi
-DM A_Mejía
-DM Nery_Dmgz
 MF Diego_Glez
+MF David_Pizarro
 AM C_Sánchez
 AM Neri_Cardozo
 FW Lisandro_Lpez
+FW Roger_Mtnez
 
 GK Javier_García
 DF M_Barbieri
-DM K_Gutiérrez
+MF A_Solari
 AM M_Zaracho
-FW Roger_Mtnez
+FW R_Centurión
 
-PK: Lisandro_Lpez
+PK: Roger_Mtnez
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

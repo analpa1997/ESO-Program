@@ -1,21 +1,21 @@
 CRU
-C
+E
 
 GK Fábio
 DF Manoel
 DF Ezequiel
 DF Digão
-DF Egídio
-DF Léo
-DM F_Augusto
-MF Lucas_Silva
+DF Dedé
+DF M_Hermes
 MF F_Mancuello
+MF Lucas_Silva
+MF Ariel_Cabral
 AM Thiago_Neves
 FW Willian_José
 
 GK Rafael
-DF Dedé
-DM Henrique
+DF M_Cerqueira
+MF Bruno_Silva
 AM Rafinha
 FW Fred
 

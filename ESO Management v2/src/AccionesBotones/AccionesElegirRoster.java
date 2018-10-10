@@ -5,16 +5,20 @@
  */
 package AccionesBotones;
 
-import Paneles.*;
+import Paneles.ElegirRoster;
+import Paneles.MostrarRoster;
 import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionEvent;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import program.model.Equipo.Roster;
 import program.model.Liga.Equipos;
 
@@ -25,6 +29,7 @@ import program.model.Liga.Equipos;
 public class AccionesElegirRoster extends Acciones {
 
         private Equipos equipos;
+        private File miDir = new File(".");
 
         public AccionesElegirRoster() {
                 super();
@@ -63,6 +68,7 @@ public class AccionesElegirRoster extends Acciones {
                         case "gSelecciones":
                                 try {
                                         liga.guardarSeleccionesLiga();
+                                        JOptionPane.showMessageDialog(null, "Plantillas guardadas");
                                 } catch (IOException ex) {
                                         System.err.println("Las plantillas no se pudieron guardar");
                                 }
@@ -98,6 +104,44 @@ public class AccionesElegirRoster extends Acciones {
                                         pW.close();
                                 } catch (IOException ex) {
                                         JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
+                                }
+                                break;
+                        case "sumEntrenamientos":
+                                try {
+                                        JFileChooser fc = new JFileChooser();
+                                        fc.setApproveButtonText("Guardar Entrenamientos");
+                                        fc.setCurrentDirectory(miDir);
+                                        fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+                                        FileNameExtensionFilter filtro = new FileNameExtensionFilter("Archivos de texto", "txt");
+                                        fc.setFileFilter(filtro);
+                                        int seleccion = fc.showOpenDialog(pantallaPrincipal);
+                                        if (seleccion == JFileChooser.APPROVE_OPTION) {
+                                                File fichero = fc.getSelectedFile();
+                                                if (fichero.exists()) {
+                                                        if (JOptionPane.showConfirmDialog(panelLlamado, "El fichero elegido ya existe. ¿Desea sobreescribirlo?", "Sobreescritura de fichero", JOptionPane.YES_NO_OPTION) == 0) {
+                                                                int nSemanas = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el numero de semanas a entrenar", "4"));
+                                                                pantallaPrincipal.getLiga().sumarEntrenamientos(fichero.getAbsolutePath(), nSemanas);
+                                                                JOptionPane.showMessageDialog(panelLlamado, "Entrenamientos sumados correctamente");
+                                                        }
+                                                } else {
+                                                        int nSemanas = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el numero de semanas a entrenar", "4"));
+                                                        pantallaPrincipal.getLiga().sumarEntrenamientos(fichero.getAbsolutePath() + ".txt", nSemanas);
+                                                        JOptionPane.showMessageDialog(panelLlamado, "Entrenamientos sumados correctamente");
+                                                }
+                                        }
+                                } catch (Exception ex) {
+                                        ex.printStackTrace();
+                                        JOptionPane.showMessageDialog(null, ex);
+                                }
+                                break;
+
+                        case "sumFit":
+                                try {
+                                        pantallaPrincipal.getLiga().sumarFit();
+                                        JOptionPane.showMessageDialog(panelLlamado, "Fit sumado correctamente");
+                                } catch (Exception ex) {
+                                        ex.printStackTrace();
+                                        JOptionPane.showMessageDialog(null, ex);
                                 }
                                 break;
                         case "mPlantilla":

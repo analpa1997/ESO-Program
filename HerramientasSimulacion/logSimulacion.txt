@@ -1,24 +1,24 @@
-rac - cru
+cru - pnl
 
 Game finished successfully
 
-pnl - tig
+rac - grm
 
 Game finished successfully
 
-grm - nac
+tig - cor
 
 Game finished successfully
 
-cor - fla
+nac - riv
 
 Game finished successfully
 
-riv - spo
+fla - cai
 
 Game finished successfully
 
-cai - boc
+spo - boc
 
 Game finished successfully
 

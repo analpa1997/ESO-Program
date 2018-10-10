@@ -1,22 +1,22 @@
 FLA
-P
+C
 
-GK Weverton
+GK Júlio_César
 DF Naldo
 DF Réver
 DF G_Siqueira
-DF Rhodolfo
-DM Willian_Arão
-DM G_Cuéllar
 MF R_Augusto
+MF Jajá
+AM É_Ribeiro
+AM Diego
 FW A_Pato
 FW H_Dourado
 FW Vinícius_Jr
 
-GK Júlio_César
-DF Renê
-DM Rômulo
-MF Jajá
+GK G_Batista
+DF Rhodolfo
+DM Willian_Arão
+AM Ederson
 FW Marlos_Moreno
 
 PK: Vinícius_Jr

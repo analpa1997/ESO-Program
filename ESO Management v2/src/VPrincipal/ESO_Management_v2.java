@@ -9,10 +9,10 @@ import AccionesBotones.*;
 import Paneles.*;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.io.IOException;
 import java.net.URL;
 import java.util.*;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import program.model.Liga.*;
 
@@ -55,10 +55,9 @@ public class ESO_Management_v2 extends JFrame {
                 primeraPantalla.inicializarBotones();
                 primeraPantalla.añadirCuadriculas();
                 try {
-                        ESO_Liga.cargarPlantillas();
-                        ESO_Liga.cargarSelecciones();
-                } catch (IOException ex) {
-                        System.err.println("No se encontraron las plantillas");
+                        ESO_Liga.cargarDatos();
+                } catch (Exception ex) {
+                        JOptionPane.showMessageDialog(null, ex);
                 }
                 this.setSize(anchoPrograma, altoPrograma);
                 this.setLocationRelativeTo(null);

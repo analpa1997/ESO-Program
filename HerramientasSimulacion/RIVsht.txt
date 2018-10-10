@@ -1,11 +1,11 @@
 RIV
-E
+D
 
 GK Franco_Armani
 DF J_Maidana
 DF L_Vangioni
+DF Javier_Pinola
 DF R_Funes_Mori
-DF Mtnez_Quarta
 MF Enzo_Pérez
 MF Ariel_Rojas
 AM G_Ramirez
@@ -14,7 +14,7 @@ FW Lucas_Alario
 FW Seba_Driussi
 
 GK E_Martínez
-DF M_Saracchi
+DF Mtnez_Quarta
 MF E_Palacios
 AM Pity_Martinez
 FW Martín_Ojeda

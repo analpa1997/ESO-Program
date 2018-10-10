@@ -5,21 +5,21 @@ GK M_Andújar
 DF M_Caceres
 DF Gonzalo_Jara
 DF J_C_Paredes
-DF R_Erramuspe
 DM D_Arismendi
 MF Seba_Prediger
 MF Tata_González
-MF Seb_Rodríguez
+AM Tabaré_Viúdez
 FW Viruta_Vera
 FW Mudo_Vázquez
+FW Seb_Fernández
 
 GK Esteban_Conde
 DF A_Espino
 DM C_Oliva
-MF Sant_Romero
-FW Seb_Fernández
+AM Lea_Barcia
+FW G_Bergessio
 
-PK: Mudo_Vázquez
+PK: Seb_Fernández
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

@@ -6,20 +6,20 @@ DF Éder_Balanta
 DF Fágner
 DF F_Balbuena
 DF Vilson
+DF P_Henrique
+DM Gabriel
+DM Renê_Júnior
 MF Diego_Laxalt
-AM Rodriguinho
-AM Marq_Gabriel
 FW Raúl_Ruidíaz
 FW M_Gómez
-FW Ángel_Romero
 
 GK Walter
-DF P_Henrique
+DF Sidcley
+DM Paulo_Roberto
 MF Maycon
-AM Mateus_Vital
-FW Lucca
+FW Ángel_Romero
 
-PK: Ángel_Romero
+PK: M_Gómez
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

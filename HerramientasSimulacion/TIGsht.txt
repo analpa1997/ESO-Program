@@ -1,22 +1,22 @@
 TIG
-C
+P
 
 GK Nahuel_Guzmán
 DF Juninho
-DF Kolodziejczak
 DF D_Bocanegra
+DF Kolodziejczak
 DF Jorge_Torres
+DF Luis_Rdguez
 DM Rafa_Carioca
+DM Jesús_Dueñas
 MF J_F_Torres
-MF Larry_Vásquez
 AM Javier_Aquino
-AM T_Anderson
 FW A-P_Gignac
 
 GK Edu_Fernández
 DF I_Jiménez
-DM Jesús_Dueñas
-MF Raúl_Torres
+DM Luis_Martínez
+AM T_Anderson
 FW José_Angulo
 
 PK: A-P_Gignac

@@ -7,14 +7,19 @@ package Paneles;
 
 import AccionesBotones.AccionesMostrarRoster;
 import TiposDeDatos.Cadena;
+import java.awt.Component;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.text.DecimalFormat;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.SwingConstants;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableColumnModel;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 import program.model.Equipo.Roster;
-import program.model.Jugador.Jugador;
+import program.model.Tabla.ModeloTabla;
 
 /**
  *
@@ -24,6 +29,7 @@ public class MostrarRoster extends AbstractPanel {
 
         private Roster equipo;
         private final String EURO = "\u20ac";
+        private ModeloTabla modelo;
 
         /**
          * Creates new form MostrarRoster
@@ -35,10 +41,18 @@ public class MostrarRoster extends AbstractPanel {
         public MostrarRoster(Roster equipo) {
                 this();
                 this.equipo = equipo;
-                refrescarPlantilla(equipo.toString());
+                modelo = new ModeloTabla(equipo.rosterEnteroTabulado(), equipo.getCabeceraTablaRosterEnteroTabulado());
+                tablaDatos.setModel(modelo);
+                TableRowSorter<TableModel> sorter = new TableRowSorter<>(tablaDatos.getModel());
+                tablaDatos.setRowSorter(sorter);
+                dimensionarColumnas(tablaDatos);
+
+                // tablaDatos.setModel(modelo);
+                // tablaDatos.setTableHeader(new JTableHeader());
+                // refrescarPlantilla(equipo.toString());
         }
 
-        public void refrescarPlantilla(String texto) {
+        /*   public void refrescarPlantilla(String texto) {
                 plantillaLabel.setText(equipo.anyadirCabeceraHTML(equipo.escribirHTML(texto, true)));
                 plantillaLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         }
@@ -185,8 +199,7 @@ public class MostrarRoster extends AbstractPanel {
                 }
                 texto = texto + "\nSalario total del equipo: " + df.format(equipo.getSalario()) + EURO + "\nSalario medio del equipo: " + df.format(equipo.getSalario() / equipo.getJugadores().size()) + EURO;
                 return texto;
-        }
-
+        } */
         public void inicializarBotones() {
                 AccionesMostrarRoster listener = (AccionesMostrarRoster) this.getListeners().get("Mostrar Roster");
                 listener.setLlamada(this);
@@ -219,14 +232,30 @@ public class MostrarRoster extends AbstractPanel {
         }
 
         public void guardarTexto(String titulo) {
-                Cadena texto = new Cadena(plantillaLabel.getText());
-                texto.aString();
+                /*  Cadena texto = new Cadena(plantillaLabel.getText());
+                texto.aString();*/
+
                 String fileName = JOptionPane.showInputDialog("Introduce el nombre del archivo (sin extensión) donde quieres guardar la información (se guarda en .txt)", titulo);
                 try {
                         PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(fileName + ".txt"), StandardCharsets.UTF_8));
-                        String[] aux = texto.toString().split("\n");
-                        for (String s : aux) {
-                                pW.println(s);
+                        Cadena linea = new Cadena("");
+                        for (int i = 0; i < modelo.getColumnCount(); i++) {
+                                linea.setCadena(linea.toString() + modelo.getColumnName(i) + " ");
+                        }
+                        pW.println(linea.toString());
+                        int longitud = linea.getLongitud();
+                        linea = new Cadena("");
+                        for (int i = 0; i < longitud; i++) {
+                                linea.setCadena(linea.toString() + "-");
+                        }
+                        pW.println(linea.toString());
+                        linea = new Cadena("");
+                        for (int i = 0; i < modelo.getRowCount(); i++) {
+                                for (int j = 0; j < modelo.getColumnCount(); j++) {
+                                        linea.setCadena(linea.toString() + modelo.getValueAt(i, j).toString() + " ");
+                                }
+                                pW.println(linea.toString());
+                                linea = new Cadena("");
                         }
                         pW.close();
                 } catch (IOException ex) {
@@ -243,6 +272,36 @@ public class MostrarRoster extends AbstractPanel {
                 this.equipo = equipo;
         }
 
+        public void dimensionarColumnas(JTable tablaDatos) {
+                for (int i = 0; i < tablaDatos.getColumnCount(); i++) {
+                        DefaultTableColumnModel colModel = (DefaultTableColumnModel) tablaDatos.getColumnModel();
+                        TableColumn col = colModel.getColumn(i);
+                        int width = 0;
+
+                        TableCellRenderer renderer = col.getHeaderRenderer();
+                        for (int r = 0; r < tablaDatos.getRowCount(); r++) {
+                                renderer = tablaDatos.getCellRenderer(r, i);
+                                Component comp = renderer.getTableCellRendererComponent(tablaDatos, tablaDatos.getValueAt(r, i),
+                                        false, false, r, i);
+                                width = Math.max(width, comp.getPreferredSize().width);
+                        }
+                        col.setPreferredWidth(width + 2);
+                }
+        }
+
+        public void actualizarModelo(ModeloTabla modelo) {
+                tablaDatos.setModel(modelo);
+                this.modelo = modelo;
+        }
+
+        public void actualizarOrdenacion(TableRowSorter<TableModel> ordenacion) {
+                tablaDatos.setRowSorter(ordenacion);
+        }
+
+        public TableModel getModeloTabla() {
+                return tablaDatos.getModel();
+        }
+
         /**
          * This method is called from within the constructor to
          * initialize the form. WARNING: Do NOT modify this code. The
@@ -257,6 +316,8 @@ public class MostrarRoster extends AbstractPanel {
                 contenedorPlantilla = new javax.swing.JScrollPane();
                 jPanel1 = new javax.swing.JPanel();
                 plantillaLabel = new javax.swing.JLabel();
+                contenedorTabla = new javax.swing.JScrollPane();
+                tablaDatos = new javax.swing.JTable();
                 orderMedia = new javax.swing.JButton();
                 orderNombre = new javax.swing.JButton();
                 orderRendimiento = new javax.swing.JButton();
@@ -274,7 +335,31 @@ public class MostrarRoster extends AbstractPanel {
                 jPanel1.setLayout(new java.awt.GridBagLayout());
 
                 plantillaLabel.setText("jLabel1");
-                jPanel1.add(plantillaLabel, new java.awt.GridBagConstraints());
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 1;
+                jPanel1.add(plantillaLabel, gridBagConstraints);
+
+                tablaDatos.setModel(new javax.swing.table.DefaultTableModel(
+                        new Object [][] {
+                                {null, null, null, null},
+                                {null, null, null, null},
+                                {null, null, null, null},
+                                {null, null, null, null}
+                        },
+                        new String [] {
+                                "Title 1", "Title 2", "Title 3", "Title 4"
+                        }
+                ));
+                contenedorTabla.setViewportView(tablaDatos);
+
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 0;
+                gridBagConstraints.gridy = 0;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.1;
+                gridBagConstraints.weighty = 0.1;
+                jPanel1.add(contenedorTabla, gridBagConstraints);
 
                 contenedorPlantilla.setViewportView(jPanel1);
 
@@ -395,6 +480,7 @@ public class MostrarRoster extends AbstractPanel {
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JButton botonSalir;
         private javax.swing.JScrollPane contenedorPlantilla;
+        private javax.swing.JScrollPane contenedorTabla;
         private javax.swing.JPanel jPanel1;
         private javax.swing.JButton orderEdad;
         private javax.swing.JButton orderMedia;
@@ -406,6 +492,7 @@ public class MostrarRoster extends AbstractPanel {
         private javax.swing.JLabel plantillaLabel;
         private javax.swing.JLabel posicionesRoster;
         private javax.swing.JButton saveInformacion;
+        private javax.swing.JTable tablaDatos;
         private javax.swing.JLabel tituloRoster;
         // End of variables declaration//GEN-END:variables
 }

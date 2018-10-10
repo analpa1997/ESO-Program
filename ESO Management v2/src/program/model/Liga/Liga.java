@@ -9,6 +9,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 import program.model.Equipo.*;
 import program.model.Jugador.*;
 
@@ -22,6 +23,8 @@ public class Liga {
         private Equipos equiposLiga, seleccionesLiga, todasSelecciones;
         private Roster todosJugadores;
         private Map<String, String> nombresEquipos;
+        private Map<String, Entrenamiento> entrenamientosEquipos;
+        private Map<String, Fit> fitEquipos;
 
         private final URL PATH_IMAGEN_VACIA = this.getClass().getClassLoader().getResource("imagenes/vacia.png");
 
@@ -37,6 +40,8 @@ public class Liga {
                 todasSelecciones = new Equipos();
                 todosJugadores = new Roster("Todos los jugadores", "ALL");
                 nombresEquipos = new HashMap();
+                entrenamientosEquipos = new HashMap();
+                fitEquipos = new HashMap();
                 equiposLiga.setDefEquiposContenidos("Equipos existentes en ESO");
                 seleccionesLiga.setDefEquiposContenidos("Selecciones que disputan competiciones en ESO");
                 todasSelecciones.setDefEquiposContenidos("Selecciones de todas las nacionalidades de ESO");
@@ -94,6 +99,23 @@ public class Liga {
                 this.todasSelecciones = todasSelecciones;
         }
 
+        public Roster getTodosJugadores() {
+                return todosJugadores;
+        }
+
+        public void setTodosJugadores(Roster todosJugadores) {
+                this.todosJugadores = todosJugadores;
+        }
+
+        public Map<String, Entrenamiento> getEntrenamientosEquipos() {
+                return entrenamientosEquipos;
+        }
+
+        public void setEntrenamientosEquipos(Map<String, Entrenamiento> entrenamientosEquipos) {
+                this.entrenamientosEquipos = entrenamientosEquipos;
+        }
+
+
         /*public ArrayList <Resultado> getResultados(){
         return this.resultadosLiga;
     }
@@ -126,8 +148,11 @@ public class Liga {
 //<editor-fold defaultstate="collapsed" desc="Cargar Datos">
         public void cargarDatos() throws IOException {
                 cargarPlantillas();
+                cargarSelecciones();
                 cargarNombresEquipos();
                 cargarELO();
+                cargarEntrenamientos();
+                cargarFit();
         }
 
         public void cargarNombresEquipos() throws FileNotFoundException, IOException {
@@ -137,11 +162,11 @@ public class Liga {
         }
 
         public void cargarPlantillas() throws FileNotFoundException, IOException {
+                boolean b1, b2, b3;
                 FileReader teamsDir = new FileReader("teams.dir");
                 BufferedReader bR = new BufferedReader(teamsDir);
                 String nombrePlantilla = new String();
                 while ((nombrePlantilla = bR.readLine()) != null) {
-                        System.out.println(nombrePlantilla);
                         Roster nuevoEquipo = new Roster();
                         nuevoEquipo.setAbreviatura(nombrePlantilla.substring(0, 3));
                         nuevoEquipo.setNombre(nuevoEquipo.getAbreviatura());
@@ -152,8 +177,9 @@ public class Liga {
                         bR2.readLine();
                         while ((cadenaJugador = bR2.readLine()) != null) {
                                 Jugador player = new Jugador(cadenaJugador, nuevoEquipo.getAbreviatura());
-                                nuevoEquipo.anadirJugador(player);
-                                todosJugadores.anadirJugador(player);
+                                b1 = nuevoEquipo.anadirJugador(player);
+
+                                b2 = todosJugadores.anadirJugador(player);
                                 Roster s = existeSeleccion(player.getNacionalidad());
                                 if (s == null) {
                                         s = new Roster(player.getNacionalidad());
@@ -166,8 +192,17 @@ public class Liga {
                                         s.setImagen(new ImageIcon(s.getImagenPath()));
                                         todasSelecciones.añadirEquipo(s);
                                 }
+                                b3 = s.anadirJugador(player);
+                                if (!b1) {
 
-                                s.anadirJugador(player);
+                                        JOptionPane.showMessageDialog(null, player.getNombre() + " no pudo añadirse a " + nuevoEquipo.getAbreviatura() + ", " + nuevoEquipo.getJugadores().contains(player), "No se pudo añadir jugador", JOptionPane.ERROR_MESSAGE);
+                                }
+                                if (!b2) {
+                                        JOptionPane.showMessageDialog(null, player.getNombre() + " no pudo añadirse a " + todosJugadores.getAbreviatura() + ", " + todosJugadores.getJugadores().contains(player), "No se pudo añadir jugador", JOptionPane.ERROR_MESSAGE);
+                                }
+                                if (!b3) {
+                                        JOptionPane.showMessageDialog(null, player.getNombre() + " no pudo añadirse a " + s.getAbreviatura() + ", " + s.getJugadores().contains(player), "No se pudo añadir jugador", JOptionPane.ERROR_MESSAGE);
+                                }
                         }
                         URL imagen = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nuevoEquipo.getAbreviatura() + ".png");
                         if (imagen != null) {
@@ -177,7 +212,22 @@ public class Liga {
                         }
                         nuevoEquipo.setImagen(new ImageIcon(nuevoEquipo.getImagenPath()));
                         this.equiposLiga.añadirEquipo(nuevoEquipo);
+                        /* if ((this.getEquiposLiga().buscarEquipo("LIB")) != null) {
+                                SortedSet<Jugador> query = this.getEquiposLiga().buscarEquipo("LIB").buscarJugadoresLike("Muto");
+                                for (Jugador j : query) {
+                                        System.err.println(j);
+                                }
+                        } else {
+                                System.err.println("No he añadido LIB todavia");
+                        }*/
                 }
+                /*SortedSet<Jugador> query = (this.getEquiposLiga().buscarEquipo("LIB")).buscarJugadoresLike("");
+                if (query != null) {
+                        for (Jugador j : query) {
+                                System.err.println(j);
+                        }
+                }*/
+
         }
 
         public void cargarSelecciones() throws FileNotFoundException, IOException {
@@ -210,6 +260,80 @@ public class Liga {
                                 double elo = Double.parseDouble(s.toString());
                                 equiposLiga.buscarEquipo(abrev).setElo(elo);
                         }
+                }
+        }
+
+        public void cargarEntrenamientos() throws FileNotFoundException, IOException {
+                FileReader entrenamientos = new FileReader("Entrenamientos.dir");
+                BufferedReader bR = new BufferedReader(entrenamientos);
+                String s;
+                /*Calendar fecha = GregorianCalendar.getInstance();
+                int dia = fecha.get(Calendar.DAY_OF_MONTH);
+                int mes = fecha.get(Calendar.MONTH) + 1;
+                int año = fecha.get(Calendar.YEAR);
+                int hora = fecha.get(Calendar.HOUR_OF_DAY);
+                int min = fecha.get(Calendar.MINUTE);*/
+                while ((s = bR.readLine()) != null) {
+                        String[] cadena = s.split("\\s+");
+                        int i;
+                        for (i = 4; i < cadena.length; i++) {
+                                Entrenamiento entreno = new Entrenamiento(equiposLiga.buscarEquipo(cadena[i].toLowerCase()));
+                                entreno.setEntrenamiento(cadena[0], cadena[1], cadena[2], cadena[3]);
+                                entrenamientosEquipos.put(entreno.getEquipo().getAbreviatura().toLowerCase(), entreno);
+                        }
+                }
+
+        }
+
+        public void cargarFit() throws FileNotFoundException, IOException, ClassCastException {
+                FileReader fisio = new FileReader("Fisio.dir");
+                BufferedReader bR = new BufferedReader(fisio);
+                String s;
+                /*Calendar fecha = GregorianCalendar.getInstance();
+                int dia = fecha.get(Calendar.DAY_OF_MONTH);
+                int mes = fecha.get(Calendar.MONTH) + 1;
+                int año = fecha.get(Calendar.YEAR);
+                int hora = fecha.get(Calendar.HOUR_OF_DAY);
+                int min = fecha.get(Calendar.MINUTE);*/
+                while ((s = bR.readLine()) != null) {
+                        String[] cadena = s.split("\\s+");
+                        cadena[0] = cadena[0].replaceAll("[^0-9]", "");
+                        int i;
+                        for (i = 1; i < cadena.length; i++) {
+
+                                Fit fitEquipo = new Fit(equiposLiga.buscarEquipo(cadena[i].toLowerCase()), Integer.parseInt(cadena[0]));
+                                fitEquipos.put(cadena[i].toLowerCase(), fitEquipo);
+                        }
+                }
+
+        }
+
+        public void sumarEntrenamientos(String rutaFichero, int nSemanas) throws IOException {
+                FileWriter fichero = new FileWriter(rutaFichero);
+                PrintWriter pW = new PrintWriter(new BufferedWriter(fichero));
+                pW.println("SUMA DE ENTRENAMIENTOS");
+                pW.println();
+                LinkedList<Entrenamiento> entrenamientos = new LinkedList(entrenamientosEquipos.values());
+                for (Entrenamiento train : entrenamientos) {
+                        train.setEquipo(equiposLiga.buscarEquipo(train.getEquipo().getAbreviatura().toLowerCase()));
+                        String s = train.sumarEntrenamiento(nSemanas);
+                        equiposLiga.actualizarEquipo(train.getEquipo());
+                        String[] cadena = s.split("\n");
+                        for (String linea : cadena) {
+                                pW.println(linea);
+                        }
+                        pW.println();
+                }
+                pW.close();
+                fichero.close();
+        }
+
+        public void sumarFit() {
+                LinkedList<Fit> fits = new LinkedList(fitEquipos.values());
+                for (Fit f : fits) {
+                        f.setEquipo(equiposLiga.buscarEquipo(f.getEquipo().getAbreviatura()));
+                        f.sumarFit();
+                        equiposLiga.actualizarEquipo(f.getEquipo());
                 }
         }
 
@@ -251,38 +375,62 @@ public class Liga {
         }
 
         private void initNombres() {
-                nombresEquipos.put("AJX", "AFC Ajax Amsterdam");
-                nombresEquipos.put("ARS", "Arsenal FC");
-                nombresEquipos.put("BLE", "TSV Bayer Leverkusen 04");
                 nombresEquipos.put("ASM", "AS Monaco");
                 nombresEquipos.put("ATM", "Atlético de Madrid");
                 nombresEquipos.put("BAR", "FC Barcelona");
-                nombresEquipos.put("CHE", "Chelsea FC");
                 nombresEquipos.put("BDO", "Borussia Dortmund");
-                nombresEquipos.put("BMU", "FC Bayern Munchen");
-                nombresEquipos.put("INT", "Internazionale Milano");
-                nombresEquipos.put("EVE", "Everton FC");
-                nombresEquipos.put("NAP", "SSC Napoli");
-                nombresEquipos.put("LEI", "Leicester City FC");
+                nombresEquipos.put("BMU", "FC Bayern de Múnich");
+                nombresEquipos.put("CHE", "Chelsea FC");
+                nombresEquipos.put("INT", "Inter de Milán");
                 nombresEquipos.put("JUV", "Juventus de Turín");
-                nombresEquipos.put("TOT", "Tottenham Hotspurs");
+                nombresEquipos.put("MUN", "Manchester United");
+                nombresEquipos.put("NAP", "SSC Napoli");
+                nombresEquipos.put("NIC", "OGC Nice");
+                nombresEquipos.put("OPO", "FC Porto");
+                nombresEquipos.put("RMA", "Real Madrid CF");
+                nombresEquipos.put("ROM", "AS Roma");
+                nombresEquipos.put("SEV", "Sevilla FC");
+                nombresEquipos.put("TOT", "Tottenham Hotspur");
+                nombresEquipos.put("AJX", "AFC Ajax Amsterdam");
+                nombresEquipos.put("ARS", "FC Arsenal");
+                nombresEquipos.put("BLE", "Bayer 04 Leverkusen");
+                nombresEquipos.put("EVE", "FC Everton");
+                nombresEquipos.put("LEI", "Leicester City");
+                nombresEquipos.put("LIV", "FC Liverpool");
+                nombresEquipos.put("LYO", "Olympique Lyonnais");
+                nombresEquipos.put("MCI", "Manchester City");
+                nombresEquipos.put("OMA", "Olympique de Marseille");
+                nombresEquipos.put("MIL", "AC Milan");
+                nombresEquipos.put("PSG", "FC Paris Saint-Germain");
+                nombresEquipos.put("PSV", "PSV Eindhoven");
+                nombresEquipos.put("SLB", "SL Benfica");
+                nombresEquipos.put("S04", "FC Schalke 04");
                 nombresEquipos.put("VAL", "Valencia CF");
                 nombresEquipos.put("VIL", "Villarreal CF");
-                nombresEquipos.put("S04", "Schalke 04");
-                nombresEquipos.put("RMA", "Real Madrid CF");
-                nombresEquipos.put("OMA", "Olympique Marsella");
-                nombresEquipos.put("OPO", "FC Oporto");
-                nombresEquipos.put("SEV", "Sevilla FC");
-                nombresEquipos.put("SLB", "SL Benfica");
-                nombresEquipos.put("NIC", "OGC Nice");
-                nombresEquipos.put("MUN", "Manchester United FC");
-                nombresEquipos.put("MCI", "Manchester City");
-                nombresEquipos.put("ROM", "AS Roma");
-                nombresEquipos.put("LYO", "Olympique Lyonnais");
-                nombresEquipos.put("MIL", "AC Milan");
-                nombresEquipos.put("PSV", "PSV Eindhoven");
-                nombresEquipos.put("PSG", "Paris Saint Germain");
-                nombresEquipos.put("LIV", "Liverpool FC");
+                nombresEquipos.put("BOC", "Club Atlético Boca Juniors");
+                nombresEquipos.put("COR", "Sport Club Corinthians");
+                nombresEquipos.put("CRU", "Cruzeiro Esporte Clube");
+                nombresEquipos.put("FLA", "Club de Regatas do Flamengo");
+                nombresEquipos.put("GRM", "Grêmio Foot-Ball");
+                nombresEquipos.put("CAI", "Club Atlético Independiente");
+                nombresEquipos.put("NAC", "Club Nacional de Montevideo");
+                nombresEquipos.put("PNL", "Club Atlético Peñarol");
+                nombresEquipos.put("RAC", "Racing Club de Avellaneda");
+                nombresEquipos.put("RIV", "Club Atlético River Plate");
+                nombresEquipos.put("SPO", "São Paulo Futebol Clube");
+                nombresEquipos.put("TIG", "Tigres UANL");
+                nombresEquipos.put("ALI", "Alianza Lima");
+                nombresEquipos.put("ATN", "Atletico Nacional");
+                nombresEquipos.put("AME", "CF América de Mexico");
+                nombresEquipos.put("GUA", "Deportivo Guadalajara");
+                nombresEquipos.put("ISF", "Independiente de Santa Fe");
+                nombresEquipos.put("LAG", "Los Angeles Galaxy");
+                nombresEquipos.put("NYC", "New York City FC");
+                nombresEquipos.put("PUM", "Pumas UNAM");
+                nombresEquipos.put("SAN", "San Lorenzo de Almagro");
+                nombresEquipos.put("TOR", "Toronto FC");
+                nombresEquipos.put("UCA", "CD Universidad Catolica");
+                nombresEquipos.put("UCH", "Club Universidad de Chile");
                 nombresEquipos.put("LIB", "Jugadores Libres");
         }
 
@@ -310,6 +458,57 @@ public class Liga {
 //<editor-fold defaultstate="collapsed" desc="Gestion de ED de la Liga">
         public Roster existeSeleccion(String abrev) {
                 return todasSelecciones.buscarEquipo(abrev);
+        }
+
+        public void devolverJugadoresSelecciones() {
+                for (Roster s : this.seleccionesLiga.getEquipos()) {
+                        for (Jugador j : s.getJugadores()) {
+                                boolean encontrado = false;
+                                Iterator it = this.getJugadores().getJugadores().iterator();
+                                Jugador j2 = new Jugador();
+                                while ((it.hasNext()) && (!encontrado)) {
+                                        j2 = (Jugador) it.next();
+                                        if (j2.equals(j)) {
+                                                encontrado = true;
+                                        }
+                                }
+                                if (encontrado) {
+                                        j.setEquipo(j2.getEquipo());
+                                        this.getJugadores().getJugadores().remove(j2);
+                                        j2 = new Jugador(j);
+                                        this.getJugadores().getJugadores().add(j2);
+                                        Iterator it2 = this.getEquiposLiga().getEquipos().iterator();
+                                        Roster e = new Roster();
+                                        encontrado = false;
+                                        while ((it2.hasNext()) && !encontrado) {
+                                                e = (Roster) it2.next();
+                                                if (e.getAbreviatura().equals(j2.getEquipo())) {
+                                                        encontrado = true;
+                                                }
+                                        }
+                                        if (encontrado) {
+                                                Iterator it3 = e.getJugadores().iterator();
+                                                boolean estaJugador = false;
+                                                Jugador j3 = new Jugador();
+                                                while ((it3.hasNext()) && !estaJugador) {
+                                                        j3 = (Jugador) it3.next();
+                                                        if (j2.equals(j3)) {
+                                                                estaJugador = true;
+                                                        }
+                                                }
+                                                if (estaJugador) {
+                                                        e.getJugadores().remove(j3);
+                                                        j3 = new Jugador(j2);
+                                                        e.getJugadores().add(j3);
+                                                } else {
+                                                        JOptionPane.showMessageDialog(null, j.getNombre() + " no se ha encontrado en el equipo " + e.getNombre(), "No se ha encontrado el jugador", JOptionPane.ERROR_MESSAGE);
+                                                }
+                                        } else {
+                                                JOptionPane.showMessageDialog(null, j.getNombre() + " no se ha encontrado en todos los jugadores de la liga", "No se ha encontrado el jugador", JOptionPane.ERROR_MESSAGE);
+                                        }
+                                }
+                        }
+                }
         }
 
 //</editor-fold>

@@ -8,6 +8,7 @@ package Paneles;
 import VPrincipal.*;
 import java.net.URL;
 import java.util.*;
+import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import program.model.Equipo.*;
 import program.model.Liga.Equipos;
@@ -22,6 +23,7 @@ public class ElegirRoster extends AbstractPanel {
         Equipos equipos;
         Liga liga;
         private URL PATH_IMAGEN_VACIA;
+        private URL PATH_IMAGEN_GUARDAR;
 
         /**
          * Creates new form MostrarPlantillas
@@ -48,34 +50,63 @@ public class ElegirRoster extends AbstractPanel {
 
         public void inicializarBotones() {
                 int i = 0;
+                int botonFinal = 0;
+                int tipoPanel;
                 ESO_Management_v2 padre = (ESO_Management_v2) this.getPadre();
                 PATH_IMAGEN_VACIA = padre.PATH_IMAGEN_VACIA;
+                PATH_IMAGEN_GUARDAR = padre.PATH_IMAGEN_GUARDAR;
                 this.setListeners(padre.getListeners());
                 liga = padre.getLiga();
-                for (Roster r : equipos.getEquipos()) {
-                        PanelConBoton b = addBoton(r.getAbreviatura(), i);
-                        i++;
-                }
+                String nombrePanel;
+                panelGuardarSalir.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Acciones disponibles", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Arial", 1, 16)));
                 if (equipos.getEquipos().equals(liga.getEquiposLiga().getEquipos())) {
-                        PanelConBoton b = addBoton("<html><p>Todos los</p><p>Jugadores</p></html>", i);
-                        i++;
-                }
-                PanelConBoton guardarSalariosMayMenor = addBoton("<html><p>Guardar Salarios</p><p>(mayor a menor)</p></html>", 1 + i / 8, 5, "gSalariosMayMenor");
-                PanelConBoton guardarSalariosAZ = addBoton("<html><p>Guardar Salarios</p><p>(orden alfabetico)</p></html>", 1 + i / 8, 6, "gSalariosAZ");
-                addBotonSalir("Salir", i);
-                if (equipos.getEquipos().equals(liga.getEquiposLiga().getEquipos())) {
-                        addBotonGPlantillas("gEquipos", i);
-                } else if (equipos.getEquipos().equals(liga.getSeleccionesLiga())) {
-                        addBotonGPlantillas("gSelecciones", i);
+                        tipoPanel = 0;
+                } else if (equipos.getEquipos().equals(liga.getSeleccionesLiga().getEquipos())) {
+                        tipoPanel = 1;
                 } else {
-                        addBotonGPlantillas("gTodasSelecciones", i);
+                        tipoPanel = 2;
                 }
+                for (Roster r : equipos.getEquipos()) {
+                        URL path = this.getClass().getClassLoader().getResource("imagenes/escudos/" + r.getAbreviatura() + ".png");
+                        PanelConBoton b = addBoton(panelBotones, r.getAbreviatura(), i / 11, i % 11, "mPlantilla", path);
+                        i++;
+                }
+                if (equipos.getEquipos().equals(liga.getEquiposLiga().getEquipos())) {
+                        PanelConBoton b = addBoton(panelBotones, "<html><p>Todos los</p><p>Jugadores</p></html>", i / 11, i % 11, "mPlantilla", PATH_IMAGEN_VACIA);
+                        i++;
+                }
+                PanelConBoton guardarSalariosMayMenor = addBoton(panelGuardarSalir, "<html><p>Guardar Salarios</p><p>(mayor a menor)</p></html>", 2, 0, "gSalariosMayMenor", PATH_IMAGEN_VACIA);
+                PanelConBoton guardarSalariosAZ = addBoton(panelGuardarSalir, "<html><p>Guardar Salarios</p><p>(orden alfabetico)</p></html>", 3, 0, "gSalariosAZ", PATH_IMAGEN_VACIA);
+
+                switch (tipoPanel) {
+                        case 0:
+                                nombrePanel = "Equipos de ESO";
+                                addBoton(panelGuardarSalir, "Guardar Rosters", 0, 0, "gEquipos", PATH_IMAGEN_GUARDAR);
+                                addBoton(panelGuardarSalir, "<html><p>Sumar</p><p>Entrenamientos</p></html>", 4, 0, "sumEntrenamientos", PATH_IMAGEN_VACIA);
+                                addBoton(panelGuardarSalir, "Sumar Fit", 5, 0, "sumFit", PATH_IMAGEN_VACIA);
+                                botonFinal = 5;
+                                break;
+                        case 1:
+                                nombrePanel = "Selecciones que compiten en ESO";
+                                addBoton(panelGuardarSalir, "Guardar Rosters", 0, 0, "gSelecciones", PATH_IMAGEN_GUARDAR);
+                                botonFinal = 3;
+                                break;
+                        case 2:
+                                nombrePanel = "Todas las selecciones de ESO";
+                                addBoton(panelGuardarSalir, "Guardar Rosters", 0, 0, "gTodasSelecciones", PATH_IMAGEN_GUARDAR);
+                                botonFinal = 3;
+                                break;
+                        default:
+                                nombrePanel = "";
+                                break;
+                }
+                addBoton(panelGuardarSalir, "Salir", botonFinal + 1, 0, "salir", padre.PATH_IMAGEN_SALIR);
+                panelBotones.setBorder(javax.swing.BorderFactory.createTitledBorder(null, nombrePanel, javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Arial", 1, 16)));
         }
 
-        public PanelConBoton addBoton(String nombreBoton, int posicionX, int posicionY, String comando) {
+        public PanelConBoton addBoton(JPanel panel, String nombreBoton, int posicionX, int posicionY, String comando, URL imagen) {
                 PanelConBoton boton = new PanelConBoton(nombreBoton, comando);
                 boton.setPadre(this);
-                URL path = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nombreBoton + ".png");
                 centrarTextoBoton(boton);
                 boton.setActionListener(this.getListeners().get("Elegir Roster"));
                 java.awt.GridBagConstraints gridBagConstraints;
@@ -83,61 +114,10 @@ public class ElegirRoster extends AbstractPanel {
                 gridBagConstraints.gridy = posicionX;
                 gridBagConstraints.gridx = posicionY;
                 gridBagConstraints.weighty = 1;
-                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-
-                panelBotones.add(boton, gridBagConstraints);
-                addImagenBoton(boton, path);
+                gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+                panel.add(boton, gridBagConstraints);
+                addImagenBoton(boton, imagen);
                 return boton;
-        }
-
-        public PanelConBoton addBoton(String nombreBoton, int posicion) {
-                PanelConBoton boton = new PanelConBoton(nombreBoton, "mPlantilla");
-                boton.setPadre(this);
-                URL path = this.getClass().getClassLoader().getResource("imagenes/escudos/" + nombreBoton + ".png");
-                centrarTextoBoton(boton);
-                boton.setActionListener(this.getListeners().get("Elegir Roster"));
-                java.awt.GridBagConstraints gridBagConstraints;
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = posicion / 8;
-                gridBagConstraints.gridx = posicion % 8;
-                gridBagConstraints.weighty = 1;
-                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-
-                panelBotones.add(boton, gridBagConstraints);
-                addImagenBoton(boton, path);
-                return boton;
-        }
-
-        public void addBotonSalir(String nombreBoton, int posicion) {
-                PanelConBoton boton = new PanelConBoton(nombreBoton, "salir");
-                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
-                boton.setPadre(this);
-                centrarTextoBoton(boton);
-                boton.setActionListener(this.getListeners().get("Elegir Roster"));
-                java.awt.GridBagConstraints gridBagConstraints;
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = 1 + posicion / 8;
-                gridBagConstraints.gridx = 7;
-                gridBagConstraints.weighty = 1;
-                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                panelBotones.add(boton, gridBagConstraints);
-                addImagenBoton(boton, padre.PATH_IMAGEN_SALIR);
-        }
-
-        public void addBotonGPlantillas(String comandoBoton, int posicion) {
-                PanelConBoton boton = new PanelConBoton("Guardar rosters", comandoBoton);
-                ESO_Management_v2 padre = (ESO_Management_v2) getPadre();
-                boton.setPadre(this);
-                centrarTextoBoton(boton);
-                boton.setActionListener(this.getListeners().get("Elegir Roster"));
-                java.awt.GridBagConstraints gridBagConstraints;
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridy = 1 + posicion / 8;
-                gridBagConstraints.gridx = 0;
-                gridBagConstraints.weighty = 1;
-                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-                panelBotones.add(boton, gridBagConstraints);
-                addImagenBoton(boton, padre.PATH_IMAGEN_GUARDAR);
         }
 
         public void addImagenBoton(PanelConBoton boton, URL path) {
@@ -160,37 +140,46 @@ public class ElegirRoster extends AbstractPanel {
         private void initComponents() {
                 java.awt.GridBagConstraints gridBagConstraints;
 
-                jLabel1 = new javax.swing.JLabel();
                 jScrollPane1 = new javax.swing.JScrollPane();
                 panelBotones = new javax.swing.JPanel();
+                jScrollPane2 = new javax.swing.JScrollPane();
+                panelGuardarSalir = new javax.swing.JPanel();
 
                 setLayout(new java.awt.GridBagLayout());
-
-                jLabel1.setText("jLabel1");
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 0;
-                gridBagConstraints.gridwidth = 8;
-                gridBagConstraints.ipady = 16;
-                add(jLabel1, gridBagConstraints);
 
                 panelBotones.setLayout(new java.awt.GridBagLayout());
                 jScrollPane1.setViewportView(panelBotones);
 
                 gridBagConstraints = new java.awt.GridBagConstraints();
                 gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 1;
+                gridBagConstraints.gridy = 0;
                 gridBagConstraints.gridwidth = 8;
-                gridBagConstraints.gridheight = 4;
+                gridBagConstraints.gridheight = 5;
+                gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+                gridBagConstraints.weightx = 0.4;
+                gridBagConstraints.weighty = 0.1;
+                gridBagConstraints.insets = new java.awt.Insets(5, 5, 5, 5);
+                add(jScrollPane1, gridBagConstraints);
+
+                panelGuardarSalir.setLayout(new java.awt.GridBagLayout());
+                jScrollPane2.setViewportView(panelGuardarSalir);
+
+                gridBagConstraints = new java.awt.GridBagConstraints();
+                gridBagConstraints.gridx = 8;
+                gridBagConstraints.gridy = 0;
+                gridBagConstraints.gridwidth = 6;
+                gridBagConstraints.gridheight = 5;
                 gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
                 gridBagConstraints.weightx = 0.1;
                 gridBagConstraints.weighty = 0.1;
-                add(jScrollPane1, gridBagConstraints);
+                gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 5);
+                add(jScrollPane2, gridBagConstraints);
         }// </editor-fold>//GEN-END:initComponents
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
-        private javax.swing.JLabel jLabel1;
         private javax.swing.JScrollPane jScrollPane1;
+        private javax.swing.JScrollPane jScrollPane2;
         private javax.swing.JPanel panelBotones;
+        private javax.swing.JPanel panelGuardarSalir;
         // End of variables declaration//GEN-END:variables
 }

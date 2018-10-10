@@ -8,6 +8,10 @@ package AccionesBotones;
 import Paneles.MostrarRoster;
 import VPrincipal.ESO_Management_v2;
 import java.awt.event.ActionEvent;
+import java.util.Comparator;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
+import program.model.Tabla.ModeloTabla;
 
 /**
  *
@@ -64,7 +68,7 @@ public class AccionesMostrarRoster extends Acciones {
                                 ultimaAccion = "";
                                 numero = -1;
                                 llamada.getEquipo().ordenarRoster(-1, 0);
-                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
+                                // llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarEdad":
                                 mayorMenorRendimiento = false;
@@ -80,7 +84,7 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 mayorMenorEdad = !mayorMenorEdad;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
+                                //     llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarRendimiento":
                                 mayorMenorEdad = false;
@@ -96,7 +100,7 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 mayorMenorRendimiento = !mayorMenorRendimiento;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.escribirRendimiento());
+                                //   llamada.refrescarPlantilla(llamada.escribirRendimiento());
                                 break;
                         case "ordenarNombre":
                                 mayorMenorEdad = false;
@@ -112,7 +116,7 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 AZNombre = !AZNombre;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.getEquipo().toString());
+                                //     llamada.refrescarPlantilla(llamada.getEquipo().toString());
                                 break;
                         case "ordenarNacionalidad":
                                 mayorMenorEdad = false;
@@ -128,10 +132,10 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 AZNacionalidad = !AZNacionalidad;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.organizarPorNacionalidades());
+                                //   llamada.refrescarPlantilla(llamada.organizarPorNacionalidades());
                                 break;
                         case "ordenarSalario":
-                                mayorMenorEdad = false;
+                                /*  mayorMenorEdad = false;
                                 mayorMenorRendimiento = false;
                                 AZNombre = false;
                                 AZNacionalidad = false;
@@ -144,7 +148,26 @@ public class AccionesMostrarRoster extends Acciones {
                                 }
                                 mayorMenorSalario = !mayorMenorSalario;
                                 llamada.getEquipo().ordenarRoster(numero, 0);
-                                llamada.refrescarPlantilla(llamada.escribirSalarios());
+                                //   llamada.refrescarPlantilla(llamada.escribirSalarios());*/
+                                llamada.getEquipo().calcularSalario();
+                                llamada.actualizarModelo(new ModeloTabla(llamada.getEquipo().rosterSalariosTabulado(), llamada.getEquipo().getCabeceraTablaRosterSalarioTabulado()));
+                                TableRowSorter<TableModel> ordenacion = new TableRowSorter(llamada.getModeloTabla());
+                                ordenacion.setComparator(3, new Comparator<Object>() {
+                                        @Override
+                                        public int compare(Object o1, Object o2) {
+                                                String a = (String) o1;
+                                                String b = (String) o2;
+                                                System.err.println(a);
+                                                System.out.println(a);
+                                                a = a.replaceAll("\\.", "");
+                                                b = b.replaceAll("\\.", "");
+                                                a = a.replaceAll("¤", "");
+                                                b = b.replaceAll("¤", "");
+                                                return (Integer.parseInt(a) - Integer.parseInt(b));
+
+                                        }
+                                });
+                                llamada.actualizarOrdenacion(ordenacion);
                                 break;
                 }
         }

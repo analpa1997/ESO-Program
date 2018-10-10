@@ -1,25 +1,25 @@
 CAI
-L
+N
 
-GK Damián_Albil
+GK M_Campaña
 DF F_Bustos
 DF F_Amorebieta
 DF Gastón_Silva
-DM Diego_Rguez
+DF Juan_S_Miño
 MF F_Gaibor
 MF C_Ortiz
 AM Maxi_Meza
-FW E_Gigliotti
+AM Gastón_Togni
 FW Silvio_Romero
+FW E_Gigliotti
+
+GK Damián_Albil
+DF Jorge_Figal
+DM Diego_Rguez
+AM D_Blanco
 FW Leandro_Fdez
 
-GK Franco_Vélez
-DF Juan_S_Miño
-DM N_Domingo
-AM Gastón_Togni
-FW J_Menéndez
-
-PK: Leandro_Fdez
+PK: E_Gigliotti
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

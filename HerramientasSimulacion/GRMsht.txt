@@ -1,14 +1,14 @@
 GRM
-A
+D
 
 GK Marcelo_Grohe
 DF W_Kannemann
 DF Pedro_Geromel
 DF Paulo_Miranda
 DM Michel
+MF Arthur
 MF Maicon
 AM Pablo_Fornals
-AM V_Vázquez
 FW André_Silva
 FW Luan
 FW Alisson
@@ -16,7 +16,7 @@ FW Alisson
 GK Paulo_Victor
 DF M_Oliveira
 DM Ramiro
-AM Vinícius_Lima
+AM V_Vázquez
 FW Everton
 
 PK: Alisson

@@ -5,6 +5,8 @@
  */
 package program.model.Jugador;
 
+import java.text.DecimalFormat;
+
 /**
  *
  * @author Antonio
@@ -71,6 +73,21 @@ public class Jugador implements Comparable<Jugador> {
                 this.definirMedias();
                 this.definirSalario();
                 this.calcularRendimiento();
+        }
+
+        public Jugador(Jugador j) {
+                this.nombre = j.nombre;
+                this.nacionalidad = j.nacionalidad;
+                this.equipo = j.equipo;
+                this.pos = j.pos;
+                this.ag = j.ag;
+                this.edad = j.edad;
+                this.posInt = j.posInt;
+                this.portero = j.portero;
+                this.defensa = j.defensa;
+                this.medio = j.medio;
+                this.delantero = j.delantero;
+                this.stats = j.stats;
         }
 
         public String getNombre() {
@@ -602,6 +619,15 @@ public class Jugador implements Comparable<Jugador> {
                                         break;
                         }
                 }
+                if (resultado == 0) {
+                        resultado = getNombre().compareTo(j2.getNombre());
+                }
+                if (resultado == 0) {
+                        resultado = getNacionalidad().compareTo(j2.getNacionalidad());
+                }
+                if (resultado == 0) {
+                        resultado = getEdad() - j2.getEdad();
+                }
                 return resultado;
         }
 
@@ -611,5 +637,21 @@ public class Jugador implements Comparable<Jugador> {
 
         public String toStringReducido() {
                 return this.nombre + " (" + this.equipo.toLowerCase() + ")";
+        }
+
+        public Object[] jugadorEnteroTabulado() {
+                Object[] array = {this.nombre, this.nacionalidad, this.edad, this.getPortero().getMedia(), this.getDefensa().getMedia(), this.getMedio().getMedia(), this.getDelantero().getMedia(),
+                        this.ag, this.getPortero().getExperiencia(), this.getDefensa().getExperiencia(), this.getMedio().getExperiencia(), this.getDelantero().getExperiencia(),
+                        this.getStats().getMinutos(), this.getStats().getpJugados(), this.getStats().getpSuplente(), this.getStats().getParadas(), this.getStats().getEncajados(),
+                        this.getStats().getTackles(), this.getStats().getPases(), this.getStats().getTiros(), this.stats.getGoles(), this.stats.getAsistencias(), this.stats.getDp(),
+                        this.stats.getLesion(), this.stats.getSancion(), this.stats.getFit()};
+                return array;
+        }
+
+        public Object[] jugadorSalarioTabulado() {
+                DecimalFormat df = new DecimalFormat("###,###.##");
+                Object[] array = {this.nombre, this.nacionalidad, this.edad, df.format(this.salario) + "\u20ac"};
+                //  df.format(this.salario) + "\u20ac";
+                return array;
         }
 }

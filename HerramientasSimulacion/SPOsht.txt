@@ -1,25 +1,25 @@
 SPO
-L
+N
 
 GK A_Sidão
 DF Rodrigo_Caio
 DF A_Martins
 DF R_Arboleda
+DF Reinaldo
+DM Jucilei
 MF Petros
 MF Andrés_Tello
-AM Diego_Souza
 AM Nenê
 FW Luiz_Adriano
 FW M_Guilherme
+
+GK Jean_Filho
+DF A_Santos
+DM Húdson
+AM Valdívia
 FW C_Stuani
 
-GK Lucas_Perri
-DF Reinaldo
-DM Jucilei
-AM Valdívia
-FW S_Tréllez
-
-PK: C_Stuani
+PK: M_Guilherme
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

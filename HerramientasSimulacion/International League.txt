@@ -1,35 +1,7 @@
 1
-rac - cru
-pnl - tig
-grm - nac
-cor - fla
-riv - spo
-cai - boc
-1
-rac - cru
-pnl - tig
-grm - nac
-cor - fla
-riv - spo
-cai - boc
-1
-rac - cru
-pnl - tig
-grm - nac
-cor - fla
-riv - spo
-cai - boc
-1
-rac - cru
-pnl - tig
-grm - nac
-cor - fla
-riv - spo
-cai - boc
-1
-rac - cru
-pnl - tig
-grm - nac
-cor - fla
-riv - spo
-cai - boc
+cru - pnl
+rac - grm
+tig - cor
+nac - riv
+fla - cai
+spo - boc

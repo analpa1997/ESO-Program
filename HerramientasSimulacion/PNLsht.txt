@@ -4,22 +4,22 @@ A
 GK Kevin_Dawson
 DF F_Formiliano
 DF Ramón_Arias
-DF Guille_Varela
+DF Luciano_Lollo
 DM W_Gargano
-DM Marcel_Novick
 MF S_Cristóforo
+MF Luis_Aguiar
+MF F_Martínez
 AM M_Rodríguez
 FW Rodrigo_Mora
 FW Lucas_Viatri
-FW C_Palacios
 
 GK A_Freitas
-DF Luciano_Lollo
-DM G_Pereira
+DF Rodrigo_Rojo
+DM Marcel_Novick
 AM Ceb_Rodríguez
-FW F_Estoyanoff
+FW C_Palacios
 
-PK: C_Palacios
+PK: Lucas_Viatri
 
 SUB 2 13 DF IF MIN = 55
 SUB 11 16 FW IF MIN = 70

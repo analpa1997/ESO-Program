@@ -8,6 +8,7 @@ package AccionesBotones;
 import Paneles.*;
 import VPrincipal.*;
 import java.awt.event.ActionEvent;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -78,6 +79,10 @@ public class AccionVentanaMain extends Acciones {
                                 break;
                         case "salarios":
                                 System.out.println("Boton Salarios");
+                                break;
+                        case "devolverJugadoresSelecciones":
+                                this.liga.devolverJugadoresSelecciones();
+                                JOptionPane.showMessageDialog(null, "Jugadores transferidos correctamente");
                                 break;
                         case "salir":
                                 salir();

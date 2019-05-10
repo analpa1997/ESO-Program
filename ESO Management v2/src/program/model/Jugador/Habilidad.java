@@ -60,6 +60,14 @@ public class Habilidad {
                 this.experiencia = experiencia;
         }
 
+        public void sumarExperiencia(int experiencia) {
+                this.setExperiencia(this.getExperiencia() + experiencia);
+        }
+
+        public void restarExperiencia(int experiencia) {
+                this.setExperiencia(this.getExperiencia() - experiencia);
+        }
+
         public boolean equals(Habilidad obj) {
 
                 if ((this.getMedia() != obj.getMedia()) || (this.getExperiencia() != obj.getExperiencia())) {

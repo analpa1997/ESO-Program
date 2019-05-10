@@ -8,6 +8,7 @@ package AccionesBotones;
 import Paneles.*;
 import VPrincipal.*;
 import java.awt.event.ActionEvent;
+import java.io.IOException;
 import javax.swing.JOptionPane;
 
 /**
@@ -80,6 +81,17 @@ public class AccionVentanaMain extends Acciones {
                         case "salarios":
                                 System.out.println("Boton Salarios");
                                 break;
+                        case "loadSeleccionesMundial": {
+                                try {
+                                        this.liga.cargarSeleccionesConFicheros();
+                                        JOptionPane.showMessageDialog(null, "Jugadores transferidos correctamente");
+                                } catch (IOException ex) {
+                                        ex.printStackTrace();
+                                        JOptionPane.showMessageDialog(null, ex);
+                                }
+                        }
+
+                        break;
                         case "devolverJugadoresSelecciones":
                                 this.liga.devolverJugadoresSelecciones();
                                 JOptionPane.showMessageDialog(null, "Jugadores transferidos correctamente");

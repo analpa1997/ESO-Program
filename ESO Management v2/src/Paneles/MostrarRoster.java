@@ -6,7 +6,7 @@
 package Paneles;
 
 import AccionesBotones.AccionesMostrarRoster;
-import TiposDeDatos.Cadena;
+import program.model.Utils.Cadena;
 import java.awt.Component;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -42,6 +42,7 @@ public class MostrarRoster extends AbstractPanel {
                 this();
                 this.equipo = equipo;
                 modelo = new ModeloTabla(equipo.rosterEnteroTabulado(), equipo.getCabeceraTablaRosterEnteroTabulado());
+
                 tablaDatos.setModel(modelo);
                 TableRowSorter<TableModel> sorter = new TableRowSorter<>(tablaDatos.getModel());
                 tablaDatos.setRowSorter(sorter);
@@ -206,7 +207,6 @@ public class MostrarRoster extends AbstractPanel {
                 listener.inicializarBooleans();
                 tituloRoster.setHorizontalAlignment(JLabel.LEFT);
                 tituloRoster.setText("Plantilla de " + equipo.getAbreviatura());
-                System.err.println(equipo.getImagenPath());
                 tituloRoster.setIcon(equipo.getImagen());
                 tituloRoster.setVerticalTextPosition(JLabel.BOTTOM);
                 tituloRoster.setHorizontalTextPosition(JLabel.CENTER);

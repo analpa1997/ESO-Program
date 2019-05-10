@@ -33,8 +33,9 @@ public class contenedorPpal extends AbstractPanel {
                 deportiva.addBoton("Mostrar Plantillas Equipos", "mPlantillas", listener);
                 deportiva.addBoton("Mostrar Selecciones Mundial", "mSeleccionesLiga", listener);
                 deportiva.addBoton("Mostrar Todas Las Selecciones", "mSelecciones", listener);
-                deportiva.addBoton("Actualizar jugadores tras las selecciones", "devolverJugadoresSelecciones", listener);
                 deportiva.addBoton("Traspasar Jugadores", "traspasos", listener);
+                deportiva.addBoton("Cargar Selecciones Mundial", "loadSeleccionesMundial", listener);
+                deportiva.addBoton("Actualizar jugadores tras las selecciones", "devolverJugadoresSelecciones", listener);
                 financiera.addBoton("Salarios", "salarios", listener);
                 financiera.addBoton("Salarios", "salarios", listener);
                 financiera.addBoton("Salarios", "salarios", listener);

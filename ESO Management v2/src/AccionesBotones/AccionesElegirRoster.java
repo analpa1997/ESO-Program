@@ -106,6 +106,32 @@ public class AccionesElegirRoster extends Acciones {
                                         JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
                                 }
                                 break;
+                        case "gPotenciales":
+                                try {
+                                        PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(JOptionPane.showInputDialog("Escribe el nombre del fichero en el que quieres guardar los potenciales de mayor a menor (sin .txt)") + ".txt"), StandardCharsets.UTF_8));
+                                        String[] contenido = equipos.escribirPotencialesMayMenor().split("\n");
+                                        for (String s : contenido) {
+                                                pW.println(s);
+                                                ;
+                                        }
+                                        pW.close();
+                                } catch (IOException ex) {
+                                        JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
+                                }
+                                break;
+                        case "gCalidadActual":
+                                try {
+                                        PrintWriter pW = new PrintWriter(new OutputStreamWriter(new FileOutputStream(JOptionPane.showInputDialog("Escribe el nombre del fichero en el que quieres guardar la calidad actual de mayor a menor (sin .txt)") + ".txt"), StandardCharsets.UTF_8));
+                                        String[] contenido = equipos.escribirCActualMayMenor().split("\n");
+                                        for (String s : contenido) {
+                                                pW.println(s);
+                                                ;
+                                        }
+                                        pW.close();
+                                } catch (IOException ex) {
+                                        JOptionPane.showMessageDialog(panelLlamado, ex.getMessage());
+                                }
+                                break;
                         case "sumEntrenamientos":
                                 try {
                                         JFileChooser fc = new JFileChooser();
@@ -134,7 +160,32 @@ public class AccionesElegirRoster extends Acciones {
                                         JOptionPane.showMessageDialog(null, ex);
                                 }
                                 break;
-
+                        case "sumBonusMinutos":
+                                pantallaPrincipal.getLiga().sumaBonusMinutos();
+                                JOptionPane.showMessageDialog(panelLlamado, "Bonus sumado correctamente");
+                                break;
+                        case "sumExpPosicion":
+                                for (int i = 1; i < 5; i++) {
+                                        String posicion = "";
+                                        switch (i) {
+                                                case 1:
+                                                        posicion = "GK";
+                                                        break;
+                                                case 2:
+                                                        posicion = "DF";
+                                                        break;
+                                                case 3:
+                                                        posicion = "MF";
+                                                        break;
+                                                case 4:
+                                                        posicion = "FW";
+                                                        break;
+                                        }
+                                        int exp = Integer.parseInt(JOptionPane.showInputDialog("Elige la experiencia a sumar a la posicion de " + posicion, 0));
+                                        liga.sumarExpPosicion(equipos, i, exp);
+                                }
+                                JOptionPane.showMessageDialog(panelLlamado, "Experiencia sumada correctamente");
+                                break;
                         case "sumFit":
                                 try {
                                         pantallaPrincipal.getLiga().sumarFit();

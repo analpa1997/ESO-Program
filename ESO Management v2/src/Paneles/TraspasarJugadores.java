@@ -84,7 +84,6 @@ public class TraspasarJugadores extends AbstractPanel {
 
         private JToggleButton anadirToggleButtonEquipos(String nombre, ImageIcon imagen) {
                 JToggleButton boton = new JToggleButton(nombre);
-                TraspasarJugadores aux = this;
                 boton.addItemListener(new ItemListener() {
                         @Override
                         public void itemStateChanged(ItemEvent e) {
@@ -153,13 +152,13 @@ public class TraspasarJugadores extends AbstractPanel {
                 panel.repaint();
         }
 
-        private Roster buscarEquipo(SortedSet<Roster> equipos, String nombre) {
+        private Roster buscarEquipo(SortedSet<Roster> equipos, String abreviatura) {
                 Iterator it = equipos.iterator();
                 Roster r = null;
                 boolean encontrado = false;
                 while (!encontrado && it.hasNext()) {
                         r = (Roster) it.next();
-                        encontrado = r.getNombre().equals(nombre);
+                        encontrado = r.getAbreviatura().equals(abreviatura);
                 }
                 return r;
         }

@@ -68,21 +68,21 @@ public class Entrenamiento {
                         } else {
                                 j.getDefensa().setExperiencia(j.getDefensa().getExperiencia() + nSemanas * entrenamiento[1]);
                                 if (j.getDefensa().getMedia() < h[1].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de portero de " + h[1].getMedia() + " a " + j.getDefensa().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de defensa de " + h[1].getMedia() + " a " + j.getDefensa().getMedia() + "\n";
                                 } else if (j.getDefensa().getMedia() > h[1].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de portero de " + h[1].getMedia() + " a " + j.getDefensa().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de defensa de " + h[1].getMedia() + " a " + j.getDefensa().getMedia() + "\n";
                                 }
                                 j.getMedio().setExperiencia(j.getMedio().getExperiencia() + nSemanas * entrenamiento[2]);
                                 if (j.getMedio().getMedia() < h[2].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de portero de " + h[2].getMedia() + " a " + j.getMedio().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de medio de " + h[2].getMedia() + " a " + j.getMedio().getMedia() + "\n";
                                 } else if (j.getMedio().getMedia() > h[2].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de portero de " + h[2].getMedia() + " a " + j.getMedio().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de medio de " + h[2].getMedia() + " a " + j.getMedio().getMedia() + "\n";
                                 }
                                 j.getDelantero().setExperiencia(j.getDelantero().getExperiencia() + nSemanas * entrenamiento[3]);
                                 if (j.getDelantero().getMedia() < h[3].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de portero de " + h[3].getMedia() + " a " + j.getDelantero().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha bajado su media de delantero de " + h[3].getMedia() + " a " + j.getDelantero().getMedia() + "\n";
                                 } else if (j.getDelantero().getMedia() > h[3].getMedia()) {
-                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de portero de " + h[3].getMedia() + " a " + j.getDelantero().getMedia() + "\n";
+                                        salida += j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") ha subido su media de delantero de " + h[3].getMedia() + " a " + j.getDelantero().getMedia() + "\n";
                                 }
                         }
                         j.definirPosicion();

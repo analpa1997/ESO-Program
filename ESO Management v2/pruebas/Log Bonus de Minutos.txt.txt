@@ -1,0 +1,2624 @@
+Alban_Lafont (ajx) ha subido 240 pts de exp como Gk. 
+André_Onana (ajx) ha subido 20 pts de exp como Gk. 
+N_Alblas (ajx) ha subido 20 pts de exp como Gk. 
+F_Benkovic (ajx) ha subido 120 pts de exp como Df. 
+Jorge_Meré (ajx) ha subido 120 pts de exp como Df. 
+T_A-Arnold (ajx) ha subido 120 pts de exp como Df. 
+T_Hernández (ajx) ha subido 120 pts de exp como Df. 
+Malang_Sarr (ajx) ha subido 120 pts de exp como Df. 
+A_Rahman_Baba (ajx) ha subido 20 pts de exp como Df. 
+O_Boscagli (ajx) ha subido 40 pts de exp como Df. 
+M_de_Ligt (ajx) ha subido 80 pts de exp como Df. 
+Alec_Georgen (ajx) ha subido 80 pts de exp como Df. 
+F_Passlack (ajx) ha subido 40 pts de exp como Df. 
+A_Diawara (ajx) ha subido 80 pts de exp como Mf. 
+T_Fosu-Mensah (ajx) ha subido 120 pts de exp como Mf. Subiendo 1 media como Mf.
+André_Horta (ajx) ha subido 60 pts de exp como Mf. 
+L_Pellegrini (ajx) ha subido 40 pts de exp como Mf. 
+Renato_S (ajx) ha subido 80 pts de exp como Mf. 
+C_Nkunku (ajx) ha subido 80 pts de exp como Mf. 
+F_de_Jong (ajx) ha subido 40 pts de exp como Mf. 
+M_Odegaard (ajx) ha subido 120 pts de exp como Mf. 
+Kai_Havertz (ajx) ha subido 80 pts de exp como Mf. Subiendo 1 media como Mf.
+K_Dolberg (ajx) ha subido 120 pts de exp como Fw. 
+L_Martínez (ajx) ha subido 120 pts de exp como Fw. 
+J_Kluivert (ajx) ha subido 80 pts de exp como Fw. 
+A_Isak (ajx) ha subido 120 pts de exp como Fw. 
+Leao_Butrón (ali) ha bajado -680 pts de exp como Gk. Bajando 1 media como Gk.
+Daniel_Prieto (ali) ha subido 20 pts de exp como Gk. 
+Ángelo_Campos (ali) ha ganado 0 pts de exp como Gk. 
+C_Ramos (ali) ha ganado 0 pts de exp como Df. 
+Carlos_Ascues (ali) ha subido 40 pts de exp como Df. 
+H_Riojas (ali) ha ganado 0 pts de exp como Df. 
+G_Gambetta (ali) ha bajado -40 pts de exp como Df. 
+Luis_Garro (ali) ha subido 60 pts de exp como Df. Subiendo 1 media como Df.
+Gonzalo_Godoy (ali) ha bajado -80 pts de exp como Df. 
+Miguel_Araujo (ali) ha subido 20 pts de exp como Df. 
+F_Duclós (ali) ha subido 60 pts de exp como Df. 
+Tomás_Costa (ali) ha bajado -80 pts de exp como Mf. 
+A_Fuentes (ali) ha subido 80 pts de exp como Mf. 
+José_Cotrina (ali) ha subido 20 pts de exp como Mf. 
+Luis_Ramírez (ali) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+R_Cruzado (ali) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+Óscar_Vílchez (ali) ha bajado -50 pts de exp como Mf. 
+Maxi_Lemos (ali) ha ganado 0 pts de exp como Mf. 
+A_Hohberg (ali) ha bajado -40 pts de exp como Mf. 
+Mario_Velarde (ali) ha bajado -40 pts de exp como Mf. 
+Yordy_Reyna (ali) ha subido 40 pts de exp como Fw. 
+Gabriel_Leyes (ali) ha bajado -40 pts de exp como Fw. 
+Janio_Pósito (ali) ha bajado -40 pts de exp como Fw. 
+Kevin_Quevedo (ali) ha subido 40 pts de exp como Fw. 
+E_Ramírez (ali) ha subido 80 pts de exp como Fw. 
+A_Marchesín (ame) ha bajado -20 pts de exp como Gk. 
+Ó_Jiménez (ame) ha bajado -130 pts de exp como Gk. 
+Drew_Moor (ame) ha bajado -710 pts de exp como Df. Bajando 1 media como Df.
+Paul_Aguilar (ame) ha bajado -20 pts de exp como Df. 
+Bruno_Valdez (ame) ha subido 60 pts de exp como Df. 
+Ema_Aguilera (ame) ha bajado -40 pts de exp como Df. 
+Nick_Hagglund (ame) ha subido 20 pts de exp como Df. 
+Todd_Kane (ame) ha subido 20 pts de exp como Df. 
+Milton_Casco (ame) ha bajado -130 pts de exp como Df. 
+Edson_Álvarez (ame) ha subido 20 pts de exp como Df. 
+Carlos_Vargas (ame) ha subido 40 pts de exp como Df. 
+Diego_Arias (ame) ha bajado -50 pts de exp como Mf. 
+N_Chalobah (ame) ha subido 40 pts de exp como Mf. 
+Andrea_Pirlo (ame) ha bajado -760 pts de exp como Mf. Bajando 1 media como Mf.
+Mateus_Uribe (ame) ha subido 20 pts de exp como Mf. 
+Joe_Corona (ame) ha bajado -40 pts de exp como Mf. 
+Ager_Aketxe (ame) ha subido 40 pts de exp como Mf. 
+C_Domínguez (ame) ha ganado 0 pts de exp como Mf. 
+Diego_Lainez (ame) ha subido 40 pts de exp como Mf. 
+I_Scocco (ame) ha bajado -20 pts de exp como Fw. 
+Breel_Embolo (ame) ha subido 80 pts de exp como Fw. 
+A_Ibargüen (ame) ha ganado 0 pts de exp como Fw. 
+Jozy_Altidore (ame) ha bajado -80 pts de exp como Fw. 
+Petr_Cech (ars) ha bajado -680 pts de exp como Gk. 
+Alisson (ars) ha ganado 0 pts de exp como Gk. 
+F_Monetti (ars) ha bajado -80 pts de exp como Gk. 
+Javi_Martínez (ars) ha ganado 0 pts de exp como Df. 
+L_Koscielny (ars) ha bajado -50 pts de exp como Df. 
+H_Bellerín (ars) ha subido 80 pts de exp como Df. 
+S_de_Vrij (ars) ha subido 60 pts de exp como Df. 
+Kieran_Gibbs (ars) ha bajado -40 pts de exp como Df. 
+Fede_Ricca (ars) ha subido 60 pts de exp como Df. 
+N_N'Koulou (ars) ha bajado -40 pts de exp como Df. 
+Molla_Wague (ars) ha bajado -80 pts de exp como Df. 
+F_Coquelin (ars) ha subido 40 pts de exp como Mf. 
+M_Elneny (ars) ha subido 20 pts de exp como Mf. 
+C_Kramer (ars) ha bajado -80 pts de exp como Mf. 
+Juraj_Kucka (ars) ha bajado -50 pts de exp como Mf. 
+Konrad_Laimer (ars) ha subido 60 pts de exp como Mf. 
+Mario_Lemina (ars) ha subido 20 pts de exp como Mf. 
+M_Fernández (ars) ha bajado -130 pts de exp como Mf. 
+V_Jugovic (ars) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+Mesut_Özil (ars) ha ganado 0 pts de exp como Mf. 
+A_Schürrle (ars) ha bajado -40 pts de exp como Mf. 
+J_Pastore (ars) ha bajado -80 pts de exp como Mf. 
+Y_Belhanda (ars) ha bajado -80 pts de exp como Mf. 
+Theo_Walcott (ars) ha bajado -80 pts de exp como Mf. 
+A_Sánchez (ars) ha subido 20 pts de exp como Fw. 
+A_Yarmolenko (ars) ha subido 20 pts de exp como Fw. 
+Jérémy_Ménez (ars) ha bajado -80 pts de exp como Fw. 
+Alex_Iwobi (ars) ha subido 20 pts de exp como Fw. 
+D_Subasic (asm) ha subido 40 pts de exp como Gk. 
+L_Badiashile (asm) ha subido 40 pts de exp como Gk. 
+K_Koulibaly (asm) ha subido 40 pts de exp como Df. 
+Kamil_Glik (asm) ha bajado -20 pts de exp como Df. 
+L_Kurzawa (asm) ha subido 60 pts de exp como Df. 
+Phil_Jones (asm) ha subido 40 pts de exp como Df. 
+Jemerson (asm) ha subido 20 pts de exp como Df. 
+B_Mendy (asm) ha subido 40 pts de exp como Df. 
+Pol_Lirola (asm) ha subido 40 pts de exp como Df. 
+Jorge (asm) ha subido 20 pts de exp como Df. 
+Almamy_Touré (asm) ha subido 20 pts de exp como Df. 
+Abdou_Diallo (asm) ha subido 20 pts de exp como Df. 
+Fabinho (asm) ha subido 60 pts de exp como Mf. 
+Kévin_N'Doram (asm) ha subido 20 pts de exp como Mf. 
+Jack_Wilshere (asm) ha subido 60 pts de exp como Mf. 
+Y_Tielemans (asm) ha subido 120 pts de exp como Mf. 
+João_Moutinho (asm) ha bajado -80 pts de exp como Mf. 
+N_Barella (asm) ha subido 20 pts de exp como Mf. 
+Thomas_Lemar (asm) ha subido 80 pts de exp como Mf. 
+A_Halilovic (asm) ha subido 20 pts de exp como Mf. 
+G_Boschilia (asm) ha subido 20 pts de exp como Mf. 
+D_Berardi (asm) ha subido 80 pts de exp como Fw. 
+Kylian_Mbappé (asm) ha subido 160 pts de exp como Fw. 
+Lucas_Pratto (asm) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+Malcom (asm) ha subido 40 pts de exp como Fw. 
+Jan_Oblak (atm) ha subido 80 pts de exp como Gk. 
+M_Ángel_Moyá (atm) ha bajado -130 pts de exp como Gk. 
+André_Moreira (atm) ha subido 20 pts de exp como Gk. 
+Diego_Godín (atm) ha bajado -20 pts de exp como Df. 
+Filipe_Luís (atm) ha bajado -20 pts de exp como Df. 
+José_Giménez (atm) ha subido 80 pts de exp como Df. 
+Samuel_Umtiti (atm) ha subido 60 pts de exp como Df. 
+Juanfran (atm) ha bajado -80 pts de exp como Df. 
+Dante (atm) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Nacho_Monreal (atm) ha bajado -130 pts de exp como Df. 
+S_Arias (atm) ha subido 20 pts de exp como Df. 
+Lucas_Biglia (atm) ha ganado 0 pts de exp como Mf. 
+A_Fernández (atm) ha ganado 0 pts de exp como Mf. 
+L_Dendoncker (atm) ha subido 80 pts de exp como Mf. 
+Koke (atm) ha subido 60 pts de exp como Mf. 
+Saúl_Ñíguez (atm) ha subido 60 pts de exp como Mf. 
+Gabi (atm) ha bajado -800 pts de exp como Mf. 
+Y_Carrasco (atm) ha subido 60 pts de exp como Mf. 
+Nico_Gaitán (atm) ha bajado -20 pts de exp como Mf. 
+B_Silva (atm) ha subido 80 pts de exp como Mf. 
+A_Griezmann (atm) ha subido 20 pts de exp como Fw. 
+Kévin_Gameiro (atm) ha bajado -20 pts de exp como Fw. 
+Ángel_Correa (atm) ha subido 60 pts de exp como Fw. 
+F_Torres (atm) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Sergio_Romero (atn) ha ganado 0 pts de exp como Gk. 
+Chris_Vargas (atn) ha bajado -80 pts de exp como Gk. 
+F_Erazo (atn) ha bajado -50 pts de exp como Df. 
+Camilo_Zuñiga (atn) ha bajado -50 pts de exp como Df. 
+Feli_Aguilar (atn) ha subido 60 pts de exp como Df. 
+H_Palacios (atn) ha subido 60 pts de exp como Df. 
+Rafa_Delgado (atn) ha ganado 0 pts de exp como Df. 
+Kevin_Sibille (atn) ha subido 120 pts de exp como Df. 
+Carlos_Cuesta (atn) ha subido 80 pts de exp como Df. 
+Hadier_Borja (atn) ha subido 40 pts de exp como Df. 
+Sergio_Peña (atn) ha subido 60 pts de exp como Mf. 
+B_Zuculini (atn) ha subido 40 pts de exp como Mf. 
+Ignacio_Fdez (atn) ha ganado 0 pts de exp como Mf. 
+Daniel_Torres (atn) ha bajado -40 pts de exp como Mf. 
+Diego_Perotti (atn) ha ganado 0 pts de exp como Mf. 
+M_Torres (atn) ha bajado -760 pts de exp como Mf. Bajando 1 media como Mf.
+G_Castellani (atn) ha bajado -130 pts de exp como Mf. 
+JP_Nieto (atn) ha ganado 0 pts de exp como Mf. 
+Dorlan_Pabón (atn) ha bajado -20 pts de exp como Fw. 
+Victor_Ibarbo (atn) ha subido 20 pts de exp como Fw. 
+E_Vargas (atn) ha ganado 0 pts de exp como Fw. 
+J_Lucumí (atn) ha subido 60 pts de exp como Fw. 
+Ederson (bar) ha subido 70 pts de exp como Gk. 
+J_Cillessen (bar) ha bajado -80 pts de exp como Gk. 
+Jordi_Masip (bar) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+Gerard_Piqué (bar) ha bajado -20 pts de exp como Df. 
+Jordi_Alba (bar) ha subido 20 pts de exp como Df. 
+M_Musacchio (bar) ha ganado 0 pts de exp como Df. 
+Joel_Matip (bar) ha subido 40 pts de exp como Df. 
+Stefan_Savic (bar) ha bajado -80 pts de exp como Df. 
+M_De_Sciglio (bar) ha subido 40 pts de exp como Df. 
+Marcos_Alonso (bar) ha ganado 0 pts de exp como Df. 
+V_Chiriches (bar) ha bajado -80 pts de exp como Df. 
+H_Badstuber (bar) ha bajado -80 pts de exp como Df. 
+David_Carmona (bar) ha subido 20 pts de exp como Df. 
+S_Busquets (bar) ha subido 20 pts de exp como Mf. 
+D_Pereira (bar) ha subido 60 pts de exp como Mf. 
+Kevin_Stewart (bar) ha ganado 0 pts de exp como Mf. 
+André_Gomes (bar) ha subido 60 pts de exp como Mf. 
+P_Zielinski (bar) ha subido 80 pts de exp como Mf. 
+M_Dahoud (bar) ha subido 40 pts de exp como Mf. Subiendo 1 media como Mf.
+Bernardeschi (bar) ha subido 40 pts de exp como Mf. 
+S_Castillejo (bar) ha subido 60 pts de exp como Mf. 
+Lionel_Messi (bar) ha bajado -20 pts de exp como Fw. 
+Paulo_Dybala (bar) ha subido 60 pts de exp como Fw. 
+R_Firmino (bar) ha subido 40 pts de exp como Fw. 
+Ahmed_Musa (bar) ha ganado 0 pts de exp como Fw. 
+Roman_Bürki (bdo) ha ganado 0 pts de exp como Gk. 
+Mile_Svilar (bdo) ha subido 120 pts de exp como Gk. 
+H_Bonmann (bdo) ha ganado 0 pts de exp como Gk. 
+Sokratis (bdo) ha ganado 0 pts de exp como Df. 
+L_Piszczek (bdo) ha bajado -130 pts de exp como Df. 
+R_Guerreiro (bdo) ha subido 40 pts de exp como Df. Subiendo 1 media como Df.
+Sven_Bender (bdo) ha bajado -80 pts de exp como Df. 
+Marc_Bartra (bdo) ha ganado 0 pts de exp como Df. 
+M_Schmelzer (bdo) ha bajado -50 pts de exp como Df. 
+M_Ginter (bdo) ha subido 20 pts de exp como Df. 
+Erik_Durm (bdo) ha subido 40 pts de exp como Df. 
+J_Riedewald (bdo) ha subido 60 pts de exp como Df. 
+Joo-Ho_Park (bdo) ha bajado -130 pts de exp como Df. 
+Julian_Weigl (bdo) ha subido 60 pts de exp como Mf. 
+Dzenis_Burnic (bdo) ha subido 40 pts de exp como Mf. 
+G_Castro (bdo) ha bajado -130 pts de exp como Mf. 
+Mikel_Merino (bdo) ha subido 60 pts de exp como Mf. 
+A_Bertolacci (bdo) ha bajado -40 pts de exp como Mf. 
+Nuri_Sahin (bdo) ha bajado -80 pts de exp como Mf. 
+P_Coutinho (bdo) ha subido 60 pts de exp como Mf. 
+X_Shaqiri (bdo) ha subido 20 pts de exp como Mf. 
+Mario_Götze (bdo) ha subido 40 pts de exp como Mf. 
+Davy_Klaassen (bdo) ha subido 40 pts de exp como Mf. 
+A_Schöpf (bdo) ha subido 20 pts de exp como Mf. 
+O_Dembélé (bdo) ha subido 120 pts de exp como Fw. 
+Romelu_Lukaku (bdo) ha subido 20 pts de exp como Fw. 
+C_Pulisic (bdo) ha subido 120 pts de exp como Fw. 
+Emre_Mor (bdo) ha subido 80 pts de exp como Fw. 
+Vaclav_Cerny (bdo) ha subido 40 pts de exp como Fw. 
+Bernd_Leno (ble) ha subido 80 pts de exp como Gk. 
+Ramazan_Özcan (ble) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Niklas_Lomb (ble) ha ganado 0 pts de exp como Gk. 
+Jonathan_Tah (ble) ha subido 100 pts de exp como Df. Subiendo 1 media como Df.
+Ömer_Toprak (ble) ha subido 20 pts de exp como Df. 
+A_Dragovic (ble) ha subido 40 pts de exp como Df. 
+Wendell (ble) ha subido 40 pts de exp como Df. 
+Tin_Jedvaj (ble) ha subido 60 pts de exp como Df. 
+B_Henrichs (ble) ha subido 40 pts de exp como Df. 
+R_Hilbert (ble) ha bajado -130 pts de exp como Df. 
+D_da_Costa (ble) ha ganado 0 pts de exp como Df. 
+Reece_Oxford (ble) ha subido 40 pts de exp como Df. 
+J_Abu_Hanna (ble) ha subido 40 pts de exp como Df. Subiendo 1 media como Df.
+Lars_Bender (ble) ha subido 40 pts de exp como Mf. 
+Baumgartinger (ble) ha bajado -20 pts de exp como Mf. 
+Kevin_Kampl (ble) ha subido 40 pts de exp como Mf. 
+M_Fellaini (ble) ha bajado -20 pts de exp como Mf. 
+C_Aránguiz (ble) ha bajado -40 pts de exp como Mf. 
+V_Yurchenko (ble) ha ganado 0 pts de exp como Mf. 
+K_Bellarabi (ble) ha subido 40 pts de exp como Mf. 
+Julian_Brandt (ble) ha subido 60 pts de exp como Mf. Subiendo 1 media como Mf.
+D_Cheryshev (ble) ha bajado -80 pts de exp como Mf. 
+Kevin_Volland (ble) ha subido 70 pts de exp como Fw. 
+H_Calhanoglu (ble) ha subido 60 pts de exp como Fw. 
+M_Batshuayi (ble) ha subido 20 pts de exp como Fw. Subiendo 1 media como Fw.
+Admir_Mehmedi (ble) ha bajado -80 pts de exp como Fw. 
+S_Kiebling (ble) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+J_Pohjanpalo (ble) ha subido 20 pts de exp como Fw. 
+Loris_Karius (bmu) ha subido 70 pts de exp como Gk. 
+Sven_Ulreich (bmu) ha bajado -80 pts de exp como Gk. 
+J_Bustillos (bmu) ha subido 20 pts de exp como Gk. 
+Philipp_Lahm (bmu) ha bajado -680 pts de exp como Df. 
+David_Alaba (bmu) ha subido 60 pts de exp como Df. 
+A_Laporte (bmu) ha subido 80 pts de exp como Df. 
+S_Mustafi (bmu) ha subido 40 pts de exp como Df. 
+Marquinhos (bmu) ha subido 80 pts de exp como Df. 
+P_Mertesacker (bmu) ha bajado -50 pts de exp como Df. 
+Elseid_Hysaj (bmu) ha subido 40 pts de exp como Df. 
+K_Trippier (bmu) ha bajado -80 pts de exp como Df. 
+Granit_Xhaka (bmu) ha subido 60 pts de exp como Mf. 
+L_Fejsa (bmu) ha ganado 0 pts de exp como Mf. 
+Paul_Pogba (bmu) ha subido 70 pts de exp como Mf. 
+M_Pjanic (bmu) ha subido 20 pts de exp como Mf. 
+Adrien_Rabiot (bmu) ha subido 80 pts de exp como Mf. 
+Sergi_Darder (bmu) ha ganado 0 pts de exp como Mf. 
+Dani_Parejo (bmu) ha ganado 0 pts de exp como Mf. 
+Leroy_Sané (bmu) ha subido 80 pts de exp como Mf. 
+Sergio_Agüero (bmu) ha subido 20 pts de exp como Fw. 
+José_Callejón (bmu) ha bajado -20 pts de exp como Fw. 
+Vitolo (bmu) ha bajado -40 pts de exp como Fw. 
+M_Oyarzabal (bmu) ha subido 80 pts de exp como Fw. 
+G_Sara (boc) ha bajado -50 pts de exp como Gk. Bajando 1 media como Gk.
+Agustín_Rossi (boc) ha subido 40 pts de exp como Gk. 
+Manuel_Roffo (boc) ha subido 40 pts de exp como Gk. 
+Paolo_Goltz (boc) ha bajado -80 pts de exp como Df. 
+F_Roncaglia (boc) ha bajado -130 pts de exp como Df. 
+Frank_Fabra (boc) ha subido 20 pts de exp como Df. 
+L_Magallán (boc) ha subido 40 pts de exp como Df. 
+Leonardo_Jara (boc) ha bajado -40 pts de exp como Df. 
+S_Vergini (boc) ha bajado -80 pts de exp como Df. 
+Emmanuel_Más (boc) ha bajado -40 pts de exp como Df. 
+J_Buffarini (boc) ha bajado -130 pts de exp como Df. 
+G_Heredia (boc) ha subido 20 pts de exp como Df. 
+W_Barrios (boc) ha subido 40 pts de exp como Mf. 
+Sebastian_Prz (boc) ha subido 40 pts de exp como Mf. 
+Julián_Chicco (boc) ha subido 80 pts de exp como Mf. 
+Pablo_Pérez (boc) ha bajado -50 pts de exp como Mf. 
+Fernando_Gago (boc) ha bajado -80 pts de exp como Mf. 
+R_Betancur (boc) ha subido 120 pts de exp como Mf. Subiendo 1 media como Mf.
+Edwin_Cardona (boc) ha subido 40 pts de exp como Mf. 
+E_Reynoso (boc) ha subido 20 pts de exp como Mf. 
+G_Maroni (boc) ha subido 80 pts de exp como Mf. 
+C_Pavón (boc) ha subido 80 pts de exp como Fw. 
+D_Benedetto (boc) ha bajado -40 pts de exp como Fw. 
+Carlos_Tévez (boc) ha bajado -760 pts de exp como Fw. Bajando 1 media como Fw.
+Ramón_Ábila (boc) ha bajado -40 pts de exp como Fw. 
+Walter_Bou (boc) ha ganado 0 pts de exp como Fw. 
+Guido_Vadalá (boc) ha subido 20 pts de exp como Fw. 
+M_Campaña (cai) ha subido 20 pts de exp como Gk. 
+Damián_Albil (cai) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Franco_Vélez (cai) ha subido 20 pts de exp como Gk. 
+F_Bustos (cai) ha subido 60 pts de exp como Df. 
+Gastón_Silva (cai) ha subido 60 pts de exp como Df. 
+F_Amorebieta (cai) ha bajado -50 pts de exp como Df. 
+Juan_S_Miño (cai) ha ganado 0 pts de exp como Df. 
+Jorge_Figal (cai) ha subido 60 pts de exp como Df. 
+Alan_Franco (cai) ha subido 40 pts de exp como Df. 
+E_Brítez (cai) ha ganado 0 pts de exp como Df. 
+R_Moreira (cai) ha subido 20 pts de exp como Df. 
+Diego_Rguez (cai) ha ganado 0 pts de exp como Mf. 
+N_Domingo (cai) ha bajado -80 pts de exp como Mf. 
+F_Gaibor (cai) ha subido 40 pts de exp como Mf. 
+C_Ortiz (cai) ha subido 40 pts de exp como Mf. 
+Maxi_Meza (cai) ha subido 40 pts de exp como Mf. 
+Gastón_Togni (cai) ha subido 80 pts de exp como Mf. 
+D_Blanco (cai) ha subido 20 pts de exp como Mf. 
+Silvio_Romero (cai) ha ganado 0 pts de exp como Fw. 
+E_Gigliotti (cai) ha bajado -50 pts de exp como Fw. 
+Leandro_Fdez (cai) ha subido 20 pts de exp como Fw. 
+J_Menéndez (cai) ha subido 20 pts de exp como Fw. 
+F_Pizzini (cai) ha ganado 0 pts de exp como Fw. 
+M_Benítez (cai) ha subido 20 pts de exp como Fw. 
+Gonzalo_Verón (cai) ha bajado -80 pts de exp como Fw. 
+Braian_Romero (cai) ha ganado 0 pts de exp como Fw. 
+T_Courtois (che) ha subido 80 pts de exp como Gk. 
+Keylor_Navas (che) ha bajado -130 pts de exp como Gk. 
+B_Dragowski (che) ha subido 20 pts de exp como Gk. 
+C_Smalling (che) ha subido 20 pts de exp como Df. 
+D_Sidibé (che) ha subido 70 pts de exp como Df. 
+Kurt_Zouma (che) ha subido 80 pts de exp como Df. 
+Daley_Blind (che) ha ganado 0 pts de exp como Df. 
+G_Arana (che) ha subido 60 pts de exp como Df. 
+Kenedy (che) ha subido 40 pts de exp como Df. Subiendo 1 media como Df.
+Jorginho (che) ha subido 60 pts de exp como Mf. 
+T_Stepanenko (che) ha ganado 0 pts de exp como Mf. 
+J-P_Gbamin (che) ha subido 20 pts de exp como Mf. 
+Ander_Herrera (che) ha bajado -40 pts de exp como Mf. 
+D_Drinkwater (che) ha bajado -80 pts de exp como Mf. 
+Álvaro_Medrán (che) ha ganado 0 pts de exp como Mf. 
+Marco_Reus (che) ha subido 40 pts de exp como Mf. 
+Willian (che) ha subido 20 pts de exp como Mf. 
+G_Wijnaldum (che) ha ganado 0 pts de exp como Mf. 
+Victor_Moses (che) ha bajado -80 pts de exp como Mf. 
+C_Musonda (che) ha subido 20 pts de exp como Mf. 
+Chicharito (che) ha subido 20 pts de exp como Fw. 
+Timo_Werner (che) ha subido 80 pts de exp como Fw. 
+Pedro (che) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+Rodrigo (che) ha bajado -80 pts de exp como Fw. 
+M_El_Haddadi (che) ha subido 20 pts de exp como Fw. 
+Cássio (cor) ha ganado 0 pts de exp como Gk. 
+Walter (cor) ha bajado -130 pts de exp como Gk. 
+Caíque_França (cor) ha subido 20 pts de exp como Gk. 
+Éder_Balanta (cor) ha subido 40 pts de exp como Df. 
+Fágner (cor) ha subido 20 pts de exp como Df. 
+F_Balbuena (cor) ha ganado 0 pts de exp como Df. 
+Vilson (cor) ha bajado -50 pts de exp como Df. 
+P_Henrique (cor) ha subido 60 pts de exp como Df. Subiendo 1 media como Df.
+Sidcley (cor) ha ganado 0 pts de exp como Df. 
+Marllon (cor) ha ganado 0 pts de exp como Df. 
+J_Capixaba (cor) ha subido 20 pts de exp como Df. 
+Léo_Príncipe (cor) ha subido 20 pts de exp como Df. 
+Gabriel (cor) ha subido 40 pts de exp como Mf. Subiendo 1 media como Mf.
+Renê_Júnior (cor) ha ganado 0 pts de exp como Mf. 
+Paulo_Roberto (cor) ha bajado -130 pts de exp como Mf. 
+Diego_Laxalt (cor) ha subido 40 pts de exp como Mf. Subiendo 1 media como Mf.
+Maycon (cor) ha subido 40 pts de exp como Mf. 
+Rodriguinho (cor) ha bajado -80 pts de exp como Mf. 
+Marq_Gabriel (cor) ha bajado -40 pts de exp como Mf. 
+Mateus_Vital (cor) ha subido 40 pts de exp como Mf. 
+Pedrinho (cor) ha subido 40 pts de exp como Mf. 
+Raúl_Ruidíaz (cor) ha ganado 0 pts de exp como Fw. 
+Ángel_Romero (cor) ha subido 20 pts de exp como Fw. 
+Lucca (cor) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+Clayson (cor) ha subido 20 pts de exp como Fw. 
+Fábio (cru) ha bajado -710 pts de exp como Gk. Bajando 1 media como Gk.
+Rafael (cru) ha bajado -80 pts de exp como Gk. 
+Lucas_França (cru) ha subido 20 pts de exp como Gk. 
+Vitor_Eudes (cru) ha subido 40 pts de exp como Gk. 
+Manoel (cru) ha bajado -40 pts de exp como Df. 
+Ezequiel (cru) ha subido 40 pts de exp como Df. 
+Digão (cru) ha bajado -50 pts de exp como Df. 
+Egídio (cru) ha bajado -80 pts de exp como Df. 
+Léo (cru) ha bajado -80 pts de exp como Df. 
+Dedé (cru) ha bajado -80 pts de exp como Df. 
+M_Hermes (cru) ha subido 40 pts de exp como Df. 
+M_Cerqueira (cru) ha subido 20 pts de exp como Df. 
+Edílson (cru) ha bajado -130 pts de exp como Df. 
+Victor_Luiz (cru) ha subido 20 pts de exp como Df. 
+Arthur (cru) ha subido 40 pts de exp como Df. 
+F_Augusto (cru) ha subido 20 pts de exp como Mf. 
+Henrique (cru) ha bajado -80 pts de exp como Mf. 
+Lucas_Romero (cru) ha ganado 0 pts de exp como Mf. 
+Lucas_Silva (cru) ha subido 40 pts de exp como Mf. 
+F_Mancuello (cru) ha ganado 0 pts de exp como Mf. 
+Ariel_Cabral (cru) ha bajado -80 pts de exp como Mf. 
+Bruno_Silva (cru) ha bajado -130 pts de exp como Mf. 
+Thiago_Neves (cru) ha bajado -50 pts de exp como Mf. 
+Rafinha (cru) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Robinho (cru) ha bajado -130 pts de exp como Mf. 
+Willian_José (cru) ha subido 40 pts de exp como Fw. 
+Fred (cru) ha bajado -710 pts de exp como Fw. Bajando 1 media como Fw.
+Rafael_Sóbis (cru) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+R_Marques (cru) ha bajado -800 pts de exp como Fw. 
+Sassá (cru) ha ganado 0 pts de exp como Fw. 
+Carlos_Auzqui (cru) ha bajado -80 pts de exp como Fw. 
+David (cru) ha subido 20 pts de exp como Fw. 
+Joel_Robles (eve) ha subido 40 pts de exp como Gk. 
+Stekelenburg (eve) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+L_Baines (eve) ha bajado -20 pts de exp como Df. 
+A_Williams (eve) ha bajado -20 pts de exp como Df. 
+S_Coleman (eve) ha subido 20 pts de exp como Df. 
+F_Fazio (eve) ha bajado -50 pts de exp como Df. 
+Phil_Jagielka (eve) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Josh_Tymon (eve) ha subido 80 pts de exp como Df. 
+Eriq_Zavaleta (eve) ha ganado 0 pts de exp como Df. 
+Luke_Garbutt (eve) ha ganado 0 pts de exp como Df. 
+M_Pennington (eve) ha subido 20 pts de exp como Df. 
+Schneiderlin (eve) ha subido 20 pts de exp como Mf. 
+Muhamed_Besic (eve) ha subido 20 pts de exp como Mf. 
+Gareth_Barry (eve) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Idrissa_Gueye (eve) ha ganado 0 pts de exp como Mf. 
+J_McCarthy (eve) ha ganado 0 pts de exp como Mf. 
+Tom_Davies (eve) ha subido 80 pts de exp como Mf. 
+Ross_Barkley (eve) ha subido 60 pts de exp como Mf. 
+Aaron_Lennon (eve) ha bajado -80 pts de exp como Mf. 
+Y_Bolasie (eve) ha bajado -80 pts de exp como Mf. 
+Karim_Benzema (eve) ha bajado -20 pts de exp como Fw. 
+Leon_Bailey (eve) ha subido 80 pts de exp como Fw. 
+K_Mirallas (eve) ha bajado -130 pts de exp como Fw. 
+E_Valencia (eve) ha bajado -80 pts de exp como Fw. 
+Arouna_Koné (eve) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+A_Lookman (eve) ha subido 40 pts de exp como Fw. 
+D_C-Lewin (eve) ha subido 20 pts de exp como Fw. 
+Weverton (fla) ha bajado -20 pts de exp como Gk. 
+Júlio_César (fla) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+G_Batista (fla) ha subido 40 pts de exp como Gk. 
+Naldo (fla) ha bajado -760 pts de exp como Df. 
+Réver (fla) ha bajado -50 pts de exp como Df. 
+G_Siqueira (fla) ha bajado -50 pts de exp como Df. 
+Renê (fla) ha subido 40 pts de exp como Df. 
+Rhodolfo (fla) ha bajado -80 pts de exp como Df. 
+Pará (fla) ha bajado -80 pts de exp como Df. 
+Miguel_Trauco (fla) ha subido 20 pts de exp como Df. 
+Rodinei (fla) ha ganado 0 pts de exp como Df. 
+G_Cuéllar (fla) ha subido 40 pts de exp como Mf. 
+Willian_Arão (fla) ha subido 40 pts de exp como Mf. 
+Rômulo (fla) ha bajado -80 pts de exp como Mf. 
+Jonas (fla) ha bajado -80 pts de exp como Mf. 
+Jean_Lucas (fla) ha subido 40 pts de exp como Mf. 
+Ronaldo (fla) ha subido 20 pts de exp como Mf. 
+R_Augusto (fla) ha bajado -50 pts de exp como Mf. 
+Jajá (fla) ha subido 60 pts de exp como Mf. 
+É_Ribeiro (fla) ha bajado -40 pts de exp como Mf. 
+Diego (fla) ha bajado -80 pts de exp como Mf. 
+Ederson (fla) ha bajado -130 pts de exp como Mf. 
+Lucas_Paquetá (fla) ha subido 20 pts de exp como Mf. 
+A_Pato (fla) ha ganado 0 pts de exp como Fw. 
+H_Dourado (fla) ha bajado -40 pts de exp como Fw. 
+Vinícius_Jr (fla) ha subido 80 pts de exp como Fw. 
+Marlos_Moreno (fla) ha subido 20 pts de exp como Fw. 
+Marcelo_Grohe (grm) ha subido 40 pts de exp como Gk. 
+Paulo_Victor (grm) ha bajado -130 pts de exp como Gk. 
+Léo (grm) ha subido 20 pts de exp como Gk. 
+W_Kannemann (grm) ha subido 20 pts de exp como Df. 
+Pedro_Geromel (grm) ha bajado -50 pts de exp como Df. 
+Paulo_Miranda (grm) ha bajado -50 pts de exp como Df. 
+M_Oliveira (grm) ha bajado -50 pts de exp como Df. 
+Léo_Moura (grm) ha bajado -710 pts de exp como Df. 
+Bressan (grm) ha subido 20 pts de exp como Df. 
+Madson (grm) ha subido 20 pts de exp como Df. 
+Bruno_Cortês (grm) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+Ramiro (grm) ha subido 40 pts de exp como Mf. 
+Michel (grm) ha ganado 0 pts de exp como Mf. 
+Jailson (grm) ha subido 60 pts de exp como Mf. 
+Arthur (grm) ha subido 80 pts de exp como Mf. 
+Maicon (grm) ha bajado -50 pts de exp como Mf. 
+C_Carbonero (grm) ha bajado -40 pts de exp como Mf. 
+V_Vázquez (grm) ha bajado -50 pts de exp como Mf. 
+Vinícius_Lima (grm) ha subido 20 pts de exp como Mf. 
+Luan (grm) ha subido 60 pts de exp como Fw. 
+Alisson (grm) ha subido 20 pts de exp como Fw. 
+Everton (grm) ha subido 40 pts de exp como Fw. 
+Jael (grm) ha bajado -130 pts de exp como Fw. 
+Rodolfo_Cota (gua) ha bajado -20 pts de exp como Gk. 
+Ant_Rodríguez (gua) ha ganado 0 pts de exp como Gk. 
+M_Jiménez (gua) ha bajado -80 pts de exp como Gk. 
+A_Torres (gua) ha subido 20 pts de exp como Gk. 
+C_Salcido (gua) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Jesús_Sánchez (gua) ha ganado 0 pts de exp como Df. 
+Raúl_López (gua) ha subido 40 pts de exp como Df. 
+Edwin_Hdez (gua) ha bajado -80 pts de exp como Df. 
+O_Alanís (gua) ha bajado -80 pts de exp como Df. 
+Jair_Pereira (gua) ha bajado -80 pts de exp como Df. 
+H_Marín (gua) ha subido 20 pts de exp como Df. 
+M_Basulto (gua) ha ganado 0 pts de exp como Df. 
+A_Cervantes (gua) ha subido 80 pts de exp como Mf. 
+Michael_Pérez (gua) ha subido 20 pts de exp como Mf. 
+Luis_Montes (gua) ha bajado -50 pts de exp como Mf. 
+O_Pineda (gua) ha subido 60 pts de exp como Mf. Subiendo 1 media como Mf.
+C_Orrantía (gua) ha bajado -40 pts de exp como Mf. 
+R_Pizarro (gua) ha subido 20 pts de exp como Mf. 
+Carlos_Fierro (gua) ha subido 20 pts de exp como Mf. 
+Javier_López (gua) ha ganado 0 pts de exp como Mf. 
+Gael_Sandoval (gua) ha subido 20 pts de exp como Mf. 
+Mich_Benítez (gua) ha subido 20 pts de exp como Mf. 
+Alan_Pulido (gua) ha ganado 0 pts de exp como Fw. 
+I_Brizuela (gua) ha ganado 0 pts de exp como Fw. 
+Á_Zaldívar (gua) ha subido 20 pts de exp como Fw. 
+C_Cisneros (gua) ha ganado 0 pts de exp como Fw. 
+R_Cisneros (gua) ha subido 20 pts de exp como Fw. 
+S_Handanovic (int) ha ganado 0 pts de exp como Gk. 
+J_P_Carrizo (int) ha bajado -130 pts de exp como Gk. 
+Andrei_Radu (int) ha subido 40 pts de exp como Gk. 
+Miranda (int) ha bajado -20 pts de exp como Df. 
+C_Ansaldi (int) ha bajado -20 pts de exp como Df. 
+L_Tonelli (int) ha ganado 0 pts de exp como Df. 
+L_Antonelli (int) ha bajado -50 pts de exp como Df. 
+Davide_Santon (int) ha bajado -40 pts de exp como Df. 
+D_D'Ambrosio (int) ha bajado -40 pts de exp como Df. 
+M_Andreolli (int) ha bajado -80 pts de exp como Df. 
+T_Sainsbury (int) ha subido 20 pts de exp como Df. 
+Gary_Medel (int) ha bajado -20 pts de exp como Mf. 
+T_Bakayoko (int) ha subido 60 pts de exp como Mf. Subiendo 1 media como Mf.
+Éver_Banega (int) ha subido 20 pts de exp como Mf. 
+M_Brozovic (int) ha subido 60 pts de exp como Mf. 
+R_Gagliardini (int) ha subido 60 pts de exp como Mf. 
+Juan_Mata (int) ha subido 20 pts de exp como Mf. 
+A_Candreva (int) ha bajado -20 pts de exp como Mf. 
+Brahim_Díaz (int) ha subido 40 pts de exp como Mf. 
+S_El_Shaarawy (int) ha subido 40 pts de exp como Fw. 
+Gabriel_B (int) ha subido 60 pts de exp como Fw. 
+G_Lapadula (int) ha bajado -40 pts de exp como Fw. 
+G_Simeone (int) ha subido 40 pts de exp como Fw. 
+A_Pinamonti (int) ha subido 40 pts de exp como Fw. 
+R_Zapata (isf) ha bajado -710 pts de exp como Gk. 
+L_Castellanos (isf) ha bajado -800 pts de exp como Gk. 
+Y_Mosquera (isf) ha subido 20 pts de exp como Gk. 
+L_Balanta (isf) ha bajado -40 pts de exp como Df. 
+W_Tesillo (isf) ha ganado 0 pts de exp como Df. 
+Javier_López (isf) ha bajado -50 pts de exp como Df. 
+V_Giraldo (isf) ha bajado -50 pts de exp como Df. 
+Héctor_Urrego (isf) ha subido 20 pts de exp como Df. 
+Carlos_Henao (isf) ha bajado -80 pts de exp como Df. 
+C_Arboleda (isf) ha bajado -130 pts de exp como Df. 
+J_D_Valencia (isf) ha bajado -130 pts de exp como Df. 
+Nicolás_Gil (isf) ha subido 20 pts de exp como Df. 
+José_Moya (isf) ha ganado 0 pts de exp como Df. 
+B_Perlaza (isf) ha subido 40 pts de exp como Mf. 
+Y_Gordillo (isf) ha subido 20 pts de exp como Mf. 
+Seba_Salazar (isf) ha subido 60 pts de exp como Mf. 
+D_Mosquera (isf) ha subido 80 pts de exp como Mf. 
+Valdelamar (isf) ha subido 40 pts de exp como Mf. 
+J_D_Roa (isf) ha bajado -40 pts de exp como Mf. 
+K_Salazar (isf) ha subido 20 pts de exp como Mf. 
+Jona_Herrera (isf) ha subido 20 pts de exp como Mf. 
+Almir_Soto (isf) ha ganado 0 pts de exp como Mf. 
+B_de_Jesús (isf) ha subido 60 pts de exp como Fw. 
+Wilson_Morelo (isf) ha bajado -50 pts de exp como Fw. 
+J_Agudelo (isf) ha subido 20 pts de exp como Fw. 
+A_Rentería (isf) ha ganado 0 pts de exp como Fw. 
+Brayan_Fdez (isf) ha ganado 0 pts de exp como Fw. 
+R_Bentancourt (isf) ha ganado 0 pts de exp como Fw. 
+Arm_Vargas (isf) ha bajado -130 pts de exp como Fw. 
+J_Fredy_Pajoy (isf) ha bajado -130 pts de exp como Fw. 
+G_Buffon (juv) ha bajado -710 pts de exp como Gk. Bajando 1 media como Gk.
+T_Strakosha (juv) ha subido 20 pts de exp como Gk. 
+Neto (juv) ha bajado -80 pts de exp como Gk. 
+Mats_Hummels (juv) ha subido 20 pts de exp como Df. 
+G_Chiellini (juv) ha bajado -50 pts de exp como Df. 
+A_Barzagli (juv) ha bajado -800 pts de exp como Df. 
+Iván_Marcano (juv) ha bajado -50 pts de exp como Df. 
+D_Rugani (juv) ha subido 60 pts de exp como Df. 
+V_Lindelöf (juv) ha subido 40 pts de exp como Df. 
+E_Garay (juv) ha bajado -80 pts de exp como Df. 
+A_Moreno (juv) ha subido 40 pts de exp como Df. 
+Sami_Khedira (juv) ha bajado -20 pts de exp como Mf. 
+Luiz_Gustavo (juv) ha bajado -50 pts de exp como Mf. 
+Emre_Can (juv) ha subido 40 pts de exp como Mf. 
+M_Llorente (juv) ha subido 40 pts de exp como Mf. 
+Cesc_Fàbregas (juv) ha bajado -50 pts de exp como Mf. 
+Paulinho (juv) ha ganado 0 pts de exp como Mf. 
+Pizzi (juv) ha bajado -40 pts de exp como Mf. 
+David_Silva (juv) ha bajado -20 pts de exp como Mf. 
+G_Martins (juv) ha subido 40 pts de exp como Mf. 
+E_Forsberg (juv) ha subido 20 pts de exp como Mf. 
+Amine_Harit (juv) ha subido 20 pts de exp como Mf. 
+Arjen_Robben (juv) ha bajado -680 pts de exp como Fw. Bajando 1 media como Fw.
+K_Coman (juv) ha subido 40 pts de exp como Fw. 
+Sadio_Mané (juv) ha subido 20 pts de exp como Fw. 
+David_Bingham (lag) ha subido 20 pts de exp como Gk. 
+J_vom_Steeg (lag) ha subido 20 pts de exp como Gk. 
+Marvin_Matip (lag) ha bajado -50 pts de exp como Df. 
+Michaël_Ciani (lag) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Ashley_Cole (lag) ha bajado -760 pts de exp como Df. 
+J_Skjelvik (lag) ha bajado -80 pts de exp como Df. 
+Daniel_Steres (lag) ha bajado -80 pts de exp como Df. 
+Dave_Romney (lag) ha subido 20 pts de exp como Df. 
+R_Feltscher (lag) ha bajado -40 pts de exp como Df. 
+Tomas_H-Arce (lag) ha subido 20 pts de exp como Df. 
+Hugo_Arellano (lag) ha subido 40 pts de exp como Df. 
+Jack_Rodwell (lag) ha ganado 0 pts de exp como Mf. 
+Perry_Kitchen (lag) ha subido 20 pts de exp como Mf. 
+João_Pedro (lag) ha subido 40 pts de exp como Mf. 
+S_Lletget (lag) ha subido 20 pts de exp como Mf. 
+B_Husidic (lag) ha bajado -50 pts de exp como Mf. 
+Marco_Fabián (lag) ha ganado 0 pts de exp como Mf. 
+E_Boateng (lag) ha subido 20 pts de exp como Mf. 
+P_Guerrero (lag) ha bajado -710 pts de exp como Fw. Bajando 1 media como Fw.
+Raúl_Jiménez (lag) ha bajado -40 pts de exp como Fw. 
+Jermain_Defoe (lag) ha bajado -760 pts de exp como Fw. Bajando 1 media como Fw.
+Alessandrini (lag) ha bajado -40 pts de exp como Fw. 
+Ola_Kamara (lag) ha bajado -40 pts de exp como Fw. 
+Chris_Pontius (lag) ha bajado -80 pts de exp como Fw. 
+K_Schmeichel (lei) ha subido 40 pts de exp como Gk. 
+R-R_Zieler (lei) ha bajado -80 pts de exp como Gk. 
+Ben_Hamer (lei) ha bajado -130 pts de exp como Gk. 
+Gary_Cahill (lei) ha bajado -50 pts de exp como Df. 
+L_Hernández (lei) ha subido 60 pts de exp como Df. 
+Patrice_Evra (lei) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+M_Debuchy (lei) ha bajado -50 pts de exp como Df. 
+C_Fuchs (lei) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Wes_Morgan (lei) ha bajado -760 pts de exp como Df. 
+G_Troupée (lei) ha subido 40 pts de exp como Df. 
+Danny_Simpson (lei) ha bajado -80 pts de exp como Df. 
+P_Retsos (lei) ha subido 40 pts de exp como Df. 
+Illarramendi (lei) ha ganado 0 pts de exp como Mf. 
+N_Mendy (lei) ha subido 20 pts de exp como Mf. 
+Sergi_Roberto (lei) ha subido 40 pts de exp como Mf. 
+Mario_Pasalic (lei) ha subido 20 pts de exp como Mf. 
+Fabian_Delph (lei) ha bajado -40 pts de exp como Mf. 
+F_Valverde (lei) ha subido 120 pts de exp como Mf. 
+Riyah_Mahrez (lei) ha ganado 0 pts de exp como Mf. 
+Ganso (lei) ha bajado -80 pts de exp como Mf. 
+G_Lo_Celso (lei) ha subido 40 pts de exp como Mf. 
+I_Williams (lei) ha subido 80 pts de exp como Fw. 
+Jamie_Vardy (lei) ha bajado -80 pts de exp como Fw. 
+Jonathan_R (lei) ha ganado 0 pts de exp como Fw. 
+Joe_Hart (lib) ha bajado -130 pts de exp como Gk. 
+S_Ruffier (lib) ha bajado -130 pts de exp como Gk. 
+F_Muslera (lib) ha bajado -130 pts de exp como Gk. 
+S_Mandanda (lib) ha bajado -130 pts de exp como Gk. 
+Yann_Sommer (lib) ha bajado -80 pts de exp como Gk. 
+O_Karnezis (lib) ha bajado -130 pts de exp como Gk. 
+Benoît_Costil (lib) ha bajado -130 pts de exp como Gk. 
+E_Viviano (lib) ha bajado -130 pts de exp como Gk. 
+Antonio_Adán (lib) ha bajado -130 pts de exp como Gk. 
+G_Ochoa (lib) ha bajado -130 pts de exp como Gk. 
+Carlos_Kameni (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+M_Sportiello (lib) ha ganado 0 pts de exp como Gk. 
+L_Fabianski (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Pepe_Reina (lib) ha bajado -680 pts de exp como Gk. Bajando 1 media como Gk.
+Marvwin_Hitz (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Adrián (lib) ha bajado -130 pts de exp como Gk. 
+W_Hennessey (lib) ha bajado -130 pts de exp como Gk. 
+D_Benaglio (lib) ha bajado -800 pts de exp como Gk. 
+V_Babacan (lib) ha bajado -130 pts de exp como Gk. 
+Andriy_Pyatov (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Alexander_D (lib) ha bajado -130 pts de exp como Gk. 
+Tom_Heaton (lib) ha bajado -130 pts de exp como Gk. 
+Tim_Krul (lib) ha bajado -130 pts de exp como Gk. 
+K_Vermeer (lib) ha bajado -130 pts de exp como Gk. 
+S_Kapino (lib) ha ganado 0 pts de exp como Gk. 
+Denys_Boyko (lib) ha bajado -130 pts de exp como Gk. 
+Onur_Kivrak (lib) ha bajado -130 pts de exp como Gk. 
+Rémy_Riou (lib) ha bajado -130 pts de exp como Gk. 
+J_Pickford (lib) ha ganado 0 pts de exp como Gk. 
+J_Hopf (lib) ha bajado -130 pts de exp como Gk. 
+L_Skorupski (lib) ha ganado 0 pts de exp como Gk. 
+S_Álvarez (lib) ha bajado -130 pts de exp como Gk. 
+Marafona (lib) ha bajado -130 pts de exp como Gk. 
+Camilo_Vargas (lib) ha bajado -80 pts de exp como Gk. 
+Rubén_Blanco (lib) ha subido 20 pts de exp como Gk. 
+Sergio_Padt (lib) ha bajado -80 pts de exp como Gk. 
+J_Orozco (lib) ha bajado -130 pts de exp como Gk. 
+Harun_Tekin (lib) ha bajado -80 pts de exp como Gk. 
+Lovre_Kalinic (lib) ha bajado -80 pts de exp como Gk. 
+M_Dmitrovic (lib) ha ganado 0 pts de exp como Gk. 
+P_Tyton (lib) ha bajado -130 pts de exp como Gk. 
+Jonas_Lössl (lib) ha bajado -80 pts de exp como Gk. 
+F_Rönnow (lib) ha ganado 0 pts de exp como Gk. 
+L_Azcona (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+F_Marchetti (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+K_Lamprou (lib) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+Josip_Posavec (lib) ha subido 20 pts de exp como Gk. 
+Erwin_Mulder (lib) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+K-J_Johnsson (lib) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+S_Kirintili (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Robbin_Ruiter (lib) ha bajado -130 pts de exp como Gk. 
+Miguel_Silva (lib) ha subido 20 pts de exp como Gk. 
+Esteban_Dreer (lib) ha bajado -840 pts de exp como Gk. 
+Artur_Rudko (lib) ha ganado 0 pts de exp como Gk. 
+John_Ruddy (lib) ha bajado -130 pts de exp como Gk. 
+O_Shevchenko (lib) ha ganado 0 pts de exp como Gk. 
+M_Shevchenko (lib) ha ganado 0 pts de exp como Gk. 
+Martin_Hansen (lib) ha bajado -80 pts de exp como Gk. 
+David_Ousted (lib) ha bajado -130 pts de exp como Gk. 
+José_Cuadrado (lib) ha bajado -130 pts de exp como Gk. 
+V_Kjosevski (lib) ha subido 20 pts de exp como Gk. 
+V_Demirel (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Robert_Almer (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Mika (lib) ha bajado -80 pts de exp como Gk. 
+C_Rodríguez (lib) ha bajado -80 pts de exp como Gk. 
+Carlos_Cáceda (lib) ha ganado 0 pts de exp como Gk. 
+Sergio_Rochet (lib) ha ganado 0 pts de exp como Gk. 
+Pau_López (lib) ha subido 40 pts de exp como Gk. 
+Higashiguchi (lib) ha bajado -130 pts de exp como Gk. 
+Weidenfeller (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Nicola_Leali (lib) ha ganado 0 pts de exp como Gk. 
+Heinz_Lindner (lib) ha bajado -80 pts de exp como Gk. 
+P_Rajkovic (lib) ha subido 20 pts de exp como Gk. 
+Ibrahim_Sehic (lib) ha bajado -130 pts de exp como Gk. 
+A_Talavera (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+José_Carvallo (lib) ha bajado -130 pts de exp como Gk. 
+Beto (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+F_Manojlovic (lib) ha subido 20 pts de exp como Gk. 
+Adrian_Semper (lib) ha subido 40 pts de exp como Gk. 
+Paulo_Garcés (lib) ha bajado -130 pts de exp como Gk. 
+C_Coosemans (lib) ha ganado 0 pts de exp como Gk. 
+Jakob_Busk (lib) ha ganado 0 pts de exp como Gk. 
+C_Bonilla (lib) ha ganado 0 pts de exp como Gk. 
+Luigi_Sepe (lib) ha ganado 0 pts de exp como Gk. 
+M_De_Sanctis (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Pawel_Kieszek (lib) ha bajado -130 pts de exp como Gk. 
+Denis_Petric (lib) ha bajado -130 pts de exp como Gk. 
+Mandé_Sayouba (lib) ha ganado 0 pts de exp como Gk. 
+Jasmin_Fejzic (lib) ha bajado -130 pts de exp como Gk. 
+Goicoechea (lib) ha bajado -130 pts de exp como Gk. 
+S_Nishikawa (lib) ha bajado -130 pts de exp como Gk. 
+Zeljko_Brkic (lib) ha bajado -130 pts de exp como Gk. 
+M_Barbosa (lib) ha bajado -130 pts de exp como Gk. 
+Sebas_Sosa (lib) ha bajado -130 pts de exp como Gk. 
+Matej_Delac (lib) ha ganado 0 pts de exp como Gk. 
+A_Gianniotis (lib) ha ganado 0 pts de exp como Gk. 
+J_de_J_Corona (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+M_Langer (lib) ha bajado -130 pts de exp como Gk. 
+Chris_Maxwell (lib) ha bajado -80 pts de exp como Gk. 
+Marco_Storari (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Malik_Asselah (lib) ha bajado -130 pts de exp como Gk. 
+D_Kyriakidis (lib) ha bajado -130 pts de exp como Gk. 
+Artur_Boruc (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+R_Strebinger (lib) ha ganado 0 pts de exp como Gk. 
+Andreas_Lukse (lib) ha bajado -130 pts de exp como Gk. 
+K_S_Ellegaard (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Paulo_Lopes (lib) ha bajado -80 pts de exp como Gk. 
+N_Stefanovic (lib) ha ganado 0 pts de exp como Gk. 
+Miguel_Pinto (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Mike_Maignan (lib) ha subido 20 pts de exp como Gk. 
+Emil_Audero (lib) ha subido 20 pts de exp como Gk. 
+V_Stojkovic (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Diego_Sánchez (lib) ha bajado -130 pts de exp como Gk. 
+S_Gbohouo (lib) ha bajado -80 pts de exp como Gk. 
+Goran_Karacic (lib) ha subido 20 pts de exp como Gk. 
+A_Lindegaard (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+B_Ali_Sangaré (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+N_Larsen (lib) ha bajado -80 pts de exp como Gk. 
+Germán_Lux (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Simon_Pouplin (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+H_Djemili (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Ibrahim_Koné (lib) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+Raïs_M'Bolhi (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Ramazan_Köse (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Ádám_Bogdán (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+J_Siebenhandl (lib) ha bajado -80 pts de exp como Gk. Bajando 1 media como Gk.
+Boaz_Myhill (lib) ha bajado -800 pts de exp como Gk. 
+Bruno_Grassi (lib) ha bajado -130 pts de exp como Gk. 
+Tom_Starke (lib) ha bajado -840 pts de exp como Gk. 
+M_Zeghba (lib) ha bajado -80 pts de exp como Gk. 
+C_Rahmani (lib) ha bajado -80 pts de exp como Gk. 
+D_González (lib) ha bajado -800 pts de exp como Gk. 
+A_Hayashi (lib) ha bajado -130 pts de exp como Gk. 
+H_Piedra (lib) ha ganado 0 pts de exp como Gk. 
+Rémy_Descamps (lib) ha subido 20 pts de exp como Gk. 
+A_Doukha (lib) ha bajado -130 pts de exp como Gk. 
+Yuji_Rokutan (lib) ha bajado -130 pts de exp como Gk. 
+A_Jovanovic (lib) ha ganado 0 pts de exp como Gk. 
+Matías_Dituro (lib) ha bajado -130 pts de exp como Gk. 
+T_Morita (lib) ha bajado -80 pts de exp como Gk. 
+Ko_Shimura (lib) ha subido 20 pts de exp como Gk. 
+Diederik_Boer (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+M_Gspurning (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Jules_Goda (lib) ha bajado -80 pts de exp como Gk. 
+Guyan_Kante (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+T_Hayashi (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+A_Manninger (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Farid_Chaâl (lib) ha ganado 0 pts de exp como Gk. 
+A_Salhi (lib) ha ganado 0 pts de exp como Gk. 
+M_Sarr (lib) ha subido 20 pts de exp como Gk. 
+T_da_Silva (lib) ha subido 20 pts de exp como Gk. 
+Eduardo (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+V_Angban (lib) ha bajado -130 pts de exp como Gk. Bajando 1 media como Gk.
+Bogdan_Lobont (lib) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+Luis_Mejía (lib) ha bajado -80 pts de exp como Gk. 
+C_Patterson (lib) ha bajado -130 pts de exp como Gk. 
+Luis_Pineda (lib) ha ganado 0 pts de exp como Gk. 
+M_Vidotto (lib) ha ganado 0 pts de exp como Gk. 
+B_Sylvestre (lib) ha ganado 0 pts de exp como Gk. 
+Tommaso_Berni (lib) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Seydou_Sy (lib) ha subido 20 pts de exp como Gk. 
+R_Shawcross (lib) ha bajado -130 pts de exp como Df. 
+B_Ivanovic (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Jeffrey_Bruma (lib) ha subido 40 pts de exp como Df. 
+F_Acerbi (lib) ha bajado -130 pts de exp como Df. 
+Simon_Kjaer (lib) ha bajado -80 pts de exp como Df. 
+Loïc_Perrin (lib) ha bajado -130 pts de exp como Df. 
+Y_Rakitsky (lib) ha bajado -80 pts de exp como Df. 
+Dusan_Basta (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+A_Ogbonna (lib) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Bruno_M_Indi (lib) ha ganado 0 pts de exp como Df. 
+Papadopoulos (lib) ha ganado 0 pts de exp como Df. 
+S_Widmwer (lib) ha ganado 0 pts de exp como Df. 
+B_Espinosa (lib) ha bajado -80 pts de exp como Df. 
+Michael_Keane (lib) ha ganado 0 pts de exp como Df. 
+E_Khacheridi (lib) ha bajado -130 pts de exp como Df. 
+C_Zambrano (lib) ha bajado -80 pts de exp como Df. 
+Gökhan_Gönül (lib) ha bajado -130 pts de exp como Df. 
+Ragnar_Klavan (lib) ha bajado -130 pts de exp como Df. 
+Diego_Reyes (lib) ha ganado 0 pts de exp como Df. 
+Aïssa_Mandi (lib) ha bajado -80 pts de exp como Df. 
+Oscar_Wendt (lib) ha bajado -130 pts de exp como Df. 
+M_Balenziaga (lib) ha bajado -130 pts de exp como Df. 
+Mauricio_Isla (lib) ha bajado -80 pts de exp como Df. 
+P_Jansson (lib) ha bajado -80 pts de exp como Df. 
+José_Holebas (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+P_Oliveira (lib) ha ganado 0 pts de exp como Df. 
+Scott_Dann (lib) ha bajado -130 pts de exp como Df. 
+T_Kongolo (lib) ha ganado 0 pts de exp como Df. 
+Ignazio_Abate (lib) ha bajado -130 pts de exp como Df. 
+Björn_Engels (lib) ha subido 20 pts de exp como Df. 
+Allan_Nyom (lib) ha bajado -130 pts de exp como Df. 
+S_Prödl (lib) ha bajado -130 pts de exp como Df. 
+G_Pezzella (lib) ha ganado 0 pts de exp como Df. 
+Jonny_Castro (lib) ha ganado 0 pts de exp como Df. 
+Cédric_Soares (lib) ha ganado 0 pts de exp como Df. 
+S_Corchia (lib) ha bajado -80 pts de exp como Df. 
+Fabin_Schar (lib) ha ganado 0 pts de exp como Df. 
+Michael_Lang (lib) ha bajado -80 pts de exp como Df. 
+M_Hinteregger (lib) ha ganado 0 pts de exp como Df. 
+C_Salcedo (lib) ha ganado 0 pts de exp como Df. 
+José_Fonte (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+N_Pejcinovic (lib) ha bajado -130 pts de exp como Df. 
+A_Chedjou (lib) ha bajado -130 pts de exp como Df. 
+E_Bicakcic (lib) ha bajado -80 pts de exp como Df. 
+M_Morozyuk (lib) ha bajado -130 pts de exp como Df. 
+James_Collins (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+C_Kabasele (lib) ha bajado -80 pts de exp como Df. 
+Caner_Erkin (lib) ha bajado -130 pts de exp como Df. 
+Daryl_Janmaat (lib) ha bajado -80 pts de exp como Df. 
+Darijo_Srna (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Y_Gerhardt (lib) ha ganado 0 pts de exp como Df. 
+Michal_Pazdan (lib) ha bajado -130 pts de exp como Df. 
+A_Jedrzejczyk (lib) ha bajado -130 pts de exp como Df. 
+Bogdan_Butko (lib) ha bajado -80 pts de exp como Df. 
+Ismaël_Traoré (lib) ha bajado -130 pts de exp como Df. 
+Armando_Izzo (lib) ha ganado 0 pts de exp como Df. 
+J_Djourou (lib) ha bajado -130 pts de exp como Df. 
+Timm_Klose (lib) ha bajado -80 pts de exp como Df. 
+Jagos_Vukovic (lib) ha bajado -130 pts de exp como Df. 
+Ron_Vlaar (lib) ha bajado -130 pts de exp como Df. 
+A_Rukavina (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Martin_Olsson (lib) ha bajado -80 pts de exp como Df. 
+D_Santos (lib) ha ganado 0 pts de exp como Df. 
+A_Cresswell (lib) ha bajado -80 pts de exp como Df. 
+Nenad_Tomovic (lib) ha bajado -130 pts de exp como Df. 
+Erik_Pieters (lib) ha bajado -80 pts de exp como Df. 
+Lamine_Koné (lib) ha ganado 0 pts de exp como Df. 
+A_Masuaku (lib) ha ganado 0 pts de exp como Df. 
+S_Özbayrakli (lib) ha bajado -80 pts de exp como Df. 
+D_Siovas (lib) ha bajado -130 pts de exp como Df. 
+F_Sörensen (lib) ha ganado 0 pts de exp como Df. 
+F_Helander (lib) ha ganado 0 pts de exp como Df. 
+M_Caldara (lib) ha subido 20 pts de exp como Df. 
+Jason_Denayer (lib) ha subido 20 pts de exp como Df. 
+Adam_Masina (lib) ha ganado 0 pts de exp como Df. 
+Antonio_Milic (lib) ha ganado 0 pts de exp como Df. 
+E_Zukanovic (lib) ha bajado -130 pts de exp como Df. 
+P_van_Aanholt (lib) ha bajado -80 pts de exp como Df. 
+M_Caruzzo (lib) ha bajado -130 pts de exp como Df. 
+Joël_Veltman (lib) ha ganado 0 pts de exp como Df. 
+Ivo_Pinto (lib) ha bajado -80 pts de exp como Df. 
+Emiliano_V (lib) ha subido 20 pts de exp como Df. 
+A_Ranocchia (lib) ha bajado -130 pts de exp como Df. 
+Jefferson (lib) ha bajado -80 pts de exp como Df. 
+Miguel_Britos (lib) ha bajado -130 pts de exp como Df. 
+Nico_Elvedi (lib) ha subido 20 pts de exp como Df. 
+M_Le_Marchand (lib) ha bajado -80 pts de exp como Df. 
+H_A_Kaldirim (lib) ha bajado -80 pts de exp como Df. 
+Mario_Pineida (lib) ha ganado 0 pts de exp como Df. 
+L_De_Bock (lib) ha ganado 0 pts de exp como Df. 
+D_Chygrynskiy (lib) ha bajado -130 pts de exp como Df. 
+Sven_van_Beek (lib) ha subido 20 pts de exp como Df. 
+K_T-Catherine (lib) ha bajado -80 pts de exp como Df. 
+E_Belkalem (lib) ha bajado -80 pts de exp como Df. 
+J_Simunovic (lib) ha ganado 0 pts de exp como Df. 
+C_Söyüncü (lib) ha subido 20 pts de exp como Df. 
+V_Jovanovic (lib) ha subido 20 pts de exp como Df. 
+Ahmet_Calik (lib) ha ganado 0 pts de exp como Df. 
+M_Oikonomou (lib) ha ganado 0 pts de exp como Df. 
+B_Dja_Djedjé (lib) ha bajado -80 pts de exp como Df. 
+M_Dijks (lib) ha ganado 0 pts de exp como Df. 
+F_Venâncio (lib) ha ganado 0 pts de exp como Df. 
+D_Suárez (lib) ha bajado -80 pts de exp como Df. 
+L_Jiménez (lib) ha bajado -80 pts de exp como Df. 
+Niklas_Hult (lib) ha bajado -80 pts de exp como Df. 
+I_Obradovic (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+Igor_Pastun (lib) ha bajado -80 pts de exp como Df. 
+E_Johansson (lib) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Ben_Mee (lib) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Dusko_Tosic (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+E_Eboué (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Henri_Bedimo (lib) ha bajado -130 pts de exp como Df. 
+P_Olkowski (lib) ha bajado -80 pts de exp como Df. 
+Ludwig_A (lib) ha subido 20 pts de exp como Df. Subiendo 1 media como Df.
+Thomas_Foket (lib) ha subido 20 pts de exp como Df. Subiendo 1 media como Df.
+J_Basanta (lib) ha bajado -130 pts de exp como Df. 
+Mateo_Susic (lib) ha bajado -80 pts de exp como Df. 
+F_Moubandje (lib) ha bajado -80 pts de exp como Df. 
+C_Taylor (lib) ha ganado 0 pts de exp como Df. 
+A_Scholz (lib) ha ganado 0 pts de exp como Df. 
+J_Lukaku (lib) ha subido 20 pts de exp como Df. 
+Néstor_Araujo (lib) ha ganado 0 pts de exp como Df. 
+Riza_Durmisi (lib) ha ganado 0 pts de exp como Df. 
+B_Bereszynski (lib) ha ganado 0 pts de exp como Df. 
+Pedro_Mendes (lib) ha bajado -80 pts de exp como Df. 
+M_Veljkovic (lib) ha subido 20 pts de exp como Df. 
+A_Pantic (lib) ha ganado 0 pts de exp como Df. 
+M_Suttner (lib) ha bajado -130 pts de exp como Df. 
+Ben_Gibson (lib) ha ganado 0 pts de exp como Df. 
+S_Risvanis (lib) ha ganado 0 pts de exp como Df. 
+N_Viergever (lib) ha bajado -80 pts de exp como Df. 
+Uros_Spajic (lib) ha ganado 0 pts de exp como Df. 
+Maxwell (lib) ha bajado -840 pts de exp como Df. 
+Érick_Aguirre (lib) ha subido 20 pts de exp como Df. 
+G_Margreitter (lib) ha bajado -80 pts de exp como Df. 
+Juan_Jesus (lib) ha ganado 0 pts de exp como Df. 
+V_Torosidis (lib) ha bajado -130 pts de exp como Df. 
+S_Mitrovic (lib) ha bajado -80 pts de exp como Df. 
+A_Rodríguez (lib) ha bajado -800 pts de exp como Df. 
+C_Ramírez (lib) ha ganado 0 pts de exp como Df. 
+Emil_Krafth (lib) ha subido 20 pts de exp como Df. 
+Rafa_Soares (lib) ha subido 20 pts de exp como Df. 
+Pierre_B (lib) ha bajado -80 pts de exp como Df. 
+Farid_Díaz (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+M_Albornoz (lib) ha bajado -80 pts de exp como Df. 
+R_Thelander (lib) ha bajado -80 pts de exp como Df. 
+T_Castagne (lib) ha subido 20 pts de exp como Df. 
+Adam_Matthews (lib) ha ganado 0 pts de exp como Df. 
+Yaya_Banana (lib) ha bajado -80 pts de exp como Df. 
+Carl_Medjani (lib) ha bajado -130 pts de exp como Df. 
+Milan_Gajic (lib) ha subido 20 pts de exp como Df. 
+Luisão (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+Johan_Larsson (lib) ha bajado -80 pts de exp como Df. 
+Chris_Gunter (lib) ha bajado -80 pts de exp como Df. 
+L_P_Cavanda (lib) ha bajado -80 pts de exp como Df. 
+Reto_Ziegler (lib) ha bajado -130 pts de exp como Df. 
+Mikale_Lustig (lib) ha bajado -130 pts de exp como Df. 
+Dario_Dumic (lib) ha ganado 0 pts de exp como Df. 
+M_Mitrovic (lib) ha ganado 0 pts de exp como Df. 
+O_Vranjes (lib) ha bajado -80 pts de exp como Df. 
+Igor_Lewczuk (lib) ha bajado -130 pts de exp como Df. 
+M_Kosanovic (lib) ha bajado -80 pts de exp como Df. 
+Gaëtan_Bong (lib) ha bajado -130 pts de exp como Df. 
+F_Hadergjonaj (lib) ha subido 20 pts de exp como Df. 
+Adama_Traoré (lib) ha bajado -80 pts de exp como Df. 
+Marin_Anicic (lib) ha bajado -80 pts de exp como Df. 
+C_Fiore (lib) ha subido 20 pts de exp como Df. 
+Henrique (lib) ha bajado -130 pts de exp como Df. 
+Óscar_Bagüí (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Alex_Silva (lib) ha bajado -80 pts de exp como Df. 
+O_González (lib) ha bajado -130 pts de exp como Df. 
+Sol_Bamba (lib) ha bajado -130 pts de exp como Df. 
+Collins_Fai (lib) ha ganado 0 pts de exp como Df. 
+John_Terry (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+Pedro_Franco (lib) ha ganado 0 pts de exp como Df. 
+D_Caleta-Car (lib) ha subido 20 pts de exp como Df. 
+D_Bonera (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+G_Achilier (lib) ha bajado -130 pts de exp como Df. 
+Paul_Dummett (lib) ha ganado 0 pts de exp como Df. 
+Arturo_Mina (lib) ha bajado -80 pts de exp como Df. 
+A_Oyongo (lib) ha bajado -80 pts de exp como Df. 
+Lazar_Rosic (lib) ha ganado 0 pts de exp como Df. 
+Bernardo (lib) ha subido 20 pts de exp como Df. 
+Andreas_Ulmer (lib) ha bajado -130 pts de exp como Df. 
+Florian_Klein (lib) ha bajado -130 pts de exp como Df. 
+M_Kaminski (lib) ha ganado 0 pts de exp como Df. 
+Edin_Cocalic (lib) ha bajado -130 pts de exp como Df. 
+Joel_Lynch (lib) ha bajado -130 pts de exp como Df. 
+Denys_Kulakov (lib) ha bajado -130 pts de exp como Df. 
+Kian_Hansen (lib) ha bajado -80 pts de exp como Df. 
+Rasmus_B (lib) ha bajado -130 pts de exp como Df. 
+Y_Benalouane (lib) ha bajado -130 pts de exp como Df. 
+M_Piedrahita (lib) ha bajado -130 pts de exp como Df. 
+Jonas_Olsson (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+F_Navarro (lib) ha bajado -80 pts de exp como Df. 
+Marin_Leovac (lib) ha bajado -80 pts de exp como Df. 
+J_Domínguez (lib) ha bajado -130 pts de exp como Df. 
+C_Cuevas (lib) ha subido 20 pts de exp como Df. 
+Jazz_Richards (lib) ha ganado 0 pts de exp como Df. 
+N_Milenkovic (lib) ha subido 20 pts de exp como Df. 
+A_Bjelica (lib) ha ganado 0 pts de exp como Df. 
+M_Benmoussa (lib) ha bajado -130 pts de exp como Df. 
+Dennis_Aogo (lib) ha bajado -130 pts de exp como Df. 
+A_Bamba (lib) ha bajado -80 pts de exp como Df. 
+B_A-Ekotto (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Ivan_Strinic (lib) ha bajado -130 pts de exp como Df. 
+M_Olivera (lib) ha ganado 0 pts de exp como Df. 
+Luis_Abram (lib) ha subido 20 pts de exp como Df. 
+M_Bjarsmyr (lib) ha bajado -130 pts de exp como Df. 
+H_Westermann (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+G_Tzavellas (lib) ha bajado -130 pts de exp como Df. 
+Rodrigo_Cuba (lib) ha ganado 0 pts de exp como Df. 
+D_Benlamri (lib) ha bajado -80 pts de exp como Df. 
+J_Andersen (lib) ha subido 20 pts de exp como Df. 
+Hiram_Mier (lib) ha bajado -80 pts de exp como Df. 
+Jorge_Guagua (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+Tomas_Hubocan (lib) ha bajado -130 pts de exp como Df. 
+D_Pavlovic (lib) ha bajado -130 pts de exp como Df. 
+W_Kanon (lib) ha ganado 0 pts de exp como Df. 
+Daniel_Höegh (lib) ha bajado -80 pts de exp como Df. 
+Rob_Holding (lib) ha subido 20 pts de exp como Df. 
+Wataru_Endo (lib) ha ganado 0 pts de exp como Df. 
+Luis_Trujillo (lib) ha bajado -80 pts de exp como Df. 
+E_Velarde (lib) ha bajado -130 pts de exp como Df. 
+G_Rodríguez (lib) ha bajado -130 pts de exp como Df. 
+B_Angoua (lib) ha bajado -130 pts de exp como Df. 
+Rhoys_Wiggins (lib) ha bajado -130 pts de exp como Df. 
+C_Cruz (lib) ha ganado 0 pts de exp como Df. 
+X_Arreaga (lib) ha ganado 0 pts de exp como Df. 
+T_Makino (lib) ha bajado -130 pts de exp como Df. 
+P_Netzer (lib) ha bajado -130 pts de exp como Df. 
+Luis_Ayala (lib) ha ganado 0 pts de exp como Df. 
+L_Dickmann (lib) ha subido 20 pts de exp como Df. 
+Craig_Morgan (lib) ha bajado -130 pts de exp como Df. 
+Erick_Cabaco (lib) ha subido 20 pts de exp como Df. 
+P_Magalhães (lib) ha bajado -80 pts de exp como Df. 
+Joakim_Maehle (lib) ha subido 20 pts de exp como Df. 
+Rod_Fanni (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+C_Maggio (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+H_Ferhani (lib) ha ganado 0 pts de exp como Df. 
+K_Pedersen (lib) ha ganado 0 pts de exp como Df. 
+Alan_Mendoza (lib) ha ganado 0 pts de exp como Df. 
+Kosuke_Ota (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+C_Lykogiannis (lib) ha ganado 0 pts de exp como Df. 
+Kristoffer_A (lib) ha subido 40 pts de exp como Df. 
+Daniel_Díaz (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+A_Henríquez (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+R_Cereceda (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+S_Takahashi (lib) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+M_Bagayoko (lib) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Bruno (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+R_Moriwaki (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+N_Milenkovic (lib) ha subido 40 pts de exp como Df. 
+P_de_La_Haza (lib) ha bajado -800 pts de exp como Df. 
+Hans_Martínez (lib) ha bajado -130 pts de exp como Df. 
+A_Katranis (lib) ha subido 40 pts de exp como Df. 
+F_Canales (lib) ha subido 20 pts de exp como Df. 
+Eloge_Yao (lib) ha subido 20 pts de exp como Df. 
+Thilo_Kehrer (lib) ha subido 20 pts de exp como Df. 
+R_Revoredo (lib) ha bajado -130 pts de exp como Df. 
+Justin_Morrow (lib) ha bajado -130 pts de exp como Df. 
+Ivan_Tomecak (lib) ha bajado -80 pts de exp como Df. 
+Koki_Yonekura (lib) ha bajado -130 pts de exp como Df. 
+S_Yamamoto (lib) ha bajado -130 pts de exp como Df. 
+Todd_Kane (lib) ha ganado 0 pts de exp como Df. 
+Nadir_Belhadj (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+Andrés_López (lib) ha ganado 0 pts de exp como Df. 
+R_Guizasola (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Y_Maruyama (lib) ha bajado -80 pts de exp como Df. 
+M_Ristic (lib) ha subido 20 pts de exp como Df. 
+S_Riether (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+M_Benyahia (lib) ha ganado 0 pts de exp como Df. 
+A_Bedrane (lib) ha ganado 0 pts de exp como Df. 
+Kazuki_Oiwa (lib) ha bajado -80 pts de exp como Df. 
+G_Lloris (lib) ha subido 20 pts de exp como Df. 
+Jas_Hernández (lib) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Erhan_Masovic (lib) ha subido 40 pts de exp como Df. 
+Y_Kobayashi (lib) ha bajado -130 pts de exp como Df. 
+Jhoel_Herrera (lib) ha bajado -840 pts de exp como Df. Bajando 1 media como Df.
+Léo_Duarte (lib) ha subido 20 pts de exp como Df. 
+Chris_Mafla (lib) ha ganado 0 pts de exp como Df. 
+L_Maldonado (lib) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+E_Velasco (lib) ha bajado -80 pts de exp como Df. 
+Kléber (lib) ha subido 40 pts de exp como Df. Subiendo 1 media como Df.
+M_Wasilewski (lib) ha bajado -840 pts de exp como Df. 
+C_Randall (lib) ha subido 20 pts de exp como Df. 
+Pablo_Jáquez (lib) ha subido 20 pts de exp como Df. 
+Gonzalo_Asís (lib) ha subido 20 pts de exp como Df. 
+Ola_Aina (lib) ha subido 20 pts de exp como Df. 
+José_Guidino (lib) ha subido 20 pts de exp como Df. 
+Thuler (lib) ha subido 40 pts de exp como Df. 
+José_Marina (lib) ha subido 20 pts de exp como Df. 
+R_Echevarria (lib) ha subido 20 pts de exp como Df. 
+Phil_Neumann (lib) ha subido 40 pts de exp como Df. 
+E_Klimenta (lib) ha bajado -80 pts de exp como Df. 
+Guzmán_Corujo (lib) ha subido 20 pts de exp como Df. 
+M_San_José (lib) ha bajado -80 pts de exp como Mf. 
+Jordy_Clasie (lib) ha ganado 0 pts de exp como Mf. 
+J_Guilavogui (lib) ha bajado -80 pts de exp como Mf. 
+Makoto_Hasebe (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Nigel_de_Jong (lib) ha bajado -130 pts de exp como Mf. 
+Milan_Badelj (lib) ha bajado -80 pts de exp como Mf. 
+Mehmet_Topal (lib) ha bajado -130 pts de exp como Mf. 
+E_Polanski (lib) ha bajado -130 pts de exp como Mf. 
+G_Imbula (lib) ha ganado 0 pts de exp como Mf. 
+Fernando_M (lib) ha ganado 0 pts de exp como Mf. 
+Stéphane_Mbia (lib) ha bajado -130 pts de exp como Mf. 
+Rasmus_Elm (lib) ha bajado -130 pts de exp como Mf. 
+Alex_Song (lib) ha bajado -130 pts de exp como Mf. 
+É_Capoue (lib) ha bajado -80 pts de exp como Mf. 
+V_Behrami (lib) ha bajado -130 pts de exp como Mf. 
+Carlos_Sáncez (lib) ha bajado -130 pts de exp como Mf. 
+I_Amadou (lib) ha ganado 0 pts de exp como Mf. 
+I_Radovanovic (lib) ha bajado -130 pts de exp como Mf. 
+Javi_García (lib) ha bajado -130 pts de exp como Mf. 
+G_Serey_Dié (lib) ha bajado -130 pts de exp como Mf. 
+Ozan_Tufan (lib) ha subido 20 pts de exp como Mf. 
+Okay_Yokuslu (lib) ha ganado 0 pts de exp como Mf. 
+David_López (lib) ha bajado -80 pts de exp como Mf. 
+Danilo_B (lib) ha subido 20 pts de exp como Mf. 
+José_Vázquez (lib) ha bajado -130 pts de exp como Mf. 
+Gojko_Cimirot (lib) ha ganado 0 pts de exp como Mf. 
+L_Milivojevic (lib) ha bajado -80 pts de exp como Mf. 
+Joe_Ledley (lib) ha bajado -130 pts de exp como Mf. 
+G_Gillet (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+P_Tachtsidis (lib) ha bajado -80 pts de exp como Mf. 
+Sven_Kums (lib) ha bajado -130 pts de exp como Mf. 
+D_Cataldi (lib) ha subido 20 pts de exp como Mf. 
+Lustenberger (lib) ha bajado -80 pts de exp como Mf. 
+G_Fernandes (lib) ha bajado -130 pts de exp como Mf. 
+Oriol_Romeu (lib) ha ganado 0 pts de exp como Mf. 
+Thiago_Motta (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+P_Schwegler (lib) ha bajado -130 pts de exp como Mf. 
+Stijn_Schaars (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Luka_Zuffi (lib) ha bajado -80 pts de exp como Mf. 
+J_Livermore (lib) ha bajado -80 pts de exp como Mf. 
+S_Ilsanker (lib) ha bajado -80 pts de exp como Mf. 
+Jesús_Molina (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+T_Huddlestone (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+R_Petrovic (lib) ha bajado -80 pts de exp como Mf. 
+A_Fransson (lib) ha ganado 0 pts de exp como Mf. 
+B_Stambouli (lib) ha bajado -80 pts de exp como Mf. 
+Mehdi_Lacen (lib) ha bajado -800 pts de exp como Mf. 
+G_Celis (lib) ha ganado 0 pts de exp como Mf. 
+Esteban_Pavez (lib) ha bajado -80 pts de exp como Mf. 
+G_Sertic (lib) ha bajado -80 pts de exp como Mf. 
+Mads_Albaek (lib) ha bajado -80 pts de exp como Mf. 
+M_Carrick (lib) ha bajado -840 pts de exp como Mf. 
+S_Siani (lib) ha bajado -130 pts de exp como Mf. 
+Veli_Kavlak (lib) ha bajado -80 pts de exp como Mf. 
+C_Doukouré (lib) ha ganado 0 pts de exp como Mf. 
+S_Rybalka (lib) ha bajado -80 pts de exp como Mf. 
+D_Luckassen (lib) ha subido 20 pts de exp como Mf. 
+A_Busuladzic (lib) ha ganado 0 pts de exp como Mf. 
+S_Grahovac (lib) ha ganado 0 pts de exp como Mf. 
+Carlos_Gruezo (lib) ha subido 20 pts de exp como Mf. 
+Sékou_Sanogo (lib) ha bajado -80 pts de exp como Mf. 
+E_Ofori (lib) ha subido 40 pts de exp como Mf. 
+I_Cissé (lib) ha ganado 0 pts de exp como Mf. 
+Vurnon_Anita (lib) ha bajado -80 pts de exp como Mf. 
+D_Kourbelis (lib) ha ganado 0 pts de exp como Mf. 
+Marcus_Rohdén (lib) ha ganado 0 pts de exp como Mf. 
+M_Siopis (lib) ha ganado 0 pts de exp como Mf. 
+A_Grassi (lib) ha subido 20 pts de exp como Mf. 
+J_Orejuela (lib) ha ganado 0 pts de exp como Mf. 
+Oscar_Lewicki (lib) ha ganado 0 pts de exp como Mf. 
+I_Diomandé (lib) ha ganado 0 pts de exp como Mf. 
+S_Ascacíbar (lib) ha subido 20 pts de exp como Mf. 
+Ryan_Donk (lib) ha bajado -130 pts de exp como Mf. 
+Eyong__Enoh (lib) ha bajado -130 pts de exp como Mf. 
+Rafael_Baca (lib) ha bajado -80 pts de exp como Mf. 
+A_Tziolis (lib) ha bajado -130 pts de exp como Mf. 
+Gojko_Kacar (lib) ha bajado -130 pts de exp como Mf. 
+Pedro_Aquino (lib) ha subido 20 pts de exp como Mf. 
+Ahmed_Kashi (lib) ha bajado -80 pts de exp como Mf. 
+R_Holzhauser (lib) ha ganado 0 pts de exp como Mf. 
+Anel_Hadzic (lib) ha bajado -80 pts de exp como Mf. 
+W_Cartagena (lib) ha ganado 0 pts de exp como Mf. 
+Y_Ideguchi (lib) ha subido 20 pts de exp como Mf. 
+M_N_Ngadjui (lib) ha bajado -80 pts de exp como Mf. 
+T_Jodlowiec (lib) ha bajado -130 pts de exp como Mf. 
+Janusz_Gol (lib) ha bajado -130 pts de exp como Mf. 
+N_Chalobah (lib) ha subido 20 pts de exp como Mf. 
+G_Mandjeck (lib) ha bajado -80 pts de exp como Mf. 
+Wílmer_Godoy (lib) ha ganado 0 pts de exp como Mf. 
+V_Shepelev (lib) ha subido 20 pts de exp como Mf. 
+William_Kvist (lib) ha bajado -130 pts de exp como Mf. 
+H_Takahashi (lib) ha bajado -130 pts de exp como Mf. 
+G_Brugman (lib) ha ganado 0 pts de exp como Mf. 
+Matías_Oyola (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+E_D-Djemba (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+J_Radosevic (lib) ha ganado 0 pts de exp como Mf. 
+X_Kouassi (lib) ha bajado -80 pts de exp como Mf. 
+Emyr_Huws (lib) ha ganado 0 pts de exp como Mf. 
+Facundo_Píriz (lib) ha bajado -80 pts de exp como Mf. 
+S_Schwab (lib) ha bajado -80 pts de exp como Mf. 
+G_Maniatis (lib) ha bajado -130 pts de exp como Mf. 
+M_Íldiz (lib) ha ganado 0 pts de exp como Mf. 
+A_Benguit (lib) ha subido 20 pts de exp como Mf. 
+Thanos_Petsos (lib) ha bajado -80 pts de exp como Mf. 
+S_Kulovits (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Rafetraniaina (lib) ha subido 40 pts de exp como Mf. 
+Eboue_Kouassi (lib) ha subido 40 pts de exp como Mf. 
+S_Gentsoglou (lib) ha bajado -80 pts de exp como Mf. 
+Dominik_Wydra (lib) ha ganado 0 pts de exp como Mf. 
+Shingo_Tomita (lib) ha bajado -130 pts de exp como Mf. 
+S_Bendebka (lib) ha ganado 0 pts de exp como Mf. 
+Ryota_Nagaki (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+S_MacDonald (lib) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+H_Aït_Ouamar (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+J_Atoche (lib) ha bajado -80 pts de exp como Mf. 
+C_Lobatón (lib) ha bajado -840 pts de exp como Mf. 
+M_Benkhemassa (lib) ha ganado 0 pts de exp como Mf. 
+D_Bragança (lib) ha subido 80 pts de exp como Mf. 
+J_Tragodara (lib) ha bajado -130 pts de exp como Mf. 
+L_Callegari (lib) ha subido 40 pts de exp como Mf. 
+T_Yonemoto (lib) ha bajado -80 pts de exp como Mf. 
+E_A_Ríos (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Amir_Karaoui (lib) ha bajado -130 pts de exp como Mf. 
+Ralf (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Jens_Jönsson (lib) ha ganado 0 pts de exp como Mf. 
+Omar_Boudoumi (lib) ha bajado -80 pts de exp como Mf. 
+P_D_Zebli (lib) ha subido 40 pts de exp como Mf. 
+Edw_Valencia (lib) ha bajado -130 pts de exp como Mf. 
+David_Vaughan (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Carel_Eiting (lib) ha subido 40 pts de exp como Mf. 
+Mehdi_Mostefa (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Niklas_Dorsch (lib) ha subido 40 pts de exp como Mf. 
+T_Ogihara (lib) ha bajado -80 pts de exp como Mf. 
+F_Araruna (lib) ha subido 20 pts de exp como Mf. 
+Iván_Rossi (lib) ha ganado 0 pts de exp como Mf. 
+Bill_Tuiloma (lib) ha subido 20 pts de exp como Mf. 
+Gabi_Neves (lib) ha subido 20 pts de exp como Mf. 
+Adrien_Silva (lib) ha bajado -80 pts de exp como Mf. 
+Andrea_Pirlo (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Borja_Valero (lib) ha bajado -130 pts de exp como Mf. 
+Roque_Mesa (lib) ha bajado -80 pts de exp como Mf. 
+P_Hernández (lib) ha bajado -130 pts de exp como Mf. 
+Beñat (lib) ha bajado -130 pts de exp como Mf. 
+Marco_Parolo (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+C_Noboa (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+N_Gudelj (lib) ha ganado 0 pts de exp como Mf. 
+Yohan_Cabaye (lib) ha bajado -130 pts de exp como Mf. 
+Z_Junuzovic (lib) ha bajado -130 pts de exp como Mf. 
+D_Baselli (lib) ha ganado 0 pts de exp como Mf. 
+Joe_Allen (lib) ha bajado -80 pts de exp como Mf. 
+M_Vecino (lib) ha ganado 0 pts de exp como Mf. 
+S_Sturaro (lib) ha subido 20 pts de exp como Mf. 
+T_Delaney (lib) ha bajado -80 pts de exp como Mf. 
+Tonny_Vilhena (lib) ha subido 20 pts de exp como Mf. 
+Mark_Noble (lib) ha bajado -130 pts de exp como Mf. 
+Ruud_Vormer (lib) ha bajado -80 pts de exp como Mf. 
+Dennis_Praet (lib) ha subido 20 pts de exp como Mf. 
+Schwensteiger (lib) ha bajado -130 pts de exp como Mf. 
+Steven_Defour (lib) ha bajado -80 pts de exp como Mf. 
+Lasse_Schöne (lib) ha bajado -130 pts de exp como Mf. 
+Milos_Jojic (lib) ha ganado 0 pts de exp como Mf. 
+Jonjo_Shelvey (lib) ha ganado 0 pts de exp como Mf. 
+Fabian_Frei (lib) ha bajado -80 pts de exp como Mf. 
+Souza (lib) ha bajado -80 pts de exp como Mf. 
+M_Fernandes (lib) ha bajado -130 pts de exp como Mf. 
+S_Rode (lib) ha bajado -80 pts de exp como Mf. 
+Leroy_Fer (lib) ha bajado -80 pts de exp como Mf. 
+F_Gutiérrez (lib) ha bajado -80 pts de exp como Mf. 
+J_Ward-Prowse (lib) ha subido 20 pts de exp como Mf. 
+Karol_Linetty (lib) ha subido 20 pts de exp como Mf. 
+Seko_Fofana (lib) ha subido 20 pts de exp como Mf. 
+M_Pereyra (lib) ha bajado -80 pts de exp como Mf. 
+M_de_Roon (lib) ha bajado -80 pts de exp como Mf. 
+Tiago (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+G_Shibasaki (lib) ha ganado 0 pts de exp como Mf. 
+H_Medunjanin (lib) ha bajado -130 pts de exp como Mf. 
+R_Malinovsky (lib) ha ganado 0 pts de exp como Mf. 
+Lukas_Lerager (lib) ha ganado 0 pts de exp como Mf. 
+Zeca (lib) ha bajado -130 pts de exp como Mf. 
+Yassin_Ayoub (lib) ha ganado 0 pts de exp como Mf. 
+Saphir_Taider (lib) ha ganado 0 pts de exp como Mf. 
+Selcuk_Inan (lib) ha bajado -130 pts de exp como Mf. 
+P-E_Höjbjerg (lib) ha subido 20 pts de exp como Mf. 
+A_Aquilani (lib) ha bajado -130 pts de exp como Mf. 
+Ryan_Mason (lib) ha ganado 0 pts de exp como Mf. 
+S_Larsson (lib) ha bajado -130 pts de exp como Mf. 
+Mounir_Obbadi (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+S_Amrabat (lib) ha subido 20 pts de exp como Mf. 
+André_Martins (lib) ha bajado -80 pts de exp como Mf. 
+B_Dzemaili (lib) ha bajado -130 pts de exp como Mf. 
+Cafú (lib) ha ganado 0 pts de exp como Mf. 
+V_Buyalsky (lib) ha ganado 0 pts de exp como Mf. 
+Tolga_Cigerci (lib) ha ganado 0 pts de exp como Mf. 
+S_Tibbling (lib) ha subido 20 pts de exp como Mf. 
+C_Marrugo (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+C_Carmona (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+F_Grillitsch (lib) ha subido 20 pts de exp como Mf. 
+Mike_Jensen (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Z_Kuzmanovic (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+D_Kreilach (lib) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+Antonio_Ríos (lib) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+Renato_Tapia (lib) ha subido 20 pts de exp como Mf. 
+F_Silva (lib) ha bajado -130 pts de exp como Mf. 
+Sanjin_Prcic (lib) ha ganado 0 pts de exp como Mf. 
+K_Maczynski (lib) ha bajado -130 pts de exp como Mf. 
+Cícero (lib) ha bajado -800 pts de exp como Mf. 
+C_Grenier (lib) ha bajado -80 pts de exp como Mf. 
+D_Brasanac (lib) ha ganado 0 pts de exp como Mf. 
+J-D_A_Akpro (lib) ha ganado 0 pts de exp como Mf. 
+Y_Bennasser (lib) ha subido 20 pts de exp como Mf. 
+Jordan_Ferri (lib) ha ganado 0 pts de exp como Mf. 
+Mario_Vrancic (lib) ha bajado -80 pts de exp como Mf. 
+J_Hernández (lib) ha bajado -80 pts de exp como Mf. 
+Mateusz_Klich (lib) ha bajado -80 pts de exp como Mf. 
+Nemanja_M (lib) ha subido 20 pts de exp como Mf. 
+P_Kasami (lib) ha ganado 0 pts de exp como Mf. 
+Didier_Moreno (lib) ha ganado 0 pts de exp como Mf. 
+Goran_Causic (lib) ha ganado 0 pts de exp como Mf. 
+D_Zakaria (lib) ha subido 20 pts de exp como Mf. 
+Y_Kobayashi (lib) ha ganado 0 pts de exp como Mf. 
+Yan_Brice (lib) ha subido 20 pts de exp como Mf. 
+Harry_Winks (lib) ha subido 20 pts de exp como Mf. 
+Carlos_Peña (lib) ha bajado -80 pts de exp como Mf. 
+P_Kone (lib) ha bajado -130 pts de exp como Mf. 
+A_Bouchalakis (lib) ha ganado 0 pts de exp como Mf. 
+Mehmet_Güven (lib) ha bajado -130 pts de exp como Mf. 
+R_Aït-Atmane (lib) ha ganado 0 pts de exp como Mf. 
+Z_Kozulj (lib) ha ganado 0 pts de exp como Mf. 
+Robert_Gucher (lib) ha bajado -80 pts de exp como Mf. 
+Zeki_Yildirim (lib) ha bajado -80 pts de exp como Mf. 
+Mehdi_Abeid (lib) ha ganado 0 pts de exp como Mf. 
+N_Krsticic (lib) ha bajado -80 pts de exp como Mf. 
+Almen_Abdi (lib) ha bajado -130 pts de exp como Mf. 
+Y_Kashiwagi (lib) ha bajado -130 pts de exp como Mf. 
+C_Jorquera (lib) ha bajado -80 pts de exp como Mf. 
+J_D_Guerrero (lib) ha bajado -130 pts de exp como Mf. 
+H_Henao (lib) ha bajado -130 pts de exp como Mf. 
+Walid_Mesloub (lib) ha bajado -130 pts de exp como Mf. 
+C_Leitgeb (lib) ha bajado -130 pts de exp como Mf. 
+C_Nörgaard (lib) ha ganado 0 pts de exp como Mf. 
+Andrea_Poli (lib) ha bajado -40 pts de exp como Mf. 
+S_Aydogdu (lib) ha bajado -80 pts de exp como Mf. 
+Uros_Matic (lib) ha bajado -80 pts de exp como Mf. 
+Javier_Cortés (lib) ha bajado -80 pts de exp como Mf. 
+A_Durak (lib) ha bajado -130 pts de exp como Mf. 
+Teddy_Bishop (lib) ha subido 20 pts de exp como Mf. 
+C_Gartner (lib) ha subido 20 pts de exp como Mf. 
+Joel_Sánchez (lib) ha bajado -80 pts de exp como Mf. 
+Ryota_Oshima (lib) ha ganado 0 pts de exp como Mf. 
+S_Tsoukalas (lib) ha bajado -130 pts de exp como Mf. 
+Marco_Medel (lib) ha bajado -80 pts de exp como Mf. 
+A_Androutsos (lib) ha subido 20 pts de exp como Mf. 
+A_Guédioura (lib) ha bajado -130 pts de exp como Mf. 
+H_Belkebla (lib) ha ganado 0 pts de exp como Mf. 
+H_Hinostroza (lib) ha ganado 0 pts de exp como Mf. 
+Rúben_Amorim (lib) ha bajado -130 pts de exp como Mf. 
+Furkan_Özcal (lib) ha bajado -80 pts de exp como Mf. 
+Will_da_Silva (lib) ha bajado -130 pts de exp como Mf. 
+C_Masuda (lib) ha bajado -130 pts de exp como Mf. 
+M_Ritzmaier (lib) ha ganado 0 pts de exp como Mf. 
+A_Hjulsager (lib) ha subido 20 pts de exp como Mf. 
+P_Billing (lib) ha subido 20 pts de exp como Mf. 
+Andrew_Crofts (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Abou_Diaby (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Marcelo_Meli (lib) ha ganado 0 pts de exp como Mf. 
+Akimi_Barada (lib) ha bajado -80 pts de exp como Mf. 
+F_Makhedjouf (lib) ha bajado -80 pts de exp como Mf. 
+Toufik_Addadi (lib) ha bajado -80 pts de exp como Mf. 
+Andy_King (lib) ha bajado -80 pts de exp como Mf. 
+Hassan_Yebda (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+A_Cooper (lib) ha bajado -130 pts de exp como Mf. 
+I_Bennacer (lib) ha subido 40 pts de exp como Mf. 
+K_Yamamoto (lib) ha bajado -80 pts de exp como Mf. 
+N_Fujita (lib) ha bajado -130 pts de exp como Mf. 
+Loftus-Cheek (lib) ha subido 20 pts de exp como Mf. 
+Raúl_Loaiza (lib) ha ganado 0 pts de exp como Mf. 
+Se_Carrasco (lib) ha bajado -130 pts de exp como Mf. 
+K_Escamilla (lib) ha ganado 0 pts de exp como Mf. 
+G_Mantuan (lib) ha subido 20 pts de exp como Mf. 
+Liziero (lib) ha subido 40 pts de exp como Mf. 
+Ivan_Perisic (lib) ha bajado -40 pts de exp como Mf. Bajando 1 media como Mf.
+W_Sneijder (lib) ha bajado -130 pts de exp como Mf. 
+Quincy_Promes (lib) ha ganado 0 pts de exp como Mf. 
+Marlos (lib) ha bajado -130 pts de exp como Mf. 
+M_Arnautovic (lib) ha bajado -80 pts de exp como Mf. 
+J_Viera (lib) ha bajado -80 pts de exp como Mf. 
+R_Boudebouz (lib) ha bajado -80 pts de exp como Mf. 
+F_Orellana (lib) ha bajado -130 pts de exp como Mf. 
+Jeremain_Lens (lib) ha bajado -130 pts de exp como Mf. 
+Adem_Ljajic (lib) ha bajado -80 pts de exp como Mf. 
+Raúl_García (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+J_Montero (lib) ha bajado -80 pts de exp como Mf. 
+Salomon_Kalou (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Edison_Flores (lib) ha ganado 0 pts de exp como Mf. 
+Yunus_Malli (lib) ha ganado 0 pts de exp como Mf. 
+Blasczykowski (lib) ha bajado -130 pts de exp como Mf. 
+Nico_Lodeiro (lib) ha bajado -80 pts de exp como Mf. 
+M_Lanzini (lib) ha ganado 0 pts de exp como Mf. 
+Edin_Visca (lib) ha bajado -80 pts de exp como Mf. 
+Emre_Colak (lib) ha bajado -80 pts de exp como Mf. 
+Gökhan_Töre (lib) ha ganado 0 pts de exp como Mf. 
+Juan_Cazares (lib) ha ganado 0 pts de exp como Mf. 
+K_Fortounis (lib) ha ganado 0 pts de exp como Mf. 
+J_Valdivia (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+C_Tello (lib) ha ganado 0 pts de exp como Mf. 
+I_Afellay (lib) ha bajado -130 pts de exp como Mf. 
+Y_Gourcuff (lib) ha bajado -130 pts de exp como Mf. 
+Vieirinha (lib) ha bajado -130 pts de exp como Mf. 
+Senad_Lulic (lib) ha bajado -130 pts de exp como Mf. 
+M_Arroyo (lib) ha bajado -130 pts de exp como Mf. 
+Nacer_Chadli (lib) ha bajado -80 pts de exp como Mf. 
+Serge_Gnabry (lib) ha subido 20 pts de exp como Mf. 
+H_Kiyotake (lib) ha bajado -80 pts de exp como Mf. 
+Danilo_G (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Alper_Potuk (lib) ha bajado -80 pts de exp como Mf. 
+V_Eysseric (lib) ha ganado 0 pts de exp como Mf. 
+A_Townsend (lib) ha ganado 0 pts de exp como Mf. 
+Mehmet_Ekici (lib) ha bajado -80 pts de exp como Mf. 
+Pedro_León (lib) ha bajado -130 pts de exp como Mf. 
+Jesús_Navas (lib) ha bajado -130 pts de exp como Mf. 
+M_Sabitzer (lib) ha ganado 0 pts de exp como Mf. 
+Adnan_Januzaj (lib) ha subido 20 pts de exp como Mf. 
+Max_Gradel (lib) ha bajado -130 pts de exp como Mf. 
+J_de_Guzmán (lib) ha bajado -130 pts de exp como Mf. 
+Paolo_Hurtado (lib) ha bajado -80 pts de exp como Mf. 
+L_Öztunali (lib) ha subido 20 pts de exp como Mf. 
+M_Sulejmani (lib) ha bajado -80 pts de exp como Mf. 
+Carlos_Mané (lib) ha ganado 0 pts de exp como Mf. 
+V_Stocker (lib) ha bajado -80 pts de exp como Mf. 
+Y_Benzia (lib) ha ganado 0 pts de exp como Mf. 
+L_Andersen (lib) ha ganado 0 pts de exp como Mf. 
+Denys_Garmash (lib) ha bajado -80 pts de exp como Mf. 
+Josué (lib) ha bajado -80 pts de exp como Mf. 
+Kaká (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+T_Barnetta (lib) ha bajado -130 pts de exp como Mf. 
+Miler_Bolaños (lib) ha bajado -80 pts de exp como Mf. 
+Hakim_Ziyech (lib) ha ganado 0 pts de exp como Mf. 
+S_Sinclair (lib) ha bajado -80 pts de exp como Mf. 
+N_Redmond (lib) ha ganado 0 pts de exp como Mf. 
+D_Milosevic (lib) ha subido 20 pts de exp como Mf. 
+R_Steffen (lib) ha ganado 0 pts de exp como Mf. 
+José_Sosa (lib) ha bajado -130 pts de exp como Mf. 
+Amer_Gojak (lib) ha subido 20 pts de exp como Mf. 
+Salih_Ucan (lib) ha ganado 0 pts de exp como Mf. 
+P_Mantalos (lib) ha bajado -80 pts de exp como Mf. 
+Deniz_Türüc (lib) ha ganado 0 pts de exp como Mf. 
+Édson_Puch (lib) ha bajado -130 pts de exp como Mf. 
+Hernâni (lib) ha ganado 0 pts de exp como Mf. 
+Darko_Lazovic (lib) ha bajado -80 pts de exp como Mf. 
+E_Giaccherini (lib) ha bajado -130 pts de exp como Mf. 
+D_Milicevic (lib) ha bajado -130 pts de exp como Mf. 
+Edenilson (lib) ha bajado -80 pts de exp como Mf. 
+Adam_Maher (lib) ha ganado 0 pts de exp como Mf. 
+Geoffrey_Bia (lib) ha bajado -80 pts de exp como Mf. 
+M_Ninkovic (lib) ha bajado -130 pts de exp como Mf. 
+Yusuf_Yazici (lib) ha subido 20 pts de exp como Mf. 
+Florian_Kainz (lib) ha ganado 0 pts de exp como Mf. 
+M_Gacinovic (lib) ha subido 20 pts de exp como Mf. 
+V_Tsygankov (lib) ha subido 40 pts de exp como Mf. 
+S_Zuber (lib) ha ganado 0 pts de exp como Mf. 
+B_Dejaegere (lib) ha ganado 0 pts de exp como Mf. 
+F_Djuricic (lib) ha ganado 0 pts de exp como Mf. 
+Ryan_Babel (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Cris_Rguez (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Ashley_Young (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Elías_Hdez (lib) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+J_Williams (lib) ha ganado 0 pts de exp como Mf. 
+Pawel_Wszolek (lib) ha ganado 0 pts de exp como Mf. 
+Oleg_Gusev (lib) ha bajado -800 pts de exp como Mf. 
+Louis_Schaub (lib) ha subido 20 pts de exp como Mf. 
+Thomas_Touré (lib) ha ganado 0 pts de exp como Mf. 
+V_Claesson (lib) ha ganado 0 pts de exp como Mf. 
+Nadiem_Amiri (lib) ha subido 20 pts de exp como Mf. 
+Kerim_Frei (lib) ha ganado 0 pts de exp como Mf. 
+N_Calderón (lib) ha bajado -80 pts de exp como Mf. 
+Yusuf_Erdogan (lib) ha ganado 0 pts de exp como Mf. 
+Tom_Lawrence (lib) ha ganado 0 pts de exp como Mf. 
+D_Pelkas (lib) ha ganado 0 pts de exp como Mf. 
+D_Biseswar (lib) ha bajado -130 pts de exp como Mf. 
+Rémy_Cabella (lib) ha bajado -80 pts de exp como Mf. 
+Efrén_Mera (lib) ha bajado -130 pts de exp como Mf. 
+M_Gregoritsch (lib) ha subido 20 pts de exp como Mf. 
+B_Alemán (lib) ha bajado -80 pts de exp como Mf. 
+G_Haucher (lib) ha bajado -130 pts de exp como Mf. 
+Orkan_Cinar (lib) ha subido 20 pts de exp como Mf. 
+Bryan_Rabello (lib) ha subido 20 pts de exp como Mf. 
+Mijo_Caktas (lib) ha ganado 0 pts de exp como Mf. 
+D_Aleksic (lib) ha bajado -80 pts de exp como Mf. 
+A_Totovytsky (lib) ha ganado 0 pts de exp como Mf. 
+P_Roberts (lib) ha subido 20 pts de exp como Mf. 
+Jeremie_Boga (lib) ha subido 20 pts de exp como Mf. 
+M_Stevanovic (lib) ha bajado -80 pts de exp como Mf. 
+J_A_Albín (lib) ha bajado -130 pts de exp como Mf. 
+Massimo_Bruno (lib) ha ganado 0 pts de exp como Mf. 
+Jádson (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+C_Bermúdez (lib) ha bajado -130 pts de exp como Mf. 
+C_Benavente (lib) ha ganado 0 pts de exp como Mf. 
+Ager_Aketxe (lib) ha subido 20 pts de exp como Mf. 
+G_Gianniotas (lib) ha ganado 0 pts de exp como Mf. 
+Mbilla_Etame (lib) ha bajado -130 pts de exp como Mf. 
+Emrah_Bassan (lib) ha ganado 0 pts de exp como Mf. 
+Ludovic_Blas (lib) ha subido 40 pts de exp como Mf. 
+M_Liendl (lib) ha bajado -130 pts de exp como Mf. 
+Edgar_Salli (lib) ha ganado 0 pts de exp como Mf. 
+Simon_Hedlund (lib) ha ganado 0 pts de exp como Mf. 
+Sören_Rieks (lib) ha bajado -130 pts de exp como Mf. 
+M_Kucharczyk (lib) ha bajado -80 pts de exp como Mf. 
+Daichi_Kamada (lib) ha subido 20 pts de exp como Mf. 
+Andrija_Balic (lib) ha subido 40 pts de exp como Mf. 
+Jorge_Zárate (lib) ha ganado 0 pts de exp como Mf. 
+D_Cotterill (lib) ha bajado -130 pts de exp como Mf. 
+Shoma_Doi (lib) ha ganado 0 pts de exp como Mf. 
+M_Albrighton (lib) ha bajado -80 pts de exp como Mf. 
+Lucas_Rguez (lib) ha subido 20 pts de exp como Mf. 
+Julio_Angulo (lib) ha bajado -80 pts de exp como Mf. 
+F_Mattiello (lib) ha subido 20 pts de exp como Mf. 
+Isaac_Mbenza (lib) ha subido 20 pts de exp como Mf. 
+Danilo_S (lib) ha bajado -80 pts de exp como Mf. 
+Y_Kashiwa (lib) ha bajado -130 pts de exp como Mf. 
+João_Teixeira (lib) ha ganado 0 pts de exp como Mf. 
+E_Buendía (lib) ha subido 40 pts de exp como Mf. 
+Tomás_Andrade (lib) ha subido 40 pts de exp como Mf. 
+F_Meneses (lib) ha bajado -130 pts de exp como Mf. 
+Enzo_Fdez (lib) ha subido 20 pts de exp como Mf. 
+Shu_Kurata (lib) ha bajado -80 pts de exp como Mf. 
+L_Obraniak (lib) ha bajado -130 pts de exp como Mf. 
+O_Boumal (lib) ha bajado -80 pts de exp como Mf. 
+Ritsu_Doan (lib) ha subido 40 pts de exp como Mf. 
+A_Ienaga (lib) ha bajado -130 pts de exp como Mf. 
+A_Preciado (lib) ha ganado 0 pts de exp como Mf. 
+C_Falletti (lib) ha ganado 0 pts de exp como Mf. 
+V_Luchkevych (lib) ha subido 20 pts de exp como Mf. 
+D_Kikuchi (lib) ha bajado -80 pts de exp como Mf. 
+Yasushi_Endo (lib) ha bajado -130 pts de exp como Mf. 
+Dirk_Kuyt (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+G_Manthatis (lib) ha subido 20 pts de exp como Mf. 
+L_Isgrove (lib) ha ganado 0 pts de exp como Mf. 
+R_Aponzá (lib) ha bajado -80 pts de exp como Mf. 
+Alexi_Gómez (lib) ha ganado 0 pts de exp como Mf. 
+Dani_Ndi (lib) ha subido 20 pts de exp como Mf. 
+Jean_Deza (lib) ha ganado 0 pts de exp como Mf. 
+Hiroyuki_Abe (lib) ha bajado -80 pts de exp como Mf. Bajando 1 media como Mf.
+Marin_Tomasov (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+Junior_Ponce (lib) ha ganado 0 pts de exp como Mf. 
+Atomu_Tanaka (lib) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+J_Vidales (lib) ha ganado 0 pts de exp como Mf. 
+Jorge_Bazán (lib) ha bajado -80 pts de exp como Mf. 
+Dejan_Meleg (lib) ha ganado 0 pts de exp como Mf. 
+W_Mimbela (lib) ha ganado 0 pts de exp como Mf. 
+A_Bounoua (lib) ha bajado -80 pts de exp como Mf. 
+Bouna_Sarr (lib) ha ganado 0 pts de exp como Mf. 
+Pier_Larrauri (lib) ha ganado 0 pts de exp como Mf. 
+Arnaud_Djoum (lib) ha bajado -80 pts de exp como Mf. 
+K_Taketomi (lib) ha bajado -80 pts de exp como Mf. 
+M_Molina (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Amir_H (lib) ha subido 20 pts de exp como Mf. 
+Ivan_Petryak (lib) ha ganado 0 pts de exp como Mf. 
+T_Umesaki (lib) ha bajado -130 pts de exp como Mf. 
+Kotaro_Omori (lib) ha ganado 0 pts de exp como Mf. 
+Genki_Omae (lib) ha bajado -80 pts de exp como Mf. 
+N_De_La_Cruz (lib) ha subido 20 pts de exp como Mf. 
+F_Olinga (lib) ha subido 20 pts de exp como Mf. 
+G_Notsuda (lib) ha ganado 0 pts de exp como Mf. 
+A_Sánchez (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+J_Gonzales (lib) ha bajado -80 pts de exp como Mf. 
+Sid_A_Aouedj (lib) ha bajado -80 pts de exp como Mf. 
+Tayfur_Bingöl (lib) ha ganado 0 pts de exp como Mf. 
+Kota_Mizunuma (lib) ha bajado -80 pts de exp como Mf. 
+Josip_Brekalo (lib) ha subido 40 pts de exp como Mf. 
+H_Akbunar (lib) ha ganado 0 pts de exp como Mf. 
+J_Fujimoto (lib) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+S_Kobayashi (lib) ha bajado -80 pts de exp como Mf. 
+Matias_Zunino (lib) ha bajado -80 pts de exp como Mf. 
+B_Kapustka (lib) ha subido 20 pts de exp como Mf. 
+C_Giménez (lib) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Leandrinho (lib) ha subido 40 pts de exp como Mf. 
+Emre_Kilinc (lib) ha ganado 0 pts de exp como Mf. 
+Fabian_Benko (lib) ha subido 40 pts de exp como Mf. 
+W_Montoya (lib) ha ganado 0 pts de exp como Mf. 
+Gerson (lib) ha subido 40 pts de exp como Mf. 
+Thaciano (lib) ha subido 20 pts de exp como Mf. 
+Kaio (lib) ha subido 20 pts de exp como Mf. 
+Shaylon (lib) ha subido 20 pts de exp como Mf. 
+A_Zamudio (lib) ha subido 40 pts de exp como Mf. 
+M_Henrique (lib) ha subido 20 pts de exp como Mf. 
+R_Lucena (lib) ha subido 20 pts de exp como Mf. 
+Mario_Gómez (lib) ha bajado -130 pts de exp como Fw. 
+Islam_Slimani (lib) ha bajado -40 pts de exp como Fw. 
+A_Modeste (lib) ha bajado -80 pts de exp como Fw. 
+Nolito (lib) ha bajado -80 pts de exp como Fw. 
+N_Kalinic (lib) ha bajado -130 pts de exp como Fw. 
+Bas_Dost (lib) ha bajado -80 pts de exp como Fw. 
+Danny_Welbeck (lib) ha bajado -40 pts de exp como Fw. 
+Jonas (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Raffael (lib) ha bajado -130 pts de exp como Fw. 
+L_Podolski (lib) ha bajado -80 pts de exp como Fw. 
+Bojan_Krkic (lib) ha bajado -80 pts de exp como Fw. 
+Dusan_Tadic (lib) ha bajado -80 pts de exp como Fw. 
+V_Germain (lib) ha bajado -40 pts de exp como Fw. 
+E_A_H_Soudani (lib) ha bajado -130 pts de exp como Fw. 
+V_Ibisevic (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Lars_Stindl (lib) ha bajado -80 pts de exp como Fw. 
+F_Caicedo (lib) ha bajado -130 pts de exp como Fw. 
+N_Sansone (lib) ha ganado 0 pts de exp como Fw. 
+Á_Negredo (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+Bruma (lib) ha subido 20 pts de exp como Fw. 
+Gervinho (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+Iago_Falqué (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+Wilfried_Bony (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+R_van_Persie (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+V_Aboubakar (lib) ha ganado 0 pts de exp como Fw. 
+Danny (lib) ha bajado -800 pts de exp como Fw. 
+S_Doumbia (lib) ha bajado -130 pts de exp como Fw. 
+N_Jörgensen (lib) ha bajado -80 pts de exp como Fw. 
+Cenk_Tosun (lib) ha bajado -80 pts de exp como Fw. 
+Lucas_Pérez (lib) ha bajado -80 pts de exp como Fw. 
+A_Kramaric (lib) ha ganado 0 pts de exp como Fw. 
+Duván_Zapata (lib) ha bajado -80 pts de exp como Fw. 
+Jesé (lib) ha ganado 0 pts de exp como Fw. 
+Marcus_Berg (lib) ha bajado -130 pts de exp como Fw. 
+Filip_Kostic (lib) ha ganado 0 pts de exp como Fw. 
+Theo_Bongonda (lib) ha subido 20 pts de exp como Fw. 
+Breel_Embolo (lib) ha subido 40 pts de exp como Fw. 
+J_Guidetti (lib) ha ganado 0 pts de exp como Fw. 
+L_Teodorczyk (lib) ha ganado 0 pts de exp como Fw. 
+Jonathas (lib) ha bajado -80 pts de exp como Fw. 
+M'Baye_Niang (lib) ha subido 20 pts de exp como Fw. 
+S_Feghouli (lib) ha bajado -80 pts de exp como Fw. 
+Takashi_Inui (lib) ha bajado -130 pts de exp como Fw. 
+Iker_Muniain (lib) ha ganado 0 pts de exp como Fw. 
+Matin_Harnik (lib) ha bajado -130 pts de exp como Fw. 
+F_Llorente (lib) ha bajado -130 pts de exp como Fw. 
+Aduriz (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+Choupo-Moting (lib) ha bajado -80 pts de exp como Fw. 
+K-J_Huntelaar (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+M_Braithwaite (lib) ha bajado -80 pts de exp como Fw. 
+Luis_Muriel (lib) ha ganado 0 pts de exp como Fw. 
+Josip_Drmic (lib) ha ganado 0 pts de exp como Fw. 
+Joãozinho (lib) ha bajado -80 pts de exp como Fw. 
+Burak_Yilmaz (lib) ha bajado -130 pts de exp como Fw. 
+R_Soldado (lib) ha bajado -130 pts de exp como Fw. 
+Diego_Rolán (lib) ha ganado 0 pts de exp como Fw. 
+Felipe_Pardo (lib) ha bajado -80 pts de exp como Fw. 
+K_Toko_Ekambi (lib) ha ganado 0 pts de exp como Fw. 
+Adrián_Ramos (lib) ha bajado -130 pts de exp como Fw. 
+B_Moukandjo (lib) ha bajado -80 pts de exp como Fw. 
+Zoran_Tosic (lib) ha bajado -130 pts de exp como Fw. 
+L_Pavoletti (lib) ha bajado -80 pts de exp como Fw. 
+M_Philipp (lib) ha ganado 0 pts de exp como Fw. 
+G_Fetfatzidis (lib) ha bajado -80 pts de exp como Fw. 
+Éder (lib) ha bajado -130 pts de exp como Fw. 
+Y_Poulsen (lib) ha ganado 0 pts de exp como Fw. 
+L_Markovic (lib) ha ganado 0 pts de exp como Fw. 
+Sandro (lib) ha subido 40 pts de exp como Fw. 
+L_Narsingh (lib) ha bajado -80 pts de exp como Fw. 
+Sam_Larsson (lib) ha ganado 0 pts de exp como Fw. 
+Eljero_Elia (lib) ha bajado -130 pts de exp como Fw. 
+Diogo_Jota (lib) ha subido 20 pts de exp como Fw. 
+Derdiyok (lib) ha bajado -80 pts de exp como Fw. 
+Adrián_López (lib) ha bajado -130 pts de exp como Fw. 
+Riad_Bajic (lib) ha ganado 0 pts de exp como Fw. 
+Vitinho (lib) ha ganado 0 pts de exp como Fw. 
+A_Mitrovic (lib) ha subido 20 pts de exp como Fw. 
+R_Kishna (lib) ha subido 20 pts de exp como Fw. 
+Pione_Sisto (lib) ha subido 20 pts de exp como Fw. 
+Enes_Ünal (lib) ha subido 20 pts de exp como Fw. 
+Rui_Fonte (lib) ha bajado -80 pts de exp como Fw. 
+Serdar_Gürler (lib) ha bajado -80 pts de exp como Fw. 
+V_Fischer (lib) ha ganado 0 pts de exp como Fw. 
+Marc_Janko (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+F_Ferreyra (lib) ha ganado 0 pts de exp como Fw. 
+Giovanni_Sio (lib) ha bajado -80 pts de exp como Fw. 
+Takashi_Usami (lib) ha ganado 0 pts de exp como Fw. 
+Artem_Kravets (lib) ha bajado -80 pts de exp como Fw. 
+J_Kodjia (lib) ha bajado -80 pts de exp como Fw. 
+Rubén_Castro (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+M_Cauteruccio (lib) ha bajado -130 pts de exp como Fw. 
+A_El_Ghazi (lib) ha subido 20 pts de exp como Fw. 
+Volkan_Sen (lib) ha bajado -130 pts de exp como Fw. 
+F_Djordjevic (lib) ha bajado -130 pts de exp como Fw. 
+Seferovic (lib) ha ganado 0 pts de exp como Fw. 
+Yuya_Kubo (lib) ha ganado 0 pts de exp como Fw. 
+Ermin_Zec (lib) ha bajado -130 pts de exp como Fw. 
+Sabin_Merino (lib) ha ganado 0 pts de exp como Fw. 
+Matías_Britos (lib) ha bajado -80 pts de exp como Fw. 
+A_Katai (lib) ha bajado -80 pts de exp como Fw. 
+R_Laborde (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+G_Carrillo (lib) ha ganado 0 pts de exp como Fw. 
+F_Soares (lib) ha bajado -80 pts de exp como Fw. 
+A_Gilardino (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Nabil_Dirar (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+N_Karelis (lib) ha ganado 0 pts de exp como Fw. 
+A_Prijovic (lib) ha bajado -80 pts de exp como Fw. 
+J_Biabiany (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+G_Burgstaller (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+J_Fernándes (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+F_Uribe (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+F_Di_Santo (lib) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+Olcay_Sahan (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+M_Dembélé (lib) ha subido 20 pts de exp como Fw. Subiendo 1 media como Fw.
+F_Totti (lib) ha bajado -840 pts de exp como Fw. 
+Santi_García (lib) ha bajado -80 pts de exp como Fw. 
+Ola_Toivonen (lib) ha bajado -130 pts de exp como Fw. 
+A_Petagna (lib) ha subido 20 pts de exp como Fw. 
+Stipe_Perica (lib) ha subido 20 pts de exp como Fw. 
+S_Plavsic (lib) ha subido 20 pts de exp como Fw. 
+E_Triverio (lib) ha bajado -80 pts de exp como Fw. 
+Sam_Vokes (lib) ha bajado -80 pts de exp como Fw. 
+Junya_Ito (lib) ha ganado 0 pts de exp como Fw. 
+L_Hinterseer (lib) ha bajado -80 pts de exp como Fw. 
+E_Ponce (lib) ha subido 40 pts de exp como Fw. 
+S_Schrijvers (lib) ha subido 20 pts de exp como Fw. 
+C_D_Quintero (lib) ha bajado -130 pts de exp como Fw. 
+Mu_Kanazaki (lib) ha bajado -80 pts de exp como Fw. 
+Ivan_Santini (lib) ha bajado -80 pts de exp como Fw. 
+M_Scepovic (lib) ha subido 20 pts de exp como Fw. 
+Robert_Zulj (lib) ha ganado 0 pts de exp como Fw. 
+Yu_Kobayashi (lib) ha bajado -130 pts de exp como Fw. 
+Amin_Younes (lib) ha ganado 0 pts de exp como Fw. 
+T_Minamino (lib) ha subido 20 pts de exp como Fw. 
+Artur_Sobiech (lib) ha bajado -80 pts de exp como Fw. 
+S_Armenteros (lib) ha bajado -80 pts de exp como Fw. 
+B_Hrgota (lib) ha ganado 0 pts de exp como Fw. 
+Jordon_Ibe (lib) ha subido 20 pts de exp como Fw. 
+Nabil_Ghilas (lib) ha bajado -80 pts de exp como Fw. 
+Paulinho_S (lib) ha bajado -130 pts de exp como Fw. 
+S_Khelifi (lib) ha ganado 0 pts de exp como Fw. 
+Ashley_Barnes (lib) ha bajado -80 pts de exp como Fw. 
+S_Scepovic (lib) ha bajado -80 pts de exp como Fw. 
+Alex_Gerndt (lib) ha bajado -130 pts de exp como Fw. 
+F_Martínez (lib) ha bajado -80 pts de exp como Fw. 
+M_Le_Bihan (lib) ha bajado -80 pts de exp como Fw. 
+M_Stepinski (lib) ha subido 20 pts de exp como Fw. 
+Emerson_Sheik (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+P_Hosiner (lib) ha bajado -80 pts de exp como Fw. 
+Shinzo_Koroki (lib) ha bajado -130 pts de exp como Fw. 
+Takuma_Asano (lib) ha subido 20 pts de exp como Fw. 
+Uffe_Bech (lib) ha ganado 0 pts de exp como Fw. 
+A_Weimann (lib) ha ganado 0 pts de exp como Fw. 
+Cyriac (lib) ha bajado -80 pts de exp como Fw. 
+C_Quintero (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+Ante_Rebic (lib) ha ganado 0 pts de exp como Fw. 
+E_Herrera (lib) ha bajado -80 pts de exp como Fw. 
+Luka_Jovic (lib) ha subido 40 pts de exp como Fw. 
+C_Aravidis (lib) ha bajado -130 pts de exp como Fw. 
+James_Wilson (lib) ha subido 20 pts de exp como Fw. 
+A_Besiedin (lib) ha subido 20 pts de exp como Fw. 
+N_Ninkovic (lib) ha subido 20 pts de exp como Fw. 
+R_Yaremchuk (lib) ha subido 20 pts de exp como Fw. 
+A_Donis (lib) ha subido 20 pts de exp como Fw. 
+David_Neres (lib) ha subido 20 pts de exp como Fw. 
+C_Nyman (lib) ha ganado 0 pts de exp como Fw. 
+Ante_Budimir (lib) ha ganado 0 pts de exp como Fw. 
+C_Kouakou (lib) ha bajado -80 pts de exp como Fw. 
+Zoran_Kvrzic (lib) ha bajado -130 pts de exp como Fw. 
+C_Pizarro (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+Joao_Rojas (lib) ha bajado -80 pts de exp como Fw. 
+Roman_Zozulya (lib) ha bajado -80 pts de exp como Fw. 
+Obbi_Oulare (lib) ha subido 20 pts de exp como Fw. 
+Ivan_Saponjic (lib) ha subido 20 pts de exp como Fw. 
+A_Armstrong (lib) ha subido 20 pts de exp como Fw. 
+Mike_Havenaar (lib) ha bajado -130 pts de exp como Fw. 
+Junior_Tallo (lib) ha ganado 0 pts de exp como Fw. 
+A_Vellios (lib) ha ganado 0 pts de exp como Fw. 
+Kensuke_Nagai (lib) ha bajado -80 pts de exp como Fw. 
+Michael_Frey (lib) ha subido 20 pts de exp como Fw. 
+Yaya_Sanogo (lib) ha ganado 0 pts de exp como Fw. 
+L_Ulloa (lib) ha bajado -130 pts de exp como Fw. 
+K_Watanabe (lib) ha bajado -130 pts de exp como Fw. 
+Chris_Bedia (lib) ha subido 20 pts de exp como Fw. 
+G_Giakoumakis (lib) ha subido 20 pts de exp como Fw. 
+Dudu (lib) ha ganado 0 pts de exp como Fw. 
+R_Palacio (lib) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+Tom_Bradshaw (lib) ha ganado 0 pts de exp como Fw. 
+Roman_Buess (lib) ha ganado 0 pts de exp como Fw. 
+N_Bilbija (lib) ha bajado -80 pts de exp como Fw. 
+R_Orsolini (lib) ha subido 20 pts de exp como Fw. 
+S_Srnic (lib) ha ganado 0 pts de exp como Fw. 
+J_Mesanovic (lib) ha ganado 0 pts de exp como Fw. 
+Ismaïla_Sarr (lib) ha subido 40 pts de exp como Fw. 
+Albian_Ajeti (lib) ha subido 20 pts de exp como Fw. 
+Milan_Djuric (lib) ha bajado -80 pts de exp como Fw. 
+Idir_Ouali (lib) ha bajado -130 pts de exp como Fw. 
+Hiroaki_Okuno (lib) ha bajado -80 pts de exp como Fw. 
+Beto_da_Silva (lib) ha subido 20 pts de exp como Fw. 
+N_M_Ngamaleu (lib) ha ganado 0 pts de exp como Fw. 
+Loris_Brogno (lib) ha ganado 0 pts de exp como Fw. 
+Ryo_Miyaichi (lib) ha ganado 0 pts de exp como Fw. 
+O_Berrío (lib) ha bajado -80 pts de exp como Fw. 
+Pablo_Cuadra (lib) ha subido 20 pts de exp como Fw. 
+Yohei_Toyoda (lib) ha bajado -130 pts de exp como Fw. Bajando 1 media como Fw.
+M_Cassierra (lib) ha subido 40 pts de exp como Fw. 
+M_Rosenberg (lib) ha bajado -800 pts de exp como Fw. 
+Y_Asprilla (lib) ha ganado 0 pts de exp como Fw. 
+H_Robson-Kanu (lib) ha bajado -80 pts de exp como Fw. 
+Irven_Ávila (lib) ha bajado -80 pts de exp como Fw. 
+Germán_Denis (lib) ha bajado -800 pts de exp como Fw. 
+D_Limnios (lib) ha subido 40 pts de exp como Fw. 
+Steve_Morison (lib) ha bajado -800 pts de exp como Fw. 
+Pelle_Clement (lib) ha subido 20 pts de exp como Fw. 
+M_Larrondo (lib) ha bajado -130 pts de exp como Fw. 
+Hiroki_Kawano (lib) ha bajado -80 pts de exp como Fw. 
+Demarai_Gray (lib) ha subido 20 pts de exp como Fw. 
+T_Kanamori (lib) ha ganado 0 pts de exp como Fw. 
+Tadanari_Lee (lib) ha bajado -130 pts de exp como Fw. 
+Maicosuel (lib) ha bajado -130 pts de exp como Fw. 
+T_Miyayoshi (lib) ha ganado 0 pts de exp como Fw. 
+Kazuya_Murata (lib) ha bajado -130 pts de exp como Fw. 
+J_Kusukami (lib) ha bajado -130 pts de exp como Fw. 
+Jhon_Cifuente (lib) ha ganado 0 pts de exp como Fw. 
+Omar_Islas (lib) ha subido 20 pts de exp como Fw. 
+V_Marcel (lib) ha subido 40 pts de exp como Fw. 
+Carlos_Garcés (lib) ha bajado -80 pts de exp como Fw. 
+J_Villamarín (lib) ha ganado 0 pts de exp como Fw. 
+Diego_Barrón (lib) ha subido 20 pts de exp como Fw. 
+Bassem_Srarfi (lib) ha subido 40 pts de exp como Fw. 
+T_Takagi (lib) ha bajado -80 pts de exp como Fw. 
+Paolo_Yrizar (lib) ha subido 40 pts de exp como Fw. 
+Lean_Benegas (lib) ha bajado -130 pts de exp como Fw. 
+Jean-A_Drolé (lib) ha subido 20 pts de exp como Fw. 
+Felipe_Vizeu (lib) ha subido 20 pts de exp como Fw. 
+A_Stevanovic (lib) ha bajado -80 pts de exp como Fw. 
+J_C_Fernández (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Nico_Guerra (lib) ha subido 40 pts de exp como Fw. 
+B_Constant (lib) ha ganado 0 pts de exp como Fw. 
+G_Torres (lib) ha subido 20 pts de exp como Fw. 
+Lincoln (lib) ha subido 40 pts de exp como Fw. 
+W_Aguirre (lib) ha bajado -800 pts de exp como Fw. Bajando 1 media como Fw.
+Diego_Coelho (lib) ha subido 20 pts de exp como Fw. 
+Matheus_M (lib) ha subido 40 pts de exp como Fw. Subiendo 1 media como Fw.
+Vico (lib) ha subido 20 pts de exp como Fw. 
+A_Rabillard (lib) ha subido 20 pts de exp como Fw. 
+M_Cipriano (lib) ha subido 40 pts de exp como Fw. 
+Ben_Spencer (lib) ha subido 20 pts de exp como Fw. 
+G_Bissoli (lib) ha subido 40 pts de exp como Fw. 
+M_Quintanilla (lib) ha subido 20 pts de exp como Fw. 
+A_Lassiter (lib) ha ganado 0 pts de exp como Fw. 
+J_Hamilton (lib) ha subido 20 pts de exp como Fw. 
+B_Jamieson_IV (lib) ha subido 20 pts de exp como Fw. 
+K_Ferreyra (lib) ha subido 40 pts de exp como Fw. 
+Lucas_Poletto (lib) ha subido 20 pts de exp como Fw. 
+Ricardo_Marín (lib) ha subido 40 pts de exp como Fw. 
+David_de_Gea (liv) ha subido 80 pts de exp como Gk. 
+S_Mignolet (liv) ha bajado -130 pts de exp como Gk. 
+N_Clyne (liv) ha subido 40 pts de exp como Df. 
+Dejan_Lovren (liv) ha subido 20 pts de exp como Df. 
+A_Valencia (liv) ha bajado -50 pts de exp como Df. 
+Raúl_Albiol (liv) ha bajado -50 pts de exp como Df. 
+Mamadou_Sakho (liv) ha ganado 0 pts de exp como Df. 
+Glen_Johnson (liv) ha bajado -80 pts de exp como Df. 
+Joe_Gomez (liv) ha subido 120 pts de exp como Df. 
+Lucas_Leiva (liv) ha bajado -50 pts de exp como Mf. 
+Ivan_Rakitic (liv) ha bajado -20 pts de exp como Mf. 
+C_Marchisio (liv) ha bajado -50 pts de exp como Mf. 
+J_Henderson (liv) ha ganado 0 pts de exp como Mf. 
+James_Milner (liv) ha bajado -50 pts de exp como Mf. 
+Marko_Grujic (liv) ha subido 20 pts de exp como Mf. 
+Oscar (liv) ha subido 40 pts de exp como Mf. 
+Adam_Lallana (liv) ha ganado 0 pts de exp como Mf. 
+Sheyi_Ojo (liv) ha subido 40 pts de exp como Mf. 
+Harry_Kane (liv) ha subido 60 pts de exp como Fw. 
+Álvaro_Morata (liv) ha subido 40 pts de exp como Fw. 
+D_Sturridge (liv) ha ganado 0 pts de exp como Fw. 
+Leo_Baptistão (liv) ha ganado 0 pts de exp como Fw. 
+Divock_Origi (liv) ha subido 20 pts de exp como Fw. 
+Anthony_Lopes (lyo) ha subido 40 pts de exp como Gk. 
+C_Toselli (lyo) ha bajado -80 pts de exp como Gk. 
+M_Gorgelin (lyo) ha bajado -80 pts de exp como Gk. 
+Lucas_Mocio (lyo) ha subido 20 pts de exp como Gk. 
+A_Christensen (lyo) ha subido 60 pts de exp como Df. 
+J_Vestergaard (lyo) ha subido 20 pts de exp como Df. 
+Rafael_P (lyo) ha bajado -40 pts de exp como Df. 
+Issa_Diop (lyo) ha subido 40 pts de exp como Df. 
+E_Mammana (lyo) ha subido 40 pts de exp como Df. 
+C_Jallet (lyo) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Maciej_Rybus (lyo) ha bajado -40 pts de exp como Df. 
+M_Yanga-Mbiwa (lyo) ha bajado -40 pts de exp como Df. 
+M_Diakhaby (lyo) ha subido 20 pts de exp como Df. 
+Jérémy_Morel (lyo) ha bajado -130 pts de exp como Df. 
+Jordy_Gaspar (lyo) ha subido 40 pts de exp como Df. 
+T_Ndombèlé (lyo) ha subido 40 pts de exp como Mf. 
+M_Gonalons (lyo) ha bajado -80 pts de exp como Mf. 
+Lucas_Tousart (lyo) ha subido 40 pts de exp como Mf. 
+M_Kranevitter (lyo) ha subido 20 pts de exp como Mf. 
+C_Tolisso (lyo) ha subido 40 pts de exp como Mf. 
+Houssem_Aouar (lyo) ha subido 80 pts de exp como Mf. 
+F_Anderson (lyo) ha subido 20 pts de exp como Mf. 
+Nabil_Fekir (lyo) ha subido 40 pts de exp como Mf. 
+Bernard (lyo) ha subido 20 pts de exp como Mf. 
+M_Valbuena (lyo) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+A_Lacazette (lyo) ha subido 20 pts de exp como Fw. 
+A_Martial (lyo) ha subido 40 pts de exp como Fw. 
+Memphis_Depay (lyo) ha subido 20 pts de exp como Fw. 
+Maxwel_Cornet (lyo) ha subido 40 pts de exp como Fw. 
+R_Ghezzal (lyo) ha ganado 0 pts de exp como Fw. 
+Gaëtan_Perrin (lyo) ha subido 20 pts de exp como Fw. 
+J-P_Mateta (lyo) ha subido 40 pts de exp como Fw. 
+Mattia_Perin (mci) ha subido 70 pts de exp como Gk. 
+W_Caballero (mci) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Angus_Gunn (mci) ha subido 20 pts de exp como Gk. 
+N_Otamendi (mci) ha bajado -20 pts de exp como Df. 
+Kyle_Walker (mci) ha subido 20 pts de exp como Df. 
+P_Zabaleta (mci) ha bajado -20 pts de exp como Df. Bajando 1 media como Df.
+John_Stones (mci) ha subido 80 pts de exp como Df. Subiendo 1 media como Df.
+A_Grimaldo (mci) ha subido 80 pts de exp como Df. 
+Rúben_Semedo (mci) ha subido 40 pts de exp como Df. 
+Bacary_Sagna (mci) ha bajado -710 pts de exp como Df. 
+S_Kolasinac (mci) ha subido 60 pts de exp como Df. 
+Johannes_Geis (mci) ha subido 60 pts de exp como Mf. 
+D_Amartey (mci) ha subido 40 pts de exp como Mf. 
+Marek_Hamsik (mci) ha bajado -20 pts de exp como Mf. 
+Yaya_Touré (mci) ha bajado -680 pts de exp como Mf. 
+J_Kimmich (mci) ha subido 60 pts de exp como Mf. 
+Marco_Benassi (mci) ha subido 60 pts de exp como Mf. 
+Lucas (mci) ha subido 40 pts de exp como Mf. 
+Max_Meyer (mci) ha subido 40 pts de exp como Mf. 
+L_Insigne (mci) ha subido 60 pts de exp como Fw. 
+R_Sterling (mci) ha subido 80 pts de exp como Fw. 
+M_Rashford (mci) ha subido 120 pts de exp como Fw. 
+Santi_Mina (mci) ha subido 60 pts de exp como Fw. 
+M_Gómez (mci) ha subido 60 pts de exp como Fw. Subiendo 1 media como Fw.
+G_Donnarumma (mil) ha subido 240 pts de exp como Gk. Subiendo 1 media como Gk.
+Pedro_Gallese (mil) ha bajado -80 pts de exp como Gk. 
+A_Plizzari (mil) ha subido 40 pts de exp como Gk. 
+J_Boateng (mil) ha subido 20 pts de exp como Df. 
+Thiago_Silva (mil) ha bajado -20 pts de exp como Df. 
+L_Bonucci (mil) ha bajado -80 pts de exp como Df. 
+R_Rodríguez (mil) ha subido 60 pts de exp como Df. 
+A_Romagnoli (mil) ha subido 40 pts de exp como Df. 
+Dani_Alves (mil) ha bajado -710 pts de exp como Df. Bajando 1 media como Df.
+M_Darmian (mil) ha ganado 0 pts de exp como Df. 
+Atsuto_Uchida (mil) ha bajado -130 pts de exp como Df. 
+Yuto_Nagatomo (mil) ha bajado -50 pts de exp como Df. 
+D_Calabria (mil) ha subido 20 pts de exp como Df. 
+D_De_Rossi (mil) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+M_Locatelli (mil) ha subido 80 pts de exp como Mf. 
+M_Verratti (mil) ha subido 40 pts de exp como Mf. 
+B_Matuidi (mil) ha bajado -20 pts de exp como Mf. 
+G_Bonaventura (mil) ha subido 20 pts de exp como Mf. 
+Douglas_Costa (mil) ha subido 20 pts de exp como Mf. 
+Shinji_Kagawa (mil) ha ganado 0 pts de exp como Mf. 
+K-P_Boateng (mil) ha bajado -80 pts de exp como Mf. 
+Keisuke_Honda (mil) ha bajado -130 pts de exp como Mf. 
+Z_Ibrahimovic (mil) ha bajado -710 pts de exp como Fw. Bajando 1 media como Fw.
+Suso (mil) ha subido 60 pts de exp como Fw. 
+Samuel_Eto'o (mil) ha bajado -760 pts de exp como Fw. Bajando 1 media como Fw.
+A_Carrillo (mil) ha subido 40 pts de exp como Fw. 
+S_Okazaki (mil) ha bajado -130 pts de exp como Fw. 
+P_Cutrone (mil) ha subido 40 pts de exp como Fw. 
+Sergio_Rico (mun) ha subido 60 pts de exp como Gk. 
+David_Ospina (mun) ha bajado -80 pts de exp como Gk. 
+Rafael (mun) ha bajado -80 pts de exp como Gk. 
+Eric_Bailly (mun) ha subido 60 pts de exp como Df. 
+Alex_Sandro (mun) ha ganado 0 pts de exp como Df. 
+Serge_Aurier (mun) ha subido 40 pts de exp como Df. 
+Niklas_Süle (mun) ha subido 60 pts de exp como Df. 
+D_Sánchez (mun) ha subido 60 pts de exp como Df. 
+João_Cancelo (mun) ha subido 40 pts de exp como Df. 
+Danilo (mun) ha subido 20 pts de exp como Df. Subiendo 1 media como Df.
+Dória (mun) ha subido 40 pts de exp como Df. 
+Nemanja_Matic (mun) ha ganado 0 pts de exp como Mf. 
+N'Golo_Kanté (mun) ha ganado 0 pts de exp como Mf. 
+A_Iniesta (mun) ha bajado -50 pts de exp como Mf. 
+Thiago (mun) ha subido 60 pts de exp como Mf. 
+Eden_Hazard (mun) ha ganado 0 pts de exp como Mf. 
+J_Rodríguez (mun) ha subido 40 pts de exp como Mf. 
+Juan_Cuadrado (mun) ha ganado 0 pts de exp como Mf. 
+JF_Quintero (mun) ha subido 20 pts de exp como Mf. 
+Neymar (mun) ha subido 40 pts de exp como Fw. 
+Dries_Mertens (mun) ha bajado -20 pts de exp como Fw. 
+Falcao (mun) ha bajado -50 pts de exp como Fw. 
+Mauro_Icardi (mun) ha subido 20 pts de exp como Fw. 
+M_Andújar (nac) ha bajado -650 pts de exp como Gk. 
+Esteban_Conde (nac) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+M_Caceres (nac) ha bajado -50 pts de exp como Df. 
+Gonzalo_Jara (nac) ha bajado -50 pts de exp como Df. 
+J_C_Paredes (nac) ha bajado -50 pts de exp como Df. Bajando 1 media como Df.
+R_Erramuspe (nac) ha bajado -40 pts de exp como Df. 
+A_Espino (nac) ha subido 20 pts de exp como Df. 
+Gino_Peruzzi (nac) ha subido 20 pts de exp como Df. 
+Alexis_Rolín (nac) ha bajado -40 pts de exp como Df. 
+Agustín_Rogel (nac) ha subido 40 pts de exp como Df. 
+D_Arismendi (nac) ha bajado -80 pts de exp como Mf. 
+C_Oliva (nac) ha subido 40 pts de exp como Mf. 
+Seba_Prediger (nac) ha bajado -80 pts de exp como Mf. 
+Tata_González (nac) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+Seb_Rodríguez (nac) ha subido 20 pts de exp como Mf. 
+Sant_Romero (nac) ha bajado -80 pts de exp como Mf. 
+Tabaré_Viúdez (nac) ha bajado -40 pts de exp como Mf. 
+Lea_Barcia (nac) ha ganado 0 pts de exp como Mf. 
+Alex_Müller (nac) ha subido 20 pts de exp como Mf. 
+Viruta_Vera (nac) ha bajado -50 pts de exp como Fw. 
+Mudo_Vázquez (nac) ha ganado 0 pts de exp como Fw. 
+Seb_Fernández (nac) ha bajado -80 pts de exp como Fw. 
+G_Bergessio (nac) ha bajado -760 pts de exp como Fw. Bajando 1 media como Fw.
+C_de_Pena (nac) ha ganado 0 pts de exp como Fw. 
+Manuel_Neuer (nap) ha subido 40 pts de exp como Gk. 
+S_Scuffet (nap) ha subido 20 pts de exp como Gk. 
+Lichtsteiner (nap) ha bajado -680 pts de exp como Df. Bajando 1 media como Df.
+Luke_Shaw (nap) ha subido 80 pts de exp como Df. 
+Iñigo_Mtnez (nap) ha subido 60 pts de exp como Df. 
+M_Nastasic (nap) ha subido 40 pts de exp como Df. 
+Rick_Karsdorp (nap) ha subido 80 pts de exp como Df. 
+P_Kimpembe (nap) ha subido 60 pts de exp como Df. 
+Rúben_Dias (nap) ha subido 40 pts de exp como Df. 
+Andrea_Raggi (nap) ha bajado -130 pts de exp como Df. 
+W_Carvalho (nap) ha subido 60 pts de exp como Mf. 
+Fernando (nap) ha bajado -50 pts de exp como Mf. 
+Rúben_Neves (nap) ha subido 40 pts de exp como Mf. 
+I_Gündogan (nap) ha subido 20 pts de exp como Mf. 
+Aaron_Ramsey (nap) ha subido 20 pts de exp como Mf. 
+L_Paredes (nap) ha subido 80 pts de exp como Mf. 
+N_Bentaleb (nap) ha subido 60 pts de exp como Mf. 
+R_Bazoer (nap) ha subido 20 pts de exp como Mf. 
+H_Mkhitaryan (nap) ha ganado 0 pts de exp como Mf. 
+O-Chamberlain (nap) ha subido 40 pts de exp como Mf. 
+Luis_Suárez (nap) ha bajado -20 pts de exp como Fw. 
+Gabriel_Jesus (nap) ha subido 120 pts de exp como Fw. 
+J_Locadia (nap) ha subido 40 pts de exp como Fw. 
+Y_Cardinale (nic) ha subido 70 pts de exp como Gk. 
+W_Benítez (nic) ha ganado 0 pts de exp como Gk. 
+F_Escales (nic) ha subido 20 pts de exp como Gk. 
+Nélson_Semedo (nic) ha subido 60 pts de exp como Df. 
+Lucas_Digne (nic) ha subido 60 pts de exp como Df. 
+Jetro_Willems (nic) ha subido 60 pts de exp como Df. 
+R_Pereira (nic) ha subido 60 pts de exp como Df. 
+Dalbert (nic) ha subido 60 pts de exp como Df. 
+Gaël_Clichy (nic) ha bajado -20 pts de exp como Df. 
+Paul_Baysse (nic) ha subido 20 pts de exp como Df. 
+P_Burner (nic) ha subido 40 pts de exp como Df. 
+G_Kondogbia (nic) ha subido 60 pts de exp como Mf. 
+Onyinye_Ndidi (nic) ha subido 80 pts de exp como Mf. 
+Alexis_Blin (nic) ha subido 80 pts de exp como Mf. 
+Jean_M_Seri (nic) ha subido 60 pts de exp como Mf. 
+V_Koziello (nic) ha subido 60 pts de exp como Mf. 
+K_De_Bruyne (nic) ha subido 60 pts de exp como Mf. 
+D_Caligiuri (nic) ha bajado -130 pts de exp como Mf. Bajando 1 media como Mf.
+A_Lusamba (nic) ha subido 40 pts de exp como Mf. 
+H_Lozano (nic) ha subido 80 pts de exp como Fw. 
+G_Guedes (nic) ha subido 40 pts de exp como Fw. 
+H_Onyekuru (nic) ha subido 40 pts de exp como Fw. 
+Alexy_Bosetti (nic) ha ganado 0 pts de exp como Fw. 
+Sean_Johnson (nyc) ha subido 20 pts de exp como Gk. 
+Brad_Stuver (nyc) ha bajado -80 pts de exp como Gk. 
+Jeff_Caldwell (nyc) ha subido 20 pts de exp como Gk. 
+A_Tinnerholm (nyc) ha ganado 0 pts de exp como Df. 
+Maxime_Chanot (nyc) ha subido 20 pts de exp como Df. 
+Abdul-Salaam (nyc) ha ganado 0 pts de exp como Df. 
+C_Hountondji (nyc) ha subido 20 pts de exp como Df. 
+R_Matarrita (nyc) ha subido 40 pts de exp como Df. 
+A_Callens (nyc) ha subido 20 pts de exp como Df. 
+S_Ibeagha (nyc) ha ganado 0 pts de exp como Df. 
+Ben_Sweat (nyc) ha bajado -80 pts de exp como Df. 
+M_Bradley (nyc) ha bajado -20 pts de exp como Mf. 
+Y_Herrera (nyc) ha subido 120 pts de exp como Mf. 
+James_Sands (nyc) ha subido 40 pts de exp como Mf. 
+Alex_Ring (nyc) ha subido 20 pts de exp como Mf. 
+Kwame_Awuah (nyc) ha subido 40 pts de exp como Mf. 
+Maxi_Moralez (nyc) ha bajado -50 pts de exp como Mf. 
+Jesús_Medina (nyc) ha subido 40 pts de exp como Mf. 
+T_McNamara (nyc) ha bajado -80 pts de exp como Mf. 
+David_Villa (nyc) ha bajado -710 pts de exp como Fw. Bajando 1 media como Fw.
+JoInge_Berget (nyc) ha ganado 0 pts de exp como Fw. 
+R_Wallace (nyc) ha bajado -80 pts de exp como Fw. 
+TajouriShradi (nyc) ha ganado 0 pts de exp como Fw. 
+J_Lewis (nyc) ha subido 20 pts de exp como Fw. 
+Arrizabalaga (oma) ha subido 100 pts de exp como Gk. 
+Yohann_Pelé (oma) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Brice_Samba (oma) ha subido 20 pts de exp como Gk. 
+Hiroki_Sakai (oma) ha subido 20 pts de exp como Df. 
+Rolando (oma) ha bajado -20 pts de exp como Df. 
+Jesús_Vallejo (oma) ha subido 40 pts de exp como Df. 
+C_Lenglet (oma) ha subido 60 pts de exp como Df. 
+Karim_Rekik (oma) ha subido 60 pts de exp como Df. 
+Ben_Chilwell (oma) ha subido 40 pts de exp como Df. 
+Pedro_Pereira (oma) ha subido 80 pts de exp como Df. 
+C_C-Vickers (oma) ha subido 40 pts de exp como Df. 
+W_Vainqueur (oma) ha ganado 0 pts de exp como Mf. 
+A_Z_Anguissa (oma) ha subido 60 pts de exp como Mf. 
+R_Mandragora (oma) ha subido 80 pts de exp como Mf. 
+Morgan_Sanson (oma) ha subido 60 pts de exp como Mf. 
+Maxime_López (oma) ha subido 80 pts de exp como Mf. 
+Marc_Roca (oma) ha subido 20 pts de exp como Mf. 
+Z_Machach (oma) ha subido 20 pts de exp como Mf. 
+Dimitri_Payet (oma) ha bajado -50 pts de exp como Mf. 
+J_Correa (oma) ha subido 60 pts de exp como Mf. Subiendo 1 media como Mf.
+S-E_Khaoui (oma) ha subido 20 pts de exp como Mf. 
+F_Thauvin (oma) ha subido 60 pts de exp como Fw. 
+B_Gomis (oma) ha bajado -50 pts de exp como Fw. 
+Richarlison (oma) ha subido 40 pts de exp como Fw. 
+Clinton_N'Jie (oma) ha subido 20 pts de exp como Fw. 
+A_L_Iseka (oma) ha subido 40 pts de exp como Fw. 
+G_Rulli (opo) ha subido 80 pts de exp como Gk. 
+Iker_Casillas (opo) ha bajado -840 pts de exp como Gk. Bajando 1 media como Gk.
+José_Sá (opo) ha ganado 0 pts de exp como Gk. 
+Pepe (opo) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Sebas_Coates (opo) ha ganado 0 pts de exp como Df. 
+N_Maksimovic (opo) ha subido 40 pts de exp como Df. 
+Felipe (opo) ha bajado -40 pts de exp como Df. 
+Alex_Telles (opo) ha subido 40 pts de exp como Df. 
+D_Zappacosta (opo) ha subido 20 pts de exp como Df. 
+Maxi_Pereira (opo) ha bajado -80 pts de exp como Df. 
+Rafinha (opo) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+N_Radoja (opo) ha subido 40 pts de exp como Mf. 
+Miguel_Veloso (opo) ha bajado -50 pts de exp como Mf. 
+Xabi_Alonso (opo) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+H_Herrera (opo) ha ganado 0 pts de exp como Mf. 
+André_André (opo) ha ganado 0 pts de exp como Mf. 
+F_Melegoni (opo) ha subido 80 pts de exp como Mf. Subiendo 1 media como Mf.
+Denis_Suárez (opo) ha subido 20 pts de exp como Mf. 
+Otávio (opo) ha subido 40 pts de exp como Mf. 
+E_Cavani (opo) ha bajado -50 pts de exp como Fw. Bajando 1 media como Fw.
+M_Mandzukic (opo) ha bajado -50 pts de exp como Fw. 
+Wayne_Rooney (opo) ha bajado -80 pts de exp como Fw. 
+Y_Brahimi (opo) ha bajado -40 pts de exp como Fw. 
+Paco_Alcácer (opo) ha ganado 0 pts de exp como Fw. 
+Kevin_Dawson (pnl) ha subido 60 pts de exp como Gk. 
+A_Freitas (pnl) ha subido 20 pts de exp como Gk. 
+T_Cardozo (pnl) ha subido 20 pts de exp como Gk. 
+F_Formiliano (pnl) ha subido 40 pts de exp como Df. 
+Ramón_Arias (pnl) ha subido 40 pts de exp como Df. 
+Guille_Varela (pnl) ha subido 60 pts de exp como Df. 
+Luciano_Lollo (pnl) ha bajado -20 pts de exp como Df. 
+Rodrigo_Rojo (pnl) ha bajado -40 pts de exp como Df. 
+M_Corujo (pnl) ha bajado -80 pts de exp como Df. 
+R_Miller (pnl) ha ganado 0 pts de exp como Df. 
+Luc_Hernández (pnl) ha ganado 0 pts de exp como Df. 
+W_Gargano (pnl) ha bajado -710 pts de exp como Mf. 
+Marcel_Novick (pnl) ha bajado -760 pts de exp como Mf. Bajando 1 media como Mf.
+G_Pereira (pnl) ha bajado -80 pts de exp como Mf. 
+S_Cristóforo (pnl) ha subido 60 pts de exp como Mf. 
+Luis_Aguiar (pnl) ha bajado -80 pts de exp como Mf. 
+F_Martínez (pnl) ha subido 40 pts de exp como Mf. Subiendo 1 media como Mf.
+M_Rodríguez (pnl) ha bajado -760 pts de exp como Mf. Bajando 1 media como Mf.
+Ceb_Rodríguez (pnl) ha bajado -80 pts de exp como Mf. 
+Matías_Moya (pnl) ha subido 40 pts de exp como Mf. 
+Gio_González (pnl) ha ganado 0 pts de exp como Mf. 
+Fid_Martínez (pnl) ha ganado 0 pts de exp como Fw. 
+Lucas_Viatri (pnl) ha bajado -50 pts de exp como Fw. Bajando 1 media como Fw.
+Rodrigo_Mora (pnl) ha bajado -20 pts de exp como Fw. 
+C_Palacios (pnl) ha bajado -40 pts de exp como Fw. 
+F_Estoyanoff (pnl) ha bajado -840 pts de exp como Fw. Bajando 1 media como Fw.
+B_Rodríguez (pnl) ha subido 40 pts de exp como Fw. 
+Kevin_Trapp (psg) ha subido 20 pts de exp como Gk. 
+Asmir_Begovic (psg) ha bajado -80 pts de exp como Gk. 
+David_Luiz (psg) ha bajado -50 pts de exp como Df. 
+V_Corluka (psg) ha bajado -50 pts de exp como Df. 
+G_Paletta (psg) ha bajado -50 pts de exp como Df. 
+D_Criscito (psg) ha bajado -50 pts de exp como Df. 
+L_López (psg) ha bajado -40 pts de exp como Df. 
+Gustavo_Gómez (psg) ha subido 20 pts de exp como Df. 
+C_Zapata (psg) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+Robert_Huth (psg) ha bajado -130 pts de exp como Df. 
+T_Vermaelen (psg) ha bajado -130 pts de exp como Df. Bajando 1 media como Df.
+Rémi_Walter (psg) ha subido 40 pts de exp como Mf. 
+Franck_Kessié (psg) ha subido 60 pts de exp como Mf. Subiendo 1 media como Mf.
+R_Montolivo (psg) ha bajado -130 pts de exp como Mf. 
+Santi_Cazorla (psg) ha bajado -50 pts de exp como Mf. 
+A_Florenzi (psg) ha bajado -40 pts de exp como Mf. 
+Axel_Witsel (psg) ha ganado 0 pts de exp como Mf. 
+K_Asamoah (psg) ha bajado -40 pts de exp como Mf. 
+Franck_Ribéry (psg) ha bajado -710 pts de exp como Mf. 
+J_Farfán (psg) ha bajado -80 pts de exp como Mf. 
+Jesse_Lingard (psg) ha ganado 0 pts de exp como Mf. 
+P_Aubameyang (psg) ha ganado 0 pts de exp como Fw. 
+O_Giroud (psg) ha bajado -80 pts de exp como Fw. 
+G_Deulofeu (psg) ha subido 40 pts de exp como Fw. 
+H_Ben_Arfa (psg) ha bajado -80 pts de exp como Fw. 
+Edin_Dzeko (psg) ha bajado -80 pts de exp como Fw. 
+Heung-Min_Son (psg) ha subido 20 pts de exp como Fw. 
+Alassane_Pléa (psg) ha ganado 0 pts de exp como Fw. 
+Jeroen_Zoet (psv) ha subido 80 pts de exp como Gk. 
+Remko_Pasveer (psv) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Hidde_Jurjus (psv) ha ganado 0 pts de exp como Gk. 
+Luuk_Koopmans (psv) ha ganado 0 pts de exp como Gk. 
+Medhi_Benatia (psv) ha bajado -80 pts de exp como Df. 
+T_Meunier (psv) ha subido 20 pts de exp como Df. 
+Isimat-Mirin (psv) ha subido 40 pts de exp como Df. 
+Joshua_Brenet (psv) ha subido 40 pts de exp como Df. 
+R_Bensebaini (psv) ha subido 60 pts de exp como Df. 
+A_Souquet (psv) ha subido 40 pts de exp como Df. 
+D_Schwaab (psv) ha bajado -40 pts de exp como Df. 
+Menno_Koch (psv) ha subido 40 pts de exp como Df. 
+S_Alberto (psv) ha subido 20 pts de exp como Df. 
+J_Hendrix (psv) ha subido 60 pts de exp como Mf. 
+Claudio_Gomes (psv) ha subido 40 pts de exp como Mf. 
+K_Strootman (psv) ha ganado 0 pts de exp como Mf. 
+Davy_Pröpper (psv) ha subido 40 pts de exp como Mf. 
+M_van_Ginkel (psv) ha subido 20 pts de exp como Mf. 
+B_Ramselaar (psv) ha subido 60 pts de exp como Mf. 
+Siem_de_Jong (psv) ha bajado -40 pts de exp como Mf. Bajando 1 media como Mf.
+O_Zinchenko (psv) ha subido 40 pts de exp como Mf. 
+R-P_Lundqvist (psv) ha subido 40 pts de exp como Mf. 
+Kenneth_Paal (psv) ha subido 40 pts de exp como Mf. 
+A_Milik (psv) ha subido 40 pts de exp como Fw. 
+Luuk_de_Jong (psv) ha bajado -40 pts de exp como Fw. 
+G_Pereiro (psv) ha subido 40 pts de exp como Fw. 
+F_Chiesa (psv) ha subido 20 pts de exp como Fw. 
+Z_Bakkali (psv) ha subido 20 pts de exp como Fw. 
+S_Bergwijn (psv) ha subido 40 pts de exp como Fw. 
+Sam_Lammers (psv) ha subido 40 pts de exp como Fw. 
+A_Saldívar (pum) ha subido 40 pts de exp como Gk. 
+B_Magaña (pum) ha ganado 0 pts de exp como Gk. 
+José_Castillo (pum) ha subido 20 pts de exp como Gk. 
+L_Advíncula (pum) ha ganado 0 pts de exp como Df. 
+A_Arribas (pum) ha ganado 0 pts de exp como Df. 
+G_Alcoba (pum) ha bajado -50 pts de exp como Df. 
+Luis_Fuentes (pum) ha bajado -50 pts de exp como Df. 
+J_van_Rankin (pum) ha subido 40 pts de exp como Df. 
+Luis_Quintana (pum) ha subido 20 pts de exp como Df. 
+Alan_Mozo (pum) ha subido 40 pts de exp como Df. 
+Rodrigo_Glez (pum) ha subido 40 pts de exp como Df. 
+Marcelo_Díaz (pum) ha bajado -20 pts de exp como Mf. 
+Y_Yotún (pum) ha subido 20 pts de exp como Mf. 
+David_Cabrera (pum) ha ganado 0 pts de exp como Mf. 
+J_Escamilla (pum) ha subido 40 pts de exp como Mf. 
+Raphinha (pum) ha subido 60 pts de exp como Mf. 
+Mauro_Formica (pum) ha bajado -130 pts de exp como Mf. 
+J_Gallardo (pum) ha subido 20 pts de exp como Mf. 
+B_Figueroa (pum) ha subido 40 pts de exp como Mf. 
+N_Castillo (pum) ha subido 60 pts de exp como Fw. 
+Pablo_Barrera (pum) ha bajado -80 pts de exp como Fw. 
+M_Alustiza (pum) ha bajado -760 pts de exp como Fw. Bajando 1 media como Fw.
+Érick_Torres (pum) ha ganado 0 pts de exp como Fw. 
+Bryan_Silva (pum) ha subido 40 pts de exp como Fw. 
+Alan_Acosta (pum) ha subido 20 pts de exp como Fw. 
+Juan_Musso (rac) ha subido 80 pts de exp como Gk. 
+Javier_García (rac) ha bajado -130 pts de exp como Gk. 
+Gastón_Gómez (rac) ha subido 20 pts de exp como Gk. 
+A_Donatti (rac) ha bajado -50 pts de exp como Df. 
+Lucas_Orbán (rac) ha ganado 0 pts de exp como Df. 
+L_Sigali (rac) ha bajado -80 pts de exp como Df. 
+Leandro_Grimi (rac) ha bajado -80 pts de exp como Df. 
+M_Barbieri (rac) ha ganado 0 pts de exp como Df. 
+Alexis_Soto (rac) ha ganado 0 pts de exp como Df. 
+Renzo_Saravia (rac) ha subido 20 pts de exp como Df. 
+Iván_Pillud (rac) ha bajado -130 pts de exp como Df. 
+A_Mejía (rac) ha subido 20 pts de exp como Mf. 
+Nery_Dmgz (rac) ha ganado 0 pts de exp como Mf. 
+K_Gutiérrez (rac) ha subido 120 pts de exp como Mf. 
+Diego_Glez (rac) ha bajado -50 pts de exp como Mf. 
+David_Pizarro (rac) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+A_Solari (rac) ha ganado 0 pts de exp como Mf. 
+C_Sánchez (rac) ha bajado -50 pts de exp como Mf. 
+Neri_Cardozo (rac) ha bajado -80 pts de exp como Mf. 
+M_Zaracho (rac) ha subido 80 pts de exp como Mf. 
+G_Lorenzetti (rac) ha bajado -130 pts de exp como Mf. 
+Lisandro_Lpez (rac) ha bajado -50 pts de exp como Fw. 
+Roger_Mtnez (rac) ha subido 40 pts de exp como Fw. 
+R_Centurión (rac) ha subido 20 pts de exp como Fw. 
+B_Mansilla (rac) ha subido 40 pts de exp como Fw. 
+Franco_Armani (riv) ha ganado 0 pts de exp como Gk. 
+E_Martínez (riv) ha ganado 0 pts de exp como Gk. 
+J_D_Ramírez (riv) ha subido 20 pts de exp como Gk. 
+J_Maidana (riv) ha bajado -20 pts de exp como Df. 
+L_Vangioni (riv) ha bajado -20 pts de exp como Df. 
+Javier_Pinola (riv) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+R_Funes_Mori (riv) ha subido 20 pts de exp como Df. 
+Mtnez_Quarta (riv) ha subido 60 pts de exp como Df. 
+M_Saracchi (riv) ha subido 120 pts de exp como Df. Subiendo 1 media como Df.
+Camilo_Mayada (riv) ha bajado -40 pts de exp como Df. 
+G_Montiel (riv) ha subido 40 pts de exp como Df. 
+J_Mascherano (riv) ha bajado -20 pts de exp como Mf. 
+L_Ponzio (riv) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+G_Rodríguez (riv) ha subido 20 pts de exp como Mf. Subiendo 1 media como Mf.
+Enzo_Pérez (riv) ha bajado -20 pts de exp como Mf. 
+Ariel_Rojas (riv) ha bajado -80 pts de exp como Mf. 
+E_Palacios (riv) ha subido 80 pts de exp como Mf. 
+G_Ramirez (riv) ha subido 20 pts de exp como Mf. 
+Pity_Martinez (riv) ha subido 20 pts de exp como Mf. 
+Lucas_Ocampos (riv) ha subido 80 pts de exp como Fw. 
+Lucas_Alario (riv) ha subido 20 pts de exp como Fw. 
+Seba_Driussi (riv) ha subido 40 pts de exp como Fw. 
+Martín_Ojeda (riv) ha subido 40 pts de exp como Fw. 
+Rollheiser (riv) ha subido 40 pts de exp como Fw. 
+Rui_Patrício (rma) ha ganado 0 pts de exp como Gk. 
+A_Aréola (rma) ha ganado 0 pts de exp como Gk. 
+Kiko_Casilla (rma) ha bajado -130 pts de exp como Gk. 
+Sergio_Ramos (rma) ha bajado -20 pts de exp como Df. 
+Marcelo (rma) ha subido 20 pts de exp como Df. 
+R_Varane (rma) ha subido 60 pts de exp como Df. 
+D_Carvajal (rma) ha subido 40 pts de exp como Df. 
+Juan_Bernat (rma) ha subido 40 pts de exp como Df. 
+Nacho_F (rma) ha ganado 0 pts de exp como Df. 
+Hugo_Mallo (rma) ha subido 40 pts de exp como Df. 
+Rúben_Vezo (rma) ha subido 60 pts de exp como Df. 
+Casemiro (rma) ha subido 60 pts de exp como Mf. 
+G_Krychowiak (rma) ha ganado 0 pts de exp como Mf. 
+Luka_Modric (rma) ha bajado -20 pts de exp como Mf. 
+Toni_Kroos (rma) ha subido 20 pts de exp como Mf. 
+Mateo_Kovacic (rma) ha subido 80 pts de exp como Mf. 
+Dani_Ceballos (rma) ha subido 40 pts de exp como Mf. 
+Isco (rma) ha subido 60 pts de exp como Mf. 
+J_Draxler (rma) ha subido 40 pts de exp como Mf. 
+Marco_Asensio (rma) ha subido 60 pts de exp como Mf. 
+Lucas_Vazquez (rma) ha subido 20 pts de exp como Mf. 
+C_Ronaldo (rma) ha bajado -20 pts de exp como Fw. 
+R_Lewandowski (rma) ha subido 20 pts de exp como Fw. 
+André_Silva (rma) ha subido 80 pts de exp como Fw. 
+Iago_Aspas (rma) ha bajado -50 pts de exp como Fw. 
+W_Szczesny (rom) ha subido 40 pts de exp como Gk. 
+Timo_Horn (rom) ha ganado 0 pts de exp como Gk. 
+Raúl_Gudiño (rom) ha subido 20 pts de exp como Gk. 
+K_Manolas (rom) ha subido 60 pts de exp como Df. 
+Héctor_Moreno (rom) ha bajado -20 pts de exp como Df. 
+Sime_Vrsaljko (rom) ha subido 60 pts de exp como Df. 
+Emerson (rom) ha subido 60 pts de exp como Df. Subiendo 1 media como Df.
+Bruno_Peres (rom) ha bajado -40 pts de exp como Df. 
+Mário_Rui (rom) ha subido 20 pts de exp como Df. 
+Aleix_Vidal (rom) ha bajado -40 pts de exp como Df. 
+A_Nura (rom) ha subido 40 pts de exp como Df. 
+J_Campuzano (rom) ha subido 20 pts de exp como Mf. 
+R_Nainggolan (rom) ha subido 20 pts de exp como Mf. 
+Arturo_Vidal (rom) ha bajado -20 pts de exp como Mf. 
+A_Guardado (rom) ha bajado -50 pts de exp como Mf. 
+Wilfried_Zaha (rom) ha subido 60 pts de exp como Mf. 
+Marko_Rog (rom) ha subido 20 pts de exp como Mf. 
+Cengiz_Ünder (rom) ha subido 80 pts de exp como Mf. 
+J_Manzaneda (rom) ha subido 20 pts de exp como Mf. 
+Ante_Coric (rom) ha subido 20 pts de exp como Mf. 
+Mohamed_Salah (rom) ha subido 60 pts de exp como Fw. 
+M_Balotelli (rom) ha ganado 0 pts de exp como Fw. 
+A_Belotti (rom) ha subido 20 pts de exp como Fw. 
+Simone_Zaza (rom) ha ganado 0 pts de exp como Fw. 
+Patrik_Schick (rom) ha subido 20 pts de exp como Fw. 
+Ralf_Fährmann (s04) ha subido 40 pts de exp como Gk. 
+Wellenreuther (s04) ha subido 20 pts de exp como Gk. 
+A_Nübel (s04) ha subido 20 pts de exp como Gk. 
+B_Höwedes (s04) ha bajado -50 pts de exp como Df. 
+Jonas_Hector (s04) ha ganado 0 pts de exp como Df. 
+C_Azpilicueta (s04) ha ganado 0 pts de exp como Df. 
+A_Granqvist (s04) ha bajado -20 pts de exp como Df. 
+A_Rüdiger (s04) ha subido 40 pts de exp como Df. 
+Coke (s04) ha bajado -50 pts de exp como Df. 
+S_Escudero (s04) ha bajado -40 pts de exp como Df. 
+Nathan_Aké (s04) ha subido 20 pts de exp como Df. 
+Fernandinho (s04) ha bajado -20 pts de exp como Mf. 
+Tomás_Rincón (s04) ha bajado -50 pts de exp como Mf. 
+Thiago_Maia (s04) ha subido 40 pts de exp como Mf. 
+S_M-Savic (s04) ha subido 60 pts de exp como Mf. 
+Allan (s04) ha ganado 0 pts de exp como Mf. 
+João_Mário (s04) ha ganado 0 pts de exp como Mf. 
+Daniel_Wass (s04) ha bajado -80 pts de exp como Mf. 
+Y_Konoplyanka (s04) ha ganado 0 pts de exp como Mf. 
+Pablo_Sarabia (s04) ha subido 20 pts de exp como Mf. 
+K_Mitroglou (s04) ha bajado -20 pts de exp como Fw. 
+S_Giovinco (s04) ha bajado -50 pts de exp como Fw. 
+Danny_Ings (s04) ha subido 20 pts de exp como Fw. 
+Marko_Pjaca (s04) ha subido 40 pts de exp como Fw. 
+N_Navarro (san) ha bajado -50 pts de exp como Gk. 
+S_Torrico (san) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+José_Devecchi (san) ha subido 20 pts de exp como Gk. 
+Gonzalo_Rguez (san) ha bajado -50 pts de exp como Df. 
+Paulo_Díaz (san) ha subido 60 pts de exp como Df. 
+M_Caruzzo (san) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+F_Coloccini (san) ha bajado -680 pts de exp como Df. 
+M_Angeleri (san) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Gabriel_Rojas (san) ha subido 80 pts de exp como Df. 
+V_Salazar (san) ha subido 20 pts de exp como Df. 
+Marcos_Senesi (san) ha subido 40 pts de exp como Df. 
+N_Zalazar (san) ha subido 40 pts de exp como Df. 
+Juan_Mercier (san) ha bajado -710 pts de exp como Mf. Bajando 1 media como Mf.
+Robert_Piris (san) ha subido 20 pts de exp como Mf. 
+Franco_Mussis (san) ha subido 60 pts de exp como Mf. 
+F_Quignón (san) ha subido 20 pts de exp como Mf. 
+Franco_Moyano (san) ha subido 40 pts de exp como Mf. 
+F_Belluschi (san) ha bajado -680 pts de exp como Mf. Bajando 1 media como Mf.
+Alexis_Castro (san) ha subido 20 pts de exp como Mf. 
+G_Gudiño (san) ha subido 40 pts de exp como Mf. 
+L_Romagnoli (san) ha bajado -840 pts de exp como Mf. Bajando 1 media como Mf.
+Jonás_Acevedo (san) ha subido 20 pts de exp como Mf. 
+N_Blandi (san) ha subido 20 pts de exp como Fw. 
+Rubén_Botta (san) ha ganado 0 pts de exp como Fw. 
+V_Viola (san) ha ganado 0 pts de exp como Fw. 
+J_Cavallaro (san) ha subido 20 pts de exp como Fw. 
+B_Merlini (san) ha subido 20 pts de exp como Fw. 
+N_Reniero (san) ha subido 20 pts de exp como Fw. 
+N_Barrios (san) ha subido 40 pts de exp como Fw. 
+T_Conechny (san) ha subido 40 pts de exp como Fw. 
+G_Berterame (san) ha subido 40 pts de exp como Fw. 
+Claudio_Bravo (sev) ha bajado -600 pts de exp como Gk. Bajando 1 media como Gk.
+David_Soria (sev) ha ganado 0 pts de exp como Gk. 
+Miguel_Layún (sev) ha ganado 0 pts de exp como Df. 
+A_Kolarov (sev) ha bajado -20 pts de exp como Df. 
+J_Mathieu (sev) ha bajado -680 pts de exp como Df. Bajando 1 media como Df.
+D_Carriço (sev) ha subido 20 pts de exp como Df. 
+Adil_Rami (sev) ha bajado -80 pts de exp como Df. 
+B_Trémoulinas (sev) ha bajado -80 pts de exp como Df. Bajando 1 media como Df.
+André_Almeida (sev) ha bajado -80 pts de exp como Df. 
+N_Pareja (sev) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Mariano (sev) ha bajado -130 pts de exp como Df. 
+G_Mercado (sev) ha bajado -130 pts de exp como Df. 
+S_N'Zonzi (sev) ha subido 20 pts de exp como Mf. 
+V_Iborra (sev) ha bajado -80 pts de exp como Mf. 
+M_Krohn-Dehli (sev) ha bajado -680 pts de exp como Mf. Bajando 1 media como Mf.
+Lewis_Cook (sev) ha subido 60 pts de exp como Mf. 
+Á_Di_María (sev) ha ganado 0 pts de exp como Mf. 
+Arda_Turan (sev) ha bajado -50 pts de exp como Mf. 
+Samir_Nasri (sev) ha bajado -130 pts de exp como Mf. 
+Carlos_Bacca (sev) ha ganado 0 pts de exp como Fw. 
+Carlos_Vela (sev) ha subido 20 pts de exp como Fw. 
+Quaresma (sev) ha bajado -50 pts de exp como Fw. 
+S_Jovetic (sev) ha bajado -80 pts de exp como Fw. 
+W_Ben_Yedder (sev) ha bajado -80 pts de exp como Fw. 
+L_Vietto (sev) ha ganado 0 pts de exp como Fw. 
+M_ter_Stegen (slb) ha subido 40 pts de exp como Gk. 
+Jack_Butland (slb) ha subido 70 pts de exp como Gk. 
+Franco_Israel (slb) ha subido 80 pts de exp como Gk. 
+J_Murillo (slb) ha subido 60 pts de exp como Df. 
+Jardel (slb) ha bajado -20 pts de exp como Df. 
+Mau_Lemos (slb) ha subido 60 pts de exp como Df. 
+Kenny_Tete (slb) ha subido 60 pts de exp como Df. 
+G_Paulista (slb) ha ganado 0 pts de exp como Df. 
+Diego_Polenta (slb) ha subido 20 pts de exp como Df. 
+D_Sinkgraven (slb) ha subido 20 pts de exp como Df. 
+Jorge_Moreira (slb) ha bajado -80 pts de exp como Df. 
+A_Samaris (slb) ha ganado 0 pts de exp como Mf. 
+L_Torreira (slb) ha subido 80 pts de exp como Mf. 
+Rafinha_Alc (slb) ha subido 60 pts de exp como Mf. 
+Leon_Goretzka (slb) ha subido 60 pts de exp como Mf. 
+Wylan_Cyprien (slb) ha subido 40 pts de exp como Mf. 
+J_T_L_Amani (slb) ha subido 40 pts de exp como Mf. 
+Carles_Aleña (slb) ha subido 40 pts de exp como Mf. 
+Rafa_Silva (slb) ha subido 40 pts de exp como Mf. 
+Franco_Cervi (slb) ha subido 40 pts de exp como Mf. 
+G_Arrascaeta (slb) ha ganado 0 pts de exp como Mf. 
+Diego_Costa (slb) ha subido 20 pts de exp como Fw. 
+C_Benteke (slb) ha ganado 0 pts de exp como Fw. 
+J-K_Augustin (slb) ha subido 40 pts de exp como Fw. 
+A_Sidão (spo) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Jean_Filho (spo) ha subido 80 pts de exp como Gk. 
+Lucas_Perri (spo) ha subido 20 pts de exp como Gk. 
+A_Martins (spo) ha bajado -50 pts de exp como Df. 
+Rodrigo_Caio (spo) ha subido 20 pts de exp como Df. 
+R_Arboleda (spo) ha ganado 0 pts de exp como Df. 
+Reinaldo (spo) ha ganado 0 pts de exp como Df. 
+A_Santos (spo) ha bajado -40 pts de exp como Df. 
+Jorge_Fucile (spo) ha bajado -760 pts de exp como Df. 
+J_Tavares (spo) ha subido 40 pts de exp como Df. 
+Stefan_Medina (spo) ha subido 20 pts de exp como Df. 
+Éder_Militão (spo) ha subido 40 pts de exp como Df. 
+Jucilei (spo) ha bajado -50 pts de exp como Mf. 
+Húdson (spo) ha bajado -80 pts de exp como Mf. 
+Petros (spo) ha bajado -40 pts de exp como Mf. 
+Andrés_Tello (spo) ha subido 40 pts de exp como Mf. 
+Diego_Souza (spo) ha bajado -80 pts de exp como Mf. 
+Valdívia (spo) ha subido 40 pts de exp como Mf. 
+Lucas_Lima (spo) ha bajado -40 pts de exp como Mf. 
+Nenê (spo) ha bajado -800 pts de exp como Mf. Bajando 1 media como Mf.
+Luiz_Adriano (spo) ha bajado -50 pts de exp como Fw. 
+M_Guilherme (spo) ha subido 60 pts de exp como Fw. 
+C_Stuani (spo) ha bajado -80 pts de exp como Fw. 
+S_Tréllez (spo) ha bajado -80 pts de exp como Fw. 
+G_Carneiro (spo) ha subido 40 pts de exp como Fw. 
+Nahuel_Guzmán (tig) ha ganado 0 pts de exp como Gk. 
+Edu_Fernández (tig) ha ganado 0 pts de exp como Gk. 
+Juninho (tig) ha bajado -760 pts de exp como Df. Bajando 1 media como Df.
+Jorge_Torres (tig) ha bajado -20 pts de exp como Df. 
+D_Bocanegra (tig) ha bajado -20 pts de exp como Df. 
+Luis_Rdguez (tig) ha ganado 0 pts de exp como Df. 
+I_Jiménez (tig) ha bajado -40 pts de exp como Df. 
+Hugo_Ayala (tig) ha bajado -130 pts de exp como Df. 
+Fran_Meza (tig) ha bajado -80 pts de exp como Df. 
+J_I_Estrada (tig) ha bajado -800 pts de exp como Df. Bajando 1 media como Df.
+Rafa_Carioca (tig) ha ganado 0 pts de exp como Mf. 
+Jesús_Dueñas (tig) ha bajado -80 pts de exp como Mf. 
+Luis_Martínez (tig) ha ganado 0 pts de exp como Mf. 
+Jorge_Cruz (tig) ha subido 40 pts de exp como Mf. 
+J_F_Torres (tig) ha bajado -20 pts de exp como Mf. 
+Larry_Vásquez (tig) ha subido 40 pts de exp como Mf. 
+Raúl_Torres (tig) ha subido 40 pts de exp como Mf. 
+Javier_Aquino (tig) ha ganado 0 pts de exp como Mf. 
+T_Anderson (tig) ha subido 20 pts de exp como Mf. 
+A-P_Gignac (tig) ha bajado -20 pts de exp como Fw. 
+José_Angulo (tig) ha subido 60 pts de exp como Fw. 
+Jürgen_Damm (tig) ha ganado 0 pts de exp como Fw. 
+L_Zelarayán (tig) ha ganado 0 pts de exp como Fw. 
+Abel_Hnandez (tig) ha bajado -80 pts de exp como Fw. 
+Ismael_Sosa (tig) ha bajado -130 pts de exp como Fw. 
+E_Unsain (tor) ha subido 80 pts de exp como Gk. 
+Alex_Bono (tor) ha ganado 0 pts de exp como Gk. 
+Clint_Irwin (tor) ha bajado -80 pts de exp como Gk. 
+A_Morgan (tor) ha ganado 0 pts de exp como Df. 
+Chris_Mavinga (tor) ha ganado 0 pts de exp como Df. 
+C_Romero (tor) ha subido 120 pts de exp como Df. 
+Auro (tor) ha subido 40 pts de exp como Df. 
+Mason_Holgate (tor) ha subido 60 pts de exp como Df. 
+Matías_Viña (tor) ha subido 40 pts de exp como Df. 
+E_Cedillo (tor) ha subido 40 pts de exp como Df. 
+É_Gutiérrez (tor) ha subido 60 pts de exp como Mf. 
+R_Jurado (tor) ha subido 60 pts de exp como Mf. 
+Liam_Fraser (tor) ha subido 80 pts de exp como Mf. 
+J_Osorio (tor) ha subido 20 pts de exp como Mf. 
+Marky_Delgado (tor) ha subido 40 pts de exp como Mf. 
+F_Waller (tor) ha subido 40 pts de exp como Mf. 
+M_Henrique (tor) ha subido 40 pts de exp como Mf. 
+Mariano_Miño (tor) ha ganado 0 pts de exp como Mf. 
+Aidan_Daniels (tor) ha subido 80 pts de exp como Mf. 
+Mariano_Díaz (tor) ha subido 40 pts de exp como Fw. 
+Henry_Martín (tor) ha subido 20 pts de exp como Fw. 
+Ryan_Telfer (tor) ha subido 20 pts de exp como Fw. 
+Ayo_Akinola (tor) ha subido 80 pts de exp como Fw. 
+Hugo_Lloris (tot) ha subido 40 pts de exp como Gk. Subiendo 1 media como Gk.
+Michel_Vorm (tot) ha bajado -800 pts de exp como Gk. Bajando 1 media como Gk.
+Alex_Meret (tot) ha subido 20 pts de exp como Gk. 
+V_Kompany (tot) ha bajado -20 pts de exp como Df. 
+Alderweireld (tot) ha subido 20 pts de exp como Df. 
+J_Vertonghen (tot) ha bajado -20 pts de exp como Df. 
+V_van_Dijk (tot) ha subido 60 pts de exp como Df. 
+Danny_Rose (tot) ha ganado 0 pts de exp como Df. 
+Ben_Davies (tot) ha subido 60 pts de exp como Df. 
+Kevin_Wimmer (tot) ha subido 40 pts de exp como Df. 
+F_Coentrão (tot) ha bajado -80 pts de exp como Df. 
+Eric_Dier (tot) ha subido 60 pts de exp como Mf. 
+V_Wanyama (tot) ha subido 40 pts de exp como Mf. 
+Mousa_Dembélé (tot) ha bajado -20 pts de exp como Mf. 
+M_Sissoko (tot) ha ganado 0 pts de exp como Mf. 
+C_Eriksen (tot) ha subido 70 pts de exp como Mf. 
+Dele_Alli (tot) ha subido 80 pts de exp como Mf. Subiendo 1 media como Mf.
+Érik_Lamela (tot) ha subido 40 pts de exp como Mf. 
+C_Cueva (tot) ha subido 40 pts de exp como Mf. 
+Josh_Onomah (tot) ha subido 40 pts de exp como Mf. 
+Gareth_Bale (tot) ha subido 20 pts de exp como Fw. 
+C_Immobile (tot) ha subido 20 pts de exp como Fw. 
+A_Zivkovic (tot) ha subido 20 pts de exp como Fw. 
+V_Janssen (tot) ha subido 20 pts de exp como Fw. 
+G-K_N'Koudou (tot) ha subido 20 pts de exp como Fw. 
+Miguel_Vargas (uca) ha subido 20 pts de exp como Gk. 
+Álvaro_Ogalde (uca) ha subido 20 pts de exp como Gk. 
+G_Voboril (uca) ha bajado -50 pts de exp como Df. 
+JP_Fuenzalida (uca) ha bajado -20 pts de exp como Df. 
+S_Magnasco (uca) ha subido 40 pts de exp como Df. 
+Fer_Cordero (uca) ha bajado -50 pts de exp como Df. 
+B_Kuscevic (uca) ha subido 40 pts de exp como Df. 
+Rai_Rebolledo (uca) ha subido 60 pts de exp como Df. 
+B_Ampuero (uca) ha ganado 0 pts de exp como Df. 
+Y_Oyanedel (uca) ha subido 80 pts de exp como Df. 
+César_Fuentes (uca) ha subido 40 pts de exp como Mf. Subiendo 1 media como Mf.
+I_Saavedra (uca) ha subido 80 pts de exp como Mf. 
+Luciano_Aued (uca) ha bajado -50 pts de exp como Mf. 
+Carlos_Lobos (uca) ha subido 40 pts de exp como Mf. 
+Jaime_Carreño (uca) ha subido 20 pts de exp como Mf. 
+D_Buonanotte (uca) ha bajado -50 pts de exp como Mf. 
+Mark_González (uca) ha bajado -50 pts de exp como Mf. Bajando 1 media como Mf.
+Diego_Rojas (uca) ha subido 40 pts de exp como Mf. 
+M_Bolados (uca) ha subido 40 pts de exp como Mf. 
+E_Paredes (uca) ha bajado -710 pts de exp como Fw. 
+A_Vilches (uca) ha subido 40 pts de exp como Fw. 
+David_Llanos (uca) ha ganado 0 pts de exp como Fw. 
+D_Henríquez (uca) ha subido 40 pts de exp como Fw. 
+Johny_Herrera (uch) ha bajado -650 pts de exp como Gk. Bajando 1 media como Gk.
+F_De_Paul (uch) ha bajado -80 pts de exp como Gk. 
+Ignacio_Azúa (uch) ha subido 40 pts de exp como Gk. 
+J_Beausejour (uch) ha bajado -710 pts de exp como Df. 
+Gonzalo_Piovi (uch) ha subido 80 pts de exp como Df. Subiendo 1 media como Df.
+Matías_Rguez (uch) ha bajado -20 pts de exp como Df. 
+Fabián_Monzón (uch) ha bajado -20 pts de exp como Df. 
+N_Gallardo (uch) ha subido 80 pts de exp como Df. 
+Léo_Gomes (uch) ha subido 60 pts de exp como Df. 
+F_Saavedra (uch) ha subido 60 pts de exp como Df. 
+Fabio_Rojas (uch) ha subido 80 pts de exp como Df. 
+Lucas_Alarcón (uch) ha subido 40 pts de exp como Df. 
+Erick_Pulgar (uch) ha ganado 0 pts de exp como Mf. 
+Lorenzo_Reyes (uch) ha subido 20 pts de exp como Mf. 
+Rafael_Caroca (uch) ha subido 20 pts de exp como Mf. 
+Feli_Seymour (uch) ha bajado -20 pts de exp como Mf. 
+Yerko_Leiva (uch) ha subido 120 pts de exp como Mf. 
+Diego_Valdés (uch) ha ganado 0 pts de exp como Mf. 
+Franz_Schultz (uch) ha ganado 0 pts de exp como Mf. 
+Ángelo_Araos (uch) ha subido 20 pts de exp como Mf. 
+Iván_Rozas (uch) ha subido 40 pts de exp como Mf. 
+Isaac_Díaz (uch) ha bajado -80 pts de exp como Fw. 
+J_Zacaría (uch) ha ganado 0 pts de exp como Fw. 
+Yef_Soteldo (uch) ha subido 40 pts de exp como Fw. 
+Gonzalo_Bueno (uch) ha ganado 0 pts de exp como Fw. 
+F_Arancibia (uch) ha subido 60 pts de exp como Fw. 
+Diego_Alves (val) ha subido 40 pts de exp como Gk. 
+J_Doménech (val) ha bajado -80 pts de exp como Gk. 
+Marcos_Rojo (val) ha subido 20 pts de exp como Df. 
+E_Mangala (val) ha ganado 0 pts de exp como Df. 
+F_Ghoulam (val) ha ganado 0 pts de exp como Df. 
+J_L_Gayà (val) ha subido 60 pts de exp como Df. 
+D_Upamecano (val) ha subido 80 pts de exp como Df. 
+A_Abdennour (val) ha bajado -40 pts de exp como Df. 
+M_Montoya (val) ha subido 20 pts de exp como Df. 
+César_Montes (val) ha subido 40 pts de exp como Df. 
+I_Camacho (val) ha subido 20 pts de exp como Mf. 
+Walace (val) ha subido 60 pts de exp como Mf. 
+Mario_Suárez (val) ha bajado -80 pts de exp como Mf. 
+R_Pereyra (val) ha subido 60 pts de exp como Mf. 
+N_Nández (val) ha subido 60 pts de exp como Mf. 
+Carlos_Soler (val) ha subido 40 pts de exp como Mf. 
+D_van_de_Beek (val) ha subido 40 pts de exp como Mf. 
+Toto_Salvio (val) ha subido 20 pts de exp como Mf. 
+Óliver_Torres (val) ha subido 80 pts de exp como Mf. 
+G_Higuaín (val) ha bajado -20 pts de exp como Fw. 
+Thomas_Müller (val) ha subido 20 pts de exp como Fw. 
+Nani (val) ha bajado -80 pts de exp como Fw. Bajando 1 media como Fw.
+Sergio_Asenjo (vil) ha subido 80 pts de exp como Gk. 
+Andrés_Fdez (vil) ha bajado -130 pts de exp como Gk. 
+Gonzalo_Rehak (vil) ha ganado 0 pts de exp como Gk. 
+Mario_Gaspar (vil) ha subido 20 pts de exp como Df. 
+Víctor_Ruiz (vil) ha subido 20 pts de exp como Df. 
+Jaume_Costa (vil) ha bajado -20 pts de exp como Df. 
+Ó_de_Marcos (vil) ha subido 20 pts de exp como Df. 
+Á_González (vil) ha bajado -40 pts de exp como Df. 
+A_Barreca (vil) ha subido 80 pts de exp como Df. 
+José_Ángel (vil) ha bajado -40 pts de exp como Df. 
+Bruno_Soriano (vil) ha bajado -20 pts de exp como Mf. 
+Thomas (vil) ha subido 40 pts de exp como Mf. 
+R_Hernández (vil) ha subido 20 pts de exp como Mf. 
+M_Trigueros (vil) ha subido 60 pts de exp como Mf. 
+R_Soriano (vil) ha subido 20 pts de exp como Mf. 
+O_Özyakup (vil) ha subido 60 pts de exp como Mf. 
+Remo_Freuler (vil) ha ganado 0 pts de exp como Mf. 
+T_Hazard (vil) ha subido 60 pts de exp como Mf. 
+J_dos_Santos (vil) ha ganado 0 pts de exp como Mf. 
+Pablo_Fornals (vil) ha subido 60 pts de exp como Mf. 
+G_dos_Santos (vil) ha subido 20 pts de exp como Fw. 
+C_Bakambu (vil) ha subido 60 pts de exp como Fw. 
+Paul-G_Ntep (vil) ha subido 60 pts de exp como Fw. 
+Alessio_Cerci (vil) ha bajado -130 pts de exp como Fw. 
+Santos_Borré (vil) ha subido 20 pts de exp como Fw. 

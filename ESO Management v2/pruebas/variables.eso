@@ -1,0 +1,196 @@
+############################################################################
+####		ARCHIVO DE PROPIEDADES DEL GESTOR ESO			####
+####	Aqui se puede cambiar el valor de las constantes del gestor ESO	####
+####		SOLO CAMBIAR EL VALOR, NO EL NOMBRE			####
+####	Respetad el tipo de datos indicado de cada variable		####
+####	Tipos de datos: numero entero, numero real, cadena texto	####
+####	   Numeros reales van con comas para separar decimales		####
+############################################################################
+# DATOS BÁSICOS LIGA
+
+# Media mínima de ESO (número entero)
+mediaMinima = 16
+
+# Media maxima de ESO (numero entero)
+mediaMaxima = 27
+
+# ELO inicial (numero entero)
+eloInicial = 2000
+
+# Constante de variacion de elo (k, numero entero)
+eloK = 40
+
+# SALARIOS
+
+# Coeficientes de salarios por media (salarioMedia + media = valor, uno por media)
+salariosMedia16 = 500.000
+salariosMedia17 = 500.000
+salariosMedia18 = 500.000
+salariosMedia19 = 500.000
+salariosMedia20 = 500.000
+salariosMedia21 = 500.000
+salariosMedia22 = 500.000
+salariosMedia23 = 500.000
+salariosMedia24 = 500.000
+salariosMedia25 = 500.000
+salariosMedia26 = 500.000
+salariosMedia27 = 500.000
+
+# Salario a sumar por secundaria y por terciaria (numero real)
+valorSecundaria = 80.000
+valorTerciaria = 40.000
+
+# Numero de rangos de edades para el salario (numero entero)
+edadesSalarios = 7
+
+# Edad maxima de cada rango del salario (numero entero, formato edadesBonus + numRangoEdad = valor, uno por rango)
+edadesSalarios1 = 20
+edadesSalarios2 = 20
+edadesSalarios3 = 20
+edadesSalarios4 = 20
+edadesSalarios5 = 20
+edadesSalarios6 = 20
+edadesSalarios7 = 20
+
+# Multiplicador rango edad potencial (numero real, formato multiplicadorPotenciales + numRangoEdad = valor, uno por rango)
+multiplicadorSalarios1 = 20
+multiplicadorSalarios2 = 20
+multiplicadorSalarios3 = 20
+multiplicadorSalarios4 = 20
+multiplicadorSalarios5 = 20
+multiplicadorSalarios6 = 20
+multiplicadorSalarios7 = 20
+
+# BONUS MINUTOS
+
+# Numero de rangos de edades para el bonus (numero entero)
+edadesBonus = 7
+
+# Edad maxima de cada rango del bonus (numero entero, formato edadesBonus + numRangoEdad = valor, uno por rango)
+edadesBonus1 = 20
+edadesBonus2 = 20
+edadesBonus3 = 20
+edadesBonus4 = 20
+edadesBonus5 = 20
+edadesBonus6 = 20
+edadesBonus7 = 20
+
+# Numero de rangos de minutos para el bonus (numero entero)
+minutosBonus = 6
+
+# Minutos maximos de cada rango del bonus (numero entero, formato minutosBonus + numRangoMinutos = valor, uno por rango)
+minutosBonus1 = 20
+minutosBonus2 = 20
+minutosBonus3 = 20
+minutosBonus4 = 20
+minutosBonus5 = 20
+minutosBonus6 = 20
+
+# POTENCIALES
+
+# Numero de rangos de edades para los potenciales (numero entero)
+edadesPotenciales = 7
+
+# Edad maxima de cada rango del potencial (numero entero, formato edadesPotenciales + numRangoEdad = valor, uno por rango)
+edadesPotenciales1 = 20
+edadesPotenciales2 = 20
+edadesPotenciales3 = 20
+edadesPotenciales4 = 20
+edadesPotenciales5 = 20
+edadesPotenciales6 = 20
+edadesPotenciales7 = 20
+
+# Multiplicador rango edad potencial (numero real, formato multiplicadorPotenciales + numRangoEdad = valor, uno por rango)
+multiplicadorPotenciales1 = 20
+multiplicadorPotenciales2 = 20
+multiplicadorPotenciales3 = 20
+multiplicadorPotenciales4 = 20
+multiplicadorPotenciales5 = 20
+multiplicadorPotenciales6 = 20
+multiplicadorPotenciales7 = 20
+
+# Valor del potencial en cada media (numero entero, formato valorPotencial + media = valor, uno por media)
+valorPotencial16 = 500
+valorPotencial17 = 500
+valorPotencial18 = 500
+valorPotencial19 = 500
+valorPotencial20 = 500
+valorPotencial21 = 500
+valorPotencial22 = 500
+valorPotencial23 = 500
+valorPotencial24 = 500
+valorPotencial25 = 500
+valorPotencial26 = 500
+valorPotencial27 = 500
+
+# CALIDAD ACTUAL (CA)
+
+# Valor de la calidad actual en cada media (numero entero, formato valorCA + media = valor, uno por media)
+valorCA16 = 500
+valorCA17 = 500
+valorCA18 = 500
+valorCA19 = 500
+valorCA20 = 500
+valorCA21 = 500
+valorCA22 = 500
+valorCA23 = 500
+valorCA24 = 500
+valorCA25 = 500
+valorCA26 = 500
+valorCA27 = 500
+
+# RENDIMIENTO
+
+# PORTERO
+
+# Coeficientes de estadisticas del portero (numero real)
+coefParadas = 0,7
+coefEncajados = 1,8
+
+# DEFENSA
+
+# Coeficientes de estadisticas del defensa (numero real)
+coefPasesDF = 0,23
+coefGolesDF = 0,01
+coefTirosDF = 0,14
+coefEntradasDF = 0,6
+coefAsistenciasDF = 0,02
+
+# DM
+
+# Coeficientes de estadisticas del dm (numero real)
+coefPasesDM = 0,23
+coefGolesDM = 0,01
+coefTirosDM = 0,14
+coefEntradasDM = 0,6
+coefAsistenciasDM = 0,02
+
+# MF
+
+# Coeficientes de estadisticas del medio (numero real)
+coefPasesMF = 0,23
+coefGolesMF = 0,01
+coefTirosMF = 0,14
+coefEntradasMF = 0,6
+coefAsistenciasMF = 0,02
+
+# AM
+
+# Coeficientes de estadisticas del am (numero real)
+coefPasesAM = 0,23
+coefGolesAM = 0,01
+coefTirosAM = 0,14
+coefEntradasAM = 0,6
+coefAsistenciasAM = 0,02
+
+# FW
+
+# Coeficientes de estadisticas del delantero (numero real)
+coefPasesFW = 0,23
+coefGolesFW = 0,01
+coefTirosFW = 0,14
+coefEntradasFW = 0,6
+coefAsistenciasFW = 0,02
+
+# Coeficiente de media del rendimiento (numero entero)
+coefRendimiento = 30

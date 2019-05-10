@@ -218,49 +218,40 @@ public class ArchivosStt {
         }
 
         private void sumarFit(JugadorStt player, Jugador jPlantilla) {
-                /*0 a 10 +12.
-                11 a 21 +8.
-                22 a 32 +6.
-                33 a 43 +4.
-                44 a 45 0.
-                46 a 56 -4.
-                57 a 67 -6.
-                68 a 78 -8.
-                79 a 89 -10.
-                90 a 99 -12.
-                100 a 110 -14
-                111 a 121 -16
-                122 a 132 -18
+                /*0 a 20 +8.
+                21 a 30 +4.
+                31 a 40 +2.
+                41 a 50 +0.
+                51 a 65 -2.
+                66 a 80 -3.
+                81 a 99 -4.
+                100 a 110 -6
+                110 a 120 -8.
+                120 a 200 -10.
                  */
                 int min = player.minutos;
                 int value = 0;
                 if (!jPlantilla.getPosicion().equals(Jugador.Posicion.gk)) {
-                        if (isBetween(min, 0, 10)) {
-                                value = -12;
-                        } else if (isBetween(min, 11, 21)) {
+                        if (isBetween(min, 0, 20)) {
                                 value = -8;
-                        } else if (isBetween(min, 22, 32)) {
-                                value = -6;
-                        } else if (isBetween(min, 33, 43)) {
+                        } else if (isBetween(min, 21, 30)) {
                                 value = -4;
-                        } else if (isBetween(min, 44, 45)) {
-                                value = 0;
-                        } else if (isBetween(min, 46, 56)) {
+                        } else if (isBetween(min, 31, 40)) {
+                                value = -2;
+                        } else if (isBetween(min, 41, 50)) {
+                                value = -0;
+                        } else if (isBetween(min, 51, 65)) {
+                                value = 2;
+                        } else if (isBetween(min, 66, 80)) {
+                                value = 3;
+                        } else if (isBetween(min, 81, 99)) {
                                 value = 4;
-                        } else if (isBetween(min, 57, 67)) {
-                                value = 6;
-                        } else if (isBetween(min, 68, 78)) {
-                                value = 8;
-                        } else if (isBetween(min, 79, 89)) {
-                                value = 10;
-                        } else if (isBetween(min, 90, 99)) {
-                                value = 12;
                         } else if (isBetween(min, 100, 110)) {
-                                value = 14;
-                        } else if (isBetween(min, 111, 121)) {
-                                value = 16;
-                        } else if (isBetween(min, 122, 132)) {
-                                value = 18;
+                                value = 6;
+                        } else if (isBetween(min, 111, 120)) {
+                                value = 8;
+                        } else if (isBetween(min, 120, 200)) {
+                                value = 10;
                         }
                         jPlantilla.getStats().setFit(jPlantilla.getStats().getFit() - value);
                 } else {

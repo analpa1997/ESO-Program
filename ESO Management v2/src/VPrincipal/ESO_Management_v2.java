@@ -58,6 +58,7 @@ public class ESO_Management_v2 extends JFrame {
                         ESO_Liga.cargarDatos();
                 } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null, ex);
+                        ex.printStackTrace();
                 }
                 this.setSize(anchoPrograma, altoPrograma);
                 this.setLocationRelativeTo(null);

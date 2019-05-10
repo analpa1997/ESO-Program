@@ -6,6 +6,8 @@
 package program.model.Jugador;
 
 import java.text.DecimalFormat;
+import program.model.Utils.Constantes;
+import program.model.Utils.Utils;
 
 /**
  *
@@ -14,6 +16,7 @@ import java.text.DecimalFormat;
 public class Jugador implements Comparable<Jugador> {
 
         private String nombre, nacionalidad, equipo;
+        private Constantes ctes;
 
         public enum Posicion {
                 gk, df, dm, mf, am, fw
@@ -26,7 +29,7 @@ public class Jugador implements Comparable<Jugador> {
         private int[] medias = new int[4];
 
         public Jugador() {
-
+                ctes = Constantes.getInstance();
         }
 
         public Jugador(String nombre, String nacionalidad, String equipo, int edad, int ag, int exp, Habilidad portero, Habilidad defensa, Habilidad medio, Habilidad delantero, Estadisticas stats) {
@@ -76,6 +79,7 @@ public class Jugador implements Comparable<Jugador> {
         }
 
         public Jugador(Jugador j) {
+                this();
                 this.nombre = j.nombre;
                 this.nacionalidad = j.nacionalidad;
                 this.equipo = j.equipo;
@@ -88,6 +92,11 @@ public class Jugador implements Comparable<Jugador> {
                 this.medio = j.medio;
                 this.delantero = j.delantero;
                 this.stats = j.stats;
+                this.definirPosicion();
+                this.definirPosInt();
+                this.definirMedias();
+                this.definirSalario();
+                this.calcularRendimiento();
         }
 
         public String getNombre() {
@@ -313,7 +322,7 @@ public class Jugador implements Comparable<Jugador> {
                         return false;
                 }
                 final Jugador other = (Jugador) obj;
-                return (this.getNombre() == other.getNombre() && this.getNacionalidad() == other.getNacionalidad() && other.getEdad() == this.getEdad());
+                return (this.getNombre().equals(other.getNombre()) && this.getNacionalidad().equals(other.getNacionalidad()) && other.getEdad() == this.getEdad());
         }
 
         public void definirPosicion() {
@@ -411,31 +420,42 @@ public class Jugador implements Comparable<Jugador> {
                 }
         }
 
+        public double calcularCalidadActual() {
+                double[] multMedia = {50, 70, 100, 150, 250, 400, 600, 1000, 1500, 2200, 2700, 3000};
+                return Integer.parseInt(Constantes.getInstance().getConstante("valorCA" + this.mediaMax()));//multMedia[this.mediaMax() - 16];
+        }
+
         public double calcularPotencial() {
-                double multEdad = 0;
-                double[] multMedia = {50, 80, 120, 180, 260, 400, 600, 900, 1340, 2000};
-                if (this.getEdad() < 36) {
-                        if (this.getEdad() < 34) {
-                                if (this.getEdad() < 30) {
-                                        if (this.getEdad() < 24) {
-                                                if (this.getEdad() < 21) {
-                                                        multEdad = 0.7;
+                double multEdad = -1;
+                double[] multMedia = {50, 70, 100, 150, 250, 400, 600, 1000, 1500, 2200, 2700, 3000};
+                for (int i = 1; i <= ctes.getConstanteInt("edadesPotenciales") && multEdad < 0; i++) {
+                        if (Utils.menorIgualQue(this.getEdad(), ctes.getConstanteInt("edadesPotenciales" + i))) {
+                                multEdad = ctes.getConstanteInt("multiplicadorPotenciales" + i);
+                        }
+                }
+                /*       if (this.getEdad() < 36) {
+                                if (this.getEdad() < 34) {
+                                        if (this.getEdad() < 30) {
+                                                if (this.getEdad() < 24) {
+                                                        if (this.getEdad() < 21) {
+                                                                multEdad = 0.7;
+                                                        } else {
+                                                                multEdad = 0.8;
+                                                        }
                                                 } else {
-                                                        multEdad = 0.8;
+                                                        multEdad = 1;
                                                 }
                                         } else {
-                                                multEdad = 1;
+                                                multEdad = 0.6;
                                         }
                                 } else {
-                                        multEdad = 0.6;
+                                        multEdad = 0.4;
                                 }
                         } else {
-                                multEdad = 0.4;
-                        }
-                } else {
-                        multEdad = 0.3;
-                }
-                return multEdad * multMedia[this.mediaMax() - 16];
+                                multEdad = 0.3;
+                        }*/
+
+                return multEdad * Integer.parseInt(Constantes.getInstance().getConstante("valorPotencial" + this.mediaMax())); //multMedia[this.mediaMax() - 16];
         }
 
         public double promPartido(double dato) {
@@ -446,12 +466,12 @@ public class Jugador implements Comparable<Jugador> {
                 double rendimiento;
                 double p = 0, g = 0, t = 0, e = 0, a = 0;
                 switch (getPosInt()) {
-                        case 1:
+                        case Constantes.POSINT_GK:
                                 double par = 0.7,
                                  enc = 1.8;
                                 rendimiento = this.getStats().getParadas() * par - this.getStats().getEncajados() * enc;
                                 break;
-                        case 2:
+                        case Constantes.POSINT_DF:
                                 p = 0.23;
                                 g = 0.01;
                                 t = 0.14;
@@ -459,7 +479,7 @@ public class Jugador implements Comparable<Jugador> {
                                 a = 0.02;
                                 rendimiento = this.getStats().getTackles() * e + this.getStats().getPases() * p + this.getStats().getGoles() * g + this.getStats().getAsistencias() * a + this.getStats().getTiros() * t;
                                 break;
-                        case 3:
+                        case Constantes.POSINT_DM:
                                 p = 0.63;
                                 g = 0.01;
                                 t = 0.05;
@@ -467,7 +487,7 @@ public class Jugador implements Comparable<Jugador> {
                                 a = 0.06;
                                 rendimiento = this.getStats().getTackles() * e + this.getStats().getPases() * p + this.getStats().getGoles() * g + this.getStats().getAsistencias() * a + this.getStats().getTiros() * t;
                                 break;
-                        case 4:
+                        case Constantes.POSINT_MF:
                                 p = 0.55;
                                 g = 0.04;
                                 t = 0.26;
@@ -475,7 +495,7 @@ public class Jugador implements Comparable<Jugador> {
                                 a = 0.05;
                                 rendimiento = this.getStats().getTackles() * e + this.getStats().getPases() * p + this.getStats().getGoles() * g + this.getStats().getAsistencias() * a + this.getStats().getTiros() * t;
                                 break;
-                        case 5:
+                        case Constantes.POSINT_AM:
                                 p = 0.38;
                                 g = 0.08;
                                 t = 0.49;
@@ -484,7 +504,7 @@ public class Jugador implements Comparable<Jugador> {
                                 rendimiento = this.getStats().getTackles() * e + this.getStats().getPases() * p + this.getStats().getGoles() * g + this.getStats().getAsistencias() * a + this.getStats().getTiros() * t;
 
                                 break;
-                        case 6:
+                        case Constantes.POSINT_FW:
                                 p = 0.11;
                                 g = 0.13;
                                 t = 0.74;
@@ -531,8 +551,8 @@ public class Jugador implements Comparable<Jugador> {
 
         public void definirSalario() {
                 setSalario(0);
-                int suma = 0;
-                switch (this.medias[0]) {
+                int suma = ctes.getConstanteInt("salariosMedia" + this.mediaMax());
+                /* switch (this.medias[0]) {
                         case 16:
                                 suma = 180000;
                                 break;
@@ -566,16 +586,20 @@ public class Jugador implements Comparable<Jugador> {
                         case 26:
                                 suma = 23500000;
                                 break;
-                }
-                setSalario(getSalario() + suma);
+                }*/
                 if (this.medias[1] - 1 > 0) {
-                        setSalario(getSalario() + ((this.medias[1] - 1) * 80000));
+                        suma += (this.medias[1] - 1) * ctes.getConstanteInt("valorSecundaria");
                 }
                 if (this.medias[2] - 1 > 0) {
-                        setSalario(getSalario() + ((this.medias[2] - 1) * 40000));
+                        suma += (this.medias[1] - 1) * ctes.getConstanteInt("valorSecundaria");
                 }
-                double mult = 1;
-                if ((getEdad() >= 24) && (getEdad() <= 26)) {
+                double mult = -1;
+                for (int i = 1; i <= ctes.getConstanteInt("edadesSalarios") && mult < 0; i++) {
+                        if (this.edad <= ctes.getConstanteInt("edadesSalarios" + i)) {
+                                mult = ctes.getConstanteInt("multiplicadorSalarios" + i);
+                        }
+                }
+                /*  if ((getEdad() >= 24) && (getEdad() <= 26)) {
                         mult = 0.95;
                 } else if ((getEdad() >= 27) && (getEdad() <= 29)) {
                         mult = 0.9;
@@ -585,9 +609,9 @@ public class Jugador implements Comparable<Jugador> {
                         mult = 0.7;
                 } else if ((getEdad() > 36)) {
                         mult = 0.6;
-                }
-
-                setSalario((int) (getSalario() * mult));
+                }*/
+                suma *= mult;
+                setSalario((int) (suma));
         }
 
         @Override
@@ -635,6 +659,13 @@ public class Jugador implements Comparable<Jugador> {
                 getStats().setFit(getStats().getFit() + nFit);
         }
 
+        public void aCeroStats(boolean sumarAnyo) {
+                if (sumarAnyo) {
+                        this.edad++;
+                }
+                this.stats.aCero();
+        }
+
         public String toStringReducido() {
                 return this.nombre + " (" + this.equipo.toLowerCase() + ")";
         }
@@ -649,7 +680,7 @@ public class Jugador implements Comparable<Jugador> {
         }
 
         public Object[] jugadorSalarioTabulado() {
-                DecimalFormat df = new DecimalFormat("###,###.##");
+                DecimalFormat df = new DecimalFormat("###.###,##");
                 Object[] array = {this.nombre, this.nacionalidad, this.edad, df.format(this.salario) + "\u20ac"};
                 //  df.format(this.salario) + "\u20ac";
                 return array;

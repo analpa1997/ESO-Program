@@ -83,8 +83,11 @@ public class ElegirRoster extends AbstractPanel {
                                 nombrePanel = "Equipos de ESO";
                                 addBoton(panelGuardarSalir, "Guardar Rosters", 0, 0, "gEquipos", PATH_IMAGEN_GUARDAR);
                                 addBoton(panelGuardarSalir, "<html><p>Sumar</p><p>Entrenamientos</p></html>", 4, 0, "sumEntrenamientos", PATH_IMAGEN_VACIA);
-                                addBoton(panelGuardarSalir, "Sumar Fit", 5, 0, "sumFit", PATH_IMAGEN_VACIA);
-                                botonFinal = 5;
+                                addBoton(panelGuardarSalir, "<html><p>Sumar Bonus</p><p>de Minutos</p></html>", 5, 0, "sumBonusMinutos", PATH_IMAGEN_VACIA);
+                                addBoton(panelGuardarSalir, "Sumar Fit", 6, 0, "sumFit", PATH_IMAGEN_VACIA);
+                                addBoton(panelGuardarSalir, "<html><p>Sumar Exp</p><p>por posicion</p></html>", 7, 0, "sumExpPosicion", PATH_IMAGEN_VACIA);
+                                botonFinal = 7;
+
                                 break;
                         case 1:
                                 nombrePanel = "Selecciones que compiten en ESO";
@@ -100,7 +103,9 @@ public class ElegirRoster extends AbstractPanel {
                                 nombrePanel = "";
                                 break;
                 }
-                addBoton(panelGuardarSalir, "Salir", botonFinal + 1, 0, "salir", padre.PATH_IMAGEN_SALIR);
+                addBoton(panelGuardarSalir, "Guardar potenciales", botonFinal + 1, 0, "gPotenciales", padre.PATH_IMAGEN_VACIA);
+                addBoton(panelGuardarSalir, "Guardar calidad actual", botonFinal + 2, 0, "gCalidadActual", padre.PATH_IMAGEN_VACIA);
+                addBoton(panelGuardarSalir, "Salir", botonFinal + 3, 0, "salir", padre.PATH_IMAGEN_SALIR);
                 panelBotones.setBorder(javax.swing.BorderFactory.createTitledBorder(null, nombrePanel, javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Arial", 1, 16)));
         }
 

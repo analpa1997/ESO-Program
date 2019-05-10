@@ -1,0 +1,519 @@
+JFDML JFormDesigner: "6.0.5.0.178" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.GridBagLayout ) {
+			"$columnSpecs": "0, 0"
+			"$rowSpecs": "0, 0"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+				"$columnSpecs": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+				"$rowSpecs": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+			} ) {
+				name: "panelActualizador"
+				"name": ""
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "actualizarLiga"
+					"text": "Actualizar Liga"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "actualizarLigaActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 9
+					"gridwidth": 7
+					"hAlign": 0
+					"vAlign": 0
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 2, 0, 2, 0 )
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "jScrollPane2"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "jLog"
+						"columns": 20
+						"rows": 5
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 11
+					"gridwidth": 11
+					"gridheight": 10
+					"weightx": 1.3
+					"weighty": 2.1
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridwidth": 13
+					"weighty": 0.2
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 1
+					"gridheight": 20
+					"weightx": 0.2
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator3"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 12
+					"gridy": 1
+					"gridheight": 20
+					"weightx": 0.2
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator4"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 21
+					"gridwidth": 13
+					"weighty": 0.2
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "fitPorteros"
+					"text": "Fit a 100 (porteros)"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "fitPorterosActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 6
+					"gridy": 9
+					"gridwidth": 5
+					"hAlign": 0
+					"vAlign": 0
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 2, 0, 5, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jDf"
+					"horizontalAlignment": 0
+					"text": "4"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 7
+					"vAlign": 0
+					"weightx": 0.3
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jDm"
+					"horizontalAlignment": 0
+					"text": "1"
+					"toolTipText": ""
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 3
+					"gridy": 7
+					"vAlign": 0
+					"weightx": 0.3
+					"weighty": 0.1
+					"insets": new java.awt.Insets( 0, 20, 0, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jMf"
+					"horizontalAlignment": 0
+					"text": "2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 5
+					"gridy": 7
+					"vAlign": 0
+					"weightx": 0.3
+					"weighty": 0.1
+					"insets": new java.awt.Insets( 0, 0, 0, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jAm"
+					"horizontalAlignment": 0
+					"text": "1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 7
+					"gridy": 7
+					"vAlign": 0
+					"weightx": 0.3
+					"weighty": 0.1
+					"insets": new java.awt.Insets( 0, 0, 0, 21 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jFw"
+					"horizontalAlignment": 0
+					"text": "2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 9
+					"gridy": 7
+					"vAlign": 0
+					"weightx": 0.3
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator9"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 8
+					"gridwidth": 11
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jInfoDf"
+					"horizontalAlignment": 0
+					"text": "DF"
+					"horizontalTextPosition": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 5
+					"vAlign": 0
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jInfoDm"
+					"horizontalAlignment": 0
+					"text": "DM"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 3
+					"gridy": 5
+					"vAlign": 0
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jInfoMf"
+					"horizontalAlignment": 0
+					"text": "MF"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 5
+					"gridy": 5
+					"vAlign": 0
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jInfoAm"
+					"horizontalAlignment": 0
+					"text": "AM"
+					"toolTipText": ""
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 7
+					"gridy": 5
+					"vAlign": 0
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jInfoFw"
+					"horizontalAlignment": 0
+					"text": "FW"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 9
+					"gridy": 5
+					"vAlign": 0
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator10"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 6
+					"gridwidth": 11
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JSeparator" ) {
+					name: "jSeparator11"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 4
+					"gridwidth": 11
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jTitulo"
+					"horizontalAlignment": 0
+					"text": "Elige la formación usada para el 11 de la jornada"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 3
+					"gridwidth": 13
+					"weighty": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jNombreEquipo"
+					"horizontalAlignment": 0
+					"text": "Equipo de la semana"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 2
+					"gridwidth": 11
+					"insets": new java.awt.Insets( 5, 3, 5, 3 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jElegirNombreEquipo"
+					"horizontalAlignment": 0
+					"text": "Elige el nombre del equipo de la jornada"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 1
+					"gridwidth": 11
+					"vAlign": 0
+					"insets": new java.awt.Insets( 8, 6, 8, 6 )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridy": 1
+				"gridwidth": 2
+				"weightx": 0.2
+				"weighty": 0.1
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+				"$columnSpecs": "0, 0, 0, 0, 0, 0, 0"
+				"$rowSpecs": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+			} ) {
+				name: "panelAlineacion"
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "selectorEquipo"
+					"model": new javax.swing.DefaultComboBoxModel
+					auxiliary() {
+						"JavaCodeGenerator.typeParameters": "String"
+					}
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "selectorEquipoActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 1
+					"gridwidth": 7
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 20, 15, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "numDF"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 4
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 20, 15, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "numDM"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 4
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 10, 15, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "numMF"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 2
+					"gridy": 4
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 10, 15, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "numAM"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 3
+					"gridy": 4
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 10, 15, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "numFW"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 4
+					"gridy": 4
+					"weightx": 0.1
+					"insets": new java.awt.Insets( 0, 10, 15, 10 )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "selectorTactica"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "Item 1"
+						addElement( "Item 1" )
+						addElement( "Item 2" )
+						addElement( "Item 3" )
+						addElement( "Item 4" )
+					}
+					auxiliary() {
+						"JavaCodeGenerator.typeParameters": "String"
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 6
+					"gridy": 4
+					"insets": new java.awt.Insets( 0, 9, 15, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "ali442L"
+					"text": "Alineación al azar (4-4-2 L)"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "ali442LActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 10
+					"gridwidth": 4
+					"weightx": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "formacionAli"
+					"text": "Alineación al azar (formación elegida)"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "formacionAliActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 9
+					"gridwidth": 4
+					"weightx": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "randomAli"
+					"text": "Alineacion al Azar (formación aleatoria)"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "randomAliActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 8
+					"gridwidth": 4
+					"weightx": 0.1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel1"
+					"text": "Num DF"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 20, 10, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel2"
+					"text": "Num DM"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 10, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel3"
+					"text": "Num MF"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 2
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 10, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel4"
+					"text": "Num AM"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 3
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 10, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel5"
+					"text": "Num FW"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 4
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 10, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel6"
+					"text": "Tactica"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 6
+					"gridy": 3
+					"hAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 10, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel7"
+					"text": "Elige el equipo del que hacer la alineación"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridwidth": 7
+					"hAlign": 0
+					"vAlign": 0
+					"insets": new java.awt.Insets( 0, 0, 15, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel8"
+					"text": "Fit minimo"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 2
+					"gridy": 6
+					"gridwidth": 2
+					"hAlign": 0
+					"vAlign": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "fitMinimo"
+					"text": "70"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 2
+					"gridy": 7
+					"gridwidth": 2
+					"hAlign": 0
+					"vAlign": 0
+					"insets": new java.awt.Insets( 7, 0, 7, 0 )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"weightx": 0.1
+				"weighty": 0.1
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+				"$columnSpecs": "0, 0"
+				"$rowSpecs": "0, 0, 0, 0, 0, 0, 0"
+			} ) {
+				name: "panelSimulador"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "elegirCalendario"
+					"text": "Cargar Calendario"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "elegirCalendarioActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 1
+					"insets": new java.awt.Insets( 0, 4, 0, 5 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "simularAutomaticamente"
+					"text": "Simular"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "simularAutomaticamenteActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 6
+					"gridwidth": 2
+					"hAlign": 0
+					"vAlign": 0
+					"insets": new java.awt.Insets( 11, 0, 5, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "elegirJornada"
+					"model": new javax.swing.DefaultComboBoxModel
+					auxiliary() {
+						"JavaCodeGenerator.typeParameters": "String"
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 4
+					"gridwidth": 2
+					"vAlign": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "ficheroSeleccionado"
+					"text": "Calendario sin cargar"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 1
+					"insets": new java.awt.Insets( 0, 5, 0, 5 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel9"
+					"text": "Elige la jornada a simular"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridy": 3
+					"gridwidth": 2
+					"hAlign": 0
+					"vAlign": 0
+					"insets": new java.awt.Insets( 10, 0, 11, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel10"
+					"text": "Elige el fichero donde se encuentra el calendario"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridwidth": 2
+					"hAlign": 0
+					"vAlign": 0
+					"insets": new java.awt.Insets( 5, 0, 5, 0 )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 1
+				"weightx": 0.1
+				"weighty": 0.1
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 889, 614 )
+		} )
+	}
+}

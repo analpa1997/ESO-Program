@@ -147,6 +147,24 @@ public class Estadisticas {
                 this.promAux = promAux;
         }
 
+        public void aCero() {
+                setpJugados(0);
+                setpSuplente(0);
+                setMinutos(0);
+                setMom(0);
+                setParadas(0);
+                setEncajados(0);
+                setTackles(0);
+                setPases(0);
+                setTiros(0);
+                setGoles(0);
+                setAsistencias(0);
+                setDp(0);
+                setLesion(0);
+                setSancion(0);
+                setFit(100);
+        }
+
         public Estadisticas() {
 
         }

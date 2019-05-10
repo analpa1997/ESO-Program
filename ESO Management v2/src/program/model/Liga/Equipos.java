@@ -194,6 +194,16 @@ public class Equipos {
                                 break;
 //</editor-fold>
 
+                        case 30: //<editor-fold defaultstate="collapsed" desc="Orden equipos mayor a menor calidad actual">
+                                aux = new TreeSet<Roster>((o1, o2) -> Double.compare(o2.getCalidadActual(), o1.getCalidadActual()));
+                                break;
+//</editor-fold>
+
+                        case 31: //<editor-fold defaultstate="collapsed" desc="Orden equipos menor a mayor calidad actual">
+                                aux = new TreeSet<Roster>((o1, o2) -> Double.compare(o1.getCalidadActual(), o2.getCalidadActual()));
+                                break;
+//</editor-fold>
+
                         default: //<editor-fold defaultstate="collapsed" desc="Orden por defecto, equipos A-Z (nombre)">
                                 aux = new TreeSet<Roster>();
                                 break;
@@ -276,6 +286,46 @@ public class Equipos {
                         String equipo = i + ". " + escribirEspaciosCifras(i) + "(" + r.getAbreviatura().toLowerCase() + ")";
                         equipo = equipo + escribirEspacios(40 - equipo.length());
                         equipo = equipo + df.format(r.getSalario()) + EURO + "\n";
+                        resultado = resultado + equipo;
+                        i++;
+                }
+                return resultado;
+        }
+
+        public String escribirPotencialesMayMenor() {
+                for (Roster r : equipos) {
+                        r.calcularPotencial();
+                }
+                this.ordenarRosters(22, -1);
+                String resultado = "";
+                DecimalFormat df = new DecimalFormat("###.##");
+                String cabecera = "POTENCIALES (" + defEquiposContenidos.toLowerCase() + ")\n\nNUM    NOMBRE (CLUB)                    POTENCIAL\n----------------------------------------------------\n\n";
+                resultado = resultado + cabecera;
+                int i = 1;
+                for (Roster r : equipos) {
+                        String equipo = i + ". " + escribirEspaciosCifras(i) + "(" + r.getAbreviatura().toLowerCase() + ")";
+                        equipo = equipo + escribirEspacios(40 - equipo.length());
+                        equipo = equipo + df.format(r.getPotencial()) + " pts" + "\n";
+                        resultado = resultado + equipo;
+                        i++;
+                }
+                return resultado;
+        }
+
+        public String escribirCActualMayMenor() {
+                for (Roster r : equipos) {
+                        r.calcularCalidadActual();
+                }
+                this.ordenarRosters(30, -1);
+                String resultado = "";
+                DecimalFormat df = new DecimalFormat("###.##");
+                String cabecera = "CALIDAD ACTUAL (" + defEquiposContenidos.toLowerCase() + ")\n\nNUM    NOMBRE (CLUB)                    CALIDAD ACTUAL\n----------------------------------------------------\n\n";
+                resultado = resultado + cabecera;
+                int i = 1;
+                for (Roster r : equipos) {
+                        String equipo = i + ". " + escribirEspaciosCifras(i) + "(" + r.getAbreviatura().toLowerCase() + ")";
+                        equipo = equipo + escribirEspacios(40 - equipo.length());
+                        equipo = equipo + df.format(r.getCalidadActual()) + " pts" + "\n";
                         resultado = resultado + equipo;
                         i++;
                 }

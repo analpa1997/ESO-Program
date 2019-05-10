@@ -19,7 +19,7 @@ import program.model.Jugador.*;
 public class Roster implements Comparable<Roster> {
 
 // <editor-fold defaultstate="collapsed" desc=" Atributos ">
-        private double potencial, edadMedia, rendimiento, elo;
+        private double potencial, edadMedia, rendimiento, elo, calidadActual;
         private int salario, nGk, nDf, nDm, nMf, nAm, nFw;
         private String nombre, abreviatura;
         private SortedSet<Jugador> jugadores;
@@ -64,8 +64,16 @@ public class Roster implements Comparable<Roster> {
                 setElo(2000);
         }
 
+        public double getCalidadActual() {
+                return calidadActual;
+        }
+
 // </editor-fold>
 //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
+        public void setCalidadActual(double calidadActual) {
+                this.calidadActual = calidadActual;
+        }
+
         public double getPotencial() {
                 return potencial;
         }
@@ -651,6 +659,39 @@ public class Roster implements Comparable<Roster> {
 
 //</editor-fold>
 //<editor-fold defaultstate="collapsed" desc="Calculos">
+        public void sumarExpPosicion(int posicion, int exp) {
+                for (Jugador j : getJugadores()) {
+                        switch (posicion) {
+                                case 1:
+                                        if (j.getPosInt() == 1) {
+                                                j.getPortero().sumarExperiencia(exp);
+                                        }
+                                        break;
+                                case 2:
+                                        if (j.getPosInt() == 2) {
+                                                j.getDefensa().sumarExperiencia(exp);
+                                        }
+                                        break;
+                                case 3:
+                                        if (j.getPosInt() >= 3 && j.getPosInt() <= 5) {
+                                                j.getMedio().sumarExperiencia(exp);
+                                        }
+                                        break;
+                                case 4:
+                                        if (j.getPosInt() == 6) {
+                                                j.getDelantero().sumarExperiencia(exp);
+                                        }
+                                        break;
+                        }
+                }
+        }
+
+        public void aCeroEstadisticas(boolean sumarAnyo) {
+                for (Jugador j : getJugadores()) {
+                        j.aCeroStats(sumarAnyo);
+                }
+        }
+
         public void sumarFit(int nFit) {
                 for (Jugador j : jugadores) {
                         j.sumarFit(nFit);
@@ -667,6 +708,14 @@ public class Roster implements Comparable<Roster> {
                         potencial += j.calcularPotencial();
                 }
                 setPotencial(potencial);
+        }
+
+        public void calcularCalidadActual() {
+                int calidadActual = 0;
+                for (Jugador j : jugadores) {
+                        calidadActual += j.calcularCalidadActual();
+                }
+                setCalidadActual(calidadActual);
         }
 
         public void calcularRendimiento() {
@@ -783,6 +832,6 @@ public class Roster implements Comparable<Roster> {
         public int compareTo(Roster r) {
                 return this.getNombre().compareTo(r.getNombre());
         }
-//</editor-fold>
 
+//</editor-fold>
 }

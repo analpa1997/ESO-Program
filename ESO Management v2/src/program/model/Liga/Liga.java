@@ -9,9 +9,12 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import javax.swing.ImageIcon;
+import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import program.model.Equipo.*;
 import program.model.Jugador.*;
+import program.model.Utils.*;
 
 /**
  *
@@ -25,13 +28,14 @@ public class Liga {
         private Map<String, String> nombresEquipos;
         private Map<String, Entrenamiento> entrenamientosEquipos;
         private Map<String, Fit> fitEquipos;
+        private Map<String, BonusMinutos> bonusMinutos;
+        private Constantes ctes;
 
         private final URL PATH_IMAGEN_VACIA = this.getClass().getClassLoader().getResource("imagenes/vacia.png");
 
         /*private ArrayList <Calendario> calendariosLiga = new ArrayList();
     private ArrayList <Resultado> resultadosLiga = new ArrayList();
-    private ArrayList <Clasificacion> clasificacionesLiga = new ArrayList();
-    private ArrayList <BonusMinutos> bonusLiga = new ArrayList();*/
+    private ArrayList <Clasificacion> clasificacionesLiga = new ArrayList();*/
 //</editor-fold>
 //<editor-fold defaultstate="collapsed" desc="Constructores">
         public Liga() {
@@ -41,10 +45,12 @@ public class Liga {
                 todosJugadores = new Roster("Todos los jugadores", "ALL");
                 nombresEquipos = new HashMap();
                 entrenamientosEquipos = new HashMap();
+                bonusMinutos = new HashMap();
                 fitEquipos = new HashMap();
                 equiposLiga.setDefEquiposContenidos("Equipos existentes en ESO");
                 seleccionesLiga.setDefEquiposContenidos("Selecciones que disputan competiciones en ESO");
                 todasSelecciones.setDefEquiposContenidos("Selecciones de todas las nacionalidades de ESO");
+                ctes = Constantes.getInstance();
                 initNombres();
                 /*calendariosLiga = new ArrayList();
         resultadosLiga = new ArrayList();
@@ -52,8 +58,8 @@ public class Liga {
         bonusLiga = new ArrayList();*/
         }
 //</editor-fold>
-
 //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
+
         /**
          * Método para obtener todos los jugadores de la liga
          *
@@ -115,6 +121,21 @@ public class Liga {
                 this.entrenamientosEquipos = entrenamientosEquipos;
         }
 
+        public Map<String, Fit> getFitEquipos() {
+                return fitEquipos;
+        }
+
+        public void setFitEquipos(Map<String, Fit> fitEquipos) {
+                this.fitEquipos = fitEquipos;
+        }
+
+        public Map<String, BonusMinutos> getBonusMinutos() {
+                return bonusMinutos;
+        }
+
+        public void setBonusMinutos(Map<String, BonusMinutos> bonusMinutos) {
+                this.bonusMinutos = bonusMinutos;
+        }
 
         /*public ArrayList <Resultado> getResultados(){
         return this.resultadosLiga;
@@ -148,11 +169,12 @@ public class Liga {
 //<editor-fold defaultstate="collapsed" desc="Cargar Datos">
         public void cargarDatos() throws IOException {
                 cargarPlantillas();
-                cargarSelecciones();
+                cargarSeleccionesSinFicheros();
                 cargarNombresEquipos();
                 cargarELO();
                 cargarEntrenamientos();
                 cargarFit();
+                cargarBonusMinutos();
         }
 
         public void cargarNombresEquipos() throws FileNotFoundException, IOException {
@@ -177,8 +199,10 @@ public class Liga {
                         bR2.readLine();
                         while ((cadenaJugador = bR2.readLine()) != null) {
                                 Jugador player = new Jugador(cadenaJugador, nuevoEquipo.getAbreviatura());
+                                if (!Utils.estaEntre(player.mediaMax(), ctes.getConstanteInt("mediaMinima"), ctes.getConstanteInt("mediaMaxima"))) {
+                                        JOptionPane.showMessageDialog(null, "AVISO: Se ha cargado un jugador (" + player.getNombre() + ") con media fuera de los rangos establecidos en variables.eso. Tenga en cuenta que ciertos calculos darán error, puede modificar los valores en el archivo y reiniciar el programa");
+                                }
                                 b1 = nuevoEquipo.anadirJugador(player);
-
                                 b2 = todosJugadores.anadirJugador(player);
                                 Roster s = existeSeleccion(player.getNacionalidad());
                                 if (s == null) {
@@ -194,7 +218,6 @@ public class Liga {
                                 }
                                 b3 = s.anadirJugador(player);
                                 if (!b1) {
-
                                         JOptionPane.showMessageDialog(null, player.getNombre() + " no pudo añadirse a " + nuevoEquipo.getAbreviatura() + ", " + nuevoEquipo.getJugadores().contains(player), "No se pudo añadir jugador", JOptionPane.ERROR_MESSAGE);
                                 }
                                 if (!b2) {
@@ -227,10 +250,41 @@ public class Liga {
                                 System.err.println(j);
                         }
                 }*/
-
+                bR.close();
         }
 
-        public void cargarSelecciones() throws FileNotFoundException, IOException {
+        public void cargarSeleccionesConFicheros() throws FileNotFoundException, IOException {
+                this.seleccionesLiga = new Equipos();
+                FileReader seleccionesDir = new FileReader("selecciones.dir");
+                BufferedReader bR = new BufferedReader(seleccionesDir);
+                String seleccion = new String();
+                while ((seleccion = bR.readLine()) != null) {
+                        Roster sel = new Roster();
+                        sel.setAbreviatura(seleccion.substring(0, 3));
+                        this.seleccionesLiga.añadirEquipo(sel);
+                        FileReader fSeleccion = new FileReader(seleccion);
+                        BufferedReader bR2 = new BufferedReader(fSeleccion);
+                        String jugadorSeleccion = new String();
+                        bR2.readLine();
+                        bR2.readLine();
+                        while ((jugadorSeleccion = bR2.readLine()) != null) {
+                                Jugador jugador = new Jugador(jugadorSeleccion, sel.getAbreviatura());
+                                if (!Utils.estaEntre(jugador.mediaMax(), ctes.getConstanteInt("mediaMinima"), ctes.getConstanteInt("mediaMaxima"))) {
+                                        JOptionPane.showMessageDialog(null, "AVISO: Se ha cargado un jugador (" + jugador.getNombre() + ") con media fuera de los rangos establecidos en variables.eso. Tenga en cuenta que ciertos calculos darán error, puede modificar los valores en el archivo y reiniciar el programa");
+                                }
+                                sel.anadirJugador(jugador);
+                        }
+                        URL imagen = this.getClass().getClassLoader().getResource("imagenes/escudos/" + sel.getAbreviatura() + ".png");
+                        if (imagen != null) {
+                                sel.setImagenPath(imagen);
+                        } else {
+                                sel.setImagenPath(PATH_IMAGEN_VACIA);
+                        }
+                        sel.setImagen(new ImageIcon(sel.getImagenPath()));
+                }
+        }
+
+        public void cargarSeleccionesSinFicheros() throws FileNotFoundException, IOException {
                 FileReader seleccionesDir = new FileReader("selecciones.dir");
                 BufferedReader bR = new BufferedReader(seleccionesDir);
                 String seleccion = new String();
@@ -240,6 +294,7 @@ public class Liga {
                                 this.seleccionesLiga.añadirEquipo(sel);
                         }
                 }
+                bR.close();
         }
 
         public void cargarELO() throws FileNotFoundException, IOException {
@@ -308,45 +363,23 @@ public class Liga {
 
         }
 
-        public void sumarEntrenamientos(String rutaFichero, int nSemanas) throws IOException {
-                FileWriter fichero = new FileWriter(rutaFichero);
-                PrintWriter pW = new PrintWriter(new BufferedWriter(fichero));
-                pW.println("SUMA DE ENTRENAMIENTOS");
-                pW.println();
-                LinkedList<Entrenamiento> entrenamientos = new LinkedList(entrenamientosEquipos.values());
-                for (Entrenamiento train : entrenamientos) {
-                        train.setEquipo(equiposLiga.buscarEquipo(train.getEquipo().getAbreviatura().toLowerCase()));
-                        String s = train.sumarEntrenamiento(nSemanas);
-                        equiposLiga.actualizarEquipo(train.getEquipo());
-                        String[] cadena = s.split("\n");
-                        for (String linea : cadena) {
-                                pW.println(linea);
-                        }
-                        pW.println();
-                }
-                pW.close();
-                fichero.close();
-        }
-
-        public void sumarFit() {
-                LinkedList<Fit> fits = new LinkedList(fitEquipos.values());
-                for (Fit f : fits) {
-                        f.setEquipo(equiposLiga.buscarEquipo(f.getEquipo().getAbreviatura()));
-                        f.sumarFit();
-                        equiposLiga.actualizarEquipo(f.getEquipo());
-                }
-        }
-
         public void cargarBonusMinutos() {
-                /*    -------- Codigo Bonus Minutos -----------
-        File bonusMin = new File ("Bonus de Minutos.txt");
-                if (bonusMin.exists()){
-                    FileReader fR = new FileReader (bonusMin);
-                    bR = new BufferedReader (fR);
-                    BonusMinutos bM = new BonusMinutos(bR);
-                    this.bonusLiga.add(bM);
+                JFileChooser fc = new JFileChooser();
+                fc.setApproveButtonText("Cargar Bonus de Minutos");
+                fc.setCurrentDirectory(Constantes.DIRECTORIO_ACTUAL);
+                fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+                int seleccion = fc.showOpenDialog(null);
+                if (seleccion == JFileChooser.APPROVE_OPTION) {
+                        File fichero = fc.getSelectedFile();
+                        try {
+                                BonusMinutos b = new BonusMinutos();
+                                b.cargarBonusMinutos(new BufferedReader(new FileReader(fichero)), ctes.getConstanteInt("mediaMaxima") - ctes.getConstanteInt("mediaMinima"), ctes.getConstanteInt("edadesBonus"), ctes.getConstanteInt("minutosBonus"));
+                                bonusMinutos.put("Bonus Actual ESO", b);
+                        } catch (Exception ex) {
+                                JOptionPane.showMessageDialog(null, ex.toString());
+                                ex.printStackTrace();
+                        }
                 }
-        }*/
         }
 
         public void cargarResultados() {
@@ -535,5 +568,201 @@ public class Liga {
                 return ("El jugador " + j.getNombre() + " ha sido traspasado con exito de (" + equipoOrigen.getAbreviatura().toLowerCase()
                         + ") a (" + equipoDestino.getAbreviatura().toLowerCase() + ").");
         }
+
+        public void sumarExpPosicion(Equipos equipos, int posicion, int expASumar) {
+                for (Roster e : equipos.getEquipos()) {
+                        e.sumarExpPosicion(posicion, expASumar);
+                }
+        }
+
+        public void sumaBonusMinutos() {
+                Constantes ctes = Constantes.getInstance();
+                JFileChooser fc = new JFileChooser();
+                fc.setApproveButtonText("Guardar Log Bonus de Minutos");
+                fc.setCurrentDirectory(Constantes.DIRECTORIO_ACTUAL);
+                fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+                FileNameExtensionFilter filtro = new FileNameExtensionFilter("Archivos de texto", "txt");
+                fc.setFileFilter(filtro);
+                int seleccion = fc.showOpenDialog(null);
+                if (seleccion == JFileChooser.APPROVE_OPTION) {
+                        File fichero = fc.getSelectedFile();
+                        try {
+                                BonusMinutos b = this.getBonusMinutos().get("Bonus Actual ESO");
+                                FileWriter logBonus = new FileWriter(fichero + ".txt");
+                                BufferedWriter bW = new BufferedWriter(logBonus);
+                                PrintWriter pW = new PrintWriter(bW);
+                                for (Roster e : this.getEquiposLiga().getEquipos()) {
+                                        for (Jugador j : e.getJugadores()) {
+                                                int media = j.getMedias()[0], edad = -1, min = -1;
+                                                int aux = j.getEdad();
+                                                for (int i = 1; i <= ctes.getConstanteInt("edadesBonus") && edad < 0; i++) {
+                                                        if (Utils.menorIgualQue(aux, ctes.getConstanteInt("edadesBonus" + i))) {
+                                                                edad = i;
+                                                        }
+                                                }
+                                                /*if (aux <= 20) {
+                                                        edad = 0;
+                                                } else if (aux < 24) {
+                                                        edad = 1;
+                                                } else if (aux < 27) {
+                                                        edad = 2;
+                                                } else if (aux < 30) {
+                                                        edad = 3;
+                                                } else if (aux < 34) {
+                                                        edad = 4;
+                                                } else if (aux < 36) {
+                                                        edad = 5;
+                                                } else {
+                                                        edad = 6;
+                                                }*/
+                                                aux = j.getStats().getMinutos();
+                                                for (int i = 1; i <= ctes.getConstanteInt("minutosBonus") && edad < 0; i++) {
+                                                        if (Utils.menorIgualQue(aux, ctes.getConstanteInt("minutosBonus" + i))) {
+                                                                min = i;
+                                                        }
+                                                }
+                                                /*  if (aux <= 1500) {
+                                                        min = 0;
+                                                } else if (aux <= 2100) {
+                                                        min = 1;
+                                                } else if (aux <= 2700) {
+                                                        min = 2;
+                                                } else if (aux <= 3499) {
+                                                        min = 3;
+                                                } else if (aux <= 4099) {
+                                                        min = 4;
+                                                } else {
+                                                        min = 5;
+                                                }*/
+                                                int expAModificar = b.getBonusExperiencia(media, edad, min);
+                                                int antMedia = 0, antExp = 0, nMedia = 0, nExp = 0;
+                                                String posicion = "", stat = "";
+                                                switch (j.getPosInt()) {
+                                                        case 1:
+                                                                antMedia = j.getPortero().getMedia();
+                                                                antExp = j.getPortero().getExperiencia();
+                                                                j.getPortero().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getPortero().getMedia();
+                                                                nExp = j.getPortero().getExperiencia();
+                                                                posicion = "St";
+                                                                stat = "Gk";
+                                                                break;
+                                                        case 2:
+                                                                antMedia = j.getDefensa().getMedia();
+                                                                antExp = j.getDefensa().getExperiencia();
+                                                                j.getDefensa().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getDefensa().getMedia();
+                                                                nExp = j.getDefensa().getExperiencia();
+                                                                posicion = "Tk";
+                                                                stat = "Df";
+                                                                break;
+                                                        case 3:
+                                                                antMedia = j.getMedio().getMedia();
+                                                                antExp = j.getMedio().getExperiencia();
+                                                                j.getMedio().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getMedio().getMedia();
+                                                                nExp = j.getMedio().getExperiencia();
+                                                                posicion = "Ps";
+                                                                stat = "Mf";
+                                                                break;
+                                                        case 4:
+                                                                antMedia = j.getMedio().getMedia();
+                                                                antExp = j.getMedio().getExperiencia();
+                                                                j.getMedio().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getMedio().getMedia();
+                                                                nExp = j.getMedio().getExperiencia();
+                                                                posicion = "Ps";
+                                                                stat = "Mf";
+                                                                break;
+                                                        case 5:
+                                                                antMedia = j.getMedio().getMedia();
+                                                                antExp = j.getMedio().getExperiencia();
+                                                                j.getMedio().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getMedio().getMedia();
+                                                                nExp = j.getMedio().getExperiencia();
+                                                                posicion = "Ps";
+                                                                stat = "Mf";
+                                                                break;
+                                                        case 6:
+                                                                antMedia = j.getDelantero().getMedia();
+                                                                antExp = j.getDelantero().getExperiencia();
+                                                                j.getDelantero().setExperiencia(antExp + expAModificar);
+                                                                nMedia = j.getDelantero().getMedia();
+                                                                nExp = j.getDelantero().getExperiencia();
+                                                                posicion = "Sh";
+                                                                stat = "Fw";
+                                                                break;
+                                                }
+                                                String variacion = "", bajadaMedia = "";
+                                                int cambio;
+                                                if (antMedia < nMedia) {
+                                                        variacion = "ha subido";
+                                                        cambio = (nMedia - antMedia) * 1000 - Math.abs(nExp - antExp);
+                                                        bajadaMedia = "Subiendo " + (nMedia - antMedia) + " media como " + stat + ".";
+                                                } else if (antMedia > nMedia) {
+                                                        variacion = "ha bajado";
+                                                        cambio = Math.abs(antMedia - nMedia) * 1000 - (nExp - antExp);
+                                                        bajadaMedia = "Bajando " + (antMedia - nMedia) + " media como " + stat + ".";
+                                                } else {
+                                                        if (antExp < nExp) {
+                                                                variacion = "ha subido";
+                                                                cambio = nExp - antExp;
+                                                        } else if (antExp > nExp) {
+                                                                variacion = "ha bajado";
+                                                                cambio = antExp - nExp;
+                                                        } else {
+                                                                variacion = "ha ganado";
+                                                                cambio = 0;
+                                                        }
+                                                }
+                                                pW.println(j.getNombre() + " (" + j.getEquipo().toLowerCase() + ") " + variacion + " " + expAModificar + " pts de exp como " + stat + ". " + bajadaMedia);
+                                        }
+                                }
+                                pW.close();
+                                this.limpiarEstadisticas();
+                        } catch (Exception ex) {
+                                JOptionPane.showMessageDialog(null, ex.toString());
+                                ex.printStackTrace();
+                        }
+                }
+        }
+
+        public void limpiarEstadisticas() {
+                int sumarAnyo = JOptionPane.showConfirmDialog(null, "Se debe sumar un año a los jugadores?", "Decision sumar año", JOptionPane.YES_NO_OPTION);
+                boolean eleccion = sumarAnyo == 0;
+                for (Roster e : equiposLiga.getEquipos()) {
+                        e.aCeroEstadisticas(eleccion);
+                }
+        }
+
+        public void sumarEntrenamientos(String rutaFichero, int nSemanas) throws IOException {
+                FileWriter fichero = new FileWriter(rutaFichero);
+                PrintWriter pW = new PrintWriter(new BufferedWriter(fichero));
+                pW.println("SUMA DE ENTRENAMIENTOS");
+                pW.println();
+                LinkedList<Entrenamiento> entrenamientos = new LinkedList(entrenamientosEquipos.values());
+                for (Entrenamiento train : entrenamientos) {
+                        train.setEquipo(equiposLiga.buscarEquipo(train.getEquipo().getAbreviatura().toLowerCase()));
+                        String s = train.sumarEntrenamiento(nSemanas);
+                        equiposLiga.actualizarEquipo(train.getEquipo());
+                        String[] cadena = s.split("\n");
+                        for (String linea : cadena) {
+                                pW.println(linea);
+                        }
+                        pW.println();
+                }
+                pW.close();
+                fichero.close();
+        }
+
+        public void sumarFit() {
+                LinkedList<Fit> fits = new LinkedList(fitEquipos.values());
+                for (Fit f : fits) {
+                        f.setEquipo(equiposLiga.buscarEquipo(f.getEquipo().getAbreviatura()));
+                        f.sumarFit();
+                        equiposLiga.actualizarEquipo(f.getEquipo());
+                }
+        }
+
 //</editor-fold>
 }
